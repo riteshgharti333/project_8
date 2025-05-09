@@ -73,7 +73,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
           {navData.map((item, index) => (
             <li key={index}>
               {item.dropdown ? (
-                <div className="mb-2">
+                <div className="py-3">
                   <button
                     onClick={() => toggleDropdown(index)}
                     className="flex items-center justify-between w-full text-left text-white hover:text-yellow-500 transition-colors duration-300"
@@ -113,8 +113,6 @@ const MobileMenu = ({ isOpen, onClose }) => {
           ))}
         </ul>
       </nav>
-
-     
     </div>
   );
 };

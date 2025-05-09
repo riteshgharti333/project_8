@@ -5,7 +5,7 @@ const banner_img =
 
 const HomeBanner = () => {
   return (
-    <div className="relative overflow-hidden homeBanner mt-5 h-[100vh] min-h-[600px] md:h-screen">
+    <div className="relative overflow-hidden homeBanner h-[100vh] min-h-[600px] lg:h-[50vh]">
       {/* Background Image */}
       <div className="absolute inset-0 banner-img">
         <img
@@ -18,7 +18,7 @@ const HomeBanner = () => {
       {/* Content */}
       <div className="absolute inset-0 flex items-center">
         <div className="container mx-auto px-0 sm:px-6">
-          <div className="banner-content w-full md:max-w-2xl ml-auto p-4 sm:p-6 md:p-8 rounded-lg animate-fadeInRight">
+          <div className="banner-content w-full md:max-w-2xl ml-auto p-4 sm:p-6 lg:p-0 rounded-lg animate-fadeInRight">
             <h3 className="text-yellow-400 text-sm sm:text-md font-semibold mb-2 tracking-widest animate-slideInRight delay-100">
               RAJPUTANA CABS® - AWARD WINNING TAXI SERVICE
             </h3>

@@ -3,13 +3,35 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { FaBars } from "react-icons/fa";
 import { navData } from "../../assets/data";
 import MobileMenu from "../MobileMenu/MobileMenu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollThreshold = window.innerHeight * 0.3; // 20% of viewport
+      if (window.scrollY > scrollThreshold) {
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  console.log(isFixed);
+
   return (
-    <div className="flex justify-between items-center fixed top-0 z-50 w-full bg-gray-900 px-4 lg:px-10 py-3 shadow-lg overflow-hidden sm:overflow-visible">
+    <div
+      className={`flex items-center justify-between sticky ${
+        isFixed ? "top-0" : "-top-20" // Slides up/down smoothly
+      } z-50 w-full bg-gray-900 px-4 lg:px-10 py-3 shadow-lg transition-all duration-300 ease-in-out`}
+    >
       {/* Logo */}
       <div className="navbar-left">
         <h1 className="text-2xl lg:text-3xl font-bold text-white hover:text-blue-200 transition-colors duration-300">

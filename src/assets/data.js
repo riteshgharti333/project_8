@@ -6,6 +6,10 @@ export const navData = [
     link: "/",
   },
   {
+    title: "About Us",
+    link: "/about-us",
+  },
+  {
     title: "Taxi Service",
     link: "/",
   },
