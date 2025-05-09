@@ -22,7 +22,7 @@ const About = () => {
           alt=""
           className="h-[400px] w-full object-cover block brightness-50"
         />
-        <h1 className="text-3xl font-bold text-white sm:text-7xl uppercase absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <h1 className="text-6xl w-full text-center font-bold text-white sm:text-7xl uppercase absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
           About Us
         </h1>
       </div>

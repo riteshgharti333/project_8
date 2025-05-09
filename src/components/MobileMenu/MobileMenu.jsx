@@ -1,53 +1,12 @@
 import React, { useState } from "react";
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 import { FaFacebook, FaInstagram, FaTimes, FaTwitter } from "react-icons/fa";
+import { navData } from "../../assets/data";
 
 const MobileMenu = ({ isOpen, onClose }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
 
-  const navData = [
-    {
-      title: "Home",
-      link: "/",
-    },
-    {
-      title: "Taxi Service",
-      link: "/",
-    },
-    {
-      title: "Tempo Traveller",
-      link: "/",
-    },
-    {
-      title: "Our Tours",
-      link: "/",
-      icon: IoMdArrowDropdown,
-      dropdown: [
-        { name: "Sightseeing Tours", link: "/" },
-        { name: "Adventure Tours", link: "/" },
-        { name: "Cultural Tours", link: "/" },
-      ],
-    },
-    {
-      title: "Tour Guide",
-      link: "/",
-      icon: IoMdArrowDropdown,
-      dropdown: [
-        { name: "Jaipur Tour Guide", link: "/" },
-        { name: "Udaipur Tour Guide", link: "/" },
-        { name: "Jodhpur Tour Guide", link: "/" },
-        { name: "Jaisalmer Tour Guide", link: "/" },
-      ],
-    },
-    {
-      title: "Blog",
-      link: "/",
-    },
-    {
-      title: "Contact",
-      link: "/",
-    },
-  ];
+
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
