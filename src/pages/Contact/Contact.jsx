@@ -4,7 +4,7 @@ import { FiMail, FiPhone, FiMapPin, FiSend } from 'react-icons/fi';
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       {/* Hero Banner */}
       <div className="bg-gradient-to-r from-blue-500 to-indigo-600 py-20 px-4 sm:px-6 lg:px-8 text-white">
         <div className="max-w-7xl mx-auto text-center">
@@ -35,7 +35,7 @@ const Contact = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4 }}
-            className="bg-white rounded-2xl shadow-lg max-[480px]:px-3 max-[480px]:py-6 p-8"
+            className="bg-white rounded-2xl shadow border  border-[#ddd] max-[480px]:px-3 max-[480px]:py-6 p-8"
           >
             <div className="mb-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-2">Get in Touch</h2>
@@ -47,12 +47,12 @@ const Contact = () => {
                 {/* Name Field */}
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                    Full Name *
+                    Full Name <span className='text-red-600'>*</span>
                   </label>
                   <input
                     type="text"
                     id="name"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                     placeholder="Your name"
                     required
                   />
@@ -61,12 +61,12 @@ const Contact = () => {
                 {/* Email Field */}
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                    Email Address *
+                    Email Address <span className='text-red-600'>*</span>
                   </label>
                   <input
                     type="email"
                     id="email"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                     placeholder="your@email.com"
                     required
                   />
@@ -76,12 +76,12 @@ const Contact = () => {
               {/* Phone Number */}
               <div>
                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                  Phone Number
+                  Phone Number <span className='text-red-600'>*</span>
                 </label>
                 <input
                   type="tel"
                   id="phone"
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                   placeholder="+91 98XXXXXXX"
                 />
               </div>
@@ -89,12 +89,12 @@ const Contact = () => {
               {/* Subject */}
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
-                  Subject *
+                  Subject <span className='text-red-600'>*</span>
                 </label>
                 <input
                   type="text"
                   id="subject"
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                   placeholder="What's this about?"
                   required
                 />
@@ -103,12 +103,12 @@ const Contact = () => {
               {/* Message */}
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                  Your Message *
+                  Your Message <span className='text-red-600'>*</span>
                 </label>
                 <textarea
                   id="message"
                   rows="5"
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                   placeholder="How can we help you?"
                   required
                 ></textarea>
@@ -133,7 +133,7 @@ const Contact = () => {
             className="space-y-8"
           >
             {/* Contact Info Cards */}
-            <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="bg-white rounded-2xl shadow-lg p-8 border  border-[#ddd]">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Our Contact Details</h3>
               
               <div className="space-y-6">
