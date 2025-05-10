@@ -1,52 +1,66 @@
 import { IoMdArrowDropdown } from "react-icons/io";
 
- export const navData = [
-    {
-      title: "Home",
-      link: "/",
-    },
-     {
-      title: "About Us",
-      link: "/about-us",
-    },
-    {
-      title: "Taxi Service",
-      link: "/",
-    },
-    {
-      title: "Tempo Traveller",
-      link: "/",
-    },
-    {
-      title: "Our Tours",
-      link: "/",
-      icon: IoMdArrowDropdown,
-      dropdown: [
-        { name: "Sightseeing Tours", link: "/" },
-        { name: "Adventure Tours", link: "/" },
-        { name: "Cultural Tours", link: "/" },
-      ],
-    },
-    {
-      title: "Tour Guide",
-      link: "/",
-      icon: IoMdArrowDropdown,
-      dropdown: [
-        { name: "Jaipur Tour Guide", link: "/" },
-        { name: "Udaipur Tour Guide", link: "/" },
-        { name: "Jodhpur Tour Guide", link: "/" },
-        { name: "Jaisalmer Tour Guide", link: "/" },
-      ],
-    },
-    {
-      title: "Blog",
-      link: "/",
-    },
-    {
-      title: "Contact",
-      link: "/",
-    },
-  ];
+export const navData = [
+  {
+    title: "Home",
+    link: "/",
+  },
+  {
+    title: "About Us",
+    link: "/about-us",
+  },
+  {
+    title: "Tour Packages",
+    specific: "package",
+    icon: IoMdArrowDropdown,
+    dropdown: [{ name: "Jaipur Tour Package", link: "jaipur-tour-package" }],
+  },
+  // {
+  //   title: "Tempo Traveller",
+  //   link: "/",
+  // },
+  {
+    title: "Our Tours",
+    link: "/",
+    icon: IoMdArrowDropdown,
+    specific: "tour",
+    dropdown: [
+      { name: "Jaipur Sightseeing Tour", link: "jaipur-sightseeing-tour" },
+    ],
+  },
+  {
+    title: "Car Rental",
+    link: "/",
+    icon: IoMdArrowDropdown,
+      specific: "rental",
+    dropdown: [
+      {
+        name: "Car Rental Service in Jaipur",
+        link: "car-rental-service-in-jaipur",
+      },
+    ],
+  },
+  {
+    title: "Tempo Traveller",
+    link: "/",
+    icon: IoMdArrowDropdown,
+      specific: "tempo",
+    dropdown: [
+      {
+        name: "Tempo Traveller in Jaipur",
+        link: "tempo-traveller-in-jaipur",
+      },
+    ],
+  },
+  {
+    title: "Blog",
+    link: "/",
+  },
+  {
+    title: "Contact",
+    link: "/",
+  },
+];
 
 /////////////////////////
 
@@ -206,25 +220,32 @@ export const checkCards = [
   {
     title: "Jodhpur",
     link: "",
-  }, {
+  },
+  {
     title: "Jodhpur",
     link: "",
-  }, {
+  },
+  {
     title: "Jodhpur",
     link: "",
-  }, {
+  },
+  {
     title: "Jodhpur",
     link: "",
-  }, {
+  },
+  {
     title: "Jodhpur",
     link: "",
-  }, {
+  },
+  {
     title: "Jodhpur",
     link: "",
-  }, {
+  },
+  {
     title: "Jodhpur",
     link: "",
-  }, {
+  },
+  {
     title: "Jodhpur",
     link: "",
   },

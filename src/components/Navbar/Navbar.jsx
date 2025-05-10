@@ -10,6 +10,13 @@ const Navbar = () => {
 
   const [isFixed, setIsFixed] = useState(false);
 
+  const pathMap = {
+    tour: "tour-service/",
+    package: "tour-package/",
+    rental: "rental-service/",
+    tempo: "tempo-service/",
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollThreshold = window.innerHeight * 0.3; // 20% of viewport
@@ -86,13 +93,17 @@ const Navbar = () => {
                         className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-yellow-600 
                                 transition-all duration-300 border-b border-gray-100 last:border-b-0
                                 hover:pl-8 hover:font-medium group/item"
-                        to={dropdownItem.link}
+                        to={`${pathMap[item.specific] || ""}${
+                          dropdownItem.link
+                        }`}
                       >
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-2">
                           {dropdownItem.icon && (
                             <dropdownItem.icon className="w-4 h-4 text-blue-500 transition-transform duration-300 group-hover/item:scale-125" />
                           )}
-                          <span>{dropdownItem.name}</span>
+                          <span className="text-[14px]">
+                            {dropdownItem.name}
+                          </span>
                           <span className="ml-auto opacity-0 group-hover/item:opacity-100 transition-opacity duration-300">
                             →
                           </span>

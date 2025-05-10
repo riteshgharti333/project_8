@@ -2,11 +2,17 @@ import React, { useState } from "react";
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 import { FaFacebook, FaInstagram, FaTimes, FaTwitter } from "react-icons/fa";
 import { navData } from "../../assets/data";
+import { Link } from "react-router-dom";
 
 const MobileMenu = ({ isOpen, onClose }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
 
-
+ const pathMap = {
+    tour: "tour-service/",
+    package: "tour-package/",
+    rental: "rental-service/",
+    tempo: "tempo-service/",
+  };
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
@@ -50,7 +56,9 @@ const MobileMenu = ({ isOpen, onClose }) => {
                       {item.dropdown.map((subItem, subIndex) => (
                         <li key={subIndex}>
                           <a
-                            href={subItem.link}
+                            href={`/${pathMap[item.specific] || ""}${
+                          subItem.link
+                        }`}
                             className="block py-2 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                           >
                             {subItem.name}
