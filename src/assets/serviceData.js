@@ -203,90 +203,108 @@ export const features = [
 
 export const sidebarData = [
   {
-    title : "All Inclusive Tour Packages",
+    title: "All Inclusive Tour Packages",
 
-    lists : [
+    lists: [
       {
-      title : "Jaipur Budget Tour"
+        title: "Jaipur Budget Tour",
       },
       {
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
+        title: "Jaipur Budget Tour",
       },
-    ]
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+    ],
   },
   {
-    title : "All Inclusive Tour Packages",
+    title: "All Inclusive Tour Packages",
 
-    lists : [
+    lists: [
       {
-      title : "Jaipur Budget Tour"
+        title: "Jaipur Budget Tour",
       },
       {
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },
-    ]
-  },{
-    title : "All Inclusive Tour Packages",
-
-    lists : [
-      {
-      title : "Jaipur Budget Tour"
+        title: "Jaipur Budget Tour",
       },
       {
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },
-    ]
-  },{
-    title : "All Inclusive Tour Packages",
-
-    lists : [
-      {
-      title : "Jaipur Budget Tour"
+        title: "Jaipur Budget Tour",
       },
       {
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },
-    ]
-  },{
-    title : "All Inclusive Tour Packages",
-
-    lists : [
-      {
-      title : "Jaipur Budget Tour"
+        title: "Jaipur Budget Tour",
       },
       {
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
-      },{
-      title : "Jaipur Budget Tour"
+        title: "Jaipur Budget Tour",
       },
-    ]
+    ],
   },
-]
+  {
+    title: "All Inclusive Tour Packages",
+
+    lists: [
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+    ],
+  },
+  {
+    title: "All Inclusive Tour Packages",
+
+    lists: [
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+    ],
+  },
+  {
+    title: "All Inclusive Tour Packages",
+
+    lists: [
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+      {
+        title: "Jaipur Budget Tour",
+      },
+    ],
+  },
+];

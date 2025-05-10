@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const MobileMenu = ({ isOpen, onClose }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
 
- const pathMap = {
+  const pathMap = {
     tour: "tour-service/",
     package: "tour-package/",
     rental: "rental-service/",
@@ -16,6 +16,10 @@ const MobileMenu = ({ isOpen, onClose }) => {
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
+  };
+
+  const handleLinkClick = () => {
+    onClose(); // Close the mobile menu when any link is clicked
   };
 
   return (
@@ -55,26 +59,28 @@ const MobileMenu = ({ isOpen, onClose }) => {
                     <ul className="mt-2 ml-4 space-y-3">
                       {item.dropdown.map((subItem, subIndex) => (
                         <li key={subIndex}>
-                          <a
-                            href={`/${pathMap[item.specific] || ""}${
-                          subItem.link
-                        }`}
+                          <Link
+                            to={`/${pathMap[item.specific] || ""}${
+                              subItem.link
+                            }`}
                             className="block py-2 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
+                            onClick={handleLinkClick} // Add onClick handler here
                           >
                             {subItem.name}
-                          </a>
+                          </Link>
                         </li>
                       ))}
                     </ul>
                   )}
                 </div>
               ) : (
-                <a
-                  href={item.link}
+                <Link
+                  to={item.link}
                   className="block py-3 text-xl font-medium text-white hover:text-yellow-500 transition-colors duration-300"
+                  onClick={handleLinkClick} 
                 >
                   {item.title}
-                </a>
+                </Link>
               )}
             </li>
           ))}
