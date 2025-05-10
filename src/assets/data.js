@@ -21,7 +21,7 @@ export const navData = [
   // },
   {
     title: "Our Tours",
-    link: "/",
+  
     icon: IoMdArrowDropdown,
     specific: "tour",
     dropdown: [
@@ -30,7 +30,6 @@ export const navData = [
   },
   {
     title: "Car Rental",
-    link: "/",
     icon: IoMdArrowDropdown,
       specific: "rental",
     dropdown: [
@@ -42,7 +41,7 @@ export const navData = [
   },
   {
     title: "Tempo Traveller",
-    link: "/",
+   
     icon: IoMdArrowDropdown,
       specific: "tempo",
     dropdown: [
@@ -58,7 +57,7 @@ export const navData = [
   },
   {
     title: "Contact",
-    link: "/",
+    link: "/contact-us",
   },
 ];
 

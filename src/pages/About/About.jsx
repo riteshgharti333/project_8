@@ -37,7 +37,7 @@ const About = () => {
             </span>
           </h1>
           {aboutData.map((item, index) => (
-            <p key={index} className="mt-5  max-[480pc]:text-1xl">
+            <p key={index} className="mt-5  max-[480pc]:text-1xl text-gray-600">
               {item}
             </p>
           ))}
@@ -52,7 +52,7 @@ const About = () => {
               – The Pink City Holidays
             </h1>
             {founderData.map((item, index) => (
-              <p key={index} className="mt-5 leading-6">
+              <p key={index} className="mt-5 leading-6 text-gray-600">
                 {item}
               </p>
             ))}
@@ -75,7 +75,7 @@ const About = () => {
               – The Pink City Holidays
             </h1>
             {founderData.map((item, index) => (
-              <p key={index} className="mt-5 leading-6">
+              <p key={index} className="mt-5 leading-6 text-gray-600">
                 {item}
               </p>
             ))}
@@ -216,7 +216,7 @@ const About = () => {
               </span>{" "}
               Services
             </h1>
-            <p className="mt-5 leading-6">
+            <p className="mt-5 leading-6 text-gray-600">
               With our consistent efforts and value added services, we are able
               to establish ourselves as a leading travel services provider in
               our market within a short span of time. Our range of services

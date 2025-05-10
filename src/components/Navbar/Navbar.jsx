@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { FaBars } from "react-icons/fa";
 import { navData } from "../../assets/data";
@@ -7,7 +7,6 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   const [isFixed, setIsFixed] = useState(false);
 
   const pathMap = {
@@ -19,7 +18,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollThreshold = window.innerHeight * 0.3; // 20% of viewport
+      const scrollThreshold = window.innerHeight * 0.3;
       if (window.scrollY > scrollThreshold) {
         setIsFixed(true);
       } else {
@@ -31,12 +30,10 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  console.log(isFixed);
-
   return (
     <div
       className={`flex items-center justify-between sticky ${
-        isFixed ? "top-0" : "-top-20" // Slides up/down smoothly
+        isFixed ? "top-0" : "-top-20"
       } z-50 w-full bg-gray-900 px-4 lg:px-10 py-3 shadow-lg transition-all duration-300 ease-in-out`}
     >
       {/* Logo */}
@@ -46,7 +43,7 @@ const Navbar = () => {
         </h1>
       </div>
 
-      {/* Mobile Menu Button (visible only below lg breakpoint) */}
+      {/* Mobile Menu Button */}
       <button
         className="lg:hidden text-white hover:text-yellow-500 transition-colors"
         onClick={() => setIsMobileMenuOpen(true)}
@@ -60,26 +57,48 @@ const Navbar = () => {
         onClose={() => setIsMobileMenuOpen(false)}
       />
 
-      {/* Desktop Navigation (visible only above lg breakpoint) */}
+      {/* Desktop Navigation */}
       <div className="hidden lg:block relative">
         <ul className="flex gap-1 font-medium">
           {navData.map((item, index) => (
             <li className="relative group" key={index}>
-              {/* Main Nav Item with Underline Animation */}
-              <Link
-                className="flex items-center gap-1.5 py-4 px-4 text-yellow-300 hover:text-blue-200 transition-all duration-300"
-                to={item.link || "#"}
-              >
-                <span className="relative font-medium">
-                  {item.title}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-300 transition-all duration-500 group-hover:w-full"></span>
-                </span>
-                {item.icon && (
-                  <item.icon className="w-4 h-4 transition-transform duration-500 group-hover:rotate-180" />
-                )}
-              </Link>
+              {item.dropdown ? (
+                // Dropdown items
+                <Link
+                  className="flex items-center gap-1.5 py-4 px-2 text-yellow-300 hover:text-blue-200 transition-all duration-300"
+                  to={item.link || "#"}
+                >
+                  <span className="relative font-medium">
+                    {item.title}
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-300 transition-all duration-500 group-hover:w-full"></span>
+                  </span>
+                  {item.icon && (
+                    <item.icon className="w-4 h-4 transition-transform duration-500 group-hover:rotate-180" />
+                  )}
+                </Link>
+              ) : (
+                // Non-dropdown items with active state
+                <NavLink
+                  to={item.link}
+                  className={({ isActive }) =>
+                    `flex items-center gap-1.5 py-4 px-2 transition-all duration-300   ${
+                      isActive
+                        ? "text-blue-300 font-semibold  "
+                        : "text-yellow-300 hover:text-blue-200"
+                    }`
+                  }
+                >
+                  <span className="relative font-medium">
+                    {item.title}
+                       <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-300 transition-all duration-500 group-hover:w-full"></span>
+                       <span className=""></span>
+        
+                      
+                    </span>
+                </NavLink>
+              )}
 
-              {/* Premium Dropdown */}
+              {/* Dropdown content */}
               {item.dropdown && (
                 <div
                   className="absolute left-1/2 -translate-x-1/2 top-[72px] w-64 opacity-0 invisible 
@@ -93,9 +112,7 @@ const Navbar = () => {
                         className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-yellow-600 
                                 transition-all duration-300 border-b border-gray-100 last:border-b-0
                                 hover:pl-8 hover:font-medium group/item"
-                        to={`${pathMap[item.specific] || ""}${
-                          dropdownItem.link
-                        }`}
+                        to={`${pathMap[item.specific] || ""}${dropdownItem.link}`}
                       >
                         <div className="flex items-center gap-2">
                           {dropdownItem.icon && (

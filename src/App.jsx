@@ -14,6 +14,7 @@ import RentalService1 from "./pages/RentalService/RentalService1";
 import TempoService1 from "./pages/TempoService/TempoService";
 import Blogs from "./pages/Blogs/Blogs";
 import Blog1 from "./pages/Blog/Blog1";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   const ScrollToTop = () => {
@@ -38,6 +39,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about-us" element={<About />} />
+          <Route path="/contact-us" element={<Contact />} />
+
 
           <Route
             path="/tour-service/jaipur-sightseeing-tour"
@@ -59,6 +62,7 @@ function App() {
           />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:id" element={<Blog1 />} />
+
 
         </Routes>
         <Footer />
