@@ -152,7 +152,7 @@ import {
   FaTint,
   FaUser,
   FaBoxTissue,
-} from "react-Icons/fa";
+} from "react-icons/fa";
 
 export const features = [
   {

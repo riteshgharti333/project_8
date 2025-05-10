@@ -1,6 +1,8 @@
 import React from "react";
 import { features } from "../../assets/serviceData";
 
+
+
 const Offers = () => {
   return (
     <div className="bg-gradient-to-b from-gray-50 to-white">
