@@ -203,9 +203,7 @@ const RentalContent = () => {
                   >
                     ₹{item.price}
                   </motion.h2>
-                  <p className="text-gray-500 text-sm shadow-sm">
-                    Per Kilometer
-                  </p>
+                  <p className="text-gray-500 text-sm">Per Kilometer</p>
                 </div>
               </div>
             </motion.div>

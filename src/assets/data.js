@@ -53,8 +53,8 @@ export const navData = [
     ],
   },
   {
-    title: "Blog",
-    link: "/",
+    title: "Blogs",
+    link: "/blogs",
   },
   {
     title: "Contact",

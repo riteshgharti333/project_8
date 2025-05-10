@@ -11,7 +11,7 @@ import Safari from "../../components/Safari/Safari";
 import Selling from "../../components/Selling/Selling";
 import Taxi from "../../components/Taxi/Taxi";
 import HomeAbout from "../../components/HomeAbout/HomeAbout";
-import Blog from "../../components/Blog/Blog";
+import HomeBlog from "../../components/Blog/HomeBlog";
 
 const Homepage = () => {
   return (
@@ -27,7 +27,7 @@ const Homepage = () => {
       <Selling />
       <Taxi />
       <HomeAbout />
-      <Blog />
+      <HomeBlog />
     </div>
   );
 };

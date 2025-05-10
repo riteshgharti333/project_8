@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRight, FaCalendarAlt, FaUser } from "react-icons/fa";
 
-const Blog = () => {
+const HomeBlog = () => {
   const blogPosts = [
     {
       id: 1,
@@ -111,4 +111,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default HomeBlog;
