@@ -182,7 +182,7 @@ const Contact = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <iframe
                 title="Our Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.456205029907!2d85.31246931506205!3d27.70520238279391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1908434cb3c9%3A0x44a6c0d9b5e4f5a9!2sThamel%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1620000000000!5m2!1sen!2snp"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448194.82162352453!2d77.09323125!3d28.6440836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1746866604251!5m2!1sen!2sin"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}
