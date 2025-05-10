@@ -19,7 +19,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
   };
 
   const handleLinkClick = () => {
-    onClose(); // Close the mobile menu when any link is clicked
+    onClose(); 
   };
 
   return (
@@ -64,7 +64,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
                               subItem.link
                             }`}
                             className="block py-2 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
-                            onClick={handleLinkClick} // Add onClick handler here
+                            onClick={handleLinkClick} 
                           >
                             {subItem.name}
                           </Link>

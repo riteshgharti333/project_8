@@ -5,7 +5,7 @@ const banner_img =
 
 const HomeBanner = () => {
   return (
-    <div className="relative overflow-hidden homeBanner h-[100vh] min-h-[600px] lg:h-[50vh]">
+    <div className="relative overflow-hidden homeBanner h-[90vh]">
       {/* Background Image */}
       <div className="absolute inset-0 banner-img">
         <img
