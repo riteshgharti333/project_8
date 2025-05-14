@@ -92,10 +92,7 @@ const Blogs = () => {
       </motion.div>
 
       {/* Main Content */}
-      <div
-        ref={blogGridRef}
-        className="max-w-[1200px] m-auto px-2 mt-10"
-      >
+      <div ref={blogGridRef} className="max-w-[1200px] m-auto px-2 mt-10">
         {/* Category Filter */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -125,8 +122,8 @@ const Blogs = () => {
               key={blog.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              whileHover={{ y: -5 }}
+              transition={{ duration: 0.2 }}
+              whileHover={{ y: -10 }}
               className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
             >
               {/* Image Section - Fixed Height */}
@@ -151,8 +148,8 @@ const Blogs = () => {
                 </div>
 
                 {/* Title with line clamp for consistent height */}
-                <h3 className="text-xl font-bold mb-3 text-gray-800 line-clamp-2">
-                  {blog.title}
+                <h3 className="text-xl font-bold mb-3 text-gray-800 line-clamp-2 transition-all duration-300 ease-in-out hover:text-yellow-500">
+                  <Link to={`/blog/${blog.id}`}>{blog.title}</Link>
                 </h3>
 
                 {/* Description with line clamp */}
@@ -164,10 +161,10 @@ const Blogs = () => {
                 <div className="mt-auto pt-4">
                   <Link
                     to={`/blog/${blog.id}`}
-                    className="flex items-center text-blue-600 font-medium group"
+                    className="flex items-center text-blue-600 font-medium group transition-all duration-300 ease-in-out hover:text-yellow-500"
                   >
                     Read More
-                    <FiArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+                    <FiArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1 ease-in-out hover:text-yellow-500" />
                   </Link>
                 </div>
               </div>

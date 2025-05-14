@@ -1,6 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { sidebarData } from "../../assets/serviceData";
+import { Link } from "react-router-dom";
 
 const ServiceSidebar = () => {
   return (
@@ -39,9 +40,9 @@ const ServiceSidebar = () => {
       <div className="p-6 bg-gradient-to-r from-amber-50 to-amber-100 rounded-lg m-4 mt-6 text-center">
         <h4 className="font-medium text-gray-800 mb-2">Need Help?</h4>
         <p className="text-sm text-gray-600 mb-4">Our travel experts are here to assist you</p>
-        <button className="w-full px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-md text-sm font-medium transition-colors duration-300">
+        <Link to={"/contact-us"} className="w-full block px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-md text-sm font-medium transition-colors duration-300">
           Contact Us
-        </button>
+        </Link>
       </div>
     </div>
   );

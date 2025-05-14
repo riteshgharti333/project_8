@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./HomeBanner.scss";
 
 const banner_img =
@@ -5,7 +6,7 @@ const banner_img =
 
 const HomeBanner = () => {
   return (
-    <div className="relative overflow-hidden homeBanner h-[90vh]">
+    <div className="relative overflow-hidden homeBanner max-[480px]:h-[80vh] h-[90vh]">
       {/* Background Image */}
       <div className="absolute inset-0 banner-img">
         <img
@@ -95,9 +96,12 @@ const HomeBanner = () => {
               </li>
             </ul>
 
-            <button className="banner-btn bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 animate-bounceIn delay-1000 cursor-pointer text-sm sm:text-base">
-              BOOK YOUR CAB NOW
-            </button>
+            <Link
+              to={"/contact-us"}
+              className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer text-sm sm:text-base transform hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50"
+            >
+              BOOK YOUR CAB NOW 
+            </Link>
           </div>
         </div>
       </div>

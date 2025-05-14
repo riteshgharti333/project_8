@@ -15,6 +15,9 @@ import TempoService1 from "./pages/TempoService/TempoService";
 import Blogs from "./pages/Blogs/Blogs";
 import Blog1 from "./pages/Blog/Blog1";
 import Contact from "./pages/Contact/Contact";
+import FloatingButton from "./components/FloatingButton/FloatingButton";
+import ScrollTop from "./components/ScrollTop/ScrollTop";
+import SmoothScroll from "./components/SmoothScroll/SmoothScroll";
 
 function App() {
   const ScrollToTop = () => {
@@ -34,7 +37,10 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
+      <SmoothScroll />
         <ScrollToTop />
+        <ScrollTop />
+        <FloatingButton />
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />

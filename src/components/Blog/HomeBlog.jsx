@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowRight, FaCalendarAlt, FaUser } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const HomeBlog = () => {
   const blogPosts = [
@@ -103,9 +104,9 @@ const HomeBlog = () => {
 
       {/* View All Button */}
       <div className="mt-16 text-center">
-        <button className="px-8 py-3 border-2 border-yellow-500 text-yellow-500 font-medium rounded-lg hover:bg-yellow-500 hover:text-white transition-all duration-300">
+        <Link to={"/blogs"} className="px-8 py-3 border-2 border-yellow-500 text-yellow-500 font-medium rounded-lg hover:bg-yellow-500 hover:text-white transition-all duration-300">
           View All Blog Posts
-        </button>
+        </Link>
       </div>
     </div>
   );

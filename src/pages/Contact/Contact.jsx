@@ -1,31 +1,54 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { FiMail, FiPhone, FiMapPin, FiSend } from 'react-icons/fi';
+import React from "react";
+import { motion } from "framer-motion";
+import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 
 const Contact = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Banner */}
-      <div className="bg-gradient-to-r from-blue-500 to-indigo-600 py-20 px-4 sm:px-6 lg:px-8 text-white">
-        <div className="max-w-7xl mx-auto text-center">
-          <motion.h1 
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-bold mb-4"
-          >
-            Contact Us
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-sm sm:text-xl max-w-3xl mx-auto"
-          >
-            We'd love to hear from you! Reach out for inquiries, support, or just to say hello.
-          </motion.p>
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="relative bg-gradient-to-r from-blue-600 to-indigo-800 py-20 px-4 sm:px-6 lg:px-8 text-white overflow-hidden"
+      >
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0 bg-gradient-to-br from-white to-transparent opacity-10"></div>
         </div>
-      </div>
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center">
+            <motion.h1
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}
+              className="text-4xl md:text-6xl font-bold mb-4"
+            >
+              Contact Us
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+              className="text-xl md:text-2xl max-w-3xl mx-auto"
+            >
+              We'd love to hear from you! Reach out for inquiries, support, or
+              just to say hello.
+            </motion.p>
+          </div>
+        </div>
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ delay: 0.6, type: "spring", stiffness: 100 }}
+          className="absolute -bottom-20 -right-20 w-64 h-64 rounded-full bg-indigo-400 opacity-20"
+        ></motion.div>
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ delay: 0.8, type: "spring", stiffness: 100 }}
+          className="absolute -bottom-40 right-20 w-80 h-80 rounded-full bg-blue-400 opacity-20"
+        ></motion.div>
+      </motion.div>
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-12">
@@ -38,16 +61,23 @@ const Contact = () => {
             className="bg-white rounded-2xl shadow border  border-[#ddd] max-[480px]:px-3 max-[480px]:py-6 p-8"
           >
             <div className="mb-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-2">Get in Touch</h2>
-              <p className="text-gray-600">Fill out the form below and we'll get back to you soon.</p>
+              <h2 className="text-3xl font-bold text-gray-800 mb-2">
+                Get in Touch
+              </h2>
+              <p className="text-gray-600">
+                Fill out the form below and we'll get back to you soon.
+              </p>
             </div>
 
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Name Field */}
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                    Full Name <span className='text-red-600'>*</span>
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    Full Name <span className="text-red-600">*</span>
                   </label>
                   <input
                     type="text"
@@ -60,8 +90,11 @@ const Contact = () => {
 
                 {/* Email Field */}
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                    Email Address <span className='text-red-600'>*</span>
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    Email Address <span className="text-red-600">*</span>
                   </label>
                   <input
                     type="email"
@@ -75,8 +108,11 @@ const Contact = () => {
 
               {/* Phone Number */}
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                  Phone Number <span className='text-red-600'>*</span>
+                <label
+                  htmlFor="phone"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
+                  Phone Number <span className="text-red-600">*</span>
                 </label>
                 <input
                   type="tel"
@@ -88,8 +124,11 @@ const Contact = () => {
 
               {/* Subject */}
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
-                  Subject <span className='text-red-600'>*</span>
+                <label
+                  htmlFor="subject"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
+                  Subject <span className="text-red-600">*</span>
                 </label>
                 <input
                   type="text"
@@ -102,8 +141,11 @@ const Contact = () => {
 
               {/* Message */}
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                  Your Message <span className='text-red-600'>*</span>
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
+                  Your Message <span className="text-red-600">*</span>
                 </label>
                 <textarea
                   id="message"
@@ -134,8 +176,10 @@ const Contact = () => {
           >
             {/* Contact Info Cards */}
             <div className="bg-white rounded-2xl shadow-lg p-8 border  border-[#ddd]">
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Our Contact Details</h3>
-              
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">
+                Our Contact Details
+              </h3>
+
               <div className="space-y-6">
                 {/* Address */}
                 <div className="flex items-start">
@@ -144,7 +188,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-800">Our Office</h4>
-                    <p className="text-gray-600">123 Tourism Street, Delhi<br />1234, India</p>
+                    <p className="text-gray-600">
+                      123 Tourism Street, Delhi
+                      <br />
+                      1234, India
+                    </p>
                   </div>
                 </div>
 
@@ -156,8 +204,19 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-gray-800">Call Us</h4>
                     <p className="text-gray-600">
-                      <a href="tel:+9771234567" className="hover:text-blue-600 transition-colors">+977-1-1234567</a><br />
-                      <a href="tel:+9779876543210" className="hover:text-blue-600 transition-colors">+977-9876543210</a>
+                      <a
+                        href="tel:+9771234567"
+                        className="hover:text-blue-600 transition-colors"
+                      >
+                        +977-1-1234567
+                      </a>
+                      <br />
+                      <a
+                        href="tel:+9779876543210"
+                        className="hover:text-blue-600 transition-colors"
+                      >
+                        +977-9876543210
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -170,8 +229,19 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-gray-800">Email Us</h4>
                     <p className="text-gray-600">
-                      <a href="mailto:info@nepaltours.com" className="hover:text-blue-600 transition-colors">info@tours.com</a><br />
-                      <a href="mailto:support@nepaltours.com" className="hover:text-blue-600 transition-colors">support@indiatours.com</a>
+                      <a
+                        href="mailto:info@nepaltours.com"
+                        className="hover:text-blue-600 transition-colors"
+                      >
+                        info@tours.com
+                      </a>
+                      <br />
+                      <a
+                        href="mailto:support@nepaltours.com"
+                        className="hover:text-blue-600 transition-colors"
+                      >
+                        support@indiatours.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -182,7 +252,7 @@ const Contact = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <iframe
                 title="Our Location"
-             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448194.82162352453!2d77.09323125!3d28.6440836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1746866604251!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448194.82162352453!2d77.09323125!3d28.6440836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1746866604251!5m2!1sen!2sin"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}
@@ -191,7 +261,6 @@ const Contact = () => {
                 className="rounded-b-2xl"
               ></iframe>
             </div>
-
           </motion.div>
         </div>
       </div>

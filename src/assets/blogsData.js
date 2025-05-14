@@ -1,3 +1,5 @@
+import blog_image from "../assets/images/blog.jpg";
+
 export const blogData = [
   {
     id: 1,
@@ -6,8 +8,7 @@ export const blogData = [
       "Discover the breathtaking landscapes and cultural gems of Nepal with our expert picks.",
     date: "June 15, 2024",
     readTime: "6 min read",
-    image:
-      "https://images.unsplash.com/photo-1571401835393-8c5f35328320?q=80&w=1374",
+    image: blog_image,
     category: "Tour Packages",
   },
   {
@@ -17,7 +18,7 @@ export const blogData = [
       "Everything you need to know about vehicle rentals for your Himalayan adventure.",
     date: "June 10, 2024",
     readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8",
+    image: blog_image,
     category: "Rental Services",
   },
   {
@@ -27,7 +28,7 @@ export const blogData = [
       "Comparing comfort, price and routes for your group travels in Nepal.",
     date: "June 5, 2024",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1558981852-426c6c22a060",
+    image: blog_image,
     category: "Tempo Services",
   },
   {
@@ -37,7 +38,7 @@ export const blogData = [
       "Detailed itinerary, packing list and pro tips for the world's best trek.",
     date: "May 28, 2024",
     readTime: "12 min read",
-    image: "https://images.unsplash.com/photo-1617554658760-5d8f6882caf9",
+    image: blog_image,
     category: "Tour Packages",
   },
   {
@@ -46,7 +47,7 @@ export const blogData = [
     excerpt: "How to make the most of your visit during the rainy season.",
     date: "May 20, 2024",
     readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+    image: blog_image,
     category: "Travel Tips",
   },
   {
@@ -56,7 +57,7 @@ export const blogData = [
       "Comparing different tour styles to match your travel personality.",
     date: "May 15, 2024",
     readTime: "9 min read",
-    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+    image: blog_image,
     category: "Tour Services",
   },
   {
@@ -66,7 +67,7 @@ export const blogData = [
       "Explore Nepal’s most sacred Hindu temple with travel tips and cultural insights.",
     date: "May 10, 2024",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1601442608939-9c5d8a14de8a",
+    image: blog_image,
     category: "Tour Packages",
   },
   {
@@ -76,7 +77,7 @@ export const blogData = [
       "Reliable rentals for hilly terrains and off-road experiences in Nepal.",
     date: "May 5, 2024",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1584401219239-d5cbf04a7893",
+    image: blog_image,
     category: "Rental Services",
   },
   {
@@ -86,7 +87,7 @@ export const blogData = [
       "A step-by-step guide for booking your group vehicle in one of Nepal’s top destinations.",
     date: "April 30, 2024",
     readTime: "4 min read",
-    image: "https://images.unsplash.com/photo-1567606844007-e07b7a2d998d",
+    image: blog_image,
     category: "Tempo Services",
   },
   {
@@ -96,7 +97,7 @@ export const blogData = [
       "Do's and don'ts to help you respect local traditions and customs.",
     date: "April 22, 2024",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1518684079-5c1714f48541",
+    image: blog_image,
     category: "Travel Tips",
   },
   {
@@ -106,7 +107,7 @@ export const blogData = [
       "Your go-to guide for spotting rhinos, tigers, and more in Chitwan.",
     date: "April 18, 2024",
     readTime: "10 min read",
-    image: "https://images.unsplash.com/photo-1605033342537-9861bbf093f9",
+    image: blog_image,
     category: "Tour Packages",
   },
   {
@@ -115,7 +116,7 @@ export const blogData = [
     excerpt: "Save money without sacrificing reliability with these top picks.",
     date: "April 12, 2024",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1583337130417-3346a1c2395e",
+    image: blog_image,
     category: "Rental Services",
   },
   {
@@ -125,7 +126,7 @@ export const blogData = [
       "Maximize space, comfort, and fun when traveling with friends or family.",
     date: "April 5, 2024",
     readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1549921296-3fef90cbd7cf",
+    image: blog_image,
     category: "Tempo Services",
   },
   {
@@ -135,7 +136,7 @@ export const blogData = [
       "Learn from others’ experiences to stay safe and enjoy the journey.",
     date: "March 28, 2024",
     readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1533055640609-24b498cdfd68",
+    image: blog_image,
     category: "Travel Tips",
   },
   {
@@ -144,7 +145,7 @@ export const blogData = [
     excerpt: "See why this route is a favorite among tourists in Nepal.",
     date: "March 22, 2024",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1509812923430-11cb8c4a1e88",
+    image: blog_image,
     category: "Tour Packages",
   },
   {
@@ -153,7 +154,7 @@ export const blogData = [
     excerpt: "Important rules and road etiquette for international travelers.",
     date: "March 16, 2024",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1588195544323-592b60f8d6d8",
+    image: blog_image,
     category: "Rental Services",
   },
   {
@@ -162,7 +163,7 @@ export const blogData = [
     excerpt: "Explore routes offering panoramic views and quiet valleys.",
     date: "March 10, 2024",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e",
+    image: blog_image,
     category: "Tempo Services",
   },
   {
@@ -171,7 +172,7 @@ export const blogData = [
     excerpt: "The best time to explore Nepal based on weather and festivals.",
     date: "March 2, 2024",
     readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1523418827371-2c8d7a7e0eec",
+    image: blog_image,
     category: "Travel Tips",
   },
   {
@@ -180,7 +181,7 @@ export const blogData = [
     excerpt: "Catch the perfect sunrise with this early morning tour.",
     date: "February 25, 2024",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1543093606-bf95e23c8c34",
+    image: blog_image,
     category: "Tour Packages",
   },
   {
@@ -190,7 +191,7 @@ export const blogData = [
       "Travel responsibly with eco-friendly accommodations and operators.",
     date: "February 18, 2024",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1531771686035-25f47595c87e",
+    image: blog_image,
     category: "Travel Tips",
   },
 ];

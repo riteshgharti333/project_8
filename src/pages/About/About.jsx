@@ -1,4 +1,3 @@
-import React from "react";
 import {
   aboutData,
   aboutServices,
@@ -6,6 +5,7 @@ import {
   visionData,
 } from "../../assets/aboutData";
 import { MdOutlineVerified } from "react-icons/md";
+import useFullUrl from "../../utils/useFullUrl";
 
 const banner_img =
   "https://images.unsplash.com/photo-1518614768202-663a3a0ecf59?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
@@ -14,6 +14,9 @@ const about_img =
   "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?ixlib=rb-4.1.0&auto=format&fit=crop&w=1374&q=80";
 
 const About = () => {
+  
+    const fullUrl = useFullUrl();
+
   return (
     <div>
       <div className=" relative ">
@@ -229,7 +232,7 @@ const About = () => {
                   key={index}
                   className="flex items-center gap-5 mb-5 text-[15px] font-semibold"
                 >
-                  <MdOutlineVerified className="text-[20px] text-blue-900" />
+                  <MdOutlineVerified className="text-[20px] text-blue-900 shrink-0" />
                   {item}
                 </li>
               ))}
