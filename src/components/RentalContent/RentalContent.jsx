@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { FaUser } from "react-icons/fa";
 import Offers from "../Offers/Offers";
 import ServiceForm from "../ServiceForm/ServiceForm";
+import { taxies } from "../../assets/data";
+import RentalFees from "../RentalFees/RentalFees";
 
 const RentalContent = () => {
   const cardVariants = {
@@ -156,60 +158,7 @@ const RentalContent = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-4xl">
-            <span className="block">Premium</span>
-            <span className="block text-amber-600 mt-2">Rental Fees</span>
-          </h2>
-          <p className="mt-4 max-w-2xl text-sm sm:text-xl text-gray-600 mx-auto">
-            Choose from our fleet of well-maintained vehicles for your Jaipur
-            exploration
-          </p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {rentaLFees.map((item, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group"
-            >
-              <div className="bg-white rounded-xl shadow-[0_10px_30px_-10px_rgba(0,0,0,0.1)] hover:shadow-[0_15px_40px_-10px_rgba(0,0,0,0.2)] transition-all duration-300 h-full flex flex-col overflow-hidden">
-                {/* Image with enhanced shadow */}
-                <motion.div
-                  className="h-64 overflow-hidden relative"
-                  whileHover={{ scale: 1.03 }}
-                  transition={{ duration: 0.3 }}
-                >
-                  <div className="absolute inset-0 shadow-[inset_0_-20px_30px_-10px_rgba(0,0,0,0.2)] z-10 pointer-events-none" />
-                  <img
-                    src={item.img}
-                    alt={item.title}
-                    className="w-full h-full object-cover"
-                  />
-                </motion.div>
-
-                {/* Content with floating effect */}
-                <div className="p-6 flex-grow flex flex-col items-center text-center relative z-20 bg-white">
-                  <p className="text-gray-600 uppercase text-sm tracking-wider mb-2">
-                    {item.title}
-                  </p>
-                  <motion.h2
-                    className="text-5xl font-bold text-gray-900 mb-1 drop-shadow-md"
-                    whileHover={{ scale: 1.05 }}
-                  >
-                    ₹{item.price}
-                  </motion.h2>
-                  <p className="text-gray-500 text-sm">Per Kilometer</p>
-                </div>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
+      <RentalFees />
 
       <Offers />
 

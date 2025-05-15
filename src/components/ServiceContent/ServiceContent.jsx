@@ -9,6 +9,7 @@ import {
 import { FaBoxTissue } from "react-icons/fa";
 import ServiceForm from "../ServiceForm/ServiceForm";
 import Offers from "../Offers/Offers";
+import RentalFees from "../RentalFees/RentalFees";
 
 const ServiceContent = () => {
   return (
@@ -177,45 +178,9 @@ const ServiceContent = () => {
         </div>
       </div>
 
-      <div>
-        <h2 className="text-2xl font-bold text-gray-900">
-          AC cabs / taxis are available for sightseeing
-        </h2>
-        <p className=" mt-2 mb-7 text-gray-600">
-          Booking a cab is a suitable option to explore the sightseeing places
-          in and around the city at any time. We have a wide range of cabs which
-          include Toyota Etios, Toyota Innova, Toyota Innova Crysta, Tempo
-          Traveller, Bus and in luxury segment we have Fortuner, Audi, BMW and
-          Limo in Jaipur.
-        </p>
+      <RentalFees />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {carCards.map((item, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
-            >
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              </div>
-
-              <div className="py-2 text-center bg-primary-color">
-                <h3 className="text-xl font-semibold text-white ">
-                  {item.title}
-                </h3>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-    <Offers />
+      <Offers />
 
       <ServiceForm />
     </div>

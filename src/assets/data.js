@@ -21,7 +21,7 @@ export const navData = [
   // },
   {
     title: "Our Tours",
-  
+
     icon: IoMdArrowDropdown,
     specific: "tour",
     dropdown: [
@@ -31,7 +31,7 @@ export const navData = [
   {
     title: "Car Rental",
     icon: IoMdArrowDropdown,
-      specific: "rental",
+    specific: "rental",
     dropdown: [
       {
         name: "Car Rental Service in Jaipur",
@@ -41,9 +41,9 @@ export const navData = [
   },
   {
     title: "Tempo Traveller",
-   
+
     icon: IoMdArrowDropdown,
-      specific: "tempo",
+    specific: "tempo",
     dropdown: [
       {
         name: "Tempo Traveller in Jaipur",
@@ -254,3 +254,65 @@ export const checkCards = [
     link: "",
   },
 ];
+
+///////////////////////
+
+import taxi1 from "../assets/images/taxiimg/taxi1_result.webp";
+import taxi2 from "../assets/images/taxiimg/taxi2_result.webp";
+import taxi3 from "../assets/images/taxiimg/taxi3_result.webp";
+import taxi4 from "../assets/images/taxiimg/taxi4_result.webp";
+import taxi5 from "../assets/images/taxiimg/taxi5_result.webp";
+
+export const taxies = [
+  {
+    img: taxi1,
+    vehicle: "Ertiga",
+    rate: "16",
+    charges: "300",
+    seats: 6,
+    transmission: "Manual",
+    fuelType: "Petrol",
+    ac: true,
+  },
+  {
+    img: taxi2,
+    vehicle: "Sedan",
+    rate: "11",
+    charges: "300",
+    seats: 4,
+    transmission: "Automatic",
+    fuelType: "Diesel",
+    ac: true,
+  },
+  {
+    img: taxi3,
+    vehicle: "Kia",
+    rate: "17",
+    charges: "300",
+    seats: 5,
+    transmission: "Automatic",
+    fuelType: "Petrol",
+    ac: true,
+  },
+  {
+    img: taxi4,
+    vehicle: "Innova Crysta",
+    rate: "19",
+    charges: "300",
+    seats: 7,
+    transmission: "Manual",
+    fuelType: "Diesel",
+    ac: true,
+  },
+  {
+    img: taxi5,
+    vehicle: "Tempo Traveller",
+    rate: "25",
+    charges: "500",
+    seats: 12,
+    transmission: "Manual",
+    fuelType: "Diesel",
+    ac: false,
+  },
+];
+

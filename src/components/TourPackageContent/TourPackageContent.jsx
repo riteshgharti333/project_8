@@ -5,6 +5,9 @@ import { MdPlace } from "react-icons/md";
 
 import { motion } from "framer-motion";
 import { FaClock, FaMapMarkerAlt, FaStar, FaArrowRight } from "react-icons/fa";
+import Offers from "../Offers/Offers";
+import ServiceForm from "../ServiceForm/ServiceForm";
+import RentalFees from "../RentalFees/RentalFees";
 
 const TourPackageContent = () => {
   const cardVariants = {
@@ -174,7 +177,13 @@ const TourPackageContent = () => {
             </motion.div>
           ))}
         </div>
+         
       </div>
+            <RentalFees />
+      
+      <Offers />
+
+      <ServiceForm />
     </div>
   );
 };
