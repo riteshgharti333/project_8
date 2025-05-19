@@ -26,7 +26,7 @@ const Blog1 = () => {
           return (
             <h3
               key={index}
-              className="text-2xl font-bold text-gray-800 mt-8 mb-4"
+              className="text-2xl font-bold text-brand-brown mt-8 mb-4"
             >
               {block.text}
             </h3>
@@ -149,7 +149,7 @@ const Blog1 = () => {
                       className="w-16 h-16 rounded-full object-cover"
                     />
                     <div>
-                      <h4 className="text-lg font-bold text-gray-800">
+                      <h4 className="text-lg font-bold text-brand-brown">
                         About {blog.author.name}
                       </h4>
                       <p className="text-gray-600 mt-1">{blog.author.bio}</p>
@@ -174,7 +174,7 @@ const Blog1 = () => {
             transition={{ delay: 0.4 }}
             className="mt-16"
           >
-            <h3 className="text-2xl font-bold text-gray-800 mb-8 pb-2 border-b border-gray-200">
+            <h3 className="text-2xl font-bold text-brand-brown mb-8 pb-2 border-b border-gray-200">
               You Might Also Like
             </h3>
 
@@ -206,13 +206,13 @@ const Blog1 = () => {
                         {article.readTime}
                       </span>
                     </div>
-                    <h4 className="font-bold text-xl mb-3 text-gray-800 leading-snug">
+                    <h4 className="font-bold text-xl mb-3 text-brand-brown transition-all duration-300 ease-in-out hover:text-yellow-500 cursor-pointer leading-snug">
                       {article.title}
                     </h4>
                     <p className="text-gray-600 mb-4 line-clamp-2">
                       {article.excerpt}
                     </p>
-                    <button className="flex items-center text-blue-600 font-medium group">
+                    <button className="flex items-center text-blue-600 font-medium group transition-all duration-300 ease-in-out hover:text-yellow-500  cursor-pointer">
                       Read More
                       <FiArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
                     </button>

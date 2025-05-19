@@ -39,7 +39,7 @@ const Package = () => {
             {/* Content */}
             <div className="p-3">
               <div className="flex justify-between items-start mb-3">
-                <h3 className="text-xl font-semibold text-[#9D4C2C]">
+                <h3 className="text-xl font-semibold text-brand-brown">
                   {item.title}
                 </h3>
               </div>

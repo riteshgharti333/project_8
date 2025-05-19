@@ -28,7 +28,7 @@ const RentalContent = () => {
   return (
     <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
       <div>
-        <h2 className="text-2xl font-bold text-gray-900">
+        <h2 className="text-2xl font-bold text-brand-brown">
           Car Rental Service in Jaipur
         </h2>
         <p className="mt-5 text-gray-600">
@@ -47,7 +47,7 @@ const RentalContent = () => {
       </div>
 
       <div>
-        <h2 className="text-2xl font-bold text-gray-900">
+        <h2 className="text-2xl font-bold text-brand-brown">
           Well-maintained fleet of Car –
         </h2>
         <p className="mt-5 text-gray-600">
@@ -65,9 +65,9 @@ const RentalContent = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-2xl font-extrabold text-brand-brown sm:text-4xl">
             <span className="block">Premium Vehicle Rentals</span>
-            <span className="block text-amber-600 mt-2">
+            <span className="block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">
               Travel in Comfort & Style
             </span>
           </h2>
@@ -87,11 +87,11 @@ const RentalContent = () => {
               viewport={{ once: true, margin: "-50px" }}
               variants={cardVariants}
             >
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 h-full flex flex-col group">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 h-full flex flex-col group border border-[#ddd]">
                 {/* Card Header */}
                 <div className="p-3 pb-0">
                   <div className="flex items-center mb-4">
-                    <h3 className="text-xl font-bold text-gray-900">
+                    <h3 className="text-xl font-bold text-brand-brown">
                       {item.title}
                     </h3>
                   </div>
@@ -132,7 +132,7 @@ const RentalContent = () => {
                       <FaUser className="mr-1 text-amber-500" />
                       {item.capacity}
                     </span>
-                    <span className="font-medium text-gray-900">
+                    <span className="font-medium text-brand-brown">
                       {item.price}
                     </span>
                   </div>

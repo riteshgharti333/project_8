@@ -61,7 +61,7 @@ const Contact = () => {
             className="bg-white rounded-2xl shadow border  border-[#ddd] max-[480px]:px-3 max-[480px]:py-6 p-8"
           >
             <div className="mb-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-2">
+              <h2 className="text-3xl font-bold  text-brand-brown mb-2">
                 Get in Touch
               </h2>
               <p className="text-gray-600">
@@ -176,7 +176,7 @@ const Contact = () => {
           >
             {/* Contact Info Cards */}
             <div className="bg-white rounded-2xl shadow-lg p-8 border  border-[#ddd]">
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">
+              <h3 className="text-2xl font-bold text-brand-brown mb-6">
                 Our Contact Details
               </h3>
 

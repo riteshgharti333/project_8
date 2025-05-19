@@ -6,10 +6,10 @@ const Tour = () => {
     <div className=" px-0 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white max-w-[1400px] mx-auto">
       {/* Premium Header */}
       <div className="text-center mb-16">
-        <span className="text-sm font-semibold tracking-widesttext-[#9D4C2C] uppercase">
+        <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase">
           Abhimanyu Holidays
         </span>
-        <h1 className="mt-2 text-3xl font-bold text-[#9D4C2C] sm:text-5xl">
+        <h1 className="mt-2 text-3xl font-bold text-brand-brown sm:text-5xl">
           Our{" "}
           <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
             Exclusive Tours
@@ -41,7 +41,7 @@ const Tour = () => {
             {/* Content */}
             <div className="p-3">
               <div className="flex justify-between items-start mb-3">
-                <h3 className="text-xl font-semibold text-[#9D4C2C]">
+                <h3 className="text-xl font-semibold text-brand-brown">
                   {item.title}
                 </h3>
               </div>

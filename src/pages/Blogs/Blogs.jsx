@@ -148,7 +148,7 @@ const Blogs = () => {
                 </div>
 
                 {/* Title with line clamp for consistent height */}
-                <h3 className="text-xl font-bold mb-3 text-gray-800 line-clamp-2 transition-all duration-300 ease-in-out hover:text-yellow-500">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown line-clamp-2 transition-all duration-300 ease-in-out hover:text-yellow-500">
                   <Link to={`/blog/${blog.id}`}>{blog.title}</Link>
                 </h3>
 

@@ -28,7 +28,7 @@ const TourPackageContent = () => {
   return (
     <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
       <div>
-        <h2 className="text-2xl font-bold text-gray-900">
+        <h2 className="text-2xl font-bold text-brand-brown">
           Jaipur Sightseeing Tour
         </h2>
         {aboutData.map((item, index) => (
@@ -39,7 +39,7 @@ const TourPackageContent = () => {
       </div>
 
       <div>
-        <h2 className="text-2xl font-bold text-gray-900 mb-5">
+        <h2 className="text-2xl font-bold text-brand-brown mb-5">
           Places to visit in Jaipur
         </h2>
         <ul>
@@ -62,9 +62,9 @@ const TourPackageContent = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-2xl font-extrabold text-brand-brown sm:text-4xl">
             <span className="block">Our Premium Tour Packages</span>
-            <span className="block text-amber-600 mt-2">
+            <span className="block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">
               Experience Jaipur Like Never Before
             </span>
           </h2>
@@ -120,7 +120,7 @@ const TourPackageContent = () => {
                 {/* Content */}
                 <div className="p-3 sm:p-6 flex-grow flex flex-col">
                   <div className="flex-grow">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    <h3 className="text-xl font-bold text-brand-brown mb-2">
                       {pkg.title}
                     </h3>
                     <p className="text-gray-600 mb-4">{pkg.desc}</p>
@@ -158,7 +158,7 @@ const TourPackageContent = () => {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center">
                         <FaStar className="text-amber-400 mr-1" />
-                        <span className="font-medium text-gray-900">
+                        <span className="font-medium text-brand-brown">
                           {pkg.rating}
                         </span>
                         <span className="mx-2 text-gray-300">|</span>

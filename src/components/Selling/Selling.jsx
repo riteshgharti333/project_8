@@ -41,7 +41,7 @@ const Selling = () => {
         <span className="text-sm font-semibold tracking-widest text-blue-600 uppercase">
           Traveler's Choice
         </span>
-        <h1 className="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl">
+        <h1 className="mt-2 text-3xl font-bold text-brand-brown  sm:text-5xl">
           <span className="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
             Our Best Selling
           </span>{" "}
@@ -83,7 +83,7 @@ const Selling = () => {
             {/* Content */}
             <div className="p-3 flex flex-col h-[calc(100%-288px)]">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
                   {tour.title}
                 </h3>
                 <p className="text-gray-600 mb-4 text-sm line-clamp-3">

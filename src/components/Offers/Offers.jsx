@@ -8,9 +8,9 @@ const Offers = () => {
     <div className="bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-2xl font-extrabold text-brand-brown sm:text-4xl">
             <span className="block">Bus & Cab </span>
-            <span className="block text-amber-600 mt-2">Booking Offers</span>
+            <span className="block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">Booking Offers</span>
           </h2>
         </div>
 

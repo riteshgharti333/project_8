@@ -26,7 +26,7 @@ const TempoContent = () => {
   return (
     <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
       <div>
-        <h2 className="text-2xl font-bold text-gray-900">
+        <h2 className="text-2xl font-bold text-brand-brown">
           Tempo Traveller in Jaipur
         </h2>
         <p className="mt-5 text-gray-600">
@@ -44,7 +44,7 @@ const TempoContent = () => {
       </div>
 
       <div>
-        <h2 className="text-2xl font-bold text-gray-900">
+        <h2 className="text-2xl font-bold text-brand-brown">
           Tempo Traveller for Airport Pickup & Drop –
         </h2>
         <p className="mt-5 text-gray-600">
@@ -62,9 +62,9 @@ const TempoContent = () => {
 
       <div className="">
         <div className="text-center mb-12">
-          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-2xl font-extrabold text-brand-brown sm:text-4xl">
             <span className="block">Tempo</span>
-            <span className="block text-amber-600 mt-2">Rental Service</span>
+            <span className="block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">Rental Service</span>
           </h2>
           <p className="mt-4 max-w-2xl text-sm lg:text-xl text-gray-600 mx-auto">
             Choose from our fleet of well-maintained vehicles for your Jaipur

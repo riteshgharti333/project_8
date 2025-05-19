@@ -15,7 +15,7 @@ const ServiceContent = () => {
   return (
     <div className="flex flex-col gap-20">
       <div>
-        <h2 className="text-2xl font-bold text-gray-900">
+        <h2 className="text-2xl font-bold text-brand-brown">
           Jaipur Sightseeing Tour
         </h2>
         {aboutData.map((item, index) => (
@@ -26,7 +26,7 @@ const ServiceContent = () => {
       </div>
 
       <div className="max-w-4xl mx-auto  bg-white rounded-xl shadow-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-7">
+        <h2 className="text-2xl font-bold text-brand-brown mb-7">
           Tour Plan of Jaipur Sightseeing
         </h2>
 
@@ -73,7 +73,7 @@ const ServiceContent = () => {
                     </div>
                     <div>
                       <div className="flex flex-col sm:flex-row sm:items-center">
-                        <span className="font-medium text-gray-900">
+                        <span className="font-medium text-brand-brown">
                           {item.time}
                         </span>
                         <span className="hidden sm:block mx-2 text-gray-400">
@@ -148,7 +148,7 @@ const ServiceContent = () => {
       </div>
 
       <div className="">
-        <h2 className="text-2xl font-bold text-gray-900 mb-7">
+        <h2 className="text-2xl font-bold text-brand-brown mb-7">
           Famous Sightseeing & Tourist Places to visit in Jaipur
         </h2>
 

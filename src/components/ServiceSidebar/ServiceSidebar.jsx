@@ -9,7 +9,7 @@ const ServiceSidebar = () => {
       {sidebarData.map((section, index) => (
         <div key={index} className="border-b border-gray-100 last:border-b-0">
           {/* Section Header */}
-          <h3 className="flex items-center justify-between px-6 py-4 bg-gray-50 text-lg font-semibold text-gray-800 cursor-pointer hover:bg-amber-50 transition-colors duration-200">
+          <h3 className="flex items-center justify-between px-6 py-4 bg-gray-50 text-lg font-semibold text-brand-brown cursor-pointer hover:bg-amber-50 transition-colors duration-200">
             <span>{section.title}</span>
             <FaChevronRight className="text-amber-500 text-sm" />
           </h3>

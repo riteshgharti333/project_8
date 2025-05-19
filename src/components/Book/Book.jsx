@@ -10,7 +10,7 @@ const Book = () => {
           <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase">
             Luxury Transportation
           </span>
-          <h1 className="mt-2 text-3xl font-bold text-[#9D4C2C] sm:text-5xl">
+          <h1 className="mt-2 text-3xl font-bold text-brand-brown sm:text-5xl">
             Book{" "}
             <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
               Premium Taxi
@@ -43,7 +43,7 @@ const Book = () => {
               {/* Content */}
               <div className="p-3">
                 <div className="flex items-center mb-3">
-                  <h3 className="text-xl font-semibold text-[#9D4C2C]">
+                  <h3 className="text-xl font-semibold text-brand-brown">
                     {item.title}
                   </h3>
                 </div>

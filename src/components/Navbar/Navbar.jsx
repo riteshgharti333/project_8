@@ -73,7 +73,7 @@ const Navbar = () => {
                 >
                   <span className="relative font-medium">
                     {item.title}
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-300 transition-all duration-500 group-hover:w-full"></span>
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5  transition-all duration-500 group-hover:w-full"></span>
                   </span>
                   {item.icon && (
                     <item.icon className="w-4 h-4 transition-transform duration-500 group-hover:rotate-180" />

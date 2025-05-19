@@ -2,6 +2,12 @@
 
 @import "tailwindcss";
 
+
+@theme {
+  --color-brand-brown: #9D4C2C;
+}
+
+
 @layer base {
   :root {
     --primary-color: #1e40af;

@@ -46,9 +46,9 @@ const ServiceForm = () => {
     <div className="bg-gradient-to-b from-gray-50 to-white">
       <div className="">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-2xl font-extrabold text-brand-brown sm:text-4xl">
             <span className="block">Book Your Premium Cab</span>
-            <span className="block text-amber-600 mt-2">Travel in Comfort & Style</span>
+            <span className="block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">Travel in Comfort & Style</span>
           </h2>
           <p className="mt-4 text-sm sm:text-lg text-gray-600">
             Fill the form below and we'll get back to you within 24 hours
