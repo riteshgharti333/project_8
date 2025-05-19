@@ -1,12 +1,13 @@
 // tailwind.config.js
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        'primary-color': 'var(--primary-color)',
+        brandBrown: '#9D4C2C',
       },
     },
   },
-  plugins: [],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx,html}', // Make sure your paths are correct
+  ],
 };

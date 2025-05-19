@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const cardImg =
   "https://play-lh.googleusercontent.com/fs4b_PJqDHXdUyLeP61GiK4jAkFNyz3ffpzIBpvXCV4B4DkcPKLniYNvQxOmKzHKVKk=w3840-h2160-rw";
@@ -42,9 +42,9 @@ const CompanySlider = () => {
     <div className="overflow-hidden">
       <div className="text-center mb-16">
         <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase">
-          Rajputana Cabs®
+          Abhimanyu Holidays
         </span>
-        <h1 className="mt-2 text-3xl sm:text-4xl font-bold text-gray-900">
+        <h1 className="mt-2 text-3xl sm:text-4xl font-bold text-[#9D4C2C]">
           <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
             Companies{" "}
           </span>
@@ -63,7 +63,7 @@ const CompanySlider = () => {
               className="w-60 sm:w-100  overflow-hidden  hover:shadow-xl transition-all duration-300 hover:scale-105 rounded-lg"
             >
               <img
-                src={img}
+                src={cardImg}
                 alt={`Client company ${index + 1}`}
                 className="w-full h-full object-cover  bg-white rounded-lg"
               />

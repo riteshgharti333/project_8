@@ -43,7 +43,7 @@ const HomeBlog = () => {
         <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase">
           Travel Insights
         </span>
-        <h2 className="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl">
+        <h2 className="mt-2 text-3xl font-bold text-[#9D4C2C] sm:text-5xl">
           <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
             Latest
           </span>{" "}
@@ -85,7 +85,7 @@ const HomeBlog = () => {
                 </span>
               </div>
 
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-[#9D4C2C] mb-3 hover:text-yellow-500 cursor-pointer transition-all duration-300 ease-in-out ">
                 {post.title}
               </h3>
               <p className="text-gray-600 mb-6">{post.excerpt}</p>
@@ -104,7 +104,10 @@ const HomeBlog = () => {
 
       {/* View All Button */}
       <div className="mt-16 text-center">
-        <Link to={"/blogs"} className="px-8 py-3 border-2 border-yellow-500 text-yellow-500 font-medium rounded-lg hover:bg-yellow-500 hover:text-white transition-all duration-300">
+        <Link
+          to={"/blogs"}
+          className="px-8 py-3 border-2 border-yellow-500 text-yellow-500 font-medium rounded-lg hover:bg-yellow-500 hover:text-white transition-all duration-300"
+        >
           View All Blog Posts
         </Link>
       </div>

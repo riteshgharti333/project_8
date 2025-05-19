@@ -33,9 +33,9 @@ const Taxi = () => {
       {/* Premium Header */}
       <div className="text-center mb-16">
         <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase">
-          Rajputana Cabs®
+          Abhimanyu Holidays
         </span>
-        <h1 className="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl">
+        <h1 className="mt-2 text-3xl font-bold text-[#9D4C2C] sm:text-5xl">
           <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
             Premium Taxi Services
           </span>{" "}
@@ -68,7 +68,7 @@ const Taxi = () => {
 
             {/* Content */}
             <div className="p-3">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-[#9D4C2C] mb-3">
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-6 text-sm">

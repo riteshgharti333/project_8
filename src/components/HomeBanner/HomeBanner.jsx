@@ -20,12 +20,12 @@ const HomeBanner = () => {
       <div className="absolute inset-0 flex items-center">
         <div className="container mx-auto px-0 sm:px-6">
           <div className="banner-content w-full md:max-w-2xl ml-auto p-4 sm:p-6 lg:p-0 rounded-lg animate-fadeInRight">
-            <h3 className="text-yellow-400 text-sm sm:text-md font-semibold mb-2 tracking-widest animate-slideInRight delay-100">
-              RAJPUTANA CABS® - AWARD WINNING TAXI SERVICE
+            <h3 className="text-yellow-400 text-sm sm:text-md font-semibold mb-2 tracking-widest animate-slideInRight delay-100 uppercase">
+            Abhimanyu Holidays - Your Holiday Partner
             </h3>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6 leading-snug sm:leading-tight animate-slideInRight delay-200">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#9D4C2C] mb-4 sm:mb-6 leading-snug sm:leading-tight animate-slideInRight delay-200">
               Premium Taxi Services in{" "}
-              <span className="text-yellow-400">Jaipur</span>{" "}
+              <span className="text-[#9D4C2C]">Jaipur</span>{" "}
               <br className="hidden sm:block" />
               Across Rajasthan
             </h1>

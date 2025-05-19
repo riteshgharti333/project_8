@@ -5,6 +5,8 @@ import { navData } from "../../assets/data";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { useEffect, useState } from "react";
 
+import logo from "../../assets/images/logo.png"
+
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isFixed, setIsFixed] = useState(false);
@@ -39,7 +41,8 @@ const Navbar = () => {
       {/* Logo */}
       <div className="navbar-left">
         <h1 className="text-2xl lg:text-3xl font-bold text-white hover:text-blue-200 transition-colors duration-300">
-          <Link to="/">Logo</Link>
+          <Link to="/">
+          <img className="w-[150px]" src={logo} alt="logo" /></Link>
         </h1>
       </div>
 

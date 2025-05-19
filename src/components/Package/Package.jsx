@@ -6,9 +6,9 @@ const Package = () => {
     <div className="px-1 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white max-w-[1400px] mx-auto">
       <div className="text-center mb-16">
         <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase block mb-2">
-          Rajputana Cabs®
+          Abhimanyu Holidays
         </span>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900  leading-tight">
+        <h1 className="text-3xl sm:text-4xl font-bold text-[#9D4C2C]  leading-tight">
           <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
             Premium Taxi Services
           </span>{" "}
@@ -39,7 +39,7 @@ const Package = () => {
             {/* Content */}
             <div className="p-3">
               <div className="flex justify-between items-start mb-3">
-                <h3 className="text-xl font-semibold text-gray-900">
+                <h3 className="text-xl font-semibold text-[#9D4C2C]">
                   {item.title}
                 </h3>
               </div>
@@ -47,7 +47,7 @@ const Package = () => {
               <p className="text-gray-600 mb-6 text-sm">{item.desc}</p>
 
               <div className="flex justify-between items-center">
-                <button className="px-5 py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                 <button className="px-5 py-2.5 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                   Book Now
                 </button>
               </div>

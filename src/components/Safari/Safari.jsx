@@ -33,9 +33,9 @@ const Safari = () => {
       {/* Premium Header with Desert Theme */}
       <div className="text-center mb-16">
         <span className="text-sm font-semibold tracking-widest text-amber-600 uppercase">
-          Rajputana Cabs® Exclusive
+        Abhimanyu Holidays Exclusive
         </span>
-        <h1 className="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl">
+        <h1 className="mt-2 text-3xl font-bold text-[#9D4C2C] sm:text-5xl">
           <span className="bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-transparent">
             Desert Safari
           </span>{" "}
@@ -62,7 +62,7 @@ const Safari = () => {
             {/* Content with desert theme */}
             <div className="p-3 flex-col justify-between">
               <div className="flex justify-between items-start mb-3">
-                <h3 className="text-xl font-bold text-gray-900">
+                <h3 className="text-xl font-bold text-[#9D4C2C]">
                   {item.title}
                 </h3>
               </div>
