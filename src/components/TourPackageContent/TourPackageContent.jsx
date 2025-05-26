@@ -177,10 +177,9 @@ const TourPackageContent = () => {
             </motion.div>
           ))}
         </div>
-         
       </div>
-            <RentalFees />
-      
+      <RentalFees />
+
       <Offers />
 
       <ServiceForm />

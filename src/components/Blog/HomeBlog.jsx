@@ -37,7 +37,7 @@ const HomeBlog = () => {
   ];
 
   return (
-    <div className="px-0 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white max-w-[1400px] mx-auto">
+    <div className="px-0 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
       {/* Blog Header */}
       <div className="text-center mb-16">
         <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase">
@@ -103,7 +103,7 @@ const HomeBlog = () => {
       </div>
 
       {/* View All Button */}
-      <div className="mt-16 text-center">
+      <div className="mt-16 mb-10 text-center">
         <Link
           to={"/blogs"}
           className="px-8 py-3 border-2 border-yellow-500 text-yellow-500 font-medium rounded-lg hover:bg-yellow-500 hover:text-white transition-all duration-300"

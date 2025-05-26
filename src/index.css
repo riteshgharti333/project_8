@@ -2,11 +2,9 @@
 
 @import "tailwindcss";
 
-
 @theme {
-  --color-brand-brown: #9D4C2C;
+  --color-brand-brown: #9d4c2c;
 }
-
 
 @layer base {
   :root {
@@ -54,13 +52,13 @@ html {
 }
 
 ::selection {
-  background: #facc15; 
-  color: #000; 
+  background: #facc15;
+  color: #000;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #facc15; 
+  background: #facc15;
   color: #000;
   text-shadow: none;
 }
@@ -95,6 +93,10 @@ html.lenis {
   }
 }
 
+html,
+body {
+  background: #f1f1f1;
+  /* background: red; */
+}
 .app {
 }
-

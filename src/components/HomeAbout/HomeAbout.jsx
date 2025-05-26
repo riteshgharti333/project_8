@@ -5,7 +5,7 @@ const HomeAbout = () => {
   const about_img = "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?ixlib=rb-4.1.0&auto=format&fit=crop&w=1374&q=80";
 
   return (
-    <div className="px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white max-w-[1400px] mx-auto">
+    <div className="px-4 sm:px-6 lg:px-8 max-w-[1400px] mx-auto">
       <div className="flex flex-col lg:flex-row gap-12 items-center">
         {/* Image Section */}
         <div className="lg:w-1/2 rounded-xl overflow-hidden shadow-xl transform transition-all duration-500 hover:shadow-2xl">

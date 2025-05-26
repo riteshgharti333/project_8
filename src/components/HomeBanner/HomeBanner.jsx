@@ -21,7 +21,7 @@ const HomeBanner = () => {
         <div className="container mx-auto px-0 sm:px-6">
           <div className="banner-content w-full md:max-w-2xl ml-auto p-4 sm:p-6 lg:p-0 rounded-lg animate-fadeInRight">
             <h3 className="text-yellow-400 text-sm sm:text-md font-semibold mb-2 tracking-widest animate-slideInRight delay-100">
-            Abhimanyu Holidays
+              Abhimanyu Holidays
             </h3>
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6 leading-snug sm:leading-tight animate-slideInRight delay-200">
               Premium Taxi Services in{" "}
@@ -98,9 +98,9 @@ const HomeBanner = () => {
 
             <Link
               to={"/contact-us"}
-              className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer text-sm sm:text-base transform hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50"
+              className="group mt-5 bg-yellow-500 flex gap-1 items-center w-fit hover:bg-yellow-600 text-black hover:text-white font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer text-sm sm:text-base transform hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50"
             >
-              BOOK YOUR CAB NOW 
+              BOOK YOUR CAB NOW
             </Link>
           </div>
         </div>

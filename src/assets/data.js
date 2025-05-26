@@ -316,3 +316,12 @@ export const taxies = [
   },
 ];
 
+/////////////////////////
+
+export const homeData = [
+  "Bhimanyou Holidays is a premier travel and tour company that specializes in curating unforgettable travel experiences for both domestic and international destinations. With a focus on customer satisfaction, the company offers a range of services including customized tour packages, flight and hotel bookings, and guided tours. Bhimanyou Holidays has earned a reputation for reliability, transparency, and attention to detail, making it a trusted partner for travelers seeking hassle-free vacations.",
+
+  "One of the standout features of Bhimanyou Holidays is its personalized approach to travel planning. Each itinerary is crafted to suit the preferences, budget, and travel goals of the client, ensuring a unique and enriching experience. Whether it’s a romantic getaway, a family trip, or a corporate retreat, the company ensures that every aspect — from transportation to accommodation — is handled with precision and care.",
+
+  "With a team of experienced travel professionals and a strong network of partners across the globe, Bhimanyou Holidays continues to grow as a leading name in the travel industry.",
+];

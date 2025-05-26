@@ -28,7 +28,7 @@ function App() {
         top: 0,
         left: 0,
         behavior: "instant",
-    });
+      });
     }, [pathname]);
 
     return null;
@@ -37,16 +37,16 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-      <SmoothScroll />
+        <SmoothScroll />
         <ScrollToTop />
         <ScrollTop />
+
         <FloatingButton />
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/contact-us" element={<Contact />} />
-
 
           <Route
             path="/tour-service/jaipur-sightseeing-tour"
@@ -68,8 +68,6 @@ function App() {
           />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:id" element={<Blog1 />} />
-
-
         </Routes>
         <Footer />
       </BrowserRouter>
