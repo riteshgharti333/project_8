@@ -102,7 +102,7 @@ const HomeBlog = () => {
         ))}
       </div>
 
-      {/* View All Buttons  */}
+      {/* View All Buttons */}
       <div className="mt-16 mb-10 text-center">
         <Link
           to={"/blogs"}
