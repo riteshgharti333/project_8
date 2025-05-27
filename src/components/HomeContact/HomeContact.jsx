@@ -13,7 +13,7 @@ const HomeContact = () => {
           +91 9983010250
         </p>
 
-        <div className="bg-white rounded-xl shadow-2xl p-8">
+        <div className="bg-white rounded-xl shadow-2xl p-3 sm:p-8 ">
           <form className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
