@@ -134,91 +134,74 @@ const Review = () => {
           ))}
         </Swiper>
 
-        <div className="flex justify-center  items-center mt-8 space-x-4">
-          <button className="review-prev p-2 rounded-full bg-white shadow-md hover:bg-yellow-500 hover:text-white text-yellow-600 cursor-pointer  transition-all duration-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M15 19l-7-7 7-7"
-              />
-            </svg>
-          </button>
+        <div className="flex justify-center items-center mt-0 space-x-4">
+  <button className="review-prev p-2 rounded-full bg-white shadow-md hover:bg-yellow-500 hover:text-white text-yellow-600 cursor-pointer transition-all duration-300">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-5 w-5"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M15 19l-7-7 7-7"
+      />
+    </svg>
+  </button>
 
-          <div className="review-pagination justify-center items-center"></div>
+  <div className="review-pagination mx-2 flex items-center gap-1">
+    {/* Custom dots will be inserted here by Swiper */}
+  </div>
 
-          <button className="review-next cursor-pointer p-2 rounded-full bg-white shadow-md  text-yellow-600 hover:bg-yellow-500 hover:text-white transition-all duration-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </button>
-        </div>
+  <button className="review-next p-2 rounded-full bg-white shadow-md hover:bg-yellow-500 hover:text-white text-yellow-600 cursor-pointer transition-all duration-300">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-5 w-5"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M9 5l7 7-7 7"
+      />
+    </svg>
+  </button>
+</div>
       </div>
 
       <style jsx global>{`
-        .swiper {
-          overflow: visible !important;
-        }
-        .swiper-slide {
-          transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
-          opacity: 0.9;
-          transform: scale(0.96);
-        }
-        .swiper-slide-active {
-          opacity: 1;
-          transform: scale(1);
-        }
-        .swiper-slide-next,
-        .swiper-slide-prev {
-          opacity: 0.9;
-        }
-        .review-bullet {
-          display: inline-block;
-          width: 12px;
-          height: 12px;
-          background: #e5e7eb;
-          border-radius: 50%;
-          margin: 0 4px;
-          cursor: pointer;
-          transition: all 300ms ease;
-        }
-        .review-bullet-active {
-          background: linear-gradient(to right, #f59e0b, #d97706);
-          width: 24px;
-          border-radius: 6px;
-        }
-        .swiper-slide {
-          height: auto;
-        }
-        .swiper-button-disabled {
-          opacity: 0.3;
-          pointer-events: none;
-        }
-        .line-clamp-5 {
-          display: -webkit-box;
-          -webkit-line-clamp: 5;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
-      `}</style>
+  .review-pagination {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    width: auto !important;
+    margin: 0 10px !important;
+  }
+  .review-bullet {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #e5e7eb;
+    border-radius: 50%;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  .review-bullet-active {
+    background: linear-gradient(to right, #f59e0b, #d97706);
+    width: 20px;
+    border-radius: 6px;
+  }
+`}</style>
     </section>
   );
 };

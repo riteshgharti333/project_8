@@ -19,15 +19,15 @@ export const navData = [
   //   title: "Tempo Traveller",
   //   link: "/",
   // },
-  {
-    title: "Our Tours",
+  // {
+  //   title: "Our Tours",
 
-    icon: IoMdArrowDropdown,
-    specific: "tour",
-    dropdown: [
-      { name: "Jaipur Sightseeing Tour", link: "jaipur-sightseeing-tour" },
-    ],
-  },
+  //   icon: IoMdArrowDropdown,
+  //   specific: "tour",
+  //   dropdown: [
+  //     { name: "Jaipur Sightseeing Tour", link: "jaipur-sightseeing-tour" },
+  //   ],
+  // },
   {
     title: "Car Rental",
     icon: IoMdArrowDropdown,
