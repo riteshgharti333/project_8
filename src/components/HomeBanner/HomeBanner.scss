@@ -1,87 +1,118 @@
+.home-banner {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  
+  @media (max-width: 480px) {
+    height: 80vh;
+  }
 
-.homeBanner{
-    .banner-img{
-        height: 100vh;
-        img{
-            height: 100vh;
-        }
+  .swiper {
+    height: 100%;
+    width: 100%;
+
+    &-slide {
+      .banner-image {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center; 
+        filter: brightness(0.8);
+      }
     }
+  }
 
+// Replace your existing pagination styles with these
+.banner-pagination {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  z-index: 10;
+
+  .banner-bullet {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 4px;
+
+    &-active {
+      background: linear-gradient(to right, #f59e0b, #d97706);
+      width: 24px;
+      box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+    }
+  }
 }
 
-@keyframes fadeInRight {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+// Navigation arrows to match
+.banner-prev,
+.banner-next {
+  background: white;
+  color: #f59e0b;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   
-  @keyframes slideInRight {
-    from {
-      opacity: 0;
-      transform: translateX(100px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+  &:hover {
+    background: #f59e0b;
+    color: white;
+    box-shadow: 0 2px 15px rgba(245, 158, 11, 0.5);
   }
-  
-  @keyframes bounceIn {
-    0% {
-      opacity: 0;
-      transform: translateY(20px) scale(0.9);
-    }
-    50% {
-      opacity: 1;
-      transform: translateY(-10px) scale(1.05);
-    }
-    100% {
-        opacity: 1;
-      transform: translateY(0) scale(1);
-    }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
   }
-  
-  /* Animation Classes */
-  .animate-fadeInRight {
-    animation: fadeInRight 1s ease-out forwards;
-  }
-  
-  .animate-slideInRight {
-    animation: slideInRight 0.8s ease-out forwards;
+  70% {
+    transform: scale(1.4);
     opacity: 0;
   }
-  
-  .animate-bounceIn {
-    animation: bounceIn 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  100% {
     opacity: 0;
   }
-  
-  /* Delay Classes */
-  .delay-100 { animation-delay: 0.1s; }
-  .delay-200 { animation-delay: 0.2s; }
-  .delay-300 { animation-delay: 0.3s; }
-  .delay-400 { animation-delay: 0.4s; }
-  .delay-500 { animation-delay: 0.5s; }
-  .delay-600 { animation-delay: 0.6s; }
-  .delay-700 { animation-delay: 0.7s; }
-  .delay-1000 { animation-delay: 1s; }
-  
-  /* Banner Content Hover Effect */
-  .banner-content {
-    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-    
+}
+
+  .banner-prev,
+  .banner-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    color: white;
+    z-index: 10;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
     &:hover {
-      transform: translateY(-5px);
+      background: rgba(0, 0, 0, 0.5);
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
     }
   }
-  
-  .banner-btn {
-    box-shadow: 0 4px 15px rgba(234, 179, 8, 0.4);
-    
-   
+
+  .banner-prev {
+    left: 30px;
   }
+
+  .banner-next {
+    right: 30px;
+  }
+}

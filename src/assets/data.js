@@ -325,3 +325,18 @@ export const homeData = [
 
   "With a team of experienced travel professionals and a strong network of partners across the globe, Bhimanyou Holidays continues to grow as a leading name in the travel industry.",
 ];
+
+//////////////////////////////////
+import bannerImg1 from "../assets/images/bannerImgs/banner1.jpg";
+import bannerImg2 from "../assets/images/bannerImgs/banner2.jpg";
+import bannerImg3 from "../assets/images/bannerImgs/banner3.jpg";
+import bannerImg4 from "../assets/images/bannerImgs/banner4.jpg";
+import bannerImg5 from "../assets/images/bannerImgs/banner5.jpg";
+
+export const bannerData = [
+  bannerImg1,
+  bannerImg2,
+  bannerImg3,
+  bannerImg4,
+  bannerImg5,
+];

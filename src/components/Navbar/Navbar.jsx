@@ -36,7 +36,7 @@ const Navbar = () => {
     <div
       className={`flex items-center justify-between sticky ${
         isFixed ? "top-0" : "-top-20"
-      } z-50 w-full bg-gray-900 px-4 lg:px-10 py-3 shadow-lg transition-all duration-300 ease-in-out`}
+      } z-50 w-full bg-gray-900 px-4  lg:px-3 py-3 max-[1200px]:px-3 shadow-lg transition-all duration-300 ease-in-out`}
     >
       {/* Logo */}
       <div className="navbar-left">
