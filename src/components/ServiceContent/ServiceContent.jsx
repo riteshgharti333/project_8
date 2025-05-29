@@ -16,7 +16,7 @@ const ServiceContent = () => {
     <div className="flex flex-col gap-20">
       <div>
         <h2 className="text-2xl font-bold text-brand-brown">
-          Jaipur Sightseeing Tour
+          Jaipur One Day Tour
         </h2>
         {aboutData.map((item, index) => (
           <p className="mt-5 text-gray-600" key={index}>
@@ -25,7 +25,7 @@ const ServiceContent = () => {
         ))}
       </div>
 
-      <div className="max-w-4xl mx-auto  bg-white rounded-xl shadow-lg">
+      <div className="max-w-4xl mx-auto  ">
         <h2 className="text-2xl font-bold text-brand-brown mb-7">
           Tour Plan of Jaipur Sightseeing
         </h2>

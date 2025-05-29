@@ -7,7 +7,7 @@ const img =
 const HomeDetail = () => {
   return (
     <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
-      <div className="text-center mb-5">
+      <div className="text-center mb-0 lg:mb-10">
         <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase block mb-2">
           About
         </span>

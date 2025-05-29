@@ -43,7 +43,7 @@ const ServiceForm = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-gray-50 to-white">
+    <div className="">
       <div className="">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-2xl font-extrabold text-brand-brown sm:text-4xl">

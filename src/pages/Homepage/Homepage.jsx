@@ -35,13 +35,18 @@ const Homepage = () => {
       <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
         <Tour />
       </div>
+
+      <Book />
+
+
       <HomeContact />
+
+      
 
       <Review />
 
       <Achieve />
 
-      {/* <Book /> */}
 
       {/* <Checkout />/ */}
       {/* <Safari /> */}

@@ -49,7 +49,7 @@ function App() {
           <Route path="/contact-us" element={<Contact />} />
 
           <Route
-            path="/tour-service/jaipur-sightseeing-tour"
+            path="/tour-service/jaipur-one-day-tour"
             element={<TourService1 />}
           />
 

@@ -3,24 +3,19 @@ import { bookCards } from "../../assets/data";
 
 const Book = () => {
   return (
-    <div className="px-0 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+    <div className="px-0 sm:px-6 lg:px-8 ">
       <div className="max-w-7xl mx-auto">
         {/* Premium Header */}
         <div className="text-center mb-16">
           <span className="text-sm font-semibold tracking-widest text-yellow-600 uppercase">
-            Luxury Transportation
+            Abhimanyu Holidays
           </span>
           <h1 className="mt-2 text-3xl font-bold text-brand-brown sm:text-5xl">
-            Book{" "}
             <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
-              Premium Taxi
+              One Day
             </span>{" "}
-            in Jaipur
+            Tours
           </h1>
-          <p className="mt-4 text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto">
-            Experience seamless travel with our fleet of premium vehicles and
-            professional chauffeurs
-          </p>
         </div>
 
         {/* Premium Card Grid */}

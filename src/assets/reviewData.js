@@ -7,7 +7,7 @@ export const reviewsData = [
   {
     name: "Ritika Mehra",
     review:
-      "Their attention to detail is truly impressive. Highly recommend Abhimanyu Holidays for anyone who wants a stress-free vacation.",
+      "Their attention to detail is truly impressive. Highly recommend Abhimanyu Holidays for anyone who wants a stress-free vacation.Abhimanyu Holidays made our family trip absolutely seamless. Everything from bookings to travel support was handled with professionalism!.Abhimanyu Holidays made our family trip absolutely seamless. Everything from bookings to travel support was handled with professionalism!",
   },
   {
     name: "Sandeep Verma",
