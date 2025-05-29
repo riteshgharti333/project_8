@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
-
+import { FaRegStickyNote } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="min-h-screen">
@@ -149,7 +149,7 @@ const Contact = () => {
                 </label>
                 <textarea
                   id="message"
-                  rows="5"
+                  rows="8"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                   placeholder="How can we help you?"
                   required
@@ -187,11 +187,13 @@ const Contact = () => {
                     <FiMapPin className="text-xl" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-800">Our Office</h4>
+                    <h4 className="font-medium text-gray-800">
+                      Office Address
+                    </h4>
                     <p className="text-gray-600">
-                      123 Tourism Street, Delhi
+                      4/164 SFS Near B2 Bypass Mansarovar
                       <br />
-                      1234, India
+                      Nearby Airport Jaipur
                     </p>
                   </div>
                 </div>
@@ -208,16 +210,27 @@ const Contact = () => {
                         href="tel:+9771234567"
                         className="hover:text-blue-600 transition-colors"
                       >
-                        +977-1-1234567
+                        9587084879
                       </a>
                       <br />
                       <a
                         href="tel:+9779876543210"
                         className="hover:text-blue-600 transition-colors"
                       >
-                        +977-9876543210
+                        9829301061
                       </a>
                     </p>
+                  </div>
+                </div>
+
+                {/* Phone */}
+                <div className="flex items-start">
+                  <div className="bg-purple-100 p-3 rounded-full text-purple-600 mr-4">
+                    <FaRegStickyNote className="text-xl" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-gray-800">GST No.</h4>
+                    <p className="text-gray-600">08BMNPK1574R1Z6</p>
                   </div>
                 </div>
 

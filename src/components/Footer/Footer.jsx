@@ -11,21 +11,37 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <h3 className="text-xl font-bold mb-6 flex items-center">
               <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
-                Head Office & Contact
+                Office Address & Contact
               </span>
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-yellow-500 mt-1 mr-3 flex-shrink-0" />
-                <span>24 Gopi Nagar Vistar, Jaisinghpura Khor Delhi Bypass Jaipur, Rajasthan 302027</span>
+                <span>
+                  4/164 SFS Near B2 Bypass Mansarovar Nearby Airport Jaipur
+                </span>
               </li>
               <li className="flex items-center">
                 <FaPhone className="text-yellow-500 mr-3" />
-                <span>9983010250</span>
+                <p className="">
+                  <a
+                    href="tel:+9771234567"
+                    className="hover:text-blue-600 transition-colors"
+                  >
+                   +91 9587084879
+                  </a>
+                  <br />
+                  <a
+                    href="tel:+9779876543210"
+                    className="hover:text-blue-600 transition-colors"
+                  >
+                   +91 9829301061
+                  </a>
+                </p>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="text-yellow-500 mr-3" />
-                <span>rajputanacabsindia@gmail.com</span>
+                <span>abhimanyouholiday@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -38,8 +54,21 @@ const Footer = () => {
               </span>
             </h3>
             <ul className="space-y-3">
-              {['Jaipur', 'Udaipur', 'Jodhpur', 'Delhi', 'Ahmedabad', 'Chandigarh', 'Manali', 'Amritsar', 'Shimla'].map((city) => (
-                <li key={city} className="hover:text-yellow-400 transition-colors duration-200">
+              {[
+                "Jaipur",
+                "Udaipur",
+                "Jodhpur",
+                "Delhi",
+                "Ahmedabad",
+                "Chandigarh",
+                "Manali",
+                "Amritsar",
+                "Shimla",
+              ].map((city) => (
+                <li
+                  key={city}
+                  className="hover:text-yellow-400 transition-colors duration-200"
+                >
                   <a href="#">{city}</a>
                 </li>
               ))}
@@ -55,13 +84,16 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               {[
-                'Rajasthan Car Rental',
-                'Ranthambore Safari Booking',
-                'Golden Triangle Tour Car',
-                'Jaisalmer Tourism Packages',
-                'Jaisalmer Desert Safari'
+                "Rajasthan Car Rental",
+                "Ranthambore Safari Booking",
+                "Golden Triangle Tour Car",
+                "Jaisalmer Tourism Packages",
+                "Jaisalmer Desert Safari",
               ].map((tour) => (
-                <li key={tour} className="hover:text-yellow-400 transition-colors duration-200">
+                <li
+                  key={tour}
+                  className="hover:text-yellow-400 transition-colors duration-200"
+                >
                   <a href="#">{tour}</a>
                 </li>
               ))}
@@ -76,18 +108,28 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-400">
-              Copyright © 2025 Rajputana Cabs. Designed and Developed by Star Marketing
+              Copyright © 2025 Rajputana Cabs. Designed and Developed by Star
+              Marketing
             </p>
           </div>
-          
+
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors duration-300">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-yellow-500 transition-colors duration-300"
+            >
               <FaFacebook className="h-6 w-6" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors duration-300">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-yellow-500 transition-colors duration-300"
+            >
               <FaInstagram className="h-6 w-6" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors duration-300">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-yellow-500 transition-colors duration-300"
+            >
               <FaTwitter className="h-6 w-6" />
             </a>
           </div>
