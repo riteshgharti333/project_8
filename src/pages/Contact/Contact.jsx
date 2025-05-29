@@ -210,14 +210,14 @@ const Contact = () => {
                         href="tel:+9771234567"
                         className="hover:text-blue-600 transition-colors"
                       >
-                        9587084879
+                       +91 9587084879
                       </a>
                       <br />
                       <a
                         href="tel:+9779876543210"
                         className="hover:text-blue-600 transition-colors"
                       >
-                        9829301061
+                       +91 9829301061
                       </a>
                     </p>
                   </div>
