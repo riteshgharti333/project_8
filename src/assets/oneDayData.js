@@ -50,32 +50,32 @@ export const onedayCards = [
     img: "",
     link: "one-day-trip-to-sariska-from-jaipur",
   },
-  {
-    title: "Jaipur Khatu Shyamji & Salasar Balaji Tour",
-    img: "",
-    link: "",
-  },
+  // {
+  //   title: "Jaipur Khatu Shyamji & Salasar Balaji Tour",
+  //   img: "",
+  //   link: "",
+  // },
 
-  {
-    title: "Chokhi Dhani Jaipur Night Tour",
-    img: "",
-    link: "",
-  },
-  {
-    title: "Bike Rental Jaipur",
-    img: "",
-    link: "",
-  },
-  {
-    title: "Jaipur Temple Tour",
-    img: "",
-    link: "",
-  },
-  {
-    title: " Jaipur Shopping Tour",
-    img: "",
-    link: "",
-  },
+  // {
+  //   title: "Chokhi Dhani Jaipur Night Tour",
+  //   img: "",
+  //   link: "",
+  // },
+  // {
+  //   title: "Bike Rental Jaipur",
+  //   img: "",
+  //   link: "",
+  // },
+  // {
+  //   title: "Jaipur Temple Tour",
+  //   img: "",
+  //   link: "",
+  // },
+  // {
+  //   title: " Jaipur Shopping Tour",
+  //   img: "",
+  //   link: "",
+  // },
 ];
 ///////////////////////
 export const onedayData = {
