@@ -8,7 +8,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
-import TourService1 from "./pages/TourService/TourService1";
+// import TourService1 from "./pages/TourService/TourService1";
 import TourPackages1 from "./pages/TourPackages/TourPackages1";
 import RentalService1 from "./pages/RentalService/RentalService1";
 import TempoService1 from "./pages/TempoService/TempoService";
