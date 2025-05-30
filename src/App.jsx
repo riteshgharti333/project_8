@@ -18,9 +18,7 @@ import Contact from "./pages/Contact/Contact";
 import FloatingButton from "./components/FloatingButton/FloatingButton";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
 import SmoothScroll from "./components/SmoothScroll/SmoothScroll";
-
 import OneDayTour from "./pages/OneDayTour/OneDayTour";
-import OnedayContent1 from "./pages/OneDayTour/onedayContent1";
 import OnedayContent2 from "./pages/OneDayTour/OnedayContent2";
 import OnedayContent3 from "./pages/OneDayTour/OnedayContent3";
 import OnedayContent4 from "./pages/OneDayTour/OnedayContent4";
@@ -30,6 +28,7 @@ import OnedayContent7 from "./pages/OneDayTour/OnedayContent7";
 import OnedayContent8 from "./pages/OneDayTour/OnedayContent8";
 import OnedayContent9 from "./pages/OneDayTour/OnedayContent9";
 import OnedayContent10 from "./pages/OneDayTour/OnedayContent10";
+import OnedayContent1 from "./pages/OneDayTour/onedayContent1";
 
 function App() {
   const ScrollToTop = () => {
