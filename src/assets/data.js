@@ -23,9 +23,7 @@ export const navData = [
     title: "Our Day Tours",
     icon: IoMdArrowDropdown,
     specific: "tour",
-    dropdown: [
-      { name: "Jaipur One Day Tour", link: "jaipur-one-day-tour" },
-    ],
+    dropdown: [{ name: "Jaipur One Day Tour", link: "jaipur-one-day-tour" }],
   },
   {
     title: "Car Rental",
@@ -318,11 +316,11 @@ export const taxies = [
 /////////////////////////
 
 export const homeData = [
-  "Abhimanyu Holidays is a premier travel and tour company that specializes in curating unforgettable travel experiences for both domestic and international destinations. With a focus on customer satisfaction, the company offers a range of services including customized tour packages, flight and hotel bookings, and guided tours. Bhimanyou Holidays has earned a reputation for reliability, transparency, and attention to detail, making it a trusted partner for travelers seeking hassle-free vacations.",
+  "Abhimanyu Holidays is a premier travel and tour company dedicated to crafting unforgettable travel experiences across both domestic and international destinations. Renowned for its reliability, transparency, and meticulous attention to detail, Abhimanyu Holidays is a trusted partner for travelers seeking seamless and memorable vacations.",
 
-  "One of the standout features of Bhimanyou Holidays is its personalized approach to travel planning. Each itinerary is crafted to suit the preferences, budget, and travel goals of the client, ensuring a unique and enriching experience. Whether it’s a romantic getaway, a family trip, or a corporate retreat, the company ensures that every aspect — from transportation to accommodation — is handled with precision and care.",
+  "With a strong commitment to customer satisfaction, the company offers a comprehensive suite of services, including customized tour packages, flight and hotel bookings, and expertly guided tours. One of the key strengths of Abhimanyu Holidays is its personalized approach to travel planning. Every itinerary is thoughtfully designed to reflect the client’s preferences, budget, and travel aspirations — whether it’s a romantic getaway, a family vacation, or a corporate retreat.",
 
-  "With a team of experienced travel professionals and a strong network of partners across the globe, Bhimanyou Holidays continues to grow as a leading name in the travel industry.",
+  "Backed by a team of experienced travel professionals and a robust global network of partners, Abhimanyu Holidays continues to expand its footprint in the travel industry, delivering exceptional service and creating journeys that leave lasting impressions.",
 ];
 
 //////////////////////////////////
