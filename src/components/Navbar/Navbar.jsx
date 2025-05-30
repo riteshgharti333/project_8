@@ -5,14 +5,14 @@ import { navData } from "../../assets/data";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { useEffect, useState } from "react";
 
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isFixed, setIsFixed] = useState(false);
 
   const pathMap = {
-    tour: "tour-service/",
+    tour: "",
     package: "tour-package/",
     rental: "rental-service/",
     tempo: "tempo-service/",
@@ -42,7 +42,8 @@ const Navbar = () => {
       <div className="navbar-left">
         <h1 className="text-2xl lg:text-3xl font-bold text-white hover:text-blue-200 transition-colors duration-300">
           <Link to="/">
-          <img className="w-[150px]" src={logo} alt="logo" /></Link>
+            <img className="w-[150px]" src={logo} alt="logo" />
+          </Link>
         </h1>
       </div>
 
@@ -93,18 +94,16 @@ const Navbar = () => {
                 >
                   <span className="relative font-medium">
                     {item.title}
-                       <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-300 transition-all duration-500 group-hover:w-full"></span>
-                       <span className=""></span>
-        
-                      
-                    </span>
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-300 transition-all duration-500 group-hover:w-full"></span>
+                    <span className=""></span>
+                  </span>
                 </NavLink>
               )}
 
               {/* Dropdown content */}
               {item.dropdown && (
                 <div
-                  className="absolute left-1/2 -translate-x-1/2 top-[72px] w-64 opacity-0 invisible 
+                  className="absolute left-1/2 -translate-x-1/2 top-[72px] w-80 opacity-0 invisible 
                     group-hover:opacity-100 group-hover:visible transition-all duration-500 transform 
                     -translate-y-2 group-hover:translate-y-0 origin-top z-50"
                 >
@@ -112,10 +111,12 @@ const Navbar = () => {
                     {item.dropdown.map((dropdownItem, idx) => (
                       <Link
                         key={idx}
-                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-yellow-600 
+                        className="block px-6 py-2 text-gray-700 hover:bg-blue-50 hover:text-yellow-600 
                                 transition-all duration-300 border-b border-gray-100 last:border-b-0
                                 hover:pl-8 hover:font-medium group/item"
-                        to={`${pathMap[item.specific] || ""}${dropdownItem.link}`}
+                        to={`${pathMap[item.specific] || ""}${
+                          dropdownItem.link
+                        }`}
                       >
                         <div className="flex items-center gap-2">
                           {dropdownItem.icon && (

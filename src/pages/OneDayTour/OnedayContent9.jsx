@@ -2,10 +2,11 @@ import React from "react";
 import ServiceBanner from "../../components/ServiceBanner/ServiceBanner";
 import { useLocation } from "react-router-dom";
 import { formatPathTitle } from "../../assets/someFunction";
-import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import DayOneContent from "../../components/DayOneContent/DayOneContent";
+import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
+import { oneDayTripToChandBaoriBhangarhContent } from "../../assets/oneDayData";
 
-const TourService1 = () => {
+const OnedayContent9 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);
 
@@ -13,10 +14,10 @@ const TourService1 = () => {
     <div>
       <ServiceBanner bannerTitle={title} />
 
-      <div className="lg:max-w-[1200px] sm:max-w-[750px]  m-auto mt-10 px-2 ">
+      <div className="lg:max-w-[1300px] sm:max-w-[750px]  m-auto mt-10 px-2 ">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-4">
           <div className="flex-7">
-            <DayOneContent serviceTitle={title} />
+            <DayOneContent oneDayData={oneDayTripToChandBaoriBhangarhContent} />
           </div>
           <div className="flex-3">
             <ServiceSidebar />
@@ -27,4 +28,4 @@ const TourService1 = () => {
   );
 };
 
-export default TourService1;
+export default OnedayContent9;

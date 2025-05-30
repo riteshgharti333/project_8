@@ -1,33 +1,26 @@
-import React from "react";
 import { aboutData } from "../../assets/aboutData";
-import {
-  carCards,
-  features,
-  placeCards,
-  serviceData,
-} from "../../assets/serviceData";
-import { FaBoxTissue } from "react-icons/fa";
+import { serviceData } from "../../assets/serviceData";
+
 import ServiceForm from "../ServiceForm/ServiceForm";
 import Offers from "../Offers/Offers";
-import RentalFees from "../RentalFees/RentalFees";
 
-const ServiceContent = () => {
+const DayOneContent = ({ oneDayData }) => {
   return (
     <div className="flex flex-col gap-20">
       <div>
         <h2 className="text-2xl font-bold text-brand-brown">
-          Jaipur One Day Tour
+          {oneDayData.title}
         </h2>
-        {aboutData.map((item, index) => (
+        {oneDayData.onedayContent.map((item, index) => (
           <p className="mt-5 text-gray-600" key={index}>
             {item}
           </p>
         ))}
       </div>
 
-      <div className="max-w-4xl mx-auto  ">
+      <div className="">
         <h2 className="text-2xl font-bold text-brand-brown mb-7">
-          Tour Plan of Jaipur Sightseeing
+          {oneDayData.smTitle}
         </h2>
 
         <div className="space-y-6">
@@ -36,7 +29,7 @@ const ServiceContent = () => {
               Tour Highlights
             </h3>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
-              {serviceData.highlights.map((highlight, index) => (
+              {oneDayData.highlights.map((highlight, index) => (
                 <li key={index} className="flex items-start">
                   <svg
                     className="h-5 w-5 text-amber-500 mt-0.5 mr-2 flex-shrink-0"
@@ -62,7 +55,7 @@ const ServiceContent = () => {
               Detailed Itinerary
             </h3>
             <ul className="space-y-4">
-              {serviceData.itinerary.map((item, index) => (
+              {oneDayData.itinerary.map((item, index) => (
                 <li
                   key={index}
                   className="bg-gray-50 p-4 rounded-lg hover:bg-amber-50 transition-colors duration-200"
@@ -97,7 +90,7 @@ const ServiceContent = () => {
                 Inclusions
               </h3>
               <ul className="space-y-2">
-                {serviceData.inclusions.map((item, index) => (
+                {oneDayData.inclusions.map((item, index) => (
                   <li key={index} className="flex items-start">
                     <svg
                       className="h-5 w-5 text-green-500 mt-0.5 mr-2 flex-shrink-0"
@@ -124,7 +117,7 @@ const ServiceContent = () => {
               Travel Tips
             </h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {serviceData.recommendations.map((tip, index) => (
+              {oneDayData.recommendations.map((tip, index) => (
                 <li key={index} className="flex items-start">
                   <svg
                     className="h-5 w-5 text-blue-500 mt-0.5 mr-2 flex-shrink-0"
@@ -147,39 +140,6 @@ const ServiceContent = () => {
         </div>
       </div>
 
-      <div className="">
-        <h2 className="text-2xl font-bold text-brand-brown mb-7">
-          Famous Sightseeing & Tourist Places to visit in Jaipur
-        </h2>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {placeCards.map((item, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
-            >
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              </div>
-
-              <div className="py-2 text-center bg-primary-color">
-                <h3 className="text-xl font-semibold text-white ">
-                  {item.title}
-                </h3>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <RentalFees />
-
       <Offers />
 
       <ServiceForm />
@@ -187,4 +147,4 @@ const ServiceContent = () => {
   );
 };
 
-export default ServiceContent;
+export default DayOneContent;

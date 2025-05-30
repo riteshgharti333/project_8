@@ -24,7 +24,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed inset-0 z-50 bg-gray-900 bg-opacity-90 transition-all duration-300 transform ${
+      className={`fixed overflow-auto inset-0 z-50 bg-gray-900 bg-opacity-90 transition-all duration-300 transform ${
         isOpen ? "translate-x-0" : "translate-x-full"
       }`}
     >

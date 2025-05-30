@@ -23,7 +23,32 @@ export const navData = [
     title: "Our Day Tours",
     icon: IoMdArrowDropdown,
     specific: "tour",
-    dropdown: [{ name: "Jaipur One Day Tour", link: "jaipur-one-day-tour" }],
+
+    dropdown: [
+      { name: "One Day Tours", link: "one-day-tours" },
+      { name: "Jhalana Leopard Safari", link: "/jhalana-leopard-safari" },
+      { name: "Jaipur Evening Tour", link: "/jaipur-evening-tour" },
+      { name: "Jaipur Night Tour", link: "/jaipur-night-our" },
+      { name: "Jaipur Sunrise Tour", link: "/jaipur-sunrise-tour" },
+      { name: "Jaipur Sightseeing Tour", link: "/jaipur-sightseeing-tour" },
+      { name: "One Day Trip to Agra", link: "/one-day-trip-to-agra" },
+      {
+        name: "Jaipur Ranthambore One Day Trip",
+        link: "/jaipur-ranthambore-one-day-trip",
+      },
+      {
+        name: "One Day Trip to Ajmer Pushkar",
+        link: "/one-day-trip-to-ajmer-pushkar",
+      },
+      {
+        name: "One Day Trip to Chand Baori & Bhangarh Fort",
+        link: "/one-day-trip-to-chand-baori-bhangarh-fort",
+      },
+      {
+        name: "One Day Trip to Sariska from Jaipur",
+        link: "/one-day-trip-to-sariska-from-jaipur",
+      },
+    ],
   },
   {
     title: "Car Rental",
