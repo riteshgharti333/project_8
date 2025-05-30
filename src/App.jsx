@@ -28,7 +28,7 @@ import OnedayContent7 from "./pages/OneDayTour/OnedayContent7";
 import OnedayContent8 from "./pages/OneDayTour/OnedayContent8";
 import OnedayContent9 from "./pages/OneDayTour/OnedayContent9";
 import OnedayContent10 from "./pages/OneDayTour/OnedayContent10";
-// import OnedayContent1 from "./pages/OneDayTour/onedayContent1";
+import OnedayContent1 from "./pages/OneDayTour/OnedayContent1";
 
 function App() {
   const ScrollToTop = () => {
@@ -61,7 +61,7 @@ function App() {
 
           {/* One Day Tour */}
           <Route path="/one-day-tours" element={<OneDayTour />} />
-          {/* <Route path="/jhalana-leopard-safari" element={<OnedayContent1 />} /> */}
+          <Route path="/jhalana-leopard-safari" element={<OnedayContent1 />} />
           <Route path="/jaipur-evening-tour" element={<OnedayContent2 />} />
           <Route path="/jaipur-night-our" element={<OnedayContent3 />} />
           <Route path="/jaipur-sunrise-tour" element={<OnedayContent4 />} />
