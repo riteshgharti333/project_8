@@ -8,7 +8,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
 
   const pathMap = {
-    tour: "tour-service/",
+    tour: "",
     package: "tour-package/",
     rental: "rental-service/",
     tempo: "tempo-service/",
@@ -60,7 +60,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
                       {item.dropdown.map((subItem, subIndex) => (
                         <li key={subIndex}>
                           <Link
-                            to={`/${pathMap[item.specific] || ""}${
+                            to={`${pathMap[item.specific] || ""}${
                               subItem.link
                             }`}
                             className="block py-2 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
