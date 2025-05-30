@@ -1,4 +1,3 @@
-import React from "react";
 import ServiceBanner from "../../components/ServiceBanner/ServiceBanner";
 import { useLocation } from "react-router-dom";
 import { formatPathTitle } from "../../assets/someFunction";

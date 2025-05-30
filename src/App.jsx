@@ -18,6 +18,7 @@ import Contact from "./pages/Contact/Contact";
 import FloatingButton from "./components/FloatingButton/FloatingButton";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
 import SmoothScroll from "./components/SmoothScroll/SmoothScroll";
+
 import OneDayTour from "./pages/OneDayTour/OneDayTour";
 import OnedayContent1 from "./pages/OneDayTour/onedayContent1";
 import OnedayContent2 from "./pages/OneDayTour/OnedayContent2";
