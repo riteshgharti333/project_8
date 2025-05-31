@@ -11,8 +11,7 @@ import banner_img from "../../assets/images/onedayImgs/oneday13.jpg";
 const OnedayContent3 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);
-
-
+  
   return (
     <div>
       <ServiceBanner bannerTitle={title}  bannerImg={banner_img}  />
