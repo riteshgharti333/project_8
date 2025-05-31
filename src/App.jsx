@@ -68,25 +68,38 @@ function App() {
           <Route path="/one-day-tours" element={<OneDayTour />} />
           <Route path="/jhalana-leopard-safari" element={<OnedayContent1 />} />
           <Route path="/jaipur-evening-tour" element={<OnedayContent2 />} />
-          <Route path="/jaipur-night-our" element={<OnedayContent3 />} />
+          <Route path="/jaipur-night-tour" element={<OnedayContent3 />} />
           <Route path="/jaipur-sunrise-tour" element={<OnedayContent4 />} />
           <Route path="/jaipur-sightseeing-tour" element={<OnedayContent5 />} />
           <Route path="/one-day-trip-to-agra" element={<OnedayContent6 />} />
-          <Route path="/jaipur-ranthambore-one-day-trip" element={<OnedayContent7 />} />
-          <Route path="/one-day-trip-to-ajmer-pushkar" element={<OnedayContent8 />} />
-          <Route path="/one-day-trip-to-chand-baori-bhangarh-fort" element={<OnedayContent9 />} />
-          <Route path="/one-day-trip-to-sariska-from-jaipur" element={<OnedayContent10 />} />
+          <Route
+            path="/jaipur-ranthambore-one-day-trip"
+            element={<OnedayContent7 />}
+          />
+          <Route
+            path="/one-day-trip-to-ajmer-pushkar"
+            element={<OnedayContent8 />}
+          />
+          <Route
+            path="/one-day-trip-to-chand-baori-bhangarh-fort"
+            element={<OnedayContent9 />}
+          />
+          <Route
+            path="/one-day-trip-to-sariska-from-jaipur"
+            element={<OnedayContent10 />}
+          />
 
-          <Route path="/jaipur-khatu-shyamji-salasar-balaji-tour" element={<OnedayContent11 />} />
-          <Route path="/chokhi-dhani-jaipur-night-tour" element={<OnedayContent12 />} />
+          <Route
+            path="/jaipur-khatu-shyamji-salasar-balaji-tour"
+            element={<OnedayContent11 />}
+          />
+          <Route
+            path="/chokhi-dhani-jaipur-night-tour"
+            element={<OnedayContent12 />}
+          />
           <Route path="/jaipur-temple-tour" element={<OnedayContent13 />} />
 
-
           <Route path="/jaipur-shopping-tour" element={<OnedayContent14 />} />
-
-
-
-
 
           {/*  */}
 

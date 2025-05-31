@@ -23,12 +23,13 @@ export const navData = [
     title: "Our Day Tours",
     icon: IoMdArrowDropdown,
     specific: "tour",
+    design: "oneDay",
 
     dropdown: [
-      { name: "One Day Tours", link: "one-day-tours" },
+      { name: "One Day Tours", link: "/one-day-tours" },
       { name: "Jhalana Leopard Safari", link: "/jhalana-leopard-safari" },
       { name: "Jaipur Evening Tour", link: "/jaipur-evening-tour" },
-      { name: "Jaipur Night Tour", link: "/jaipur-night-our" },
+      { name: "Jaipur Night Tour", link: "/jaipur-night-tour" },
       { name: "Jaipur Sunrise Tour", link: "/jaipur-sunrise-tour" },
       { name: "Jaipur Sightseeing Tour", link: "/jaipur-sightseeing-tour" },
       { name: "One Day Trip to Agra", link: "/one-day-trip-to-agra" },
@@ -37,17 +38,32 @@ export const navData = [
         link: "/jaipur-ranthambore-one-day-trip",
       },
       {
-        name: "One Day Trip to Ajmer Pushkar",
-        link: "/one-day-trip-to-ajmer-pushkar",
+        name: "More...",
+        link: "/one-day-tours",
       },
-      {
-        name: "One Day Trip to Chand Baori & Bhangarh Fort",
-        link: "/one-day-trip-to-chand-baori-bhangarh-fort",
-      },
-      {
-        name: "One Day Trip to Sariska from Jaipur",
-        link: "/one-day-trip-to-sariska-from-jaipur",
-      },
+
+      // {
+      //   name: "One Day Trip to Ajmer Pushkar",
+      //   link: "/one-day-trip-to-ajmer-pushkar",
+      // },
+      // {
+      //   name: "One Day Trip to Chand Baori & Bhangarh Fort",
+      //   link: "/one-day-trip-to-chand-baori-bhangarh-fort",
+      // },
+      // {
+      //   name: "One Day Trip to Sariska from Jaipur",
+      //   link: "/one-day-trip-to-sariska-from-jaipur",
+      // },
+      // {
+      //   name: "Jaipur Khatu Shyamji & Salasar Balaji Tour",
+      //   link: "/jaipur-khatu-shyamji-salasar-balaji-tour",
+      // },
+      // {
+      //   name: "Chokhi Dhani Jaipur Night Tour",
+      //   link: "/chokhi-dhani-jaipur-night-tour",
+      // },
+      // { name: "Jaipur Temple Tour", link: "/jaipur-temple-tour" },
+      // { name: "Jaipur Shopping Tour", link: "/jaipur-shopping-tour" },
     ],
   },
   {
