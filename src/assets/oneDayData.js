@@ -13,9 +13,6 @@ import onedayImg11 from "../assets/images/onedayImgs/oneday11.jpg";
 import onedayImg12 from "../assets/images/onedayImgs/oneday12.jpg";
 import onedayImg13 from "../assets/images/onedayImgs/oneday13.jpg";
 import onedayImg14 from "../assets/images/onedayImgs/oneday14.jpg";
-import onedayImg15 from "../assets/images/onedayImgs/oneday15.jpg";
-import onedayImg16 from "../assets/images/onedayImgs/oneday16.jpg";
-
 
 
 export const onedayCards = [
@@ -32,7 +29,7 @@ export const onedayCards = [
   {
     title: "Jaipur Night Tour",
     img: onedayImg13,
-    link: "jaipur-night-our",
+    link: "jaipur-night-tour",
   },
   {
     title: "Jaipur Sunrise Tour",
