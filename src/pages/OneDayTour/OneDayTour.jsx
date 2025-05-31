@@ -13,8 +13,8 @@ import Offers from "../../components/Offers/Offers";
 import ServiceForm from "../../components/ServiceForm/ServiceForm";
 import { onedayCards, onedayData } from "../../assets/oneDayData";
 
-const package_img =
-  "https://images.unsplash.com/photo-1671219823697-5894526ffeb4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+import banner_img from "../../assets/images/onedayImgs/oneday15.jpg"
+
 
 const OneDayTour = () => {
   const { pathname } = useLocation();
@@ -38,7 +38,7 @@ const OneDayTour = () => {
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} />
+      <ServiceBanner bannerTitle={title} bannerImg={banner_img} />
 
       <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
         <div className="flex flex-col gap-10">
@@ -115,7 +115,7 @@ const OneDayTour = () => {
                   {/* Image with badge */}
                   <div className="relative h-56 overflow-hidden">
                     <motion.img
-                      src={package_img}
+                      src={item.img}
                       alt={item.title}
                       className="w-full h-full object-cover"
                       whileHover={{ scale: 1.05 }}

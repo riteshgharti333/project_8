@@ -5,6 +5,7 @@ import { formatPathTitle } from "../../assets/someFunction";
 import DayOneContent from "../../components/DayOneContent/DayOneContent";
 import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import { oneDayTripToAjmerPushkarContent } from "../../assets/oneDayData";
+import banner_img from "../../assets/images/onedayImgs/oneday2.jpg";
 
 const OnedayContent8 = () => {
   const { pathname } = useLocation();
@@ -12,7 +13,7 @@ const OnedayContent8 = () => {
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} />
+      <ServiceBanner bannerTitle={title} bannerImg={banner_img} />
 
       <div className="lg:max-w-[1300px] sm:max-w-[750px]  m-auto mt-10 px-2 ">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-4">

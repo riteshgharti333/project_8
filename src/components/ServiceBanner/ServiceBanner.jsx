@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const banner_img =
   "https://images.unsplash.com/photo-1518614768202-663a3a0ecf59?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
-const ServiceBanner = ({ bannerTitle }) => {
+const ServiceBanner = ({ bannerTitle, bannerImg }) => {
   return (
     <div className="relative overflow-hidden">
       <motion.div
@@ -21,7 +21,7 @@ const ServiceBanner = ({ bannerTitle }) => {
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
         <img
-          src={banner_img}
+          src={bannerImg}
           alt="Jaipur Tourism"
           className="h-full w-full object-cover block brightness-60"
         />

@@ -106,7 +106,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex gap-10 items-center  flex-col lg:flex-row-reverse">
+        <div className="flex gap-10 items-center  flex-col lg:flex-row-reveruse">
           <div className="flex-6">
             <h1 className="   max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-4xl uppercase1">
               <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">

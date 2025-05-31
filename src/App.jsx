@@ -29,6 +29,11 @@ import OnedayContent8 from "./pages/OneDayTour/OnedayContent8";
 import OnedayContent9 from "./pages/OneDayTour/OnedayContent9";
 import OnedayContent10 from "./pages/OneDayTour/OnedayContent10";
 import OnedayContent1 from "./pages/OneDayTour/OnedayContent1";
+import OnedayContent11 from "./pages/OneDayTour/OnedayContent11";
+import OnedayContent12 from "./pages/OneDayTour/OnedayContent12";
+
+import OnedayContent13 from "./pages/OneDayTour/OnedayContent13";
+import OnedayContent14 from "./pages/OneDayTour/OnedayContent14";
 
 function App() {
   const ScrollToTop = () => {
@@ -70,7 +75,15 @@ function App() {
           <Route path="/jaipur-ranthambore-one-day-trip" element={<OnedayContent7 />} />
           <Route path="/one-day-trip-to-ajmer-pushkar" element={<OnedayContent8 />} />
           <Route path="/one-day-trip-to-chand-baori-bhangarh-fort" element={<OnedayContent9 />} />
-            <Route path="/one-day-trip-to-sariska-from-jaipur" element={<OnedayContent10 />} />
+          <Route path="/one-day-trip-to-sariska-from-jaipur" element={<OnedayContent10 />} />
+
+          <Route path="/jaipur-khatu-shyamji-salasar-balaji-tour" element={<OnedayContent11 />} />
+          <Route path="/chokhi-dhani-jaipur-night-tour" element={<OnedayContent12 />} />
+          <Route path="/jaipur-temple-tour" element={<OnedayContent13 />} />
+
+
+          <Route path="/jaipur-shopping-tour" element={<OnedayContent14 />} />
+
 
 
 
