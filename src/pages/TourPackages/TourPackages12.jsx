@@ -13,6 +13,7 @@ import {
   rjTPData,
   udaipurTPCards,
   goldenTPData,
+  tourPackages,
 } from "../../assets/tourpackageData/tourPackageData";
 
 const TourPackages12 = () => {
@@ -27,13 +28,14 @@ const TourPackages12 = () => {
           Popular India Holiday Packages
         </h2>
 
-        <PackageCards packageCards={rjTPCards} />
+        <PackageCards packageCards={tourPackages} />
+        
 
-        <RentalFees />
-
-        <Offers />
-
+        <div className="mt-10">
         <ServiceForm />
+
+        </div>
+
       </div>
     </div>
   );

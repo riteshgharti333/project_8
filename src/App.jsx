@@ -45,8 +45,7 @@ import TourPackages9 from "./pages/TourPackages/TourPackages9";
 import TourPackages10 from "./pages/TourPackages/TourPackages10";
 import TourPackages11 from "./pages/TourPackages/TourPackages11";
 import TourPackages12 from "./pages/TourPackages/TourPackages12";
-
-
+import specialRoutes from "./routes/specialRoute";
 
 function App() {
   const ScrollToTop = () => {
@@ -76,7 +75,6 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/contact-us" element={<Contact />} />
-
           {/* One Day Tour */}
           <Route path="/one-day-tours" element={<OneDayTour />} />
           <Route path="/jhalana-leopard-safari" element={<OnedayContent1 />} />
@@ -101,7 +99,6 @@ function App() {
             path="/one-day-trip-to-sariska-from-jaipur"
             element={<OnedayContent10 />}
           />
-
           <Route
             path="/jaipur-khatu-shyamji-salasar-balaji-tour"
             element={<OnedayContent11 />}
@@ -111,11 +108,8 @@ function App() {
             element={<OnedayContent12 />}
           />
           <Route path="/jaipur-temple-tour" element={<OnedayContent13 />} />
-
           <Route path="/jaipur-shopping-tour" element={<OnedayContent14 />} />
-
           {/* Tour Package */}
-
           <Route
             path="/tour-package/abhimanyu-holidays-special-tours"
             element={<TourPackages1 />}
@@ -128,44 +122,60 @@ function App() {
             path="/tour-package/udaipur-tours"
             element={<TourPackages3 />}
           />
-
           <Route
             path="/tour-package/jaisalmer-tours"
             element={<TourPackages4 />}
           />
-
           <Route
             path="/tour-package/jaipur-tour-packages"
             element={<TourPackages5 />}
           />
-
-           <Route
+          <Route
             path="/tour-package/golden-triangle-tour-packages"
             element={<TourPackages6 />}
           />
-
-           <Route
+          <Route
             path="/tour-package/weekend-tours-from-jaipur"
             element={<TourPackages7 />}
-          /> <Route
+          />{" "}
+          <Route
             path="/tour-package/ayodhya-tour-packages"
             element={<TourPackages8 />}
-          /> <Route
+          />{" "}
+          <Route
             path="/tour-package/all-inclusive-tour-packages"
             element={<TourPackages9 />}
-          /> <Route
+          />{" "}
+          <Route
             path="/tour-package/himachal-tour-packages"
             element={<TourPackages10 />}
-          /> <Route
+          />{" "}
+          <Route
             path="/tour-package/kashmir-tour-packages"
             element={<TourPackages11 />}
-          /> <Route
+          />{" "}
+          <Route
             path="/tour-package/india-tour-packages"
             element={<TourPackages12 />}
           />
 
-          {/*  */}
+          {/* Special Tours */}
+          {specialRoutes.map(({ path, element }, index) => (
+            <Route key={index} path={path} element={element} />
+          ))}
 
+
+
+
+
+
+
+
+
+
+
+
+          {/*  */}
           <Route
             path="/rental-service/car-rental-service-in-jaipur"
             element={<RentalService1 />}

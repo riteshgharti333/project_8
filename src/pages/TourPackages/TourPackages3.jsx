@@ -88,7 +88,7 @@ const TourPackages3 = () => {
           </div>
         </div>
 
-        <PackageCards packageCards={udaipurTPCards} path="removeDu" />
+        <PackageCards packageCards={udaipurTPCards} />
 
         <RentalFees />
 

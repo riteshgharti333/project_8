@@ -47,15 +47,12 @@ const ServiceForm = () => {
       <div className="">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-2xl font-extrabold text-brand-brown sm:text-4xl">
-            <span className="block">Book Your Premium Cab</span>
-            <span className="block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">Travel in Comfort & Style</span>
+            <span className="">Get In </span>
+            <span className=" bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">Touch</span>
           </h2>
-          <p className="mt-4 text-sm sm:text-lg text-gray-600">
-            Fill the form below and we'll get back to you within 24 hours
-          </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6 animate-fade-in-up">
+        <form onSubmit={handleSubmit} className="space-y-6 animate-fade-in-up border border-[#ddd] p-3 rounded-2xl bg-white shadow-2xl">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             {/* Name */}
             <div className="relative">
@@ -360,7 +357,9 @@ const ServiceForm = () => {
             ></textarea>
           </div>
 
-          <div className="flex justify-center pt-6">
+         
+        </form>
+         <div className="flex justify-center pt-6">
             <button
               type="submit"
               className="group relative flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-amber-600 hover:bg-amber-700 md:py-4 md:text-lg md:px-10 transition-all duration-300 transform hover:scale-105"
@@ -369,8 +368,8 @@ const ServiceForm = () => {
               Confirm Booking
             </button>
           </div>
-        </form>
       </div>
+
 
       {/* Add these to your global CSS */}
       <style jsx>{`

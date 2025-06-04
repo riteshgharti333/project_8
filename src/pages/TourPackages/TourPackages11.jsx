@@ -13,6 +13,7 @@ import {
   rjTPData,
   udaipurTPCards,
   kashmirTPData,
+  kashmirTPCards,
 } from "../../assets/tourpackageData/tourPackageData";
 
 const TourPackages11 = () => {
@@ -99,7 +100,7 @@ const TourPackages11 = () => {
 
         </div>
 
-        <PackageCards packageCards={rjTPCards} />
+        <PackageCards packageCards={kashmirTPCards} />
 
         <RentalFees />
 

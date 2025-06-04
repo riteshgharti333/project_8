@@ -100,10 +100,10 @@ const EnquiryForm = () => {
           </div>
 
           {/* Submit Button */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 flex justify-center cursor-pointer">
             <button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+              className=" bg-blue-600 hover:bg-blue-700 cursor-pointer text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
             >
               Send Inquiry
             </button>

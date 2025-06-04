@@ -4,7 +4,13 @@ import { packageCards, packageTourData } from "../../assets/packageData";
 import { MdPlace } from "react-icons/md";
 
 import { motion } from "framer-motion";
-import { FaClock, FaMapMarkerAlt, FaStar, FaArrowRight } from "react-icons/fa";
+import {
+  FaClock,
+  FaMapMarkerAlt,
+  FaStar,
+  FaArrowRight,
+  FaCarSide,
+} from "react-icons/fa";
 import Offers from "../Offers/Offers";
 import ServiceForm from "../ServiceForm/ServiceForm";
 import RentalFees from "../RentalFees/RentalFees";
@@ -12,8 +18,6 @@ import { FiClock, FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const TourPackageContent = ({ packageData, specialData }) => {
-  
-
   return (
     <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
       <div>
@@ -25,9 +29,7 @@ const TourPackageContent = ({ packageData, specialData }) => {
             {item}
           </p>
         ))} */}
-         <p className="mt-5 text-gray-600">
-            {specialData.desc}
-          </p>
+        <p className="mt-5 text-gray-600">{specialData.desc}</p>
       </div>
 
       <div className="max-w-7xl mx-auto">
@@ -85,7 +87,7 @@ const TourPackageContent = ({ packageData, specialData }) => {
                       {item.title}
                     </motion.h3>
 
-                    <p className="text-gray-600 mb-4">{item.desc}</p>
+                    {/* <p className="text-gray-600 mb-4">{item.desc}</p> */}
                   </div>
 
                   {/* Metadata with subtle animation */}
@@ -100,8 +102,21 @@ const TourPackageContent = ({ packageData, specialData }) => {
                     {item.duration}
                   </motion.div>
 
+                  <motion.div
+                    className="mb-4 flex items-center text-sm text-gray-500"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ delay: 0.4 }}
+                    viewport={{ once: true }}
+                  >
+                    <FaCarSide className="mr-2 shrink-0" />
+                    {item.destination}
+                  </motion.div>
+
                   {/* Footer with animated button */}
-                  <Link className="mt-auto cursor-pointer pt-4 border-t border-gray-100">
+                  {/* <div
+                    className="mt-auto cursor-pointer pt-4 border-t border-gray-100"
+                  >
                     <motion.button
                       className="w-full cursor-pointer flex items-center justify-between px-4 py-2.5 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors group-hover:border-yellow-200 group-hover:bg-yellow-50"
                       whileHover={{
@@ -127,7 +142,7 @@ const TourPackageContent = ({ packageData, specialData }) => {
                         <FaArrowRight />
                       </motion.div>
                     </motion.button>
-                  </Link>
+                  </div> */}
                 </div>
               </div>
 

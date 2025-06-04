@@ -28,101 +28,333 @@ export const rjTPData = {
 export const rjTPCards = [
   {
     img: "",
-    title: "Jaipur Tour Package 2 Nights 3 Days",
-    duration: "2 Nights - 3 Days",
-    desc: "Explore the royal charm of Jaipur in just a short 3-day escape.",
-    link: "tour-package/jaipur-tour-2-nights-3-days",
-  },
-  {
-    img: "",
     title: "Jaipur Ajmer Pushkar Udaipur Tour",
     duration: "5 Nights 6 Days",
-    desc: "The land of Kings, Rajasthan is the crown state of tourism of India with thousands of foreign and lakhs of Indian visitors.",
-    link: "tour-package/jaipur-ajmer-pushkar-udaipur-tour-5-nights",
+    desc: "Explore royal cities and sacred destinations of Rajasthan.",
   },
   {
     img: "",
     title: "Jaipur Ajmer Pushkar Udaipur Tour",
-    duration: "3 Nights 4 Days",
-    desc: "Rajasthan is a state with royal history, glorious forts & palaces, architectural monuments, rich culture and heritage.",
-    link: "tour-package/jaipur-ajmer-pushkar-udaipur-tour-3-nights",
+    duration: "3 Nights - 4 Days",
+    desc: "Quick getaway to explore Jaipur, Ajmer and Udaipur.",
   },
   {
     img: "",
     title: "Jaipur Honeymoon Tour",
-    duration: "4 Nights 5 Days",
-    desc: "Jaipur is one of the best honeymoon destinations for couples. The city is renowned as 'Abhimanyu Holidays'.",
-    link: "tour-package/jaipur-honeymoon-tour",
+    duration: "4 Nights - 5 Days",
+    desc: "Romantic retreat in the Pink City with heritage stays.",
   },
   {
     img: "",
     title: "Jaipur Jodhpur Udaipur Tour",
-    duration: "6 Nights 7 Days",
-    desc: "Jaipur Jodhpur Udaipur Tour Package is one of the most explored travel circuits in Rajasthan.",
-    link: "tour-package/jaipur-jodhpur-udaipur-tour",
+    duration: "6 Nights - 7 Days",
+    desc: "Discover forts, lakes, and culture across three cities.",
   },
   {
     img: "",
     title: "Delhi Jaipur Agra Pushkar Tour",
-    duration: "6 Nights 7 Days",
-    desc: "Delhi Agra Jaipur Tour Package is the most popular trip in a diversely beautiful country, which when coupled with Pushkar.",
-    link: "tour-package/delhi-jaipur-agra-pushkar-tour",
+    duration: "6 Nights - 7 Days",
+    desc: "Golden Triangle plus holy city Pushkar for divine experience.",
   },
   {
     img: "",
     title: "Jaipur Group Tour Package",
     duration: "Customizable",
-    desc: "The Jaipur Group Tour Package is the best way to plan a holiday with family or friends in the city.",
-    link: "tour-package/jaipur-group-tour",
+    desc: "Perfect group tour to explore Jaipur’s rich heritage.",
   },
   {
     img: "",
     title: "Jaipur Tour Package 5 Days",
-    duration: "4 Nights 5 Days",
-    desc: "The Jaipur 5 Days Tour Package is the most exciting tour offered by Abhimanyu Holidays.",
-    link: "tour-package/jaipur-tour-5-days",
+    duration: "4 Nights - 5 Days",
+    desc: "Five days of heritage, palaces, and colorful bazaars.",
   },
   {
     img: "",
-    title: "Rajasthan Tour Packages From Ahmedabad",
+    title: "Jaipur Tour Package 4 Days",
+    duration: "3 Nights - 4 Days",
+    desc: "Experience Jaipur’s beauty and history in four days.",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package 3 Days",
+    duration: "2 Nights - 3 Days",
+    desc: "Short but immersive trip through the Pink City.",
+  },
+  {
+    img: "",
+    title: "Royal Rajasthan Tour Package",
+    duration: "9 Nights - 10 Days",
+    desc: "Full Rajasthan circuit with majestic forts and palaces.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Package 8 Days",
+    duration: "7 Nights - 8 Days",
+    desc: "Cultural journey through Rajasthan’s top destinations.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Package 7 Days",
+    duration: "6 Nights - 7 Days",
+    desc: "Seven days of desert charm and historic wonders.",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package 2 Days",
+    duration: "2 Days",
+    desc: "Perfect short tour for Jaipur’s main attractions.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Camel Safari Tour",
+    duration: "16 Nights - 17 Days",
+    desc: "Desert adventure with camel rides and camping.",
+  },
+  {
+    img: "",
+    title: "Exciting Rajasthan Tour",
+    duration: "10 Nights - 11 Days",
+    desc: "Explore thrilling landscapes and colorful Rajasthani life.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Package 5 Days",
+    duration: "4 Nights - 5 Days",
+    desc: "Balanced tour for forts, temples and culture.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Package 6 Days",
+    duration: "5 Nights - 6 Days",
+    desc: "Experience vibrant Rajasthan over six immersive days.",
+  },
+  {
+    img: "",
+    title: "Forts & Palaces Tour",
+    duration: "13 Nights - 14 Days",
+    desc: "Grandeur of Rajputana architecture and royal residences.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Village Tour",
+    duration: "14 Nights - 15 Days",
+    desc: "Live authentic rural life and Rajasthani traditions.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Heritage Tour",
+    duration: "12 Nights - 13 Days",
+    desc: "Discover Rajasthan's legacy through heritage and arts.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Cultural Tour",
+    duration: "15 Night - 16 Day",
+    desc: "Rich cultural experiences with dance, food and crafts.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Honeymoon Tour",
+    duration: "10 Nights - 11 Days",
+    desc: "Romantic luxury amidst palaces and beautiful landscapes.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Temple Tour",
+    duration: "14 Nights - 15 Days",
+    desc: "Spiritual journey through Rajasthan’s sacred temples.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Wildlife Tour",
+    duration: "09 Nights - 10 Days",
+    desc: "Thrilling encounters with Rajasthan’s wild inhabitants.",
+  },
+  {
+    img: "",
+    title: "Jaipur Student Group Tour",
     duration: "Customizable",
-    desc: "Rajasthan tour packages from Ahmedabad provide a simple and organized method to explore Rajasthan.",
-    link: "tour-package/rajasthan-tour-from-ahmedabad",
+    desc: "Educational fun with guided student explorations in Jaipur.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Student Group Tour",
+    duration: "7 Nights - 8 Days",
+    desc: "Explore Rajasthan’s culture and history with friends.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Student Bus Tour",
+    duration: "6 Nights - 7 Days",
+    desc: "Group tour across cities by comfortable bus ride.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Adventure Tour",
+    duration: "6 Nights - 7 Days",
+    desc: "Adrenaline-filled activities in the heart of Rajasthan.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Bangalore",
+    duration: "Customizable",
+    desc: "Seamless Rajasthan getaway from Bangalore city.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Chennai",
+    duration: "Customizable",
+    desc: "Fly from Chennai and enjoy royal Rajasthan charm.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Delhi",
+    duration: "Customizable",
+    desc: "Start your Rajasthan journey from the capital city.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Kerala",
+    duration: "Customizable",
+    desc: "Rajasthan escape designed for Kerala travelers.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Mumbai",
+    duration: "Customizable",
+    desc: "Royal Rajasthan adventures starting from Mumbai.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Agra",
+    duration: "Customizable",
+    desc: "Combine Agra visit with a Rajasthan exploration.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Kolkata",
+    duration: "Customizable",
+    desc: "Fly from Kolkata to discover vibrant Rajasthan.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Chandigarh",
+    duration: "Customizable",
+    desc: "Chandigarh to Rajasthan: curated cultural experience.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages From Hyderabad",
+    duration: "Customizable",
+    desc: "Discover royal Rajasthan with Hyderabad departure.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages from Ahmedabad",
+    duration: "Customizable",
+    desc: "Explore vibrant Rajasthan from Gujarat’s heritage city.",
   },
   {
     img: "",
     title: "Rajasthan Tour Packages from Tamil Nadu",
     duration: "Customizable",
-    desc: "Rajasthan travel packages from Tamil Nadu allow you to discover the rich cultural legacy of Rajasthan.",
-    link: "tour-package/rajasthan-tour-from-tamil-nadu",
+    desc: "From Tamil Nadu to Rajasthan's regal wonders.",
   },
   {
     img: "",
     title: "Rajasthan Tour Packages from Gujarat",
     duration: "Customizable",
-    desc: "Abhimanyu Holidays Holiday offers one of the best Rajasthan Tour Packages from various parts of Gujarat.",
-    link: "tour-package/rajasthan-tour-from-gujarat",
+    desc: "Short travel distance, rich Rajasthani culture awaits.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Packages from Jaisalmer",
+    duration: "Customizable",
+    desc: "Start in Jaisalmer, explore deeper into Rajasthan.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Bus Tour",
+    duration: "Customizable",
+    desc: "Comfortable bus tour through Rajasthan’s top cities.",
+  },
+  {
+    img: "",
+    title: "Jodhpur Tour by Car and Driver",
+    duration: "Customizable",
+    desc: "Private Jodhpur city tour with professional driver.",
+  },
+  {
+    img: "",
+    title: "Mount Abu Tour by Car and Driver",
+    duration: "Customizable",
+    desc: "Relaxing Mount Abu drive with personal guide-driver.",
+  },
+  {
+    img: "",
+    title: "Ranthambore Tour by Car and Driver",
+    duration: "Customizable",
+    desc: "Safari and sightseeing in Ranthambore in comfort.",
+  },
+  {
+    img: "",
+    title: "Bikaner Tour by Car and Driver",
+    duration: "Customizable",
+    desc: "Explore Bikaner’s forts and snacks with ease.",
+  },
+  {
+    img: "",
+    title: "Ajmer Pushkar Tour by Car And Driver",
+    duration: "Customizable",
+    desc: "Visit holy Ajmer & Pushkar temples in comfort.",
+  },
+  {
+    img: "",
+    title: "Delhi Tour by Car and Driver",
+    duration: "Customizable",
+    desc: "Private Delhi sightseeing with expert local driver.",
+  },
+  {
+    img: "",
+    title: "Agra Tour by Car and Driver",
+    duration: "Customizable",
+    desc: "Explore Taj Mahal and more with private ride.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Package for 5 Nights 6 Days",
+    duration: "Customizable",
+    desc: "Ideal short package with vibrant destinations included.",
+  },
+  {
+    img: "",
+    title: "Rajasthan Tour Package for 6 Days",
+    duration: "Customizable",
+    desc: "A complete six-day royal Rajasthan experience.",
+  },
+  {
+    img: "",
+    title: "Rajasthan 8 Days Tour Package",
+    duration: "Customizable",
+    desc: "Explore Rajasthan’s highlights in eight days.",
   },
   {
     img: "",
     title: "Rajasthan Tour 7 Days",
-    duration: "6 Nights 7 Days",
-    desc: "Set off for a scenic journey through the vibrant tapestry of Rajasthan, or 'Land of Kings'.",
-    link: "tour-package/rajasthan-tour-7-days",
+    duration: "Customizable",
+    desc: "One week of unforgettable Rajasthan charm.",
   },
   {
     img: "",
     title: "Jaipur Agra Ajmer Pushkar 5N 6D Tour",
-    duration: "5 Nights 6 Days",
-    desc: "The vibrant state of Rajasthan is referred to as the 'Land of Kings', popular for its grand forts.",
-    link: "tour-package/jaipur-agra-ajmer-pushkar-tour",
+    duration: "Customizable",
+    desc: "Best mix of heritage, devotion and culture.",
   },
   {
     img: "",
     title: "Rajasthan Tour Package 5 Nights 6 Days",
-    duration: "5 Nights 6 Days",
-    desc: "The Land of Kings, Rajasthan, is well known for its rich culture, history and breathtaking landscapes.",
-    link: "tour-package/rajasthan-tour-5-nights-6-days",
+    duration: "Customizable",
+    desc: "Enjoy the best of Rajasthan in six days.",
   },
 ];
 
@@ -194,50 +426,56 @@ export const udaipurTPCards = [
   {
     img: "",
     title: "Udaipur Luxury Tour",
-    link: "",
+    duration: "Customizable",
+    desc: "Experience royal luxury in the City of Lakes",
   },
-
   {
     img: "",
     title: "Udaipur Family Tour",
-    link: "",
+    duration: "Customizable",
+    desc: "Perfect Udaipur getaway for the entire family",
   },
   {
     img: "",
     title: "Udaipur Tour for Couple",
-    link: "",
+    duration: "Customizable",
+    desc: "Romantic escape for couples in Udaipur city",
   },
   {
     img: "",
     title: "Udaipur Tour for 1 Day",
-    link: "",
+    duration: "1 Day",
+    desc: "Explore Udaipur’s top attractions in one day",
   },
-
   {
     img: "",
     title: "Udaipur Tour for 2 Days",
-    link: "",
+    duration: "2 Days - 1 Night",
+    desc: "Quick two-day tour covering must-visit spots",
   },
   {
     img: "",
     title: "Udaipur Tour for 3 Days",
-    link: "",
+    duration: "3 Days - 2 Nights",
+    desc: "Discover Udaipur’s beauty in three-day trip",
   },
   {
     img: "",
     title: "Udaipur Tour for 4 Days",
-    link: "",
+    duration: "4 Days - 3 Nights",
+    desc: "Enjoy a detailed four-day Udaipur experience",
   },
   {
     img: "",
     title: "Udaipur Tour for 5 Days",
-    link: "",
+    duration: "5 Days - 4 Nights",
+    desc: "Five days exploring palaces, lakes, and markets",
   },
-
   {
     img: "",
     title: "Udaipur Tour by Car and Driver",
-    link: "",
+    duration: "Customizable",
+    desc: "Private tour by car with experienced local driver",
   },
 ];
 
@@ -356,53 +594,69 @@ export const jaisalmerTPData = {
 export const jaisalmerTPCards = [
   {
     img: "",
+    title: "Jaisalmer Half-Day Tour",
+    duration: "Half Day",
+    desc: "Quick visit to Jaisalmer’s main highlights",
+  },
+  {
+    img: "",
     title: "Jaisalmer Full-Day Tour",
-    link: "",
+    duration: "1 Day",
+    desc: "Full-day sightseeing across Jaisalmer's key attractions",
   },
   {
     img: "",
     title: "Jaisalmer Tour Package for One Day",
-    link: "",
+    duration: "1 Day",
+    desc: "Explore golden city charm in one day",
   },
   {
     img: "",
     title: "Jaisalmer Tour Package for 2 Days",
-    link: "",
+    duration: "2 Days - 1 Night",
+    desc: "Two-day desert tour with forts and dunes",
   },
   {
     img: "",
     title: "Jaisalmer Tour Package for 3 Days",
-    link: "",
+    duration: "3 Days - 2 Nights",
+    desc: "Three-day cultural and desert safari experience",
   },
   {
     img: "",
-    title: "Jaisalmer Tour Package for 4 Days",
-    link: "",
+    title: "Jaisalmer Tour Package 4 Days",
+    duration: "4 Days - 3 Nights",
+    desc: "In-depth tour of Jaisalmer's beauty and history",
   },
   {
     img: "",
     title: "Jaisalmer Tour Package for 5 Days",
-    link: "",
+    duration: "5 Days - 4 Nights",
+    desc: "Complete desert adventure with cultural experiences",
   },
   {
     img: "",
     title: "Jaisalmer Family Tour",
-    link: "",
+    duration: "Customizable",
+    desc: "Family-friendly package with fun and safety",
   },
   {
     img: "",
     title: "Jaisalmer Luxury Tour",
-    link: "",
+    duration: "Customizable",
+    desc: "Royal Jaisalmer experience with premium amenities",
   },
   {
     img: "",
     title: "Jaisalmer Tour Package for Couple",
-    link: "",
+    duration: "Customizable",
+    desc: "Romantic desert tour perfect for couples",
   },
   {
     img: "",
     title: "Jaisalmer Tour by Car and Driver",
-    link: "",
+    duration: "Customizable",
+    desc: "Private Jaisalmer trip with car and driver",
   },
 ];
 
@@ -486,6 +740,290 @@ export const jaipurTPData = {
   },
 };
 
+export const jaipurTPCards = [
+  {
+    img: "",
+    title: "Jaipur Full Day Tour",
+    duration: "1 Day",
+    desc: "Comprehensive exploration of Jaipur's top attractions in a single day",
+  },
+  {
+    img: "",
+    title: "Jaipur Half-Day Tour",
+    duration: "Half-day",
+    desc: "Short but immersive experience of Jaipur's highlights",
+  },
+  {
+    img: "",
+    title: "Jaipur Sightseeing Tour",
+    duration: "1 Day",
+    desc: "Guided tour covering Jaipur's most famous landmarks",
+  },
+  {
+    img: "",
+    title: "Jaipur Sunrise Tour",
+    duration: "Morning",
+    desc: "Experience Jaipur's beauty in the magical morning light",
+  },
+  {
+    img: "",
+    title: "Jaipur Evening Tour",
+    duration: "Evening",
+    desc: "Discover Jaipur's enchanting evening atmosphere",
+  },
+  {
+    img: "",
+    title: "Jaipur Night Tour",
+    duration: "Night",
+    desc: "Explore Jaipur's illuminated monuments and nightlife",
+  },
+  {
+    img: "",
+    title: "Jaipur Temple Tour",
+    duration: "1 Day",
+    desc: "Spiritual journey through Jaipur's sacred temples",
+  },
+  {
+    img: "",
+    title: "Jaipur Shopping Tour",
+    duration: "1 Day",
+    desc: "Retail therapy through Jaipur's vibrant markets",
+  },
+  {
+    img: "",
+    title: "Jaipur Wildlife Tour",
+    duration: "1 Day",
+    desc: "Explore the natural side of Jaipur with wildlife encounters",
+  },
+  {
+    img: "",
+    title: "Jaipur Honeymoon Tour",
+    duration: "4 Nights 5 Days",
+    desc: "Romantic getaway package for couples in the Pink City",
+  },
+  {
+    img: "",
+    title: "Jaipur Group Tour",
+    duration: "Customizable",
+    desc: "Tailored experiences for groups of all sizes",
+  },
+  {
+    img: "",
+    title: "Jaipur Student Group Tour",
+    duration: "Customizable",
+    desc: "Educational and fun tour for student groups",
+  },
+  {
+    img: "",
+    title: "Jaipur Luxury Tour",
+    duration: "2 Nights 3 Days",
+    desc: "Premium experience of Jaipur with high-end accommodations",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package 1 Day",
+    duration: "1 Day",
+    desc: "Compact tour covering Jaipur's must-see attractions",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package 2 Days",
+    duration: "2 Days",
+    desc: "Weekend getaway exploring Jaipur's heritage",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package 3 Days",
+    duration: "2 Nights 3 Days",
+    desc: "Complete Jaipur experience over three days",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package 4 Days",
+    duration: "3 Nights 4 Days",
+    desc: "Extended exploration of Jaipur and surroundings",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package 5 Days",
+    duration: "4 Nights 5 Days",
+    desc: "Immersive journey through Jaipur's culture and history",
+  },
+  {
+    img: "",
+    title: "Jaipur Bus Group Tour for Students",
+    duration: "Customizable",
+    desc: "Affordable educational tour for student groups by bus",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Mumbai",
+    duration: "Customizable",
+    desc: "Tailored Jaipur tours for travelers from Mumbai",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Ahmedabad",
+    duration: "Customizable",
+    desc: "Custom Jaipur experiences for Ahmedabad residents",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Vadodara",
+    duration: "Customizable",
+    desc: "Special packages for travelers from Vadodara",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Chennai",
+    duration: "Customizable",
+    desc: "Curated Jaipur tours for Chennai visitors",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Kolkata",
+    duration: "Customizable",
+    desc: "Designed experiences for travelers from Kolkata",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages for Family",
+    duration: "Customizable",
+    desc: "Family-friendly itineraries for all ages",
+  },
+  {
+    img: "",
+    title: "Jaipur Balloon Safari Package",
+    duration: "Customizable",
+    desc: "Aerial views of Jaipur through hot air balloon rides",
+  },
+  {
+    img: "",
+    title: "Camping Near Jaipur",
+    duration: "Customizable",
+    desc: "Outdoor adventures and camping experiences around Jaipur",
+  },
+  {
+    img: "",
+    title: "Jaipur Sightseeing by Bus",
+    duration: "Customizable",
+    desc: "Economical way to explore Jaipur's attractions",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour by Car and Driver",
+    duration: "Customizable",
+    desc: "Private car tours with professional drivers",
+  },
+  {
+    img: "",
+    title: "Male Tour Guide in Jaipur",
+    duration: "Customizable",
+    desc: "Experienced male guides for personalized tours",
+  },
+  {
+    img: "",
+    title: "Jaipur Sightseeing by Car And Driver",
+    duration: "01 Nights 02 Days",
+    desc: "Comfortable private car tours with knowledgeable drivers",
+  },
+  {
+    img: "",
+    title: "Jaipur Full Day City Tour With Female Guide",
+    duration: "Full Day",
+    desc: "Complete city exploration with female tour guides",
+  },
+  {
+    img: "",
+    title: "Jaipur Full Day City Tour With Male Guide",
+    duration: "Full Day",
+    desc: "In-depth city tours with male guides",
+  },
+  {
+    img: "",
+    title: "Female Guide in Udaipur",
+    duration: "Full Day",
+    desc: "Professional female guides for Udaipur tours",
+  },
+  {
+    img: "",
+    title: "Male Guide in Udaipur",
+    duration: "Full Day",
+    desc: "Experienced male guides for Udaipur exploration",
+  },
+  {
+    img: "",
+    title: "17 Seater Urbania Tempo Traveller Jaipur",
+    duration: "Customizable",
+    desc: "Comfortable group transportation for 17 passengers",
+  },
+  {
+    img: "",
+    title: "Force Urbania Rental Jaipur",
+    duration: "Customizable",
+    desc: "Premium vehicle rentals for Jaipur tours",
+  },
+  {
+    img: "",
+    title: "12 Seater Urbania Tempo Traveller Jaipur",
+    duration: "Customizable",
+    desc: "Spacious transport for medium-sized groups",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package 2 Nights 3 Days",
+    duration: "2 Nights 3 Days",
+    desc: "Short but comprehensive introduction to Jaipur",
+  },
+  {
+    img: "",
+    title: "Jaipur 3 Nights 4 Days Tour Package",
+    duration: "3 Nights 4 Days",
+    desc: "Extended exploration of Jaipur's cultural treasures",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Package for 5 Days",
+    duration: "4 Nights 5 Days",
+    desc: "Immersive five-day experience of the Pink City",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour package 4 nights 5 days",
+    duration: "4 Nights 5 Days",
+    desc: "Complete cultural immersion in Jaipur",
+  },
+  {
+    img: "",
+    title: "Jaipur 3 Nights 4 Days Tour",
+    duration: "3 Nights 4 Days",
+    desc: "Well-paced tour covering Jaipur's highlights",
+  },
+  {
+    img: "",
+    title: "Jaipur 4 Nights 5 Days Tour",
+    duration: "4 Nights 5 Days",
+    desc: "Leisurely exploration of Jaipur's wonders",
+  },
+  {
+    img: "",
+    title: "Jaipur Balloon Safari",
+    duration: "Customizable",
+    desc: "Breathtaking aerial views of Jaipur's landscape",
+  },
+  {
+    img: "",
+    title: "Jaipur Family Tour Package 5N 6D",
+    duration: "5 Nights 6 Days",
+    desc: "Six-day perfect family vacation in Jaipur",
+  },
+  {
+    img: "",
+    title: "Jaipur Temple Tour 4N 5 Days",
+    duration: "4 Nights 5 Days",
+    desc: "Spiritual journey through Jaipur's sacred sites",
+  },
+];
 ////////////////////
 
 export const goldenTPData = {
@@ -546,6 +1084,87 @@ export const goldenTPData = {
     desc: "Take a glimpse of the heritage beauty of India by heading towards the famous extensions from Golden triangle tour packages. These are the best ways to look ahead and discover more beyond the cities. There are many famous tourist places to visit from golden triangle extensions like Udaipur, Jodhpur, Jaisalmer, Ranthambore, Varanasi, Khajuraho, Ajmer, Pushkar, Amritsar, etc. Experience the thrill of its rich wilderness of India by clubbing Golden Triangle Tour with Ranthambore or taste the rich heritage cultures on Golden triangle with Rajasthan. If you want to see the diversified beauty of India at one go, then let us help you plan your memorable Golden Triangle extension journeys.",
   },
 };
+
+export const goldenTriangleTPCards = [
+  {
+    img: "",
+    title: "Golden Triangle Tour",
+    duration: "3 Nights - 4 Days",
+    desc: "Explore Delhi, Agra, and Jaipur in 4 days",
+  },
+  {
+    img: "",
+    title: "5 Days Golden Triangle Tour",
+    duration: "5 Days",
+    desc: "Extended trip covering major Golden Triangle cities",
+  },
+  {
+    img: "",
+    title: "Golden Triangle with Udaipur",
+    duration: "4 Nights - 5 Days",
+    desc: "Includes Udaipur along with classic triangle cities",
+  },
+  {
+    img: "",
+    title: "Golden Triangle Tour with Jaisalmer",
+    duration: "6 Nights - 7 Days",
+    desc: "Add Jaisalmer's desert charm to your tour",
+  },
+  {
+    img: "",
+    title: "Golden Triangle Tour With Ranthambore",
+    duration: "7 Nights - 8 Days",
+    desc: "Experience wildlife at Ranthambore with triangle cities",
+  },
+  {
+    img: "",
+    title: "Golden Triangle Tour with Varanasi",
+    duration: "7 Nights - 8 Days",
+    desc: "Spiritual Varanasi added to classic Golden Triangle",
+  },
+  {
+    img: "",
+    title: "Golden Triangle With Haridwar & Rishikesh",
+    duration: "7 Nights - 8 Days",
+    desc: "Explore holy cities Haridwar and Rishikesh with triangle",
+  },
+  {
+    img: "",
+    title: "Golden Triangle with Varanasi & Khajuraho",
+    duration: "10 Nights - 11 Days",
+    desc: "Comprehensive spiritual and heritage tour including Khajuraho",
+  },
+  {
+    img: "",
+    title: "Golden Triangle Tour with Rajasthan",
+    duration: "7 Nights - 8 Days",
+    desc: "Experience Rajasthan's culture along with triangle cities",
+  },
+  {
+    img: "",
+    title: "Delhi Jaipur Agra Pushkar Tour",
+    duration: "14 Nights - 15 Days",
+    desc: "Extended royal tour including Pushkar's charm",
+  },
+  {
+    img: "",
+    title: "Varanasi Tent City Package",
+    duration: "6 Nights - 7 Days",
+    desc: "Stay in tent city while exploring Varanasi",
+  },
+  {
+    img: "",
+    title: "Mathura Vrindavan Agra Tour",
+    duration: "2 Nights - 3 Days",
+    desc: "Explore spiritual Mathura and Vrindavan with Agra",
+  },
+  {
+    img: "",
+    title: "Mathura Vrindavan Agra Tour",
+    duration: "2 Nights - 3 Days",
+    desc: "Short spiritual tour covering Mathura, Vrindavan, and Agra",
+  },
+];
 
 ////////////////////////////////
 
@@ -614,6 +1233,63 @@ export const weekendTPData = {
     ],
   },
 };
+
+export const weekendTPCards = [
+  {
+    img: "",
+    title: "2 Days Jaipur Sightseeing Tour",
+    duration: "2 Days",
+    desc: "Explore Jaipur's highlights over two exciting days",
+  },
+  {
+    img: "",
+    title: "3 Days Jaipur Ranthambore Tour",
+    duration: "1 Night - 2 Days",
+    desc: "Experience Jaipur and wildlife in Ranthambore",
+  },
+  {
+    img: "",
+    title: "Jaipur Mandawa Bikaner Tour",
+    duration: "2 Nights - 3 Days",
+    desc: "Discover heritage towns Mandawa and Bikaner from Jaipur",
+  },
+  {
+    img: "",
+    title: "Jaipur Udaipur Tour",
+    duration: "4 Nights - 5 Days",
+    desc: "Enjoy royal cities Jaipur and Udaipur in one trip",
+  },
+  {
+    img: "",
+    title: "Jaipur Ajmer Pushkar Tour",
+    duration: "4 Nights - 5 Days",
+    desc: "Explore spiritual and cultural sites of Ajmer and Pushkar",
+  },
+  {
+    img: "",
+    title: "Jaipur Agra Tour",
+    duration: "3 Nights - 4 Days",
+    desc: "Visit Jaipur and iconic Taj Mahal in Agra",
+  },
+  {
+    img: "",
+    title: "Jaipur Delhi Weekend Tour",
+    duration: "1 Night - 2 Days",
+    desc: "Quick weekend trip covering Jaipur and Delhi highlights",
+  },
+  {
+    img: "",
+    title: "Agra Weekend Tour",
+    duration: "1 Night - 2 Days",
+    desc: "Short trip focused on Agra’s famous monuments",
+  },
+  {
+    img: "",
+    title: "Agra Weekend Tour",
+    duration: "1 Night - 2 Days",
+    desc: "Ideal quick getaway to Agra’s heritage sites",
+  },
+];
 
 ///////////////
 
@@ -685,6 +1361,129 @@ export const ayodhyaTPData = {
   },
 };
 
+export const ayodhyaTPCards = [
+  {
+    img: "",
+    title: "Ayodhya Tour Package",
+    duration: "Customizable",
+    desc: "Flexible Ayodhya tour tailored to your preferences",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package for 2 Days",
+    duration: "2 Days",
+    desc: "Explore Ayodhya's spiritual and historical sites in two days",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package from Hyderabad",
+    duration: "1 Night - 2 Days",
+    desc: "Ayodhya tour starting from Hyderabad with comfortable travel",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package for 3 Days",
+    duration: "3 Days",
+    desc: "Extended Ayodhya experience covering more attractions",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package from Jaipur",
+    duration: "1 Night - 2 Days",
+    desc: "Tour Ayodhya with convenient departure from Jaipur",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package from Ahmedabad",
+    duration: "Customizable",
+    desc: "Flexible Ayodhya tour packages from Ahmedabad available",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package from Udaipur",
+    duration: "Customizable",
+    desc: "Customize your Ayodhya tour starting from Udaipur",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package from Mumbai",
+    duration: "Customizable",
+    desc: "Ayodhya tours tailored for travelers from Mumbai",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package from Bangalore",
+    duration: "Customizable",
+    desc: "Flexible tour packages from Bangalore to Ayodhya",
+  },
+  {
+    img: "",
+    title: "Ayodhya Tour Package from South India",
+    duration: "Customizable",
+    desc: "Explore Ayodhya with tours from South India",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Tamil Nadu",
+    duration: "Customizable",
+    desc: "Ayodhya spiritual tours from Tamil Nadu region",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Karnataka",
+    duration: "Customizable",
+    desc: "Customized packages from Karnataka to visit Ayodhya",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Gujarat",
+    duration: "Customizable",
+    desc: "Flexible tours to Ayodhya departing from Gujarat",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Odisha",
+    duration: "Customizable",
+    desc: "Explore Ayodhya with packages from Odisha",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Maharashtra",
+    duration: "Customizable",
+    desc: "Ayodhya tours designed for travelers from Maharashtra",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Kerala",
+    duration: "Customizable",
+    desc: "Tours to Ayodhya originating in Kerala",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Andhra Pradesh",
+    duration: "Customizable",
+    desc: "Custom tours to Ayodhya from Andhra Pradesh",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Rajasthan",
+    duration: "Customizable",
+    desc: "Flexible Ayodhya tour options from Rajasthan",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Delhi",
+    duration: "Customizable",
+    desc: "Ayodhya tour packages departing from Delhi",
+  },
+  {
+    img: "",
+    title: "Ayodhya Packages from Varanasi",
+    duration: "Customizable",
+    desc: "Easy access to Ayodhya tours from Varanasi",
+  },
+];
+
 ///////////////////
 
 export const inclusiveTPData = {
@@ -730,28 +1529,103 @@ export const inclusiveTPData = {
   },
 };
 
+export const inclusiveTPCards = [
+  {
+    img: "",
+    title: "Complete Rajasthan Tour",
+    duration: "10 Nights - 11 Days",
+    desc: "Explore the best of Rajasthan in 11 days",
+  },
+  {
+    img: "",
+    title: "Jaipur Ajmer Pushkar Tour",
+    duration: "3 Nights - 4 Days",
+    desc: "Visit Jaipur, Ajmer Dargah, and holy Pushkar",
+  },
+  {
+    img: "",
+    title: "Jaipur Ranthambore Agra Tour",
+    duration: "4 Nights - 5 Days",
+    desc: "Experience heritage, wildlife and the Taj Mahal",
+  },
+];
+
 /////////////////
+
+export const himachalTPData = {
+  packageContent1: {
+    title: "Himachal Tour Package",
+    desc: [
+      "Explore the majestic beauty of Himachal Pradesh with our customized tour packages. Known for its snow-covered mountains, lush valleys, serene monasteries, and charming hill stations, Himachal is a perfect destination for both thrill-seekers and peace lovers.",
+      "From the bustling Mall Road of Shimla to the scenic beauty of Manali and spiritual calmness of Dharamshala, this tour blends adventure, culture, and relaxation into one unforgettable journey. Experience river rafting, paragliding, trekking, and more.",
+    ],
+  },
+  packageContent2: {
+    title: "Best Places for Sightseeing Tour in Himachal",
+    lists: [
+      {
+        title: "Shimla",
+        desc: "Shimla, the capital of Himachal Pradesh, offers colonial charm, lush hills, and a pleasant climate. Attractions include The Ridge, Jakhoo Temple, and Kufri for snow activities and panoramic views.",
+      },
+      {
+        title: "Manali",
+        desc: "Manali is a paradise for nature lovers and adventure enthusiasts. Visit Solang Valley, Rohtang Pass, Hadimba Temple, and explore hot springs in nearby Vashisht village.",
+      },
+      {
+        title: "Dharamshala & McLeod Ganj",
+        desc: "Home to the Dalai Lama, McLeod Ganj offers a unique blend of Tibetan culture and stunning mountain views. Explore Bhagsunag Waterfall, Namgyal Monastery, and trek to Triund.",
+      },
+      {
+        title: "Dalhousie & Khajjiar",
+        desc: "Dalhousie, with its pine forests and colonial architecture, is ideal for a quiet retreat. Nearby Khajjiar is known as ‘Mini Switzerland’ with meadows, forests, and a tranquil lake.",
+      },
+    ],
+  },
+  packageContent3: {
+    title: "Best Time to Plan Himachal Tour",
+    desc: "The best time to visit Himachal is from March to June for pleasant weather, and October to February for snow lovers. Monsoon season (July–September) can bring landslides, so it’s best avoided.",
+  },
+  packageContent4: {
+    title: "How to reach Himachal?",
+    lists: [
+      {
+        title: "By Air",
+        desc: "Major airports include Jubbarhatti (Shimla), Bhuntar (Kullu-Manali), and Gaggal (Dharamshala), with regular flights from Delhi, Chandigarh, and other metros.",
+      },
+      {
+        title: "By Road",
+        desc: "Himachal has an excellent network of roads. Buses and taxis are available from Delhi, Chandigarh, and other nearby cities. Self-driving is also a great option.",
+      },
+      {
+        title: "By Train",
+        desc: "The Kalka-Shimla toy train is a UNESCO World Heritage ride. Pathankot connects to Dalhousie and Dharamshala, while Una is closest for trips to Manali.",
+      },
+    ],
+  },
+  packageContent5: {
+    title: "Conclusion",
+    desc: "Himachal Pradesh is the perfect destination for those seeking scenic beauty, adventure, and spiritual solace. From snow-capped peaks to charming villages, plan your Himachal Tour Package now for an unforgettable experience.",
+  },
+};
 
 export const himachalTPCards = [
   {
     img: "",
     title: "Himachal Tour 10 Days",
-    desc: "Himachal is one of the most famous hill stations in India. Himachal is a paradise for nature lovers. Himachal Pradesh...",
-    duration: "9 Nights 10 Days",
+    duration: "9 Nights - 10 Days",
+    desc: "Explore Himachal’s scenic beauty in 10 memorable days",
   },
-
   {
     img: "",
     title: "Himachal Tour 5 Days",
-    desc: "Himachal Pradesh is one of the most beautiful tourist places in India. The scenic beauty, landscape, valleys, snowfall...",
-    duration: "4 Nights 5 Days",
+    duration: "4 Nights - 5 Days",
+    desc: "Short Himachal trip covering top hill stations",
   },
-
   {
     img: "",
     title: "Nainital Jim Corbett Tour 6 Days",
-    desc: "Book our 5 nights and 6 days Jim Corbett and Nainital Tour and discover the tourist place of the beautiful...",
-    duration: "5 Nights 6 Days",
+    duration: "5 Nights - 6 Days",
+    desc: "Enjoy lakes of Nainital and Corbett wildlife",
   },
 ];
 
@@ -834,3 +1708,518 @@ export const kashmirTPData = {
     desc: "Check out the vast collection of Kashmir tours with exciting offers at The Abhimanyu Holidays. Book customized Kashmir packages with exciting deals and offers.",
   },
 };
+
+export const kashmirTPCards = [
+  {
+    img: "",
+    title: "Kashmir Tour Package 5 Days",
+    duration: "4 Nights - 5 Days",
+    desc: "Discover Kashmir’s valleys, gardens, and serenity",
+  },
+  {
+    img: "",
+    title: "Kashmir Tour Package 7 Days",
+    duration: "6 Nights - 7 Days",
+    desc: "Explore Srinagar, Gulmarg, Pahalgam and Sonmarg",
+  },
+  {
+    img: "",
+    title: "Kashmir Tour Package 9 Days",
+    duration: "8 Nights - 9 Days",
+    desc: "Extended Kashmir trip with full sightseeing experience",
+  },
+  {
+    img: "",
+    title: "Ladakh Tour Package 6 Days",
+    duration: "5 Nights - 6 Days",
+    desc: "Adventure-filled trip across Ladakh’s majestic landscapes",
+  },
+  {
+    img: "",
+    title: "Kashmir Group Tour Package 6 Nights 7 Days",
+    duration: "6 Nights - 7 Days",
+    desc: "Group Kashmir tour with shared travel experiences",
+  },
+  {
+    img: "",
+    title: "Kashmir Tour Package for Family 8 Days",
+    duration: "7 Nights - 8 Days",
+    desc: "Family-friendly Kashmir trip covering all highlights",
+  },
+  {
+    img: "",
+    title: "Kashmir Honeymoon Tour 7 Days",
+    duration: "6 Nights - 7 Days",
+    desc: "Romantic getaway for couples in Kashmir",
+  },
+  {
+    img: "",
+    title: "Kashmir Luxury Tour Package 8 Days",
+    duration: "7 Nights - 8 Days",
+    desc: "Luxury experience in Kashmir with premium stays",
+  },
+  {
+    img: "",
+    title: "Kashmir Leh Bike Tour 7 Days",
+    duration: "6 Nights - 7 Days",
+    desc: "Thrilling bike expedition from Kashmir to Leh",
+  },
+  {
+    img: "",
+    title: "Kashmir & Ladakh Tour 11 Days",
+    duration: "10 Nights - 11 Days",
+    desc: "Ultimate Himalayan journey through Kashmir and Ladakh",
+  },
+  {
+    img: "",
+    title: "Leh Ladakh 6 Day Tour",
+    duration: "5 Nights - 6 Days",
+    desc: "Visit monasteries, lakes, and passes in Leh Ladakh",
+  },
+  {
+    img: "",
+    title: "Leh Ladakh Group Tour 8 Days",
+    duration: "7 Nights - 8 Days",
+    desc: "Ladakh adventure with a like-minded travel group",
+  },
+  {
+    img: "",
+    title: "Vaishno Devi Tour Package",
+    duration: "2 Nights - 3 Days",
+    desc: "Spiritual journey to the holy Vaishno Devi shrine",
+  },
+  {
+    img: "",
+    title: "Kashmir Tour Package from Kolkata",
+    duration: "6 Nights - 7 Days",
+    desc: "Kolkata to Kashmir tour with all attractions",
+  },
+  {
+    img: "",
+    title: "Kashmir Adventure Tour Package",
+    duration: "5 Nights - 6 Days",
+    desc: "Thrilling activities and scenic views in Kashmir",
+  },
+  {
+    img: "",
+    title: "Ladakh Adventure Tour Package",
+    duration: "6 Nights - 7 Days",
+    desc: "Action-packed Ladakh journey for adventure seekers",
+  },
+  {
+    img: "",
+    title: "Kashmir Honeymoon Tour 7 Days",
+    duration: "6 Nights - 7 Days",
+    desc: "Private and romantic Kashmir trip for newlyweds",
+  },
+  {
+    img: "",
+    title: "Sikkim Tour Package For 7 Days",
+    duration: "6 Nights - 7 Days",
+    desc: "Visit Gangtok, Pelling, and natural beauty of Sikkim",
+  },
+];
+
+
+///////////////
+
+
+export const tourPackages = [
+  // Religious & Spiritual Tours
+  {
+    img: "",
+    title: "Rishikesh Haridwar Tour Package",
+    duration: "Customizable",
+    desc: "Spiritual journey through yoga capital and holy Ganges",
+  },
+  {
+    img: "",
+    title: "Char Dham Yatra Tour Package",
+    duration: "Customizable",
+    desc: "Sacred pilgrimage to four holy Hindu shrines",
+  },
+
+  // Goa Tours
+  {
+    img: "",
+    title: "Goa Tour Package 6 Days",
+    duration: "5 Nights - 6 Days",
+    desc: "Beach paradise with sun, sand, and Portuguese heritage",
+  },
+  {
+    img: "",
+    title: "Goa Tour Package 9 Days",
+    duration: "8 Nights - 9 Days",
+    desc: "Extended Goa experience with beaches and cultural sites",
+  },
+
+  // Mumbai Tours
+  {
+    img: "",
+    title: "Mumbai Tour Package",
+    duration: "Customizable",
+    desc: "Bollywood city with iconic landmarks and street food",
+  },
+
+  // Andaman Tours
+  {
+    img: "",
+    title: "Andaman Nicobar Tour 6 Days",
+    duration: "5 Nights - 6 Days",
+    desc: "Tropical islands with pristine beaches and water sports",
+  },
+
+  // Meghalaya Tours
+  {
+    img: "",
+    title: "4 Nights 5 Days Adventurous Meghalaya Tour",
+    duration: "4 Nights - 5 Days",
+    desc: "Adventure in Scotland of East with living root bridges",
+  },
+
+  // Kerala Tours
+  {
+    img: "",
+    title: "Kerala Tour Package 9 Days",
+    duration: "8 Nights - 9 Days",
+    desc: "God's Own Country with backwaters and hill stations",
+  },
+  {
+    img: "",
+    title: "Kerala Tour Package 6 Days",
+    duration: "5 Nights - 6 Days",
+    desc: "Backwaters, spices, and Ayurvedic wellness experience",
+  },
+
+  // International Tours from Jaipur
+  {
+    img: "",
+    title: "Dubai Tour Package from Jaipur",
+    duration: "Customizable",
+    desc: "Luxury shopping and modern architecture in UAE",
+  },
+  {
+    img: "",
+    title: "Bangkok Tour Package from Jaipur",
+    duration: "Customizable",
+    desc: "Thai culture, temples, and vibrant street life",
+  },
+  {
+    img: "",
+    title: "Thailand Tour Package from Jaipur",
+    duration: "Customizable",
+    desc: "Land of smiles with beaches and cultural heritage",
+  },
+  {
+    img: "",
+    title: "Singapore Tour Package from Jaipur",
+    duration: "Customizable",
+    desc: "Garden city with modern attractions and cuisine",
+  },
+
+  // Jaipur Tour Packages from Various Cities
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Pune",
+    duration: "Customizable",
+    desc: "Pink City's royal palaces and vibrant bazaars",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Hyderabad",
+    duration: "Customizable",
+    desc: "Rajasthani heritage with majestic forts and culture",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Gujarat",
+    duration: "Customizable",
+    desc: "Royal Rajasthan experience with architectural marvels",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Odisha",
+    duration: "Customizable",
+    desc: "Journey to Pink City's palaces and handicrafts",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Bangalore",
+    duration: "Customizable",
+    desc: "Explore royal heritage and traditional Rajasthani culture",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Agra",
+    duration: "Customizable",
+    desc: "Golden Triangle extension with Rajasthani grandeur",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Delhi",
+    duration: "Customizable",
+    desc: "Quick getaway to Pink City's royal splendor",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Kerala",
+    duration: "Customizable",
+    desc: "Cultural contrast from backwaters to desert state",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Nashik",
+    duration: "Customizable",
+    desc: "Rajasthani royal experience with local traditions",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Maharashtra",
+    duration: "Customizable",
+    desc: "Pink City's architectural wonders and cultural richness",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Karnataka",
+    duration: "Customizable",
+    desc: "Royal Rajasthan with palace tours and local cuisine",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Mumbai",
+    duration: "Customizable",
+    desc: "Heritage city break with forts and local markets",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages from Chennai",
+    duration: "Customizable",
+    desc: "North Indian royal culture and architectural beauty",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Kolkata",
+    duration: "Customizable",
+    desc: "Cultural journey from Bengal to Rajasthan",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Chandigarh",
+    duration: "Customizable",
+    desc: "Royal heritage tour with palaces and gardens",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Ahmedabad",
+    duration: "Customizable",
+    desc: "Neighboring state's royal capital exploration",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Tamil Nadu",
+    duration: "Customizable",
+    desc: "South to North cultural heritage journey",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Jaisalmer",
+    duration: "Customizable",
+    desc: "Desert triangle with Pink City's royal charm",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Vadodara",
+    duration: "Customizable",
+    desc: "Royal cities connection with cultural experiences",
+  },
+  {
+    img: "",
+    title: "Jaipur Tour Packages From Nagpur",
+    duration: "Customizable",
+    desc: "Central India to Rajasthan's royal heritage",
+  },
+
+  // Udaipur Tour Packages from Various Cities
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Gujarat",
+    duration: "Customizable",
+    desc: "City of Lakes with romantic palaces and culture",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Agra",
+    duration: "Customizable",
+    desc: "Venice of East with lake palaces and heritage",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Bangalore",
+    duration: "Customizable",
+    desc: "Romantic city with stunning lake views and palaces",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Odisha",
+    duration: "Customizable",
+    desc: "Lake city's royal heritage and cultural richness",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages from Pune",
+    duration: "Customizable",
+    desc: "Rajasthan's romantic capital with palace hotels",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Hyderabad",
+    duration: "Customizable",
+    desc: "City of Lakes with majestic palaces and gardens",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Delhi",
+    duration: "Customizable",
+    desc: "Romantic getaway to lake city's royal splendor",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Kerala",
+    duration: "Customizable",
+    desc: "From backwaters to lake palaces cultural journey",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Nashik",
+    duration: "Customizable",
+    desc: "Venice of East with romantic lake settings",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Maharashtra",
+    duration: "Customizable",
+    desc: "Lake city's royal heritage and cultural experiences",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Chennai",
+    duration: "Customizable",
+    desc: "South to North journey to romantic lake city",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Mumbai",
+    duration: "Customizable",
+    desc: "City of Lakes with palace hotels and boat rides",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Kolkata",
+    duration: "Customizable",
+    desc: "Cultural journey to Rajasthan's romantic capital",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Chandigarh",
+    duration: "Customizable",
+    desc: "Lake palaces and royal heritage exploration",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Ahmedabad",
+    duration: "Customizable",
+    desc: "Neighboring state's romantic city experience",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Vadodara",
+    duration: "Customizable",
+    desc: "Royal cities connection with lake palace tours",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Jaisalmer",
+    duration: "Customizable",
+    desc: "Desert to lakes Rajasthan royal circuit",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Tamil Nadu",
+    duration: "Customizable",
+    desc: "South Indian cultural journey to lake city",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Nagpur",
+    duration: "Customizable",
+    desc: "Central India to Venice of East experience",
+  },
+  {
+    img: "",
+    title: "Udaipur Tour Packages From Karnataka",
+    duration: "Customizable",
+    desc: "Lake city's romantic palaces and cultural heritage",
+  },
+
+  // Jaisalmer Tour Packages from Various Cities
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Pune",
+    duration: "Customizable",
+    desc: "Golden City with desert safaris and sandstone forts",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Hyderabad",
+    duration: "Customizable",
+    desc: "Desert adventure with camel safaris and folk culture",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Gujarat",
+    duration: "Customizable",
+    desc: "Golden sandstone city with desert experiences",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Odisha",
+    duration: "Customizable",
+    desc: "Thar Desert adventure with royal heritage",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Bangalore",
+    duration: "Customizable",
+    desc: "Golden City's desert culture and camel safaris",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Agra",
+    duration: "Customizable",
+    desc: "Desert extension with golden fort and sand dunes",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Delhi",
+    duration: "Customizable",
+    desc: "Golden Triangle extension to desert kingdom",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Kerala",
+    duration: "Customizable",
+    desc: "Contrasting journey from backwaters to desert",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Nashik",
+    duration: "Customizable",
+    desc: "Desert adventure with golden sandstone architecture",
+  },
+  {
+    img: "",
+    title: "Jaisalmer Tour Packages From Maharashtra",
+    duration: "Customizable",
+    desc: "Golden City's desert culture and royal heritage",
+  }
+];
