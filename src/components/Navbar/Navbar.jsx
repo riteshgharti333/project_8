@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const pathMap = {
     tour: "",
-    package: "tour-package/",
+    package: "",
     rental: "rental-service/",
     tempo: "tempo-service/",
   };

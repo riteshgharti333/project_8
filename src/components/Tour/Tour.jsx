@@ -1,7 +1,7 @@
 import { FaClock, FaMapMarkerAlt, FaStar, FaArrowRight } from "react-icons/fa";
 
 import { motion } from "framer-motion";
-import { packageCards } from "../../assets/packageData";
+// import { packageCards } from "../../assets/packageData";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Tour = () => {
   const cardVariants = {

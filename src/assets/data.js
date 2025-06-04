@@ -13,7 +13,56 @@ export const navData = [
     title: "Tour Packages",
     specific: "package",
     icon: IoMdArrowDropdown,
-    dropdown: [{ name: "Jaipur Tour Package", link: "jaipur-tour-package" }],
+    dropdown: [
+      {
+        name: "Abhimanyu Holidays Special Tours",
+        link: "/tour-package/abhimanyu-holidays-special-tours",
+      },
+      {
+        name: "Rajasthan Tour Packages",
+        link: "/tour-package/rajasthan-tour-packages",
+      },
+      {
+        name: "Udaipur Tours",
+        link: "/tour-package/udaipur-tours",
+      },
+      {
+        name: "Jaisalmer Tours",
+        link: "/tour-package/jaisalmer-tours",
+      },
+      {
+        name: "Jaipur Tour Packages",
+        link: "/tour-package/jaipur-tour-packages",
+      },
+      {
+        name: "Golden Triangle Tour Packages",
+        link: "/tour-package/golden-triangle-tour-packages",
+      },
+      {
+        name: "Weekend Tours from Jaipur",
+        link: "/tour-package/weekend-tours-from-jaipur",
+      },
+      {
+        name: "Ayodhya Tour Packages",
+        link: "/tour-package/ayodhya-tour-packages",
+      },
+      {
+        name: "All Inclusive Tour Packages",
+        link: "/tour-package/all-inclusive-tour-packages",
+      },
+      {
+        name: "Himachal Tour Packages",
+        link: "/tour-package/himachal-tour-packages",
+      },
+      {
+        name: "Kashmir Tour Packages",
+        link: "/tour-package/kashmir-tour-packages",
+      },
+      {
+        name: "India Tour Packages",
+        link: "/tour-package/india-tour-packages",
+      },
+    ],
   },
   // {
   //   title: "Tempo Traveller",

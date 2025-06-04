@@ -9,7 +9,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
 
   const pathMap = {
     tour: "",
-    package: "tour-package/",
+    package: "",
     rental: "rental-service/",
     tempo: "tempo-service/",
   };
