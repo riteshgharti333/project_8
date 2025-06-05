@@ -39,16 +39,8 @@ export const navData = [
         link: "/tour-package/golden-triangle-tour-packages",
       },
       {
-        name: "Weekend Tours from Jaipur",
-        link: "/tour-package/weekend-tours-from-jaipur",
-      },
-      {
         name: "Ayodhya Tour Packages",
         link: "/tour-package/ayodhya-tour-packages",
-      },
-      {
-        name: "All Inclusive Tour Packages",
-        link: "/tour-package/all-inclusive-tour-packages",
       },
       {
         name: "Himachal Tour Packages",
@@ -57,10 +49,6 @@ export const navData = [
       {
         name: "Kashmir Tour Packages",
         link: "/tour-package/kashmir-tour-packages",
-      },
-      {
-        name: "India Tour Packages",
-        link: "/tour-package/india-tour-packages",
       },
     ],
   },
