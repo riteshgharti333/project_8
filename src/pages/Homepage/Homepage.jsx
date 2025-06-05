@@ -63,7 +63,7 @@ const Homepage = () => {
       {/* <Safari /> */}
       {/* <Selling /> */}
       {/* <Taxi /> */}
-      <HomeAbout />
+      {/* <HomeAbout /> */}
       <HomeBlog />
     </div>
   );
