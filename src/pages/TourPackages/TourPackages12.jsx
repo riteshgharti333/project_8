@@ -16,26 +16,25 @@ import {
   tourPackages,
 } from "../../assets/tourpackageData/tourPackageData";
 
+import tp_banner from "../../assets/images/tpBanner/tour.jpg";
+
 const TourPackages12 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} />
+      <ServiceBanner bannerTitle={title} bannerImg={tp_banner} />
       <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col mt-10 px-2">
         <h2 className="text-2xl font-bold text-brand-brown mb-4">
           Popular India Holiday Packages
         </h2>
 
         <PackageCards packageCards={tourPackages} />
-        
 
         <div className="mt-10">
-        <ServiceForm />
-
+          <ServiceForm />
         </div>
-
       </div>
     </div>
   );

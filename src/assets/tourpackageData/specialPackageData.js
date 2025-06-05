@@ -1,395 +1,216 @@
-// export const specialPackageCards = [
-//   {
-//     img: "",
-//     title: "Jaipur Tour Package 2 Nights 3 Days",
-//     duration: "2 Nights - 3 Days",
-//     desc: "Explore the royal charm of Jaipur in just a short 3-day escape.",
-//     link: "jaipur-tour-package-2-nights-3-days",
-//     destina
-//   },
-//   {
-//     img: "",
-//     title: "Jaipur Tour Package 3 Nights 4 Days",
-//     duration: "3 Nights - 4 Days",
-//     desc: "Discover Jaipur’s rich heritage with forts, palaces, and vibrant markets.",
-//     link: "jaipur-tour-package-3-nights-4-days",
-//   },
-//   {
-//     img: "",
-//     title: "Jaipur 3 Nights 4 Days Tour",
-//     duration: "3 Nights - 4 Days",
-//     desc: "Immerse yourself in Pink City's history, colors, and architectural wonders.",
-//     link: "jaipur-3-nights-4-days-tour",
-//   },
-//   {
-//     img: "",
-//     title: "Jaipur Tour Package for 5 Days",
-//     duration: "4 Nights - 5 Days",
-//     desc: "Experience royal palaces and authentic culture in this extended Jaipur journey.",
-//     link: "jaipur-tour-package-for-5-days",
-//   },
-//   {
-//     img: "",
-//     title: "Jaipur 4 Nights 5 Days Tour",
-//     duration: "4 Nights - 5 Days",
-//     desc: "Delve deeper into Jaipur’s iconic sites, food, and timeless traditions.",
-//     link: "jaipur-4-nights-5-days-tour",
-//   },
-//   {
-//     img: "",
-//     title: "Jaipur Tour Package 4 Nights 5 Days",
-//     duration: "4 Nights - 5 Days",
-//     desc: "A perfect blend of history, shopping, and architectural exploration in Jaipur.",
-//     link: "jaipur-tour-package-4-nights-5-days",
-//   },
-//   {
-//     img: "",
-//     title: "Rajasthan Tour Package for 5 Nights 6 Days",
-//     duration: "5 Nights - 6 Days",
-//     desc: "A majestic journey through Rajasthan’s royal cities and cultural heartlands.",
-//     link: "rajasthan-tour-package-for-5-nights-6-days",
-//   },
-//   {
-//     img: "",
-//     title: "Rajasthan Tour Package for 6 Days",
-//     duration: "5 Nights - 6 Days",
-//     desc: "Explore forts, deserts, and vibrant traditions across Rajasthan’s iconic destinations.",
-//     link: "rajasthan-tour-package-for-6-days",
-//   },
-//   {
-//     img: "",
-//     title: "Rajasthan Tour 7 Days",
-//     duration: "6 Nights - 7 Days",
-//     desc: "An immersive week-long tour showcasing Rajasthan’s royal history and scenic beauty.",
-//     link: "rajasthan-tour-7-days",
-//   },
-//   {
-//     img: "",
-//     title: "Rajasthan 8 Days Tour Package",
-//     duration: "7 Nights - 8 Days",
-//     desc: "Experience Rajasthan’s full glory, from deserts to lakes to palaces.",
-//     link: "rajasthan-8-days-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Jaipur Jodhpur Udaipur 5 Days Tour",
-//     duration: "4 Nights - 5 Days",
-//     desc: "Three royal cities, one unforgettable journey through Rajasthan’s gems.",
-//     link: "jaipur-jodhpur-udaipur-5-days-tour",
-//   },
-//   {
-//     img: "",
-//     title: "Desert Trio of Rajasthan 5 Days Tour",
-//     duration: "4 Nights - 5 Days",
-//     desc: "Witness the golden sands and rich culture of Rajasthan’s desert triangle.",
-//     link: "desert-trio-rajasthan-5-days-tour",
-//   },
-//   {
-//     img: "",
-//     title: "Colorful Rajasthan 8 Days Tour",
-//     duration: "7 Nights - 8 Days",
-//     desc: "A vibrant journey through Rajasthan’s cities, arts, and desert landscapes.",
-//     link: "colorful-rajasthan-8-days-tour",
-//   },
-//   {
-//     img: "",
-//     title: "Rajasthan’s Desert 7 Days Tour",
-//     duration: "6 Nights - 7 Days",
-//     desc: "Explore majestic dunes, desert forts, and authentic Rajasthani life.",
-//     link: "rajasthan-desert-7-days-tour",
-//   },
-//   {
-//     img: "",
-//     title: "Rajasthan Cultural Odyssey 7 Days Tour",
-//     duration: "6 Nights - 7 Days",
-//     desc: "Dive into Rajasthan’s soul with culture-rich cities and immersive experiences.",
-//     link: "rajasthan-cultural-odyssey-7-days",
-//   },
-//   {
-//     img: "",
-//     title: "Rajasthan’s Wildlife & Heritage 7 Days Tour",
-//     duration: "6 Nights - 7 Days",
-//     desc: "See the wild side of Rajasthan alongside historic forts and temples.",
-//     link: "rajasthan-wildlife-heritage-7-days",
-//   },
-//   {
-//     img: "",
-//     title: "Jaipur Ranthambore 4 Days Tour",
-//     duration: "3 Nights - 4 Days",
-//     desc: "A mix of royal heritage and thrilling tiger safari in Ranthambore.",
-//     link: "jaipur-ranthambore-4-days",
-//   },
-//   {
-//     img: "",
-//     title: "Golden Triangle 5 Days Tour",
-//     duration: "4 Nights - 5 Days",
-//     desc: "Delhi, Agra, and Jaipur in one perfect golden cultural triangle.",
-//     link: "golden-triangle-5-days-tour",
-//   },
-//   {
-//     img: "",
-//     title: "Agra Jaipur 4 Days Tour Package",
-//     duration: "3 Nights - 4 Days",
-//     desc: "From the Taj Mahal to Jaipur’s forts – a regal combo.",
-//     link: "agra-jaipur-4-days-package",
-//   },
-//   {
-//     img: "",
-//     title: "Delhi Agra Jaipur Udaipur Tour Package 6 Days",
-//     duration: "5 Nights - 6 Days",
-//     desc: "Experience North India’s most iconic and romantic destinations in 6 days.",
-//     link: "delhi-agra-jaipur-udaipur-6-days",
-//   },
-//   {
-//     img: "",
-//     title: "Rajasthan Private Tour Package",
-//     duration: "6 Nights - 7 Days",
-//     desc: "Custom luxury travel across Rajasthan’s royal cities at your own pace.",
-//     link: "rajasthan-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Jaipur Private Tour Package",
-//     duration: "2 Nights - 3 Days",
-//     desc: "A personalized Jaipur tour with handpicked experiences and top attractions.",
-//     link: "jaipur-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Udaipur Private Tour Package",
-//     duration: "2 Nights - 3 Days",
-//     desc: "Romantic lakes, royal palaces, and cultural beauty in Udaipur.",
-//     link: "udaipur-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Jaisalmer Private Tour Package",
-//     duration: "2 Nights - 3 Days",
-//     desc: "Camel safaris, golden forts, and sand dunes await in Jaisalmer.",
-//     link: "jaisalmer-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Jodhpur Private Tour Package",
-//     duration: "1 Night - 2 Days",
-//     desc: "Explore the Blue City’s stunning fort and markets in a quick getaway.",
-//     link: "jodhpur-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Ajmer Pushkar Private Tour Package",
-//     duration: "Customizable",
-//     desc: "Visit sacred temples and the holy lake on your customized journey.",
-//     link: "ajmer-pushkar-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Ranthambore Private Tour Package",
-//     duration: "1 Night - 2 Days",
-//     desc: "Go on thrilling safaris and explore Ranthambore’s wildlife-rich forest.",
-//     link: "ranthambore-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Mount Abu Private Tour Package",
-//     duration: "Customizable",
-//     desc: "Relax in Rajasthan’s only hill station, customized to your preference.",
-//     link: "mount-abu-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Delhi Private Tour Package",
-//     duration: "Customizable",
-//     desc: "Explore the capital’s monuments, cuisine, and culture your way.",
-//     link: "delhi-private-tour-package",
-//   },
-//   {
-//     img: "",
-//     title: "Agra Private Tour Package",
-//     duration: "Customizable",
-//     desc: "Visit the Taj Mahal and more in your own personalized style.",
-//     link: "agra-private-tour-package",
-//   },
-// // ];
+import stpCard_img1 from "../images/tpCardImgs/speCardImgs/arshla-jindal-aCl0TLg1DQg-unsplash.jpg";
+import stpCard_img2 from "../images/tpCardImgs/speCardImgs/barun-ghosh-e_bXQldK-4E-unsplash.jpg"
+import stpCard_img3 from "../images/tpCardImgs/speCardImgs/barun-ghosh-lZ4jn_xuCZk-unsplash.jpg"
+import stpCard_img4 from "../images/tpCardImgs/speCardImgs/damini-4FQcYTt9GlM-unsplash.jpg"
+import stpCard_img5 from "../images/tpCardImgs/speCardImgs/kartik-iyer-VzErgGzTkPU-unsplash (1).jpg"
+import stpCard_img6 from "../images/tpCardImgs/speCardImgs/martijn-vonk-8oCgUgo_hBU-unsplash.jpg"
+import stpCard_img7 from "../images/tpCardImgs/speCardImgs/meric-dagli-uADXI1v10us-unsplash.jpg"
+import stpCard_img8 from "../images/tpCardImgs/speCardImgs/naman-pandey-Iya5bn212xA-unsplash (2).jpg"
+import stpCard_img9 from "../images/tpCardImgs/speCardImgs/ravi-khandelwal-DrJtwNe6AcQ-unsplash.jpg"
+import stpCard_img10 from "../images/tpCardImgs/speCardImgs/rj1 (2).jpg"
+import stpCard_img11 from "../images/tpCardImgs/speCardImgs/roberto-reposo-LgQoL6eOdHs-unsplash (1).jpg"
+import stpCard_img12 from "../images/tpCardImgs/speCardImgs/sohan-rayguru-cDmZEQct7qc-unsplash.jpg"
+import stpCard_img13 from "../images/tpCardImgs/speCardImgs/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg"
+import stpCard_img14 from "../images/tpCardImgs/speCardImgs/ved-SRAUI9X4Ep8-unsplash.jpg"
+import stpCard_img15 from "../images/tpCardImgs/speCardImgs/vg-bingi-Z9s5Tt0MHKg-unsplash.jpg"
+import stpCard_img16 from "../images/tpCardImgs/speCardImgs/vivek-1pNm4DFts4U-unsplash.jpg"
+import stpCard_img17 from "../images/tpCardImgs/speCardImgs/wuz-rs5tqPD3YpM-unsplash.jpg"
+import stpCard_img18 from "../images/tpCardImgs/speCardImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg"
+
+
+
+import stpCard_img19 from "../images/tpCardImgs/speCardImgs/otherSpImgs/arun-geetha-viswanathan-8goGYCLzrLs-unsplash.jpg"
+import stpCard_img20 from "../images/tpCardImgs/speCardImgs/otherSpImgs/axp-photography--hwq4OHDJWI-unsplash.jpg"
+import stpCard_img21 from "../images/tpCardImgs/speCardImgs/otherSpImgs/axp-photography-K8OE1ZI7QOY-unsplash.jpg"
+import stpCard_img22 from "../images/tpCardImgs/speCardImgs/otherSpImgs/gaurav-sharma-zd4mfl_1C6g-unsplash.jpg"
+import stpCard_img23 from "../images/tpCardImgs/speCardImgs/otherSpImgs/jainam-mehta-AVFjDGbqiqE-unsplash.jpg"
+import stpCard_img24 from "../images/tpCardImgs/speCardImgs/otherSpImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg"
+import stpCard_img25 from "../images/tpCardImgs/speCardImgs/otherSpImgs/makm-photography-u0irC_UnbOk-unsplash.jpg"
+import stpCard_img26 from "../images/tpCardImgs/speCardImgs/otherSpImgs/mike-blank-28s5r-zA6Lw-unsplash.jpg"
+import stpCard_img27 from "../images/tpCardImgs/speCardImgs/otherSpImgs/rimjhim-agrawal-wVESbOT9EBs-unsplash.jpg"
+import stpCard_img28 from "../images/tpCardImgs/speCardImgs/otherSpImgs/rishabh-dev-DKLf--tpmA8-unsplash.jpg"
+import stpCard_img29 from "../images/tpCardImgs/speCardImgs/otherSpImgs/romi-kalathiya-Bxwa1-VoJ-A-unsplash.jpg"
+import stpCard_img30 from "../images/tpCardImgs/speCardImgs/otherSpImgs/sreehari-devadas-j4hGnHYl8ic-unsplash.jpg"
+
 
 export const specialPackageCards = [
   {
-    img: "",
+    img: stpCard_img12,
     title: "Jaipur Tour Package 2 Nights 3 Days",
     duration: "2 Nights 3 Days",
     destination: "Jaipur",
   },
   {
-    img: "",
+    img: stpCard_img2,
     title: "Jaipur Tour Package 3 Nights 4 Days",
     duration: "3 Nights 4 Days",
     destination: "Jaipur - Ajmer - Pushkar",
   },
   {
-    img: "",
+    img: stpCard_img3,
     title: "Jaipur 3 Nights 4 Days Tour",
     duration: "3 Nights 4 Days",
     destination: "Jaipur - Ranthambore",
   },
   {
-    img: "",
+    img: stpCard_img4,
     title: "Jaipur Tour Package for 5 Days",
     duration: "4 Nights 5 Days",
     destination: "Jaipur - Ajmer - Pushkar - Khatu Shyamji - Salasar Balaji",
   },
   {
-    img: "",
+    img: stpCard_img16,
     title: "Jaipur 4 Nights 5 Days Tour",
     duration: "4 Nights 5 Days",
     destination: "Jaipur - Ranthambore - Agra - Delhi",
   },
   {
-    img: "",
+    img: stpCard_img6,
     title: "Jaipur Tour Package 4 Nights 5 Days",
     duration: "4 Nights 5 Days",
     destination: "Jaipur - Ajmer - Pushkar - Khatu Shyamji - Salasar Balaji",
   },
   {
-    img: "",
+    img: stpCard_img7,
     title: "Rajasthan Tour Package for 5 Nights 6 Days",
     duration: "5 Nights 6 Days",
     destination: "Jaipur - Ajmer - Pushkar - Bikaner - Jaisalmer",
   },
   {
-    img: "",
+    img: stpCard_img8,
     title: "Rajasthan Tour Package for 6 Days",
     duration: "5 Nights 6 Days",
     destination: "Jaipur - Ajmer - Pushkar - Bikaner - Jaisalmer",
   },
   {
-    img: "",
+    img: stpCard_img9,
     title: "Rajasthan Tour 7 Days",
     duration: "6 Nights 7 Days",
     destination: "Jaipur - Ajmer - Pushkar - Bikaner - Jaisalmer - Jodhpur",
   },
   {
-    img: "",
+    img: stpCard_img10,
     title: "Rajasthan 8 Days Tour Package",
     duration: "7 Nights 8 Days",
     destination: "Jaipur, Ajmer, Pushkar, Bikaner, Jaisalmer, Jodhpur, Udaipur",
   },
   {
-    img: "",
+    img: stpCard_img11,
     title: "Jaipur Jodhpur Udaipur 5 Days Tour",
     duration: "4 Nights / 5 Days",
     destination: "Jaipur - Jodhpur - Udaipur",
   },
   {
-    img: "",
+    img: stpCard_img1,
     title: "Desert Trio of Rajasthan 5 Days Tour",
     duration: "4 Nights / 5 Days",
     destination: "Jaipur – Jodhpur – Jaisalmer",
   },
   {
-    img: "",
+    img: stpCard_img15,
     title: "Colorful Rajasthan 8 Days Tour",
     duration: "7 Nights / 8 Days",
     destination: "Jaipur – Bikaner – Jaisalmer – Jodhpur – Udaipur",
   },
   {
-    img: "",
+    img: stpCard_img14,
     title: "Rajasthan’s Desert 7 Days Tour",
     duration: "6 Nights / 7 Days",
     destination:
       "Jaipur – Ajmer / Pushkar – Jodhpur – Jaisalmer Sam – Jaisalmer",
   },
   {
-    img: "",
+    img: stpCard_img18,
     title: "Rajasthan Cultural Odyssey 7 Days Tour",
     duration: "6 Nights / 7 Days",
     destination: "Jaipur – Ajmer / Pushkar – Jodhpur – Udaipur",
   },
   {
-    img: "",
+    img: stpCard_img17,
     title: "Rajasthan’s Wildlife & Heritage 7 Days Tour",
     duration: "6 Nights / 7 Days",
     destination: "Jaipur – Jodhpur – Jawai – Udaipur",
   },
   {
-    img: "",
+    img: stpCard_img5,
     title: "Jaipur Ranthambore 4 Days Tour",
     duration: "3 Nights / 4 Days",
     destination: "Jaipur – Ranthambore",
   },
   {
-    img: "",
+    img: stpCard_img13,
     title: "Golden Triangle 5 Days Tour",
     duration: "4 Nights / 5 Days",
     destination: "Delhi – Agra – Jaipur",
   },
   {
-    img: "",
+    img: stpCard_img19,
     title: "Agra Jaipur 4 Days Tour Package",
     duration: "3 Nights / 4 Days",
     destination: "Agra - Jaipur",
   },
   {
-    img: "",
+    img: stpCard_img20,
     title: "Delhi Agra Jaipur Udaipur Tour Package 6 Days",
     duration: "3 Nights / 4 Days",
     destination: "Delhi – Agra – Jaipur – Udaipur",
   },
   {
-    img: "",
+    img: stpCard_img21,
     title: "Rajasthan Private Tour Package",
     duration: "6 Nights / 7 Days",
     destination: "Jaipur - Jodhpur - Udaipur",
   },
   {
-    img: "",
+    img: stpCard_img27,
     title: "Jaipur Private Tour Package",
     duration: "2 Nights / 3 Days",
     destination: "Jaipur",
   },
   {
-    img: "",
+    img: stpCard_img23,
     title: "Udaipur Private Tour Package",
     duration: "2 Nights / 3 Days",
     destination: "Udaipur",
   },
   {
-    img: "",
+    img: stpCard_img24,
     title: "Jaisalmer Private Tour Package",
     duration: "2 Nights / 3 Days",
     destination: "Jaisalmer",
   },
   {
-    img: "",
+    img: stpCard_img25,
     title: "Jodhpur Private Tour Package",
     duration: "1 Nights / 2 Days",
     destination: "Jodhpur",
   },
   {
-    img: "",
+    img: stpCard_img28,
     title: "Ajmer Pushkar Private Tour Package",
     duration: "Customizable",
     destination: "Ajmer - Pushkar",
   },
   {
-    img: "",
+    img: stpCard_img22,
     title: "Ranthambore Private Tour Package",
     duration: "1 Nights / 2 Days",
     destination: "Ranthambore",
   },
   {
-    img: "",
+    img: stpCard_img29,
     title: "Mount Abu Private Tour Package",
     duration: "Customizable",
     destination: "Mount Abu",
   },
   {
-    img: "",
+    img: stpCard_img30,
     title: "Delhi Private Tour Package",
     duration: "Customizable",
     destination: "Delhi",
   },
   {
-    img: "",
+    img: stpCard_img26,
     title: "Agra Private Tour Package",
     duration: "Customizable",
     destination: "Agra",

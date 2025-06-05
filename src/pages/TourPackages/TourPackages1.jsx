@@ -7,13 +7,15 @@ import {
   specialPackageContent,
 } from "../../assets/tourpackageData/specialPackageData";
 
+import tp_banner from "../../assets/images/tpBanner/special.jpg";
+
 const TourPackages1 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} />
+      <ServiceBanner bannerTitle={title} bannerImg={tp_banner} />
       <TourPackageContent
         packageData={specialPackageCards}
         specialData={specialPackageContent}

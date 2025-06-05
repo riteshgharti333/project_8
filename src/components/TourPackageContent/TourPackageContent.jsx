@@ -68,7 +68,7 @@ const TourPackageContent = ({ packageData, specialData }) => {
                 {/* Image with zoom and shine overlay */}
                 <div className="relative h-56 overflow-hidden">
                   <motion.img
-                    src="https://www.thepinkcityholidays.com/wp-content/uploads/2022/12/jaipur-ajmer-pushkar-udaipur-4days.jpg"
+                    src={item.img}
                     alt={item.title}
                     className="w-full h-full object-cover"
                     initial={{ scale: 1 }}

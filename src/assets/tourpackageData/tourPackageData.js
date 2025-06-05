@@ -25,333 +25,398 @@ export const rjTPData = {
   },
 };
 
+import rj_img1 from "../../assets/images/tpCardImgs/rjCardImgs/abhishek-chakraborty-d2eVURGcqjc-unsplash.jpg";
+
+import rj_img2 from "../../assets/images/tpCardImgs/rjCardImgs/abhishek-prasad-N3VzleBhOvk-unsplash.jpg";
+import rj_img3 from "../../assets/images/tpCardImgs/rjCardImgs/aditya-darji-PRdbrcG5i34-unsplash.jpg";
+import rj_img4 from "../../assets/images/tpCardImgs/rjCardImgs/amar-prakash-pandey-S_1Z4ORhMcY-unsplash.jpg";
+import rj_img5 from "../../assets/images/tpCardImgs/rjCardImgs/anas-villan-R_z8A9kYZKQ-unsplash.jpg";
+import rj_img6 from "../../assets/images/tpCardImgs/rjCardImgs/arun-geetha-viswanathan-8goGYCLzrLs-unsplash.jpg";
+import rj_img7 from "../../assets/images/tpCardImgs/rjCardImgs/avinash-a-O6bRaPpZCD0-unsplash.jpg";
+import rj_img8 from "../../assets/images/tpCardImgs/rjCardImgs/axp-photography--hwq4OHDJWI-unsplash.jpg";
+import rj_img9 from "../../assets/images/tpCardImgs/rjCardImgs/axp-photography-K8OE1ZI7QOY-unsplash.jpg";
+import rj_img10 from "../../assets/images/tpCardImgs/rjCardImgs/chandan-chaurasia-fuLPFeAd17E-unsplash.jpg";
+import rj_img11 from "../../assets/images/tpCardImgs/rjCardImgs/gaurav-sharma-zd4mfl_1C6g-unsplash.jpg";
+import rj_img12 from "../../assets/images/tpCardImgs/rjCardImgs/jainam-mehta-AVFjDGbqiqE-unsplash.jpg";
+import rj_img13 from "../../assets/images/tpCardImgs/rjCardImgs/junaid-ahmad-ansari-9WP-NVh2d6U-unsplash.jpg";
+import rj_img14 from "../../assets/images/tpCardImgs/rjCardImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg";
+import rj_img15 from "../../assets/images/tpCardImgs/rjCardImgs/lakshmi-narasimha-W5f-pmlTq78-unsplash.jpg";
+
+import rj_img16 from "../../assets/images/tpCardImgs/rjCardImgs/mike-blank-28s5r-zA6Lw-unsplash.jpg";
+import rj_img17 from "../../assets/images/tpCardImgs/rjCardImgs/navdeep-panwar-_Qtgj2nXqyY-unsplash.jpg";
+import rj_img18 from "../../assets/images/tpCardImgs/rjCardImgs/praveen-thirumurugan-TzdNtmKGeI8-unsplash.jpg";
+import rj_img19 from "../../assets/images/tpCardImgs/rjCardImgs/rimjhim-agrawal-wVESbOT9EBs-unsplash.jpg";
+import rj_img20 from "../../assets/images/tpCardImgs/rjCardImgs/rishabh-dev-DKLf--tpmA8-unsplash.jpg";
+import rj_img21 from "../../assets/images/tpCardImgs/rjCardImgs/rohit-varma-vY10lHXZF2o-unsplash.jpg";
+import rj_img22 from "../../assets/images/tpCardImgs/rjCardImgs/romi-kalathiya-px_lNdmB8uo-unsplash.jpg";
+import rj_img23 from "../../assets/images/tpCardImgs/rjCardImgs/romi-kalathiya-Bxwa1-VoJ-A-unsplash.jpg";
+import rj_img24 from "../../assets/images/tpCardImgs/rjCardImgs/shiv-prasad-BgF8HUIg2JY-unsplash.jpg";
+import rj_img25 from "../../assets/images/tpCardImgs/rjCardImgs/siby-QXIBCvvA_jc-unsplash.jpg";
+import rj_img26 from "../../assets/images/tpCardImgs/rjCardImgs/sreehari-devadas-j4hGnHYl8ic-unsplash.jpg";
+import rj_img27 from "../../assets/images/tpCardImgs/rjCardImgs/sudev-kiyada-hCkGZZYshbo-unsplash.jpg";
+import rj_img28 from "../../assets/images/tpCardImgs/rjCardImgs/venus-major-IRQDCsSxT20-unsplash.jpg";
+
+import rj_img29 from "../../assets/images/tpCardImgs/speCardImgs/arshla-jindal-aCl0TLg1DQg-unsplash.jpg";
+import rj_img30 from "../../assets/images/tpCardImgs/speCardImgs/barun-ghosh-e_bXQldK-4E-unsplash.jpg";
+import rj_img31 from "../../assets/images/tpCardImgs/speCardImgs/barun-ghosh-lZ4jn_xuCZk-unsplash.jpg";
+import rj_img32 from "../../assets/images/tpCardImgs/speCardImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg";
+import rj_img33 from "../../assets/images/tpCardImgs/speCardImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg";
+import rj_img34 from "../../assets/images/tpCardImgs/speCardImgs/kartik-iyer-VzErgGzTkPU-unsplash (1).jpg";
+import rj_img35 from "../../assets/images/tpCardImgs/speCardImgs/martijn-vonk-8oCgUgo_hBU-unsplash.jpg";
+import rj_img36 from "../../assets/images/tpCardImgs/speCardImgs/naman-pandey-Iya5bn212xA-unsplash (2).jpg";
+import rj_img37 from "../../assets/images/tpCardImgs/speCardImgs/ravi-khandelwal-DrJtwNe6AcQ-unsplash.jpg";
+
+import rj_img38 from "../../assets/images/tpCardImgs/speCardImgs/rj1 (2).jpg";
+import rj_img39 from "../../assets/images/tpCardImgs/speCardImgs/roberto-reposo-LgQoL6eOdHs-unsplash (1).jpg";
+import rj_img40 from "../../assets/images/tpCardImgs/speCardImgs/sohan-rayguru-cDmZEQct7qc-unsplash.jpg";
+import rj_img41 from "../../assets/images/tpCardImgs/speCardImgs/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg";
+import rj_img42 from "../../assets/images/tpCardImgs/speCardImgs/ved-SRAUI9X4Ep8-unsplash.jpg";
+import rj_img43 from "../../assets/images/tpCardImgs/speCardImgs/vg-bingi-Z9s5Tt0MHKg-unsplash.jpg";
+import rj_img44 from "../../assets/images/tpCardImgs/speCardImgs/vivek-1pNm4DFts4U-unsplash.jpg";
+import rj_img45 from "../../assets/images/tpCardImgs/speCardImgs/wuz-rs5tqPD3YpM-unsplash.jpg";
+
+import rj_img46 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/arun-geetha-viswanathan-8goGYCLzrLs-unsplash.jpg";
+
+import rj_img47 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/axp-photography-K8OE1ZI7QOY-unsplash.jpg";
+import rj_img48 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/gaurav-sharma-zd4mfl_1C6g-unsplash.jpg";
+import rj_img49 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/jainam-mehta-AVFjDGbqiqE-unsplash.jpg";
+import rj_img50 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg";
+import rj_img51 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/makm-photography-u0irC_UnbOk-unsplash.jpg";
+import rj_img52 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/mike-blank-28s5r-zA6Lw-unsplash.jpg";
+import rj_img53 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/rimjhim-agrawal-wVESbOT9EBs-unsplash.jpg";
+import rj_img54 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/rishabh-dev-DKLf--tpmA8-unsplash.jpg";
+import rj_img55 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/romi-kalathiya-Bxwa1-VoJ-A-unsplash.jpg";
+import rj_img56 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/sreehari-devadas-j4hGnHYl8ic-unsplash.jpg";
+import rj_img57 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/sudev-kiyada-hCkGZZYshbo-unsplash.jpg";
+import rj_img58 from "../../assets/images/tpCardImgs/speCardImgs/otherSpImgs/axp-photography--hwq4OHDJWI-unsplash.jpg";
+
 export const rjTPCards = [
   {
-    img: "",
+    img: rj_img19,
     title: "Jaipur Ajmer Pushkar Udaipur Tour",
     duration: "5 Nights 6 Days",
     desc: "Explore royal cities and sacred destinations of Rajasthan.",
   },
   {
-    img: "",
+    img: rj_img20,
     title: "Jaipur Ajmer Pushkar Udaipur Tour",
     duration: "3 Nights - 4 Days",
     desc: "Quick getaway to explore Jaipur, Ajmer and Udaipur.",
   },
   {
-    img: "",
+    img: rj_img21,
     title: "Jaipur Honeymoon Tour",
     duration: "4 Nights - 5 Days",
     desc: "Romantic retreat in the Pink City with heritage stays.",
   },
   {
-    img: "",
+    img: rj_img12,
     title: "Jaipur Jodhpur Udaipur Tour",
     duration: "6 Nights - 7 Days",
     desc: "Discover forts, lakes, and culture across three cities.",
   },
   {
-    img: "",
+    img: rj_img41,
     title: "Delhi Jaipur Agra Pushkar Tour",
     duration: "6 Nights - 7 Days",
     desc: "Golden Triangle plus holy city Pushkar for divine experience.",
   },
   {
-    img: "",
+    img: rj_img35,
     title: "Jaipur Group Tour Package",
     duration: "Customizable",
     desc: "Perfect group tour to explore Jaipur’s rich heritage.",
   },
   {
-    img: "",
+    img: rj_img51,
     title: "Jaipur Tour Package 5 Days",
     duration: "4 Nights - 5 Days",
     desc: "Five days of heritage, palaces, and colorful bazaars.",
   },
   {
-    img: "",
+    img: rj_img37,
     title: "Jaipur Tour Package 4 Days",
     duration: "3 Nights - 4 Days",
     desc: "Experience Jaipur’s beauty and history in four days.",
   },
   {
-    img: "",
+    img: rj_img27,
     title: "Jaipur Tour Package 3 Days",
     duration: "2 Nights - 3 Days",
     desc: "Short but immersive trip through the Pink City.",
   },
   {
-    img: "",
+    img: rj_img40,
     title: "Royal Rajasthan Tour Package",
     duration: "9 Nights - 10 Days",
     desc: "Full Rajasthan circuit with majestic forts and palaces.",
   },
   {
-    img: "",
+    img: rj_img29,
     title: "Rajasthan Tour Package 8 Days",
     duration: "7 Nights - 8 Days",
     desc: "Cultural journey through Rajasthan’s top destinations.",
   },
   {
-    img: "",
+    img: rj_img30,
     title: "Rajasthan Tour Package 7 Days",
     duration: "6 Nights - 7 Days",
     desc: "Seven days of desert charm and historic wonders.",
   },
   {
-    img: "",
+    img: rj_img31,
     title: "Jaipur Tour Package 2 Days",
     duration: "2 Days",
     desc: "Perfect short tour for Jaipur’s main attractions.",
   },
   {
-    img: "",
+    img: rj_img32,
     title: "Rajasthan Camel Safari Tour",
     duration: "16 Nights - 17 Days",
     desc: "Desert adventure with camel rides and camping.",
   },
   {
-    img: "",
+    img: rj_img49,
     title: "Exciting Rajasthan Tour",
     duration: "10 Nights - 11 Days",
     desc: "Explore thrilling landscapes and colorful Rajasthani life.",
   },
   {
-    img: "",
+    img: rj_img34,
     title: "Rajasthan Tour Package 5 Days",
     duration: "4 Nights - 5 Days",
     desc: "Balanced tour for forts, temples and culture.",
   },
   {
-    img: "",
+    img: rj_img35,
     title: "Rajasthan Tour Package 6 Days",
     duration: "5 Nights - 6 Days",
     desc: "Experience vibrant Rajasthan over six immersive days.",
   },
   {
-    img: "",
+    img: rj_img36,
     title: "Forts & Palaces Tour",
     duration: "13 Nights - 14 Days",
     desc: "Grandeur of Rajputana architecture and royal residences.",
   },
   {
-    img: "",
+    img: rj_img37,
     title: "Rajasthan Village Tour",
     duration: "14 Nights - 15 Days",
     desc: "Live authentic rural life and Rajasthani traditions.",
   },
   {
-    img: "",
+    img: rj_img38,
     title: "Rajasthan Heritage Tour",
     duration: "12 Nights - 13 Days",
     desc: "Discover Rajasthan's legacy through heritage and arts.",
   },
   {
-    img: "",
+    img: rj_img39,
     title: "Rajasthan Cultural Tour",
     duration: "15 Night - 16 Day",
     desc: "Rich cultural experiences with dance, food and crafts.",
   },
   {
-    img: "",
+    img: rj_img40,
     title: "Rajasthan Honeymoon Tour",
     duration: "10 Nights - 11 Days",
     desc: "Romantic luxury amidst palaces and beautiful landscapes.",
   },
   {
-    img: "",
+    img: rj_img23,
     title: "Rajasthan Temple Tour",
     duration: "14 Nights - 15 Days",
     desc: "Spiritual journey through Rajasthan’s sacred temples.",
   },
   {
-    img: "",
+    img: rj_img45,
     title: "Rajasthan Wildlife Tour",
     duration: "09 Nights - 10 Days",
     desc: "Thrilling encounters with Rajasthan’s wild inhabitants.",
   },
   {
-    img: "",
+    img: rj_img42,
     title: "Jaipur Student Group Tour",
     duration: "Customizable",
     desc: "Educational fun with guided student explorations in Jaipur.",
   },
   {
-    img: "",
+    img: rj_img43,
     title: "Rajasthan Student Group Tour",
     duration: "7 Nights - 8 Days",
     desc: "Explore Rajasthan’s culture and history with friends.",
   },
   {
-    img: "",
+    img: rj_img44,
     title: "Rajasthan Student Bus Tour",
     duration: "6 Nights - 7 Days",
     desc: "Group tour across cities by comfortable bus ride.",
   },
   {
-    img: "",
+    img: rj_img9,
     title: "Rajasthan Adventure Tour",
     duration: "6 Nights - 7 Days",
     desc: "Adrenaline-filled activities in the heart of Rajasthan.",
   },
   {
-    img: "",
+    img: rj_img10,
     title: "Rajasthan Tour Packages From Bangalore",
     duration: "Customizable",
     desc: "Seamless Rajasthan getaway from Bangalore city.",
   },
   {
-    img: "",
+    img: rj_img4,
     title: "Rajasthan Tour Packages From Chennai",
     duration: "Customizable",
     desc: "Fly from Chennai and enjoy royal Rajasthan charm.",
   },
   {
-    img: "",
+    img: rj_img46,
     title: "Rajasthan Tour Packages From Delhi",
     duration: "Customizable",
     desc: "Start your Rajasthan journey from the capital city.",
   },
   {
-    img: "",
+    img: rj_img2,
     title: "Rajasthan Tour Packages From Kerala",
     duration: "Customizable",
     desc: "Rajasthan escape designed for Kerala travelers.",
   },
   {
-    img: "",
+    img: rj_img7,
     title: "Rajasthan Tour Packages From Mumbai",
     duration: "Customizable",
     desc: "Royal Rajasthan adventures starting from Mumbai.",
   },
   {
-    img: "",
+    img: rj_img17,
     title: "Rajasthan Tour Packages From Agra",
     duration: "Customizable",
     desc: "Combine Agra visit with a Rajasthan exploration.",
   },
   {
-    img: "",
+    img: rj_img1,
     title: "Rajasthan Tour Packages From Kolkata",
     duration: "Customizable",
     desc: "Fly from Kolkata to discover vibrant Rajasthan.",
   },
   {
-    img: "",
+    img: rj_img5,
     title: "Rajasthan Tour Packages From Chandigarh",
     duration: "Customizable",
     desc: "Chandigarh to Rajasthan: curated cultural experience.",
   },
   {
-    img: "",
+    img: rj_img24,
     title: "Rajasthan Tour Packages From Hyderabad",
     duration: "Customizable",
     desc: "Discover royal Rajasthan with Hyderabad departure.",
   },
   {
-    img: "",
+    img: rj_img22,
     title: "Rajasthan Tour Packages from Ahmedabad",
     duration: "Customizable",
     desc: "Explore vibrant Rajasthan from Gujarat’s heritage city.",
   },
   {
-    img: "",
+    img: rj_img25,
     title: "Rajasthan Tour Packages from Tamil Nadu",
     duration: "Customizable",
     desc: "From Tamil Nadu to Rajasthan's regal wonders.",
   },
   {
-    img: "",
+    img: rj_img14,
     title: "Rajasthan Tour Packages from Gujarat",
     duration: "Customizable",
     desc: "Short travel distance, rich Rajasthani culture awaits.",
   },
   {
-    img: "",
+    img: rj_img3,
     title: "Rajasthan Tour Packages from Jaisalmer",
     duration: "Customizable",
     desc: "Start in Jaisalmer, explore deeper into Rajasthan.",
   },
   {
-    img: "",
+    img: rj_img47,
     title: "Rajasthan Bus Tour",
     duration: "Customizable",
     desc: "Comfortable bus tour through Rajasthan’s top cities.",
   },
   {
-    img: "",
+    img: rj_img15,
     title: "Jodhpur Tour by Car and Driver",
     duration: "Customizable",
     desc: "Private Jodhpur city tour with professional driver.",
   },
   {
-    img: "",
+    img: rj_img55,
     title: "Mount Abu Tour by Car and Driver",
     duration: "Customizable",
     desc: "Relaxing Mount Abu drive with personal guide-driver.",
   },
   {
-    img: "",
+    img: rj_img48,
     title: "Ranthambore Tour by Car and Driver",
     duration: "Customizable",
     desc: "Safari and sightseeing in Ranthambore in comfort.",
   },
   {
-    img: "",
+    img: rj_img50,
     title: "Bikaner Tour by Car and Driver",
     duration: "Customizable",
     desc: "Explore Bikaner’s forts and snacks with ease.",
   },
   {
-    img: "",
+    img: rj_img51,
     title: "Ajmer Pushkar Tour by Car And Driver",
     duration: "Customizable",
     desc: "Visit holy Ajmer & Pushkar temples in comfort.",
   },
   {
-    img: "",
+    img: rj_img56,
     title: "Delhi Tour by Car and Driver",
     duration: "Customizable",
     desc: "Private Delhi sightseeing with expert local driver.",
   },
   {
-    img: "",
+    img: rj_img18,
     title: "Agra Tour by Car and Driver",
     duration: "Customizable",
     desc: "Explore Taj Mahal and more with private ride.",
   },
   {
-    img: "",
+    img: rj_img33,
     title: "Rajasthan Tour Package for 5 Nights 6 Days",
     duration: "Customizable",
     desc: "Ideal short package with vibrant destinations included.",
   },
   {
-    img: "",
+    img: rj_img53,
     title: "Rajasthan Tour Package for 6 Days",
     duration: "Customizable",
     desc: "A complete six-day royal Rajasthan experience.",
   },
   {
-    img: "",
+    img: rj_img54,
     title: "Rajasthan 8 Days Tour Package",
     duration: "Customizable",
     desc: "Explore Rajasthan’s highlights in eight days.",
   },
   {
-    img: "",
+    img: rj_img49,
     title: "Rajasthan Tour 7 Days",
     duration: "Customizable",
     desc: "One week of unforgettable Rajasthan charm.",
   },
   {
-    img: "",
+    img: rj_img52,
     title: "Jaipur Agra Ajmer Pushkar 5N 6D Tour",
     duration: "Customizable",
     desc: "Best mix of heritage, devotion and culture.",
   },
   {
-    img: "",
+    img: rj_img57,
     title: "Rajasthan Tour Package 5 Nights 6 Days",
     duration: "Customizable",
     desc: "Enjoy the best of Rajasthan in six days.",
@@ -422,57 +487,67 @@ export const udaipurTPData = {
   },
 };
 
+import u_img1 from "../images/tpCardImgs/udaiCardImgs/fred-nassar-pnLIgujCigo-unsplash.jpg";
+import u_img2 from "../images/tpCardImgs/udaiCardImgs/ish-consul-i56w4ah3wAY-unsplash.jpg";
+import u_img3 from "../images/tpCardImgs/udaiCardImgs/kashish-lamba-JfowJjlcK8A-unsplash.jpg";
+import u_img4 from "../images/tpCardImgs/udaiCardImgs/vivek-YOAFx_1iznM-unsplash.jpg";
+import u_img5 from "../images/tpCardImgs/udaiCardImgs/pranav-panchal-IEArgDckRuQ-unsplash.jpg";
+import u_img6 from "../images/tpCardImgs/udaiCardImgs/shantanu-goyal-foRaM8hVH28-unsplash.jpg";
+import u_img7 from "../images/tpCardImgs/udaiCardImgs/rimjhim-agrawal-P6I33ztlBzs-unsplash.jpg";
+import u_img8 from "../images/tpCardImgs/udaiCardImgs/uttam-santoki-I59xUfmYRzM-unsplash.jpg";
+import u_img9 from "../images/tpCardImgs/udaiCardImgs/vivek-1pNm4DFts4U-unsplash.jpg";
+
 export const udaipurTPCards = [
   {
-    img: "",
+    img: u_img5,
     title: "Udaipur Luxury Tour",
     duration: "Customizable",
     desc: "Experience royal luxury in the City of Lakes",
   },
   {
-    img: "",
+    img: u_img9,
     title: "Udaipur Family Tour",
     duration: "Customizable",
     desc: "Perfect Udaipur getaway for the entire family",
   },
   {
-    img: "",
+    img: u_img2,
     title: "Udaipur Tour for Couple",
     duration: "Customizable",
     desc: "Romantic escape for couples in Udaipur city",
   },
   {
-    img: "",
+    img: u_img4,
     title: "Udaipur Tour for 1 Day",
     duration: "1 Day",
     desc: "Explore Udaipur’s top attractions in one day",
   },
   {
-    img: "",
+    img: u_img1,
     title: "Udaipur Tour for 2 Days",
     duration: "2 Days - 1 Night",
     desc: "Quick two-day tour covering must-visit spots",
   },
   {
-    img: "",
+    img: u_img6,
     title: "Udaipur Tour for 3 Days",
     duration: "3 Days - 2 Nights",
     desc: "Discover Udaipur’s beauty in three-day trip",
   },
   {
-    img: "",
+    img: u_img7,
     title: "Udaipur Tour for 4 Days",
     duration: "4 Days - 3 Nights",
     desc: "Enjoy a detailed four-day Udaipur experience",
   },
   {
-    img: "",
+    img: u_img8,
     title: "Udaipur Tour for 5 Days",
     duration: "5 Days - 4 Nights",
     desc: "Five days exploring palaces, lakes, and markets",
   },
   {
-    img: "",
+    img: u_img3,
     title: "Udaipur Tour by Car and Driver",
     duration: "Customizable",
     desc: "Private tour by car with experienced local driver",
@@ -591,69 +666,81 @@ export const jaisalmerTPData = {
   },
 };
 
+import jai_img1 from "../images/tpCardImgs/jaiCardImgs/axp-photography-1L_LgfEtNYM-unsplash.jpg";
+import jai_img2 from "../images/tpCardImgs/jaiCardImgs/axp-photography-j3mRL-SQbo8-unsplash.jpg";
+import jai_img3 from "../images/tpCardImgs/jaiCardImgs/dhruvi-r-N4LvZvzkZkQ-unsplash.jpg";
+import jai_img4 from "../images/tpCardImgs/jaiCardImgs/gurpreet-sidhu-amRTXiNqZqw-unsplash.jpg";
+import jai_img5 from "../images/tpCardImgs/jaiCardImgs/hg-creations-P33fyQy0uuc-unsplash.jpg";
+import jai_img6 from "../images/tpCardImgs/jaiCardImgs/josephine-thomas-G-rqWttPUX0-unsplash.jpg";
+import jai_img7 from "../images/tpCardImgs/jaiCardImgs/oren-yomtov-FAcfTXBw95s-unsplash.jpg";
+import jai_img8 from "../images/tpCardImgs/jaiCardImgs/pawan-parihar-J2ijrGPkQ4k-unsplash.jpg";
+import jai_img9 from "../images/tpCardImgs/jaiCardImgs/pranav-s-WR_ieXW68CM-unsplash.jpg";
+import jai_img10 from "../images/tpCardImgs/jaiCardImgs/rishi-jhajharia-AkxMg8s2_Dg-unsplash.jpg";
+import jai_img11 from "../images/tpCardImgs/jaiCardImgs/sumit-kr-sau-DmK8oBcHLck-unsplash.jpg";
+
 export const jaisalmerTPCards = [
   {
-    img: "",
+    img: jai_img9,
     title: "Jaisalmer Half-Day Tour",
     duration: "Half Day",
     desc: "Quick visit to Jaisalmer’s main highlights",
   },
   {
-    img: "",
+    img: jai_img2,
     title: "Jaisalmer Full-Day Tour",
     duration: "1 Day",
     desc: "Full-day sightseeing across Jaisalmer's key attractions",
   },
   {
-    img: "",
+    img: jai_img3,
     title: "Jaisalmer Tour Package for One Day",
     duration: "1 Day",
     desc: "Explore golden city charm in one day",
   },
   {
-    img: "",
+    img: jai_img4,
     title: "Jaisalmer Tour Package for 2 Days",
     duration: "2 Days - 1 Night",
     desc: "Two-day desert tour with forts and dunes",
   },
   {
-    img: "",
+    img: jai_img5,
     title: "Jaisalmer Tour Package for 3 Days",
     duration: "3 Days - 2 Nights",
     desc: "Three-day cultural and desert safari experience",
   },
   {
-    img: "",
+    img: jai_img6,
     title: "Jaisalmer Tour Package 4 Days",
     duration: "4 Days - 3 Nights",
     desc: "In-depth tour of Jaisalmer's beauty and history",
   },
   {
-    img: "",
+    img: jai_img10,
     title: "Jaisalmer Tour Package for 5 Days",
     duration: "5 Days - 4 Nights",
     desc: "Complete desert adventure with cultural experiences",
   },
   {
-    img: "",
+    img: jai_img8,
     title: "Jaisalmer Family Tour",
     duration: "Customizable",
     desc: "Family-friendly package with fun and safety",
   },
   {
-    img: "",
+    img: jai_img1,
     title: "Jaisalmer Luxury Tour",
     duration: "Customizable",
     desc: "Royal Jaisalmer experience with premium amenities",
   },
   {
-    img: "",
+    img: jai_img7,
     title: "Jaisalmer Tour Package for Couple",
     duration: "Customizable",
     desc: "Romantic desert tour perfect for couples",
   },
   {
-    img: "",
+    img: jai_img11,
     title: "Jaisalmer Tour by Car and Driver",
     duration: "Customizable",
     desc: "Private Jaisalmer trip with car and driver",
@@ -740,285 +827,333 @@ export const jaipurTPData = {
   },
 };
 
+import pur_img1 from "../images/tpCardImgs/purCrdImgs/abhijeet-parmar-YTATNUbpyNk-unsplash.jpg";
+import pur_img2 from "../images/tpCardImgs/purCrdImgs/aditya-darji-PRdbrcG5i34-unsplash.jpg";
+import pur_img3 from "../images/tpCardImgs/purCrdImgs/arshla-jindal-aCl0TLg1DQg-unsplash.jpg";
+import pur_img4 from "../images/tpCardImgs/purCrdImgs/axp-photography-K8OE1ZI7QOY-unsplash.jpg";
+import pur_img5 from "../images/tpCardImgs/purCrdImgs/barun-ghosh-e_bXQldK-4E-unsplash.jpg";
+import pur_img6 from "../images/tpCardImgs/purCrdImgs/barun-ghosh-lZ4jn_xuCZk-unsplash.jpg";
+import pur_img7 from "../images/tpCardImgs/purCrdImgs/damini-4FQcYTt9GlM-unsplash.jpg";
+import pur_img8 from "../images/tpCardImgs/purCrdImgs/damini-BuphrmSlcdE-unsplash.jpg";
+import pur_img9 from "../images/tpCardImgs/purCrdImgs/damini-NBqK1qLisrE-unsplash.jpg";
+import pur_img10 from "../images/tpCardImgs/purCrdImgs/fred-nassar-pnLIgujCigo-unsplash.jpg";
+import pur_img11 from "../images/tpCardImgs/purCrdImgs/gaurav-sharma-lj3r0SZK7rQ-unsplash (1).jpg";
+import pur_img12 from "../images/tpCardImgs/purCrdImgs/gaurav-sharma-zd4mfl_1C6g-unsplash.jpg";
+import pur_img13 from "../images/tpCardImgs/purCrdImgs/hardik-moradiya-2E5b80ReS7A-unsplash.jpg";
+import pur_img14 from "../images/tpCardImgs/purCrdImgs/ish-consul-i56w4ah3wAY-unsplash.jpg";
+import pur_img15 from "../images/tpCardImgs/purCrdImgs/jainam-mehta-AVFjDGbqiqE-unsplash.jpg";
+import pur_img16 from "../images/tpCardImgs/purCrdImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg";
+import pur_img17 from "../images/tpCardImgs/purCrdImgs/kapil-verma-pltr6h2flz4-unsplash.jpg";
+import pur_img18 from "../images/tpCardImgs/purCrdImgs/kartik-iyer-VzErgGzTkPU-unsplash (1).jpg";
+import pur_img19 from "../images/tpCardImgs/purCrdImgs/kashish-lamba-JfowJjlcK8A-unsplash.jpg";
+import pur_img20 from "../images/tpCardImgs/purCrdImgs/martijn-vonk-8oCgUgo_hBU-unsplash.jpg";
+import pur_img21 from "../images/tpCardImgs/purCrdImgs/meric-dagli-uADXI1v10us-unsplash.jpg";
+import pur_img22 from "../images/tpCardImgs/purCrdImgs/naman-pandey-Iya5bn212xA-unsplash (2).jpg";
+import pur_img23 from "../images/tpCardImgs/purCrdImgs/nina-luong-yJIcyKOnKTo-unsplash.jpg";
+import pur_img24 from "../images/tpCardImgs/purCrdImgs/nomad-bikers-H8UAcRybyQs-unsplash.jpg";
+import pur_img25 from "../images/tpCardImgs/purCrdImgs/pranav-panchal-IEArgDckRuQ-unsplash.jpg";
+import pur_img26 from "../images/tpCardImgs/purCrdImgs/rahul-soni-d1VNq5KoqP4-unsplash.jpg";
+import pur_img27 from "../images/tpCardImgs/purCrdImgs/ravi-khandelwal-DrJtwNe6AcQ-unsplash.jpg";
+import pur_img28 from "../images/tpCardImgs/purCrdImgs/recyclops-ss-LdmtELmZnSw-unsplash.jpg";
+import pur_img29 from "../images/tpCardImgs/purCrdImgs/rimjhim-agrawal-he9VR433iEA-unsplash.jpg";
+import pur_img30 from "../images/tpCardImgs/purCrdImgs/rimjhim-agrawal-P6I33ztlBzs-unsplash.jpg";
+import pur_img31 from "../images/tpCardImgs/purCrdImgs/rimjhim-agrawal-wVESbOT9EBs-unsplash.jpg";
+import pur_img32 from "../images/tpCardImgs/purCrdImgs/rishabh-dev-DKLf--tpmA8-unsplash.jpg";
+import pur_img33 from "../images/tpCardImgs/purCrdImgs/rj1 (2).jpg";
+import pur_img34 from "../images/tpCardImgs/purCrdImgs/roberto-reposo-LgQoL6eOdHs-unsplash (1).jpg";
+import pur_img35 from "../images/tpCardImgs/purCrdImgs/rohit-varma-vY10lHXZF2o-unsplash.jpg";
+import pur_img36 from "../images/tpCardImgs/purCrdImgs/romi-kalathiya-Bxwa1-VoJ-A-unsplash.jpg";
+import pur_img37 from "../images/tpCardImgs/purCrdImgs/sergio-capuzzimati-DL-4g1jvG_o-unsplash.jpg";
+import pur_img38 from "../images/tpCardImgs/purCrdImgs/shantanu-goyal-foRaM8hVH28-unsplash.jpg";
+import pur_img39 from "../images/tpCardImgs/purCrdImgs/sohan-rayguru-cDmZEQct7qc-unsplash.jpg";
+import pur_img40 from "../images/tpCardImgs/purCrdImgs/sreehari-devadas-RYiCMSCFGWc-unsplash.jpg";
+import pur_img41 from "../images/tpCardImgs/purCrdImgs/uttam-santoki-I59xUfmYRzM-unsplash.jpg";
+import pur_img42 from "../images/tpCardImgs/purCrdImgs/sudev-kiyada-hCkGZZYshbo-unsplash.jpg";
+import pur_img43 from "../images/tpCardImgs/purCrdImgs/ved-SRAUI9X4Ep8-unsplash.jpg";
+import pur_img44 from "../images/tpCardImgs/purCrdImgs/vg-bingi-Z9s5Tt0MHKg-unsplash.jpg";
+import pur_img45 from "../images/tpCardImgs/purCrdImgs/vivek-1pNm4DFts4U-unsplash.jpg";
+import pur_img46 from "../images/tpCardImgs/purCrdImgs/vivek-YOAFx_1iznM-unsplash.jpg";
+import pur_img47 from "../images/tpCardImgs/purCrdImgs/wuz-rs5tqPD3YpM-unsplash.jpg";
+
 export const jaipurTPCards = [
   {
-    img: "",
+    img: pur_img1,
     title: "Jaipur Full Day Tour",
     duration: "1 Day",
     desc: "Comprehensive exploration of Jaipur's top attractions in a single day",
   },
   {
-    img: "",
+    img: pur_img2,
     title: "Jaipur Half-Day Tour",
     duration: "Half-day",
     desc: "Short but immersive experience of Jaipur's highlights",
   },
   {
-    img: "",
+    img: pur_img3,
     title: "Jaipur Sightseeing Tour",
     duration: "1 Day",
     desc: "Guided tour covering Jaipur's most famous landmarks",
   },
   {
-    img: "",
+    img: pur_img4,
     title: "Jaipur Sunrise Tour",
     duration: "Morning",
     desc: "Experience Jaipur's beauty in the magical morning light",
   },
   {
-    img: "",
+    img: pur_img5,
     title: "Jaipur Evening Tour",
     duration: "Evening",
     desc: "Discover Jaipur's enchanting evening atmosphere",
   },
   {
-    img: "",
+    img: pur_img6,
     title: "Jaipur Night Tour",
     duration: "Night",
     desc: "Explore Jaipur's illuminated monuments and nightlife",
   },
   {
-    img: "",
+    img: pur_img7,
     title: "Jaipur Temple Tour",
     duration: "1 Day",
     desc: "Spiritual journey through Jaipur's sacred temples",
   },
   {
-    img: "",
+    img: pur_img8,
     title: "Jaipur Shopping Tour",
     duration: "1 Day",
     desc: "Retail therapy through Jaipur's vibrant markets",
   },
   {
-    img: "",
+    img: pur_img9,
     title: "Jaipur Wildlife Tour",
     duration: "1 Day",
     desc: "Explore the natural side of Jaipur with wildlife encounters",
   },
   {
-    img: "",
+    img: pur_img10,
     title: "Jaipur Honeymoon Tour",
     duration: "4 Nights 5 Days",
     desc: "Romantic getaway package for couples in the Pink City",
   },
   {
-    img: "",
+    img: pur_img11,
     title: "Jaipur Group Tour",
     duration: "Customizable",
     desc: "Tailored experiences for groups of all sizes",
   },
   {
-    img: "",
+    img: pur_img12,
     title: "Jaipur Student Group Tour",
     duration: "Customizable",
     desc: "Educational and fun tour for student groups",
   },
   {
-    img: "",
+    img: pur_img13,
     title: "Jaipur Luxury Tour",
     duration: "2 Nights 3 Days",
     desc: "Premium experience of Jaipur with high-end accommodations",
   },
   {
-    img: "",
+    img: pur_img14,
     title: "Jaipur Tour Package 1 Day",
     duration: "1 Day",
     desc: "Compact tour covering Jaipur's must-see attractions",
   },
   {
-    img: "",
+    img: pur_img15,
     title: "Jaipur Tour Package 2 Days",
     duration: "2 Days",
     desc: "Weekend getaway exploring Jaipur's heritage",
   },
   {
-    img: "",
+    img: pur_img16,
     title: "Jaipur Tour Package 3 Days",
     duration: "2 Nights 3 Days",
     desc: "Complete Jaipur experience over three days",
   },
   {
-    img: "",
+    img: pur_img17,
     title: "Jaipur Tour Package 4 Days",
     duration: "3 Nights 4 Days",
     desc: "Extended exploration of Jaipur and surroundings",
   },
   {
-    img: "",
+    img: pur_img18,
     title: "Jaipur Tour Package 5 Days",
     duration: "4 Nights 5 Days",
     desc: "Immersive journey through Jaipur's culture and history",
   },
   {
-    img: "",
+    img: pur_img19,
     title: "Jaipur Bus Group Tour for Students",
     duration: "Customizable",
     desc: "Affordable educational tour for student groups by bus",
   },
   {
-    img: "",
+    img: pur_img20,
     title: "Jaipur Tour Packages from Mumbai",
     duration: "Customizable",
     desc: "Tailored Jaipur tours for travelers from Mumbai",
   },
   {
-    img: "",
+    img: pur_img21,
     title: "Jaipur Tour Packages from Ahmedabad",
     duration: "Customizable",
     desc: "Custom Jaipur experiences for Ahmedabad residents",
   },
   {
-    img: "",
+    img: pur_img22,
     title: "Jaipur Tour Packages from Vadodara",
     duration: "Customizable",
     desc: "Special packages for travelers from Vadodara",
   },
   {
-    img: "",
+    img: pur_img23,
     title: "Jaipur Tour Packages from Chennai",
     duration: "Customizable",
     desc: "Curated Jaipur tours for Chennai visitors",
   },
   {
-    img: "",
+    img: pur_img24,
     title: "Jaipur Tour Packages from Kolkata",
     duration: "Customizable",
     desc: "Designed experiences for travelers from Kolkata",
   },
   {
-    img: "",
+    img: pur_img25,
     title: "Jaipur Tour Packages for Family",
     duration: "Customizable",
     desc: "Family-friendly itineraries for all ages",
   },
   {
-    img: "",
+    img: pur_img26,
     title: "Jaipur Balloon Safari Package",
     duration: "Customizable",
     desc: "Aerial views of Jaipur through hot air balloon rides",
   },
   {
-    img: "",
+    img: pur_img27,
     title: "Camping Near Jaipur",
     duration: "Customizable",
     desc: "Outdoor adventures and camping experiences around Jaipur",
   },
   {
-    img: "",
+    img: pur_img28,
     title: "Jaipur Sightseeing by Bus",
     duration: "Customizable",
     desc: "Economical way to explore Jaipur's attractions",
   },
   {
-    img: "",
+    img: pur_img29,
     title: "Jaipur Tour by Car and Driver",
     duration: "Customizable",
     desc: "Private car tours with professional drivers",
   },
   {
-    img: "",
+    img: pur_img30,
     title: "Male Tour Guide in Jaipur",
     duration: "Customizable",
     desc: "Experienced male guides for personalized tours",
   },
   {
-    img: "",
+    img: pur_img31,
     title: "Jaipur Sightseeing by Car And Driver",
     duration: "01 Nights 02 Days",
     desc: "Comfortable private car tours with knowledgeable drivers",
   },
   {
-    img: "",
+    img: pur_img32,
     title: "Jaipur Full Day City Tour With Female Guide",
     duration: "Full Day",
     desc: "Complete city exploration with female tour guides",
   },
   {
-    img: "",
+    img: pur_img33,
     title: "Jaipur Full Day City Tour With Male Guide",
     duration: "Full Day",
     desc: "In-depth city tours with male guides",
   },
   {
-    img: "",
+    img: pur_img34,
     title: "Female Guide in Udaipur",
     duration: "Full Day",
     desc: "Professional female guides for Udaipur tours",
   },
   {
-    img: "",
+    img: pur_img35,
     title: "Male Guide in Udaipur",
     duration: "Full Day",
     desc: "Experienced male guides for Udaipur exploration",
   },
   {
-    img: "",
+    img: pur_img36,
     title: "17 Seater Urbania Tempo Traveller Jaipur",
     duration: "Customizable",
     desc: "Comfortable group transportation for 17 passengers",
   },
   {
-    img: "",
+    img: pur_img37,
     title: "Force Urbania Rental Jaipur",
     duration: "Customizable",
     desc: "Premium vehicle rentals for Jaipur tours",
   },
   {
-    img: "",
+    img: pur_img38,
     title: "12 Seater Urbania Tempo Traveller Jaipur",
     duration: "Customizable",
     desc: "Spacious transport for medium-sized groups",
   },
   {
-    img: "",
+    img: pur_img39,
     title: "Jaipur Tour Package 2 Nights 3 Days",
     duration: "2 Nights 3 Days",
     desc: "Short but comprehensive introduction to Jaipur",
   },
   {
-    img: "",
+    img: pur_img40,
     title: "Jaipur 3 Nights 4 Days Tour Package",
     duration: "3 Nights 4 Days",
     desc: "Extended exploration of Jaipur's cultural treasures",
   },
   {
-    img: "",
+    img: pur_img47,
     title: "Jaipur Tour Package for 5 Days",
     duration: "4 Nights 5 Days",
     desc: "Immersive five-day experience of the Pink City",
   },
   {
-    img: "",
+    img: pur_img42,
     title: "Jaipur Tour package 4 nights 5 days",
     duration: "4 Nights 5 Days",
     desc: "Complete cultural immersion in Jaipur",
   },
   {
-    img: "",
+    img: pur_img43,
     title: "Jaipur 3 Nights 4 Days Tour",
     duration: "3 Nights 4 Days",
     desc: "Well-paced tour covering Jaipur's highlights",
   },
   {
-    img: "",
+    img: pur_img44,
     title: "Jaipur 4 Nights 5 Days Tour",
     duration: "4 Nights 5 Days",
     desc: "Leisurely exploration of Jaipur's wonders",
   },
   {
-    img: "",
+    img: pur_img45,
     title: "Jaipur Balloon Safari",
     duration: "Customizable",
     desc: "Breathtaking aerial views of Jaipur's landscape",
   },
   {
-    img: "",
+    img: pur_img46,
     title: "Jaipur Family Tour Package 5N 6D",
     duration: "5 Nights 6 Days",
     desc: "Six-day perfect family vacation in Jaipur",
   },
   {
-    img: "",
+    img: pur_img41,
     title: "Jaipur Temple Tour 4N 5 Days",
     duration: "4 Nights 5 Days",
     desc: "Spiritual journey through Jaipur's sacred sites",
@@ -1085,84 +1220,92 @@ export const goldenTPData = {
   },
 };
 
+import gold_img1 from "../images/tpCardImgs/goldeCardImgs/aditya-prakash-rJcakYQpxkw-unsplash.jpg";
+import gold_img2 from "../images/tpCardImgs/goldeCardImgs/anuj-yadav-1KehhzFg_Q0-unsplash.jpg";
+import gold_img3 from "../images/tpCardImgs/goldeCardImgs/axp-photography-srff-8RzC84-unsplash.jpg";
+import gold_img4 from "../images/tpCardImgs/goldeCardImgs/jan-gemerle-XbRp9KUrI-Q-unsplash.jpg";
+import gold_img5 from "../images/tpCardImgs/goldeCardImgs/jovyn-chamb-iWMfiInivp4-unsplash (1).jpg";
+import gold_img6 from "../images/tpCardImgs/goldeCardImgs/junaid-ahmad-ansari-9WP-NVh2d6U-unsplash.jpg";
+import gold_img7 from "../images/tpCardImgs/goldeCardImgs/jyotirmoy-gupta-Qtk-1cN1EJY-unsplash.jpg";
+import gold_img8 from "../images/tpCardImgs/goldeCardImgs/naveen-kashyap-ZCPFZTBYBIY-unsplash.jpg";
+import gold_img9 from "../images/tpCardImgs/goldeCardImgs/pixels-street-5LUHJuhUy_g-unsplash.jpg";
+import gold_img10 from "../images/tpCardImgs/goldeCardImgs/pratish-srivastava-Iu06T6z2vRE-unsplash.jpg";
+import gold_img11 from "../images/tpCardImgs/goldeCardImgs/preetam-priyabrat-D4e0CTsvEGU-unsplash (1).jpg";
+import gold_img12 from "../images/tpCardImgs/goldeCardImgs/siddhant-singh-NWo6rTtvT40-unsplash.jpg";
+import gold_img13 from "../images/tpCardImgs/goldeCardImgs/venus-major-IRQDCsSxT20-unsplash.jpg";
+
 export const goldenTriangleTPCards = [
   {
-    img: "",
+    img: gold_img11,
     title: "Golden Triangle Tour",
     duration: "3 Nights - 4 Days",
     desc: "Explore Delhi, Agra, and Jaipur in 4 days",
   },
   {
-    img: "",
+    img: gold_img2,
     title: "5 Days Golden Triangle Tour",
     duration: "5 Days",
     desc: "Extended trip covering major Golden Triangle cities",
   },
   {
-    img: "",
+    img: gold_img3,
     title: "Golden Triangle with Udaipur",
     duration: "4 Nights - 5 Days",
     desc: "Includes Udaipur along with classic triangle cities",
   },
   {
-    img: "",
+    img: gold_img4,
     title: "Golden Triangle Tour with Jaisalmer",
     duration: "6 Nights - 7 Days",
     desc: "Add Jaisalmer's desert charm to your tour",
   },
   {
-    img: "",
+    img: gold_img5,
     title: "Golden Triangle Tour With Ranthambore",
     duration: "7 Nights - 8 Days",
     desc: "Experience wildlife at Ranthambore with triangle cities",
   },
   {
-    img: "",
+    img: gold_img6,
     title: "Golden Triangle Tour with Varanasi",
     duration: "7 Nights - 8 Days",
     desc: "Spiritual Varanasi added to classic Golden Triangle",
   },
   {
-    img: "",
+    img: gold_img7,
     title: "Golden Triangle With Haridwar & Rishikesh",
     duration: "7 Nights - 8 Days",
     desc: "Explore holy cities Haridwar and Rishikesh with triangle",
   },
   {
-    img: "",
+    img: gold_img10,
     title: "Golden Triangle with Varanasi & Khajuraho",
     duration: "10 Nights - 11 Days",
     desc: "Comprehensive spiritual and heritage tour including Khajuraho",
   },
   {
-    img: "",
+    img: gold_img9,
     title: "Golden Triangle Tour with Rajasthan",
     duration: "7 Nights - 8 Days",
     desc: "Experience Rajasthan's culture along with triangle cities",
   },
   {
-    img: "",
+    img: gold_img12,
     title: "Delhi Jaipur Agra Pushkar Tour",
     duration: "14 Nights - 15 Days",
     desc: "Extended royal tour including Pushkar's charm",
   },
   {
-    img: "",
+    img: gold_img1,
     title: "Varanasi Tent City Package",
     duration: "6 Nights - 7 Days",
     desc: "Stay in tent city while exploring Varanasi",
   },
   {
-    img: "",
+    img: gold_img8,
     title: "Mathura Vrindavan Agra Tour",
     duration: "2 Nights - 3 Days",
     desc: "Explore spiritual Mathura and Vrindavan with Agra",
-  },
-  {
-    img: "",
-    title: "Mathura Vrindavan Agra Tour",
-    duration: "2 Nights - 3 Days",
-    desc: "Short spiritual tour covering Mathura, Vrindavan, and Agra",
   },
 ];
 
@@ -1234,57 +1377,67 @@ export const weekendTPData = {
   },
 };
 
+import week_img1 from "../images/tpCardImgs/weekCardImgs/kartik-iyer-VzErgGzTkPU-unsplash (1).jpg";
+import week_img2 from "../images/tpCardImgs/weekCardImgs/martijn-vonk-8oCgUgo_hBU-unsplash.jpg";
+import week_img3 from "../images/tpCardImgs/weekCardImgs/meric-dagli-uADXI1v10us-unsplash.jpg";
+import week_img4 from "../images/tpCardImgs/weekCardImgs/naman-pandey-Iya5bn212xA-unsplash (2).jpg";
+import week_img5 from "../images/tpCardImgs/weekCardImgs/navdeep-panwar-_Qtgj2nXqyY-unsplash.jpg";
+import week_img6 from "../images/tpCardImgs/weekCardImgs/praveen-thirumurugan-TzdNtmKGeI8-unsplash.jpg";
+import week_img7 from "../images/tpCardImgs/weekCardImgs/ravi-khandelwal-DrJtwNe6AcQ-unsplash.jpg";
+import week_img8 from "../images/tpCardImgs/weekCardImgs/sreehari-devadas-j4hGnHYl8ic-unsplash.jpg";
+import week_img9 from "../images/tpCardImgs/weekCardImgs/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg";
+
 export const weekendTPCards = [
   {
-    img: "",
+    img: week_img2,
     title: "2 Days Jaipur Sightseeing Tour",
     duration: "2 Days",
     desc: "Explore Jaipur's highlights over two exciting days",
   },
   {
-    img: "",
+    img: week_img1,
     title: "3 Days Jaipur Ranthambore Tour",
     duration: "1 Night - 2 Days",
     desc: "Experience Jaipur and wildlife in Ranthambore",
   },
   {
-    img: "",
+    img: week_img3,
     title: "Jaipur Mandawa Bikaner Tour",
     duration: "2 Nights - 3 Days",
     desc: "Discover heritage towns Mandawa and Bikaner from Jaipur",
   },
   {
-    img: "",
+    img: week_img7,
     title: "Jaipur Udaipur Tour",
     duration: "4 Nights - 5 Days",
     desc: "Enjoy royal cities Jaipur and Udaipur in one trip",
   },
   {
-    img: "",
+    img: week_img4,
     title: "Jaipur Ajmer Pushkar Tour",
     duration: "4 Nights - 5 Days",
     desc: "Explore spiritual and cultural sites of Ajmer and Pushkar",
   },
   {
-    img: "",
+    img: week_img9,
     title: "Jaipur Agra Tour",
     duration: "3 Nights - 4 Days",
     desc: "Visit Jaipur and iconic Taj Mahal in Agra",
   },
   {
-    img: "",
+    img: week_img8,
     title: "Jaipur Delhi Weekend Tour",
     duration: "1 Night - 2 Days",
     desc: "Quick weekend trip covering Jaipur and Delhi highlights",
   },
   {
-    img: "",
+    img: week_img6,
     title: "Agra Weekend Tour",
     duration: "1 Night - 2 Days",
     desc: "Short trip focused on Agra’s famous monuments",
   },
   {
-    img: "",
+    img: week_img5,
     title: "Agra Weekend Tour",
     duration: "1 Night - 2 Days",
     desc: "Ideal quick getaway to Agra’s heritage sites",
@@ -1361,123 +1514,144 @@ export const ayodhyaTPData = {
   },
 };
 
+import ayo_img1 from "../images/tpCardImgs/ayoCardImgs/a-kwiatek-schwarzkopf-160LYl7x3nE-unsplash.jpg";
+import ayo_img2 from "../images/tpCardImgs/ayoCardImgs/adrian-fleur-O7PIynKULOc-unsplash.jpg";
+import ayo_img3 from "../images/tpCardImgs/ayoCardImgs/ankit-kumar-fxR9srO0qbk-unsplash.jpg";
+import ayo_img4 from "../images/tpCardImgs/ayoCardImgs/austin-curtis-cN1mrrdZ0V4-unsplash.jpg";
+import ayo_img5 from "../images/tpCardImgs/ayoCardImgs/ayush-srivastava-RGgLRaWfHrw-unsplash (1).jpg";
+import ayo_img6 from "../images/tpCardImgs/ayoCardImgs/gurth-bramall-JzTg1FsVCN8-unsplash.jpg";
+import ayo_img7 from "../images/tpCardImgs/ayoCardImgs/gurth-bramall-qcmHp2SeQyM-unsplash.jpg";
+import ayo_img8 from "../images/tpCardImgs/ayoCardImgs/karan-suthar-Id45_z8-EiU-unsplash (1).jpg";
+import ayo_img9 from "../images/tpCardImgs/ayoCardImgs/keerti-joshi-RDv4CggLj0s-unsplash.jpg";
+import ayo_img10 from "../images/tpCardImgs/ayoCardImgs/manav-jain-2084xcyUu6o-unsplash.jpg";
+import ayo_img11 from "../images/tpCardImgs/ayoCardImgs/omkar-patil-sIFYjYZ8rIw-unsplash.jpg";
+import ayo_img12 from "../images/tpCardImgs/ayoCardImgs/rahul-karyal-3hfHtuHFbMM-unsplash.jpg";
+import ayo_img13 from "../images/tpCardImgs/ayoCardImgs/sai-charath-40olDBpomVo-unsplash.jpg";
+import ayo_img14 from "../images/tpCardImgs/ayoCardImgs/sanjay-kumar-O6p__8A3jso-unsplash.jpg";
+import ayo_img15 from "../images/tpCardImgs/ayoCardImgs/shivam-tiwari-nJSrCrD3QPw-unsplash.jpg";
+import ayo_img16 from "../images/tpCardImgs/ayoCardImgs/shivam-tiwari-yRzcLVJTxUw-unsplash.jpg";
+import ayo_img17 from "../images/tpCardImgs/ayoCardImgs/sukirti-vardhan-GLmXlqvZnao-unsplash.jpg";
+import ayo_img18 from "../images/tpCardImgs/ayoCardImgs/suraj-tomer-4Zg6XXNLfWY-unsplash.jpg";
+import ayo_img19 from "../images/tpCardImgs/ayoCardImgs/tara-mae-miller-dRfIL6HYYs8-unsplash.jpg";
+import ayo_img20 from "../images/tpCardImgs/ayoCardImgs/vardhan-halwai-U-Lfk_fci0M-unsplash.jpg";
+
 export const ayodhyaTPCards = [
   {
-    img: "",
+    img: ayo_img1,
     title: "Ayodhya Tour Package",
     duration: "Customizable",
     desc: "Flexible Ayodhya tour tailored to your preferences",
   },
   {
-    img: "",
+    img: ayo_img2,
     title: "Ayodhya Tour Package for 2 Days",
     duration: "2 Days",
     desc: "Explore Ayodhya's spiritual and historical sites in two days",
   },
   {
-    img: "",
+    img: ayo_img3,
     title: "Ayodhya Tour Package from Hyderabad",
     duration: "1 Night - 2 Days",
     desc: "Ayodhya tour starting from Hyderabad with comfortable travel",
   },
   {
-    img: "",
+    img: ayo_img4,
     title: "Ayodhya Tour Package for 3 Days",
     duration: "3 Days",
     desc: "Extended Ayodhya experience covering more attractions",
   },
   {
-    img: "",
+    img: ayo_img5,
     title: "Ayodhya Tour Package from Jaipur",
     duration: "1 Night - 2 Days",
     desc: "Tour Ayodhya with convenient departure from Jaipur",
   },
   {
-    img: "",
+    img: ayo_img6,
     title: "Ayodhya Tour Package from Ahmedabad",
     duration: "Customizable",
     desc: "Flexible Ayodhya tour packages from Ahmedabad available",
   },
   {
-    img: "",
+    img: ayo_img7,
     title: "Ayodhya Tour Package from Udaipur",
     duration: "Customizable",
     desc: "Customize your Ayodhya tour starting from Udaipur",
   },
   {
-    img: "",
+    img: ayo_img8,
     title: "Ayodhya Tour Package from Mumbai",
     duration: "Customizable",
     desc: "Ayodhya tours tailored for travelers from Mumbai",
   },
   {
-    img: "",
+    img: ayo_img9,
     title: "Ayodhya Tour Package from Bangalore",
     duration: "Customizable",
     desc: "Flexible tour packages from Bangalore to Ayodhya",
   },
   {
-    img: "",
+    img: ayo_img10,
     title: "Ayodhya Tour Package from South India",
     duration: "Customizable",
     desc: "Explore Ayodhya with tours from South India",
   },
   {
-    img: "",
+    img: ayo_img11,
     title: "Ayodhya Packages from Tamil Nadu",
     duration: "Customizable",
     desc: "Ayodhya spiritual tours from Tamil Nadu region",
   },
   {
-    img: "",
+    img: ayo_img12,
     title: "Ayodhya Packages from Karnataka",
     duration: "Customizable",
     desc: "Customized packages from Karnataka to visit Ayodhya",
   },
   {
-    img: "",
+    img: ayo_img13,
     title: "Ayodhya Packages from Gujarat",
     duration: "Customizable",
     desc: "Flexible tours to Ayodhya departing from Gujarat",
   },
   {
-    img: "",
+    img: ayo_img14,
     title: "Ayodhya Packages from Odisha",
     duration: "Customizable",
     desc: "Explore Ayodhya with packages from Odisha",
   },
   {
-    img: "",
+    img: ayo_img15,
     title: "Ayodhya Packages from Maharashtra",
     duration: "Customizable",
     desc: "Ayodhya tours designed for travelers from Maharashtra",
   },
   {
-    img: "",
+    img: ayo_img16,
     title: "Ayodhya Packages from Kerala",
     duration: "Customizable",
     desc: "Tours to Ayodhya originating in Kerala",
   },
   {
-    img: "",
+    img: ayo_img17,
     title: "Ayodhya Packages from Andhra Pradesh",
     duration: "Customizable",
     desc: "Custom tours to Ayodhya from Andhra Pradesh",
   },
   {
-    img: "",
+    img: ayo_img18,
     title: "Ayodhya Packages from Rajasthan",
     duration: "Customizable",
     desc: "Flexible Ayodhya tour options from Rajasthan",
   },
   {
-    img: "",
+    img: ayo_img19,
     title: "Ayodhya Packages from Delhi",
     duration: "Customizable",
     desc: "Ayodhya tour packages departing from Delhi",
   },
   {
-    img: "",
+    img: ayo_img20,
     title: "Ayodhya Packages from Varanasi",
     duration: "Customizable",
     desc: "Easy access to Ayodhya tours from Varanasi",
@@ -1529,21 +1703,25 @@ export const inclusiveTPData = {
   },
 };
 
+import in_Img1 from "../../assets/images/tpCardImgs/incCardImgs/kartik-iyer-VzErgGzTkPU-unsplash (1).jpg";
+import in_Img2 from "../../assets/images/tpCardImgs/incCardImgs/vg-bingi-Z9s5Tt0MHKg-unsplash.jpg";
+import in_Img3 from "../../assets/images/tpCardImgs/incCardImgs/vivek-1pNm4DFts4U-unsplash.jpg";
+
 export const inclusiveTPCards = [
   {
-    img: "",
+    img: in_Img3,
     title: "Complete Rajasthan Tour",
     duration: "10 Nights - 11 Days",
     desc: "Explore the best of Rajasthan in 11 days",
   },
   {
-    img: "",
+    img: in_Img2,
     title: "Jaipur Ajmer Pushkar Tour",
     duration: "3 Nights - 4 Days",
     desc: "Visit Jaipur, Ajmer Dargah, and holy Pushkar",
   },
   {
-    img: "",
+    img: in_Img1,
     title: "Jaipur Ranthambore Agra Tour",
     duration: "4 Nights - 5 Days",
     desc: "Experience heritage, wildlife and the Taj Mahal",
@@ -1608,21 +1786,25 @@ export const himachalTPData = {
   },
 };
 
+import hp_img1 from "../../assets/images/tpCardImgs/hpCardImgs/anubhav-rana-58E1ZA9CXBA-unsplash.jpg";
+import hp_img2 from "../../assets/images/tpCardImgs/hpCardImgs/hrishikesh-sarode-GoEOvCm5t3M-unsplash.jpg";
+import hp_img3 from "../../assets/images/tpCardImgs/hpCardImgs/sreehari-devadas-R5ZCRi_Snpg-unsplash.jpg";
+
 export const himachalTPCards = [
   {
-    img: "",
+    img: hp_img3,
     title: "Himachal Tour 10 Days",
     duration: "9 Nights - 10 Days",
     desc: "Explore Himachal’s scenic beauty in 10 memorable days",
   },
   {
-    img: "",
+    img: hp_img2,
     title: "Himachal Tour 5 Days",
     duration: "4 Nights - 5 Days",
     desc: "Short Himachal trip covering top hill stations",
   },
   {
-    img: "",
+    img: hp_img1,
     title: "Nainital Jim Corbett Tour 6 Days",
     duration: "5 Nights - 6 Days",
     desc: "Enjoy lakes of Nainital and Corbett wildlife",
@@ -1709,131 +1891,191 @@ export const kashmirTPData = {
   },
 };
 
+import kash_img1 from "../images/tpCardImgs/kashmirCardImgs/ana-singh-v6M-jUIyJLY-unsplash.jpg"
+import kash_img2 from "../images/tpCardImgs/kashmirCardImgs/imad-clicks-DsST40JDEoc-unsplash.jpg"
+import kash_img3 from "../images/tpCardImgs/kashmirCardImgs/jannes-jacobs-KRIGA7iUN08-unsplash.jpg"
+import kash_img4 from "../images/tpCardImgs/kashmirCardImgs/milind-bedwa-kEec_6028ls-unsplash.jpg"
+import kash_img5 from "../images/tpCardImgs/kashmirCardImgs/naweedey-XHG0uFAlEGM-unsplash.jpg"
+import kash_img6 from "../images/tpCardImgs/kashmirCardImgs/nitin-karolla-3wVlGMGMhd0-unsplash.jpg"
+import kash_img7 from "../images/tpCardImgs/kashmirCardImgs/praneet-kumar-H8dcf-v98mA-unsplash.jpg"
+import kash_img8 from "../images/tpCardImgs/kashmirCardImgs/renzo-d-souza-wt6VC8hY418-unsplash.jpg"
+import kash_img9 from "../images/tpCardImgs/kashmirCardImgs/rishabh-pandoh-g6tb9K4JEik-unsplash.jpg"
+import kash_img10 from "../images/tpCardImgs/kashmirCardImgs/samed-wOJ6WFiTm0g-unsplash.jpg"
+import kash_img11 from "../images/tpCardImgs/kashmirCardImgs/shail-sharma-HZC6QVapzE4-unsplash.jpg"
+import kash_img12 from "../images/tpCardImgs/kashmirCardImgs/yasser-mir-WSOE5jOtJY4-unsplash.jpg"
+
+import kash_img13 from "../images/tpCardImgs/kashmirCardImgs/otherKashImgs/darshan-chudasama-v1oGBUnXVDs-unsplash.jpg";
+import kash_img14 from "../images/tpCardImgs/kashmirCardImgs/otherKashImgs/dishant-thapa-K0s4LcHtOPQ-unsplash.jpg";
+import kash_img15 from "../images/tpCardImgs/kashmirCardImgs/otherKashImgs/pixels-of-life-IJfpVYlRv5I-unsplash.jpg";
+import kash_img16 from "../images/tpCardImgs/kashmirCardImgs/otherKashImgs/rish-agarwal-8yQ43RGhLhM-unsplash.jpg";
+import kash_img17 from "../images/tpCardImgs/kashmirCardImgs/otherKashImgs/vatsal-bhatt-3eJxlj_w8BI-unsplash.jpg";
+
+
+
+
+
 export const kashmirTPCards = [
   {
-    img: "",
+    img: kash_img1,
     title: "Kashmir Tour Package 5 Days",
     duration: "4 Nights - 5 Days",
     desc: "Discover Kashmir’s valleys, gardens, and serenity",
   },
   {
-    img: "",
+    img: kash_img2,
     title: "Kashmir Tour Package 7 Days",
     duration: "6 Nights - 7 Days",
     desc: "Explore Srinagar, Gulmarg, Pahalgam and Sonmarg",
   },
   {
-    img: "",
+    img: kash_img3,
     title: "Kashmir Tour Package 9 Days",
     duration: "8 Nights - 9 Days",
     desc: "Extended Kashmir trip with full sightseeing experience",
   },
   {
-    img: "",
+    img: kash_img13,
     title: "Ladakh Tour Package 6 Days",
     duration: "5 Nights - 6 Days",
     desc: "Adventure-filled trip across Ladakh’s majestic landscapes",
   },
   {
-    img: "",
+    img: kash_img4,
     title: "Kashmir Group Tour Package 6 Nights 7 Days",
     duration: "6 Nights - 7 Days",
     desc: "Group Kashmir tour with shared travel experiences",
   },
   {
-    img: "",
+    img: kash_img5,
     title: "Kashmir Tour Package for Family 8 Days",
     duration: "7 Nights - 8 Days",
     desc: "Family-friendly Kashmir trip covering all highlights",
   },
   {
-    img: "",
+    img: kash_img6,
     title: "Kashmir Honeymoon Tour 7 Days",
     duration: "6 Nights - 7 Days",
     desc: "Romantic getaway for couples in Kashmir",
   },
   {
-    img: "",
+    img: kash_img7,
     title: "Kashmir Luxury Tour Package 8 Days",
     duration: "7 Nights - 8 Days",
     desc: "Luxury experience in Kashmir with premium stays",
   },
   {
-    img: "",
+    img: kash_img8,
     title: "Kashmir Leh Bike Tour 7 Days",
     duration: "6 Nights - 7 Days",
     desc: "Thrilling bike expedition from Kashmir to Leh",
   },
   {
-    img: "",
+    img: kash_img9,
     title: "Kashmir & Ladakh Tour 11 Days",
     duration: "10 Nights - 11 Days",
     desc: "Ultimate Himalayan journey through Kashmir and Ladakh",
   },
   {
-    img: "",
+    img: kash_img16,
     title: "Leh Ladakh 6 Day Tour",
     duration: "5 Nights - 6 Days",
     desc: "Visit monasteries, lakes, and passes in Leh Ladakh",
   },
   {
-    img: "",
+    img: kash_img15,
     title: "Leh Ladakh Group Tour 8 Days",
     duration: "7 Nights - 8 Days",
     desc: "Ladakh adventure with a like-minded travel group",
   },
   {
-    img: "",
+    img: kash_img14,
     title: "Vaishno Devi Tour Package",
     duration: "2 Nights - 3 Days",
     desc: "Spiritual journey to the holy Vaishno Devi shrine",
   },
   {
-    img: "",
+    img: kash_img10,
     title: "Kashmir Tour Package from Kolkata",
     duration: "6 Nights - 7 Days",
     desc: "Kolkata to Kashmir tour with all attractions",
   },
   {
-    img: "",
+    img: kash_img11,
     title: "Kashmir Adventure Tour Package",
     duration: "5 Nights - 6 Days",
     desc: "Thrilling activities and scenic views in Kashmir",
   },
   {
-    img: "",
+    img: kash_img16,
     title: "Ladakh Adventure Tour Package",
     duration: "6 Nights - 7 Days",
     desc: "Action-packed Ladakh journey for adventure seekers",
   },
   {
-    img: "",
+    img: kash_img12,
     title: "Kashmir Honeymoon Tour 7 Days",
     duration: "6 Nights - 7 Days",
     desc: "Private and romantic Kashmir trip for newlyweds",
   },
-  {
-    img: "",
-    title: "Sikkim Tour Package For 7 Days",
-    duration: "6 Nights - 7 Days",
-    desc: "Visit Gangtok, Pelling, and natural beauty of Sikkim",
-  },
 ];
 
-
 ///////////////
+
+
+import tour_img1 from "../images/tpCardImgs/tourCardImgs/tour1/andman.jpg"
+import tour_img2 from "../images/tpCardImgs/tourCardImgs/tour1/bangkoc.jpg"
+import tour_img3 from "../images/tpCardImgs/tourCardImgs/tour1/dubai.jpg"
+import tour_img4 from "../images/tpCardImgs/tourCardImgs/tour1/goa1.jpg"
+import tour_img5 from "../images/tpCardImgs/tourCardImgs/tour1/goa2.jpg"
+import tour_img6 from "../images/tpCardImgs/tourCardImgs/tour1/kedarnath.jpg"
+import tour_img7 from "../images/tpCardImgs/tourCardImgs/tour1/kerala.jpg"
+import tour_img8 from "../images/tpCardImgs/tourCardImgs/tour1/kerala2.jpg"
+import tour_img9 from "../images/tpCardImgs/tourCardImgs/tour1/meghalya.jpg"
+import tour_img10 from "../images/tpCardImgs/tourCardImgs/tour1/mumbai.jpg"
+import tour_img11 from "../images/tpCardImgs/tourCardImgs/tour1/rishikesh.jpg"
+import tour_img12 from "../images/tpCardImgs/tourCardImgs/tour1/thailand.jpg"
+ 
+import tour2_img1 from "../images/tpCardImgs/tourCardImgs/tour2/agra.jpg";
+import tour2_img2 from "../images/tpCardImgs/tourCardImgs/tour2/banglore.jpg";
+import tour2_img3 from "../images/tpCardImgs/tourCardImgs/tour2/delhi.jpg";
+import tour2_img4 from "../images/tpCardImgs/tourCardImgs/tour2/gujrat.jpg";
+import tour2_img5 from "../images/tpCardImgs/tourCardImgs/tour2/hydrabad.jpg";
+import tour2_img6 from "../images/tpCardImgs/tourCardImgs/tour2/kerala.jpg";
+import tour2_img7 from "../images/tpCardImgs/tourCardImgs/tour2/kernatak.jpg";
+import tour2_img8 from "../images/tpCardImgs/tourCardImgs/tour2/maha.jpg";
+import tour2_img9 from "../images/tpCardImgs/tourCardImgs/tour2/nashik.jpg";
+import tour2_img10 from "../images/tpCardImgs/tourCardImgs/tour2/odisha.jpg";
+import tour2_img11 from "../images/tpCardImgs/tourCardImgs/tour2/pune.jpg";
+import tour2_img12 from "../images/tpCardImgs/tourCardImgs/tour2/singapore.jpg";
+
+
+import tour3_img1 from "../images/tpCardImgs/tourCardImgs/tour3/agra.jpg"
+import tour3_img2 from "../images/tpCardImgs/tourCardImgs/tour3/ahamdabad.jpg"
+import tour3_img3 from "../images/tpCardImgs/tourCardImgs/tour3/banglore.jpg"
+import tour3_img4 from "../images/tpCardImgs/tourCardImgs/tour3/ch.jpg"
+import tour3_img5 from "../images/tpCardImgs/tourCardImgs/tour3/channeai.jpg"
+import tour3_img6 from "../images/tpCardImgs/tourCardImgs/tour3/gujrat.jpg"
+import tour3_img7 from "../images/tpCardImgs/tourCardImgs/tour3/jaisal.jpg"
+import tour3_img8 from "../images/tpCardImgs/tourCardImgs/tour3/kolkata.jpg"
+import tour3_img9 from "../images/tpCardImgs/tourCardImgs/tour3/mumbai.jpg"
+import tour3_img10 from "../images/tpCardImgs/tourCardImgs/tour3/nagpur.jpg"
+import tour3_img11 from "../images/tpCardImgs/tourCardImgs/tour3/tn.jpg"
+import tour3_img12 from "../images/tpCardImgs/tourCardImgs/tour3/vadodra.jpg"
+
+
+
 
 
 export const tourPackages = [
   // Religious & Spiritual Tours
   {
-    img: "",
+    img: tour_img11,
     title: "Rishikesh Haridwar Tour Package",
     duration: "Customizable",
     desc: "Spiritual journey through yoga capital and holy Ganges",
   },
   {
-    img: "",
+    img: tour_img6,
     title: "Char Dham Yatra Tour Package",
     duration: "Customizable",
     desc: "Sacred pilgrimage to four holy Hindu shrines",
@@ -1841,13 +2083,13 @@ export const tourPackages = [
 
   // Goa Tours
   {
-    img: "",
+    img: tour_img4,
     title: "Goa Tour Package 6 Days",
     duration: "5 Nights - 6 Days",
     desc: "Beach paradise with sun, sand, and Portuguese heritage",
   },
   {
-    img: "",
+    img: tour_img5,
     title: "Goa Tour Package 9 Days",
     duration: "8 Nights - 9 Days",
     desc: "Extended Goa experience with beaches and cultural sites",
@@ -1855,7 +2097,7 @@ export const tourPackages = [
 
   // Mumbai Tours
   {
-    img: "",
+    img: tour_img10,
     title: "Mumbai Tour Package",
     duration: "Customizable",
     desc: "Bollywood city with iconic landmarks and street food",
@@ -1863,7 +2105,7 @@ export const tourPackages = [
 
   // Andaman Tours
   {
-    img: "",
+    img: tour_img1,
     title: "Andaman Nicobar Tour 6 Days",
     duration: "5 Nights - 6 Days",
     desc: "Tropical islands with pristine beaches and water sports",
@@ -1871,7 +2113,7 @@ export const tourPackages = [
 
   // Meghalaya Tours
   {
-    img: "",
+    img: tour_img9,
     title: "4 Nights 5 Days Adventurous Meghalaya Tour",
     duration: "4 Nights - 5 Days",
     desc: "Adventure in Scotland of East with living root bridges",
@@ -1879,13 +2121,13 @@ export const tourPackages = [
 
   // Kerala Tours
   {
-    img: "",
+    img: tour_img7,
     title: "Kerala Tour Package 9 Days",
     duration: "8 Nights - 9 Days",
     desc: "God's Own Country with backwaters and hill stations",
   },
   {
-    img: "",
+    img: tour_img8,
     title: "Kerala Tour Package 6 Days",
     duration: "5 Nights - 6 Days",
     desc: "Backwaters, spices, and Ayurvedic wellness experience",
@@ -1893,25 +2135,28 @@ export const tourPackages = [
 
   // International Tours from Jaipur
   {
-    img: "",
+    img: tour_img3,
     title: "Dubai Tour Package from Jaipur",
     duration: "Customizable",
     desc: "Luxury shopping and modern architecture in UAE",
   },
   {
-    img: "",
+    img: tour_img2,
     title: "Bangkok Tour Package from Jaipur",
     duration: "Customizable",
     desc: "Thai culture, temples, and vibrant street life",
   },
   {
-    img: "",
+    img: tour_img12,
     title: "Thailand Tour Package from Jaipur",
     duration: "Customizable",
     desc: "Land of smiles with beaches and cultural heritage",
   },
+  /////////////////////////////////////
+
+
   {
-    img: "",
+    img: tour2_img12,
     title: "Singapore Tour Package from Jaipur",
     duration: "Customizable",
     desc: "Garden city with modern attractions and cuisine",
@@ -1919,121 +2164,132 @@ export const tourPackages = [
 
   // Jaipur Tour Packages from Various Cities
   {
-    img: "",
+    img: tour2_img11,
     title: "Jaipur Tour Packages from Pune",
     duration: "Customizable",
     desc: "Pink City's royal palaces and vibrant bazaars",
   },
   {
-    img: "",
+    img: tour2_img5,
     title: "Jaipur Tour Packages from Hyderabad",
     duration: "Customizable",
     desc: "Rajasthani heritage with majestic forts and culture",
   },
   {
-    img: "",
+    img: tour2_img4,
     title: "Jaipur Tour Packages from Gujarat",
     duration: "Customizable",
     desc: "Royal Rajasthan experience with architectural marvels",
   },
   {
-    img: "",
+    img: tour2_img10,
     title: "Jaipur Tour Packages from Odisha",
     duration: "Customizable",
     desc: "Journey to Pink City's palaces and handicrafts",
   },
   {
-    img: "",
+    img: tour2_img2,
     title: "Jaipur Tour Packages from Bangalore",
     duration: "Customizable",
     desc: "Explore royal heritage and traditional Rajasthani culture",
   },
   {
-    img: "",
+    img: tour2_img1,
     title: "Jaipur Tour Packages from Agra",
     duration: "Customizable",
     desc: "Golden Triangle extension with Rajasthani grandeur",
   },
   {
-    img: "",
+    img: tour2_img3,
     title: "Jaipur Tour Packages From Delhi",
     duration: "Customizable",
     desc: "Quick getaway to Pink City's royal splendor",
   },
   {
-    img: "",
+    img: tour2_img6,
     title: "Jaipur Tour Packages From Kerala",
     duration: "Customizable",
     desc: "Cultural contrast from backwaters to desert state",
   },
   {
-    img: "",
+    img: tour2_img9,
     title: "Jaipur Tour Packages From Nashik",
     duration: "Customizable",
     desc: "Rajasthani royal experience with local traditions",
   },
   {
-    img: "",
+    img: tour2_img8,
     title: "Jaipur Tour Packages From Maharashtra",
     duration: "Customizable",
     desc: "Pink City's architectural wonders and cultural richness",
   },
   {
-    img: "",
+    img: tour2_img7,
     title: "Jaipur Tour Packages From Karnataka",
     duration: "Customizable",
     desc: "Royal Rajasthan with palace tours and local cuisine",
   },
+
+
+
+
+
+  /////////////////////////
+
+
+
+
+  
   {
-    img: "",
+    img: tour3_img9,
     title: "Jaipur Tour Packages From Mumbai",
     duration: "Customizable",
     desc: "Heritage city break with forts and local markets",
   },
   {
-    img: "",
+    img: tour3_img5,
     title: "Jaipur Tour Packages from Chennai",
     duration: "Customizable",
     desc: "North Indian royal culture and architectural beauty",
   },
   {
-    img: "",
+    img: tour3_img8,
     title: "Jaipur Tour Packages From Kolkata",
     duration: "Customizable",
     desc: "Cultural journey from Bengal to Rajasthan",
   },
   {
-    img: "",
+    img: tour3_img4,
     title: "Jaipur Tour Packages From Chandigarh",
     duration: "Customizable",
     desc: "Royal heritage tour with palaces and gardens",
   },
   {
-    img: "",
+    img: tour3_img2,
     title: "Jaipur Tour Packages From Ahmedabad",
     duration: "Customizable",
     desc: "Neighboring state's royal capital exploration",
   },
   {
-    img: "",
+    img: tour3_img11,
     title: "Jaipur Tour Packages From Tamil Nadu",
     duration: "Customizable",
     desc: "South to North cultural heritage journey",
   },
   {
-    img: "",
+    img: tour3_img7,
     title: "Jaipur Tour Packages From Jaisalmer",
     duration: "Customizable",
     desc: "Desert triangle with Pink City's royal charm",
   },
   {
-    img: "",
+    img: tour3_img12,
     title: "Jaipur Tour Packages From Vadodara",
     duration: "Customizable",
     desc: "Royal cities connection with cultural experiences",
   },
   {
-    img: "",
+    img: tour3_img10,
     title: "Jaipur Tour Packages From Nagpur",
     duration: "Customizable",
     desc: "Central India to Rajasthan's royal heritage",
@@ -2041,121 +2297,121 @@ export const tourPackages = [
 
   // Udaipur Tour Packages from Various Cities
   {
-    img: "",
+    img: tour3_img6,
     title: "Udaipur Tour Packages From Gujarat",
     duration: "Customizable",
     desc: "City of Lakes with romantic palaces and culture",
   },
   {
-    img: "",
+    img: tour3_img1,
     title: "Udaipur Tour Packages From Agra",
     duration: "Customizable",
     desc: "Venice of East with lake palaces and heritage",
   },
   {
-    img: "",
+    img: tour2_img2,
     title: "Udaipur Tour Packages From Bangalore",
     duration: "Customizable",
     desc: "Romantic city with stunning lake views and palaces",
   },
   {
-    img: "",
+    img: tour2_img10,
     title: "Udaipur Tour Packages From Odisha",
     duration: "Customizable",
     desc: "Lake city's royal heritage and cultural richness",
   },
   {
-    img: "",
+    img: tour2_img11,
     title: "Udaipur Tour Packages from Pune",
     duration: "Customizable",
     desc: "Rajasthan's romantic capital with palace hotels",
   },
   {
-    img: "",
+    img: tour2_img5,
     title: "Udaipur Tour Packages From Hyderabad",
     duration: "Customizable",
     desc: "City of Lakes with majestic palaces and gardens",
   },
   {
-    img: "",
+    img: tour2_img3,
     title: "Udaipur Tour Packages From Delhi",
     duration: "Customizable",
     desc: "Romantic getaway to lake city's royal splendor",
   },
   {
-    img: "",
+    img: tour2_img6,
     title: "Udaipur Tour Packages From Kerala",
     duration: "Customizable",
     desc: "From backwaters to lake palaces cultural journey",
   },
   {
-    img: "",
+    img: tour2_img9,
     title: "Udaipur Tour Packages From Nashik",
     duration: "Customizable",
     desc: "Venice of East with romantic lake settings",
   },
   {
-    img: "",
+    img: tour2_img8,
     title: "Udaipur Tour Packages From Maharashtra",
     duration: "Customizable",
     desc: "Lake city's royal heritage and cultural experiences",
   },
   {
-    img: "",
+    img: tour3_img5,
     title: "Udaipur Tour Packages From Chennai",
     duration: "Customizable",
     desc: "South to North journey to romantic lake city",
   },
   {
-    img: "",
+    img: ayo_img8,
     title: "Udaipur Tour Packages From Mumbai",
     duration: "Customizable",
     desc: "City of Lakes with palace hotels and boat rides",
   },
   {
-    img: "",
+    img: tour3_img8,
     title: "Udaipur Tour Packages From Kolkata",
     duration: "Customizable",
     desc: "Cultural journey to Rajasthan's romantic capital",
   },
   {
-    img: "",
+    img: tour3_img4,
     title: "Udaipur Tour Packages From Chandigarh",
     duration: "Customizable",
     desc: "Lake palaces and royal heritage exploration",
   },
   {
-    img: "",
+    img: tour3_img2,
     title: "Udaipur Tour Packages From Ahmedabad",
     duration: "Customizable",
     desc: "Neighboring state's romantic city experience",
   },
   {
-    img: "",
+    img: tour3_img12,
     title: "Udaipur Tour Packages From Vadodara",
     duration: "Customizable",
     desc: "Royal cities connection with lake palace tours",
   },
   {
-    img: "",
+    img: tour3_img7,
     title: "Udaipur Tour Packages From Jaisalmer",
     duration: "Customizable",
     desc: "Desert to lakes Rajasthan royal circuit",
   },
   {
-    img: "",
+    img: tour3_img11,
     title: "Udaipur Tour Packages From Tamil Nadu",
     duration: "Customizable",
     desc: "South Indian cultural journey to lake city",
   },
   {
-    img: "",
+    img: tour3_img10,
     title: "Udaipur Tour Packages From Nagpur",
     duration: "Customizable",
     desc: "Central India to Venice of East experience",
   },
   {
-    img: "",
+    img: ayo_img12,
     title: "Udaipur Tour Packages From Karnataka",
     duration: "Customizable",
     desc: "Lake city's romantic palaces and cultural heritage",
@@ -2163,63 +2419,63 @@ export const tourPackages = [
 
   // Jaisalmer Tour Packages from Various Cities
   {
-    img: "",
+    img: tour2_img11,
     title: "Jaisalmer Tour Packages From Pune",
     duration: "Customizable",
     desc: "Golden City with desert safaris and sandstone forts",
   },
   {
-    img: "",
+    img: tour2_img5,
     title: "Jaisalmer Tour Packages From Hyderabad",
     duration: "Customizable",
     desc: "Desert adventure with camel safaris and folk culture",
   },
   {
-    img: "",
+    img: tour2_img4,
     title: "Jaisalmer Tour Packages From Gujarat",
     duration: "Customizable",
     desc: "Golden sandstone city with desert experiences",
   },
   {
-    img: "",
+    img: tour2_img10,
     title: "Jaisalmer Tour Packages From Odisha",
     duration: "Customizable",
     desc: "Thar Desert adventure with royal heritage",
   },
   {
-    img: "",
+    img: tour2_img2,
     title: "Jaisalmer Tour Packages From Bangalore",
     duration: "Customizable",
     desc: "Golden City's desert culture and camel safaris",
   },
   {
-    img: "",
+    img: tour2_img1,
     title: "Jaisalmer Tour Packages From Agra",
     duration: "Customizable",
     desc: "Desert extension with golden fort and sand dunes",
   },
   {
-    img: "",
+    img: tour2_img3,
     title: "Jaisalmer Tour Packages From Delhi",
     duration: "Customizable",
     desc: "Golden Triangle extension to desert kingdom",
   },
   {
-    img: "",
+    img: tour2_img6,
     title: "Jaisalmer Tour Packages From Kerala",
     duration: "Customizable",
     desc: "Contrasting journey from backwaters to desert",
   },
   {
-    img: "",
+    img: tour2_img9,
     title: "Jaisalmer Tour Packages From Nashik",
     duration: "Customizable",
     desc: "Desert adventure with golden sandstone architecture",
   },
   {
-    img: "",
+    img: tour2_img8,
     title: "Jaisalmer Tour Packages From Maharashtra",
     duration: "Customizable",
     desc: "Golden City's desert culture and royal heritage",
-  }
+  },
 ];
