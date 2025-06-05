@@ -128,10 +128,10 @@ const Hotels = () => {
           Abhimanyu Holidays
         </span>
         <h1 className="mt-2 text-3xl font-bold text-brand-brown sm:text-5xl">
-          Luxury
+          Hotel
           <span className="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
             {" "}
-            Hotels
+            Booking
           </span>
         </h1>
         <p className="mt-4 text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto">

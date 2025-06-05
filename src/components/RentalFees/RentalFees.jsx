@@ -88,9 +88,9 @@ const RentalFees = ({ homeRental }) => {
           </span>
           <h1 className="text-3xl sm:text-4xl font-bold text-[#9D4C2C]  leading-tight">
             <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
-              Card{" "}
+              Taxi{" "}
             </span>
-            Rental
+            Services
           </h1>
         </div>
       ) : (
@@ -108,97 +108,97 @@ const RentalFees = ({ homeRental }) => {
         </div>
       )}
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-  {taxies.map((item, index) => (
-    <motion.div
-      key={index}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="group relative"
-    >
-      {/* Premium Card Container */}
-      <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full flex flex-col overflow-hidden border border-[#ddd]">
-        {/* Image with parallax effect container */}
-        <motion.div
-          className="h-72 overflow-hidden relative"
-          whileHover="hover"
-          variants={{
-            hover: {
-              scale: 1.03,
-              transition: { duration: 0.4 },
-            },
-          }}
-        >
-          {/* Gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent z-10" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+        {taxies.map((item, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            className="group relative"
+          >
+            {/* Premium Card Container */}
+            <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full flex flex-col overflow-hidden border border-[#ddd]">
+              {/* Image with parallax effect container */}
+              <motion.div
+                className="h-72 overflow-hidden relative"
+                whileHover="hover"
+                variants={{
+                  hover: {
+                    scale: 1.03,
+                    transition: { duration: 0.4 },
+                  },
+                }}
+              >
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent z-10" />
 
-          {/* Car image */}
-          <img
-            src={item.img}
-            alt={item.title}
-            className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
-          />
+                {/* Car image */}
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
+                />
 
-          {/* Badge */}
-          <div className="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-semibold shadow-lg z-20">
-            Popular
-          </div>
-        </motion.div>
+                {/* Badge */}
+                <div className="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-semibold shadow-lg z-20">
+                  Popular
+                </div>
+              </motion.div>
 
-        {/* Content area */}
-        <div className="p-6 flex-grow flex flex-col">
-          {/* Vehicle type and name */}
-          <div className="mb-4">
-            <span className=" text-gray-500 uppercase text-1xl tracking-wider font-medium">
-              {item.vehicle}
-            </span>
-            <h3 className="text-xl font-bold text-gray-900 mt-1">
-              {item.title}
-            </h3>
-          </div>
+              {/* Content area */}
+              <div className="p-6 flex-grow flex flex-col">
+                {/* Vehicle type and name */}
+                <div className="mb-4">
+                  <span className=" text-gray-500 uppercase text-1xl tracking-wider font-medium">
+                    {item.vehicle}
+                  </span>
+                  <h3 className="text-xl font-bold text-gray-900 mt-1">
+                    {item.title}
+                  </h3>
+                </div>
 
-          {/* Features list - enhanced layout */}
-          <div className="grid grid-cols-2 gap-4 text-sm text-gray-600 mb-6">
-            <div className="flex items-center space-x-2">
-              <div className="bg-amber-100 p-2 rounded-full">
-                <UserIcon className="h-4 w-4 text-amber-600" />
+                {/* Features list - enhanced layout */}
+                <div className="grid grid-cols-2 gap-4 text-sm text-gray-600 mb-6">
+                  <div className="flex items-center space-x-2">
+                    <div className="bg-amber-100 p-2 rounded-full">
+                      <UserIcon className="h-4 w-4 text-amber-600" />
+                    </div>
+                    <span>{item.seats} Seats</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="bg-amber-100 p-2 rounded-full">
+                      <TbEngine className="h-4 w-4 text-amber-600" />
+                    </div>
+                    <span>{item.fuelType}</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="bg-amber-100 p-2 rounded-full">
+                      <CogIcon className="h-4 w-4 text-amber-600" />
+                    </div>
+                    <span>{item.transmission}</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="bg-amber-100 p-2 rounded-full">
+                      <AirConditionerIcon className="h-4 w-4 text-amber-600" />
+                    </div>
+                    <span>AC {item.ac ? "Available" : "Not Available"}</span>
+                  </div>
+                </div>
+
+                {/* CTA Button - enhanced design */}
+                <button className="w-full bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:from-amber-600 hover:to-amber-700 group-hover:scale-[1.02] mt-auto">
+                  <span className="flex items-center justify-center">
+                    Book Now
+                    <FiArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+                  </span>
+                </button>
               </div>
-              <span>{item.seats} Seats</span>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="bg-amber-100 p-2 rounded-full">
-                <TbEngine className="h-4 w-4 text-amber-600" />
-              </div>
-              <span>{item.fuelType}</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="bg-amber-100 p-2 rounded-full">
-                <CogIcon className="h-4 w-4 text-amber-600" />
-              </div>
-              <span>{item.transmission}</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="bg-amber-100 p-2 rounded-full">
-                <AirConditionerIcon className="h-4 w-4 text-amber-600" />
-              </div>
-              <span>AC {item.ac ? "Available" : "Not Available"}</span>
-            </div>
-          </div>
-
-          {/* CTA Button - enhanced design */}
-          <button className="w-full bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:from-amber-600 hover:to-amber-700 group-hover:scale-[1.02] mt-auto">
-            <span className="flex items-center justify-center">
-              Book Now
-              <FiArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
-            </span>
-          </button>
-        </div>
+          </motion.div>
+        ))}
       </div>
-    </motion.div>
-  ))}
-</div>
     </div>
   );
 };
