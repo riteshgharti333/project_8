@@ -337,6 +337,8 @@ import taxi2 from "../assets/images/taxiimg/taxi2_result.webp";
 import taxi3 from "../assets/images/taxiimg/taxi3_result.webp";
 import taxi4 from "../assets/images/taxiimg/taxi4_result.webp";
 import taxi5 from "../assets/images/taxiimg/taxi5_result.webp";
+import taxi6 from "../assets/images/taxiimg/taxi6_result.webp";
+
 
 export const taxies = [
   {
@@ -388,6 +390,16 @@ export const taxies = [
     transmission: "Manual",
     fuelType: "Diesel",
     ac: false,
+  },
+    {
+    img: taxi6,
+    vehicle: "Bus Service",
+    rate: "25",
+    charges: "500",
+    seats: "40+",
+    transmission: "Manual",
+    fuelType: "Diesel",
+    ac: true,
   },
 ];
 

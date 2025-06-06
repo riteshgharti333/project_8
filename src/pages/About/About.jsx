@@ -46,16 +46,6 @@ const About = () => {
           >
             About Us
           </motion.h1>
-
-          {/* Subtitle */}
-          <motion.p
-            className="text-xl text-amber-300 mb-3 max-[480px]:text-[14px]  sm:mb-8 max-w-2xl mx-auto drop-shadow-md"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            Discover the Pink City's royal heritage with our premium services
-          </motion.p>
         </div>
 
         {/* Scroll Indicator */}
@@ -106,9 +96,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex gap-10 items-center  flex-col lg:flex-row-reveruse">
+        <div className="flex gap-10 items-center flex-col lg:flex-row-reverse">
           <div className="flex-6">
-            <h1 className="   max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-4xl uppercase1">
+            <h1 className="max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-4xl uppercase1">
               <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
                 About Manager
               </span>{" "}
