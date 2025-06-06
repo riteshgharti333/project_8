@@ -6,7 +6,6 @@ import DayOneContent from "../../components/DayOneContent/DayOneContent";
 import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import { oneDayTripToAgraContent } from "../../assets/oneDayData";
 
-
 import banner_img from "../../assets/images/onedayImgs/oneday5.jpg";
 
 const OnedayContent6 = () => {
@@ -15,7 +14,7 @@ const OnedayContent6 = () => {
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} bannerImg={banner_img}/>
+      <ServiceBanner bannerTitle={title} bannerImg={banner_img} />
 
       <div className="lg:max-w-[1300px] sm:max-w-[750px]  m-auto mt-10 px-2 ">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-4">

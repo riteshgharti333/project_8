@@ -1,9 +1,8 @@
-import { FaClock, FaMapMarkerAlt, FaStar, FaArrowRight } from "react-icons/fa";
+import { FaClock } from "react-icons/fa";
 
 import { motion } from "framer-motion";
-import { packageCards } from "../../assets/packageData";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { homeOneDay } from "../../assets/packageData";
 const OneDay = () => {
   const cardVariants = {
     offscreen: {
@@ -35,13 +34,13 @@ const OneDay = () => {
           </span>
         </h1>
         <p className="mt-4 text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto">
-          Curated experiences showcasing one day tours
+          Explore top spots and experiences in a single day.
         </p>
       </div>
 
       {/* Packages Grid */}
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {packageCards.map((pkg) => (
+        {homeOneDay.map((pkg) => (
           <motion.div
             key={pkg.id}
             initial="offscreen"
@@ -108,25 +107,26 @@ const OneDay = () => {
                   </div>
                 </div>
 
-                <button className="w-full bg-amber-500   cursor-pointer  text-white font-medium py-3 px-4 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg hover:bg-white border border-yellow-500 hover:text-yellow-500">
+                <Link
+                  to={`${pkg.link}`}
+                  className="w-full bg-amber-500  flex justify-center  cursor-pointer  text-white font-medium py-3 px-4 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg hover:bg-white border border-yellow-500 hover:text-yellow-500"
+                >
                   Read More
-                </button>
+                </Link>
               </div>
             </div>
           </motion.div>
         ))}
-
       </div>
 
-      
-        <div className="mt-10 flex w-full justify-center text-center">
-          <Link
-            to={"/one-day-tours"}
-            className="px-8 py-3 border-2 border-yellow-500 text-yellow-500 font-medium rounded-lg hover:bg-yellow-500 hover:text-white transition-all duration-300"
-          >
-            Explore All One Day Tours
-          </Link>
-        </div>
+      <div className="mt-10 flex w-full justify-center text-center">
+        <Link
+          to={"/one-day-tours"}
+          className="px-8 py-3 border-2 border-yellow-500 text-yellow-500 font-medium rounded-lg hover:bg-yellow-500 hover:text-white transition-all duration-300"
+        >
+          Explore All One Day Tours
+        </Link>
+      </div>
     </div>
   );
 };

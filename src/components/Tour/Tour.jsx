@@ -1,8 +1,9 @@
 import { FaClock, FaMapMarkerAlt, FaStar, FaArrowRight } from "react-icons/fa";
 
 import { motion } from "framer-motion";
-import { packageCards } from "../../assets/packageData";
+import { homeTourPackages } from "../../assets/packageData";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-router-dom";
 const Tour = () => {
   const cardVariants = {
     offscreen: {
@@ -34,14 +35,13 @@ const Tour = () => {
           </span>
         </h1>
         <p className="mt-4 text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto">
-          Curated experiences showcasing Rajasthan's royal heritage and cultural
-          wonders
+          Curated tour packages designed for unforgettable experiences.
         </p>
       </div>
 
       {/* Packages Grid */}
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {packageCards.map((pkg) => (
+        {homeTourPackages.map((pkg) => (
           <motion.div
             key={pkg.id}
             initial="offscreen"
@@ -75,12 +75,6 @@ const Tour = () => {
                     </span>
                   )}
                 </div>
-
-                {/* Duration */}
-                <span className="absolute bottom-4 left-4 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-white/90 text-gray-800">
-                  <FaClock className="mr-1 text-amber-500" />
-                  {pkg.duration}
-                </span>
               </div>
 
               {/* Content */}
@@ -90,27 +84,14 @@ const Tour = () => {
                     {pkg.title}
                   </h3>
                   <p className="text-gray-600 mb-4">{pkg.desc}</p>
-
-                  {/* Highlights */}
-                  <div className="mb-7">
-                    <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">
-                      Tour Highlights
-                    </h4>
-                    <ul className=" flex items-center gap-y-2 gap-1 flex-wrap">
-                      {pkg.highlights.map((item, i) => (
-                        <li key={i} className="">
-                          <span className=" text-[13px] rounded-4xl px-2 py-1  text-white bg-blue-700">
-                            {item}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
                 </div>
 
-                <button className="w-full bg-amber-500   cursor-pointer  text-white font-medium py-3 px-4 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg hover:bg-white border border-yellow-500 hover:text-yellow-500">
+                <Link
+                  to={pkg.link}
+                  className="w-full bg-amber-500  flex justify-center  cursor-pointer  text-white font-medium py-3 px-4 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg hover:bg-white border border-yellow-500 hover:text-yellow-500"
+                >
                   Read More
-                </button>
+                </Link>
               </div>
             </div>
           </motion.div>

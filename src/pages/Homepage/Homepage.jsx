@@ -29,25 +29,17 @@ const Homepage = () => {
 
       <HomeDetail />
 
-          <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
+      <div className="home-content px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
         <OneDay />
-      </div>
 
-      {/* <Package />/ */}
-      <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
         <Tour />
-      </div>
 
-      <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
         <RentalFees homeRental="homeRental" />
-      </div>
-       <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
+
         <Hotels homeRental="homeRental" />
-      </div>
-        <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
+
         <TravelGuides homeRental="homeRental" />
-      </div>
-      <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">
+
         <Offers homeOffer="homeOffer" />
       </div>
 
