@@ -51,6 +51,7 @@ import HotelBooking2 from "./pages/HotelBooking/HotelBooking2";
 import HotelBooking3 from "./pages/HotelBooking/HotelBooking3";
 import HotelBooking4 from "./pages/HotelBooking/HotelBooking4";
 import HotelBooking5 from "./pages/HotelBooking/HotelBooking5";
+import TravelGuide from "./pages/TravelGuide/TravelGuide";
 
 function App() {
   const ScrollToTop = () => {
@@ -173,14 +174,10 @@ function App() {
           <Route path="/hotels-in-pushakr" element={<HotelBooking3 />} />
           <Route path="/hotels-in-jaisalmer" element={<HotelBooking4 />} />
           <Route path="/hotels-in-jodhpur" element={<HotelBooking5 />} />
-
-          
-
+          {/* Travel Guide */}
+          <Route path="/travel-guide" element={<TravelGuide />} />
           {/*  */}
-          <Route
-            path="/taxi-rental"
-            element={<RentalService1 />}
-          />
+          <Route path="/taxi-service" element={<RentalService1 />} />
           <Route
             path="/tempo-service/tempo-traveller-in-jaipur"
             element={<TempoService1 />}

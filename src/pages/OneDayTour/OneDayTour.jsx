@@ -1,13 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
 import ServiceBanner from "../../components/ServiceBanner/ServiceBanner";
 import { formatPathTitle } from "../../assets/someFunction";
-import TourPackageContent from "../../components/TourPackageContent/TourPackageContent";
-import { aboutData } from "../../assets/aboutData";
-import { packageCards, packageTourData } from "../../assets/packageData";
-import { MdPlace } from "react-icons/md";
 
 import { motion } from "framer-motion";
-import { FaArrowRight, FaClock, FaStar } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import RentalFees from "../../components/RentalFees/RentalFees";
 import Offers from "../../components/Offers/Offers";
 import ServiceForm from "../../components/ServiceForm/ServiceForm";
