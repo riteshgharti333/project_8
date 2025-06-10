@@ -1,7 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { sidebarData } from "../../assets/serviceData";
-import { Link } from "react-router-dom";
+import { Link, Links } from "react-router-dom";
 
 const ServiceSidebar = () => {
   return (
@@ -18,8 +18,8 @@ const ServiceSidebar = () => {
           <ul className="px-6 py-4 space-y-3">
             {section.lists.map((item, itemIndex) => (
               <li key={itemIndex}>
-                <a
-                  href={item.link || "#"}
+                <Link
+                  to={item.link}
                   className="flex items-center text-gray-600 hover:text-amber-600 transition-colors duration-200 group"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-400 opacity-0 group-hover:opacity-100 mr-3 transition-opacity duration-200"></span>
@@ -29,7 +29,7 @@ const ServiceSidebar = () => {
                       {item.badge}
                     </span>
                   )}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

@@ -98,15 +98,6 @@ import homeTp_img6 from "../assets/images/onedayImgs/oneday5.jpg";
 
 export const homeOneDay = [
   {
-    id: 3,
-    img: homeTp_img1,
-    duration: "Half Day",
-    title: "Jhalana Leopard Safari",
-    desc: "Experience the thrill of spotting leopards in their natural habitat",
-    highlights: ["Leopard Safari", "Wildlife Exploration", "Eco Zone"],
-    link: "/jhalana-leopard-safari",
-  },
-  {
     id: 4,
     img: homeTp_img2,
     duration: "Evening",
@@ -151,6 +142,15 @@ export const homeOneDay = [
     link: "/jaipur-sightseeing-tour",
   },
   {
+    id: 3,
+    img: homeTp_img1,
+    duration: "Half Day",
+    title: "Jhalana Leopard Safari",
+    desc: "Experience the thrill of spotting leopards in their natural habitat",
+    highlights: ["Leopard Safari", "Wildlife Exploration", "Eco Zone"],
+    link: "/jhalana-leopard-safari",
+  },
+  {
     id: 8,
     img: homeTp_img6,
     duration: "One Day",
@@ -160,7 +160,6 @@ export const homeOneDay = [
     link: "/one-day-trip-to-agra",
   },
 ];
-
 
 ///////////////////////
 
@@ -174,8 +173,6 @@ import tpHome_img7 from "../assets/images/tpBanner/kashmir.jpg";
 import tpHome_img8 from "../assets/images/tpBanner/rj.jpg";
 import tpHome_img9 from "../assets/images/tpBanner/udaiput.jpg";
 
-
-
 export const homeTourPackages = [
   {
     id: 1,
@@ -183,7 +180,11 @@ export const homeTourPackages = [
     duration: "Multi-Day",
     title: "Abhimanyu Holidays Special Tours",
     desc: "Exclusive tours crafted by Abhimanyu Holidays for unique experiences.",
-    highlights: ["Personalized Itineraries", "Handpicked Destinations", "Premium Experience"],
+    highlights: [
+      "Personalized Itineraries",
+      "Handpicked Destinations",
+      "Premium Experience",
+    ],
     link: "/tour-package/abhimanyu-holidays-special-tours",
   },
   {

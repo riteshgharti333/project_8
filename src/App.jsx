@@ -52,6 +52,13 @@ import HotelBooking3 from "./pages/HotelBooking/HotelBooking3";
 import HotelBooking4 from "./pages/HotelBooking/HotelBooking4";
 import HotelBooking5 from "./pages/HotelBooking/HotelBooking5";
 import TravelGuide from "./pages/TravelGuide/TravelGuide";
+import Blog2 from "./pages/Blog/Blog2";
+import Blog3 from "./pages/Blog/Blog3";
+import Blog4 from "./pages/Blog/Blog4";
+import Blog5 from "./pages/Blog/Blog5";
+import Blog6 from "./pages/Blog/Blog6";
+import Blog7 from "./pages/Blog/Blog7";
+import Blog8 from "./pages/Blog/Blog8";
 
 function App() {
   const ScrollToTop = () => {
@@ -182,8 +189,32 @@ function App() {
             path="/tempo-service/tempo-traveller-in-jaipur"
             element={<TempoService1 />}
           />
+          {/*  Blog */}
           <Route path="/blogs" element={<Blogs />} />
-          <Route path="/blog/:id" element={<Blog1 />} />
+          <Route path="/blog/best-one-day-tour-rajasthan" element={<Blog1 />} />
+          <Route path="/blog/rajasthan-top-destinations" element={<Blog2 />} />
+          <Route path="/blog/best-hotels-rajasthan" element={<Blog3 />} />
+          <Route
+            path="/blog/unforgettable-road-trips-rajasthan"
+            element={<Blog4 />}
+          />
+          <Route
+            path="/blog/essential-travel-tips-rajasthan"
+            element={<Blog5 />}
+          />
+          <Route
+            path="/blog/discovering-rajasthan-hidden-gems"
+            element={<Blog6 />}
+          />
+          <Route
+            path="/blog/golden-triangle-rajasthan-tour"
+            element={<Blog7 />}
+          />
+          <Route
+            path="/blog/rajasthan's-wildlife-sanctuaries"
+            element={<Blog8 />}
+          />
+          {/*  */}
         </Routes>
         <Footer />
       </BrowserRouter>

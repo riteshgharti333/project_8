@@ -14,17 +14,11 @@ import onedayImg12 from "../assets/images/onedayImgs/oneday12.jpg";
 import onedayImg13 from "../assets/images/onedayImgs/oneday13.jpg";
 import onedayImg14 from "../assets/images/onedayImgs/oneday14.jpg";
 
-
 export const onedayCards = [
   {
-    title: "Jhalana Leopard Safari",
-    img: onedayImg14,
-    link: "jhalana-leopard-safari",
-  },
-  {
-    title: "Jaipur Evening Tour",
-    img: onedayImg6,
-    link: "jaipur-evening-tour",
+    title: "Jaipur Sightseeing Tour",
+    img: onedayImg11,
+    link: "jaipur-sightseeing-tour",
   },
   {
     title: "Jaipur Night Tour",
@@ -32,15 +26,9 @@ export const onedayCards = [
     link: "jaipur-night-tour",
   },
   {
-    title: "Jaipur Sunrise Tour",
-    img: onedayImg3,
-    link: "jaipur-sunrise-tour",
-  },
-
-  {
-    title: "Jaipur Sightseeing Tour",
-    img: onedayImg11,
-    link: "jaipur-sightseeing-tour",
+    title: "One Day Trip to Ajmer & Pushkar",
+    img: onedayImg2,
+    link: "one-day-trip-to-ajmer-pushkar",
   },
   {
     title: "One Day Trip to Agra",
@@ -52,21 +40,30 @@ export const onedayCards = [
     img: onedayImg7,
     link: "jaipur-ranthambore-one-day-trip",
   },
+
   {
-    title: "One Day Trip to Ajmer & Pushkar",
-    img: onedayImg2,
-    link: "one-day-trip-to-ajmer-pushkar",
+    title: "Jhalana Leopard Safari",
+    img: onedayImg14,
+    link: "jhalana-leopard-safari",
   },
   {
-    title: "One Day Trip to Chand Baori & Bhangarh Fort",
-    img: onedayImg4,
-    link: "one-day-trip-to-chand-baori-bhangarh-fort",
+    title: "Jaipur Evening Tour",
+    img: onedayImg6,
+    link: "jaipur-evening-tour",
   },
+
   {
-    title: "One Day Trip to Sariska from Jaipur",
-    img: onedayImg1,
-    link: "one-day-trip-to-sariska-from-jaipur",
+    title: "Jaipur Sunrise Tour",
+    img: onedayImg3,
+    link: "jaipur-sunrise-tour",
   },
+
+  {
+    title: "Jaipur Ranthambore One Day Trip",
+    img: onedayImg7,
+    link: "jaipur-ranthambore-one-day-trip",
+  },
+
   {
     title: "Jaipur Khatu Shyamji & Salasar Balaji Tour",
     img: onedayImg9,
@@ -78,6 +75,18 @@ export const onedayCards = [
     img: onedayImg8,
     link: "chokhi-dhani-jaipur-night-tour",
   },
+  {
+    title: "One Day Trip to Sariska from Jaipur",
+    img: onedayImg1,
+    link: "one-day-trip-to-sariska-from-jaipur",
+  },
+
+  {
+    title: "One Day Trip to Chand Baori & Bhangarh Fort",
+    img: onedayImg4,
+    link: "one-day-trip-to-chand-baori-bhangarh-fort",
+  },
+
   {
     title: "Jaipur Temple Tour",
     img: onedayImg10,
@@ -794,7 +803,7 @@ export const oneDayTripToChandBaoriBhangarhContent = {
   onedayContent: [
     "Experience the mystical charm of Rajasthan with Abhimanyu Holidays’ One Day Trip to Chand Baori and Bhangarh. Witness the breathtaking stepwell architecture at Chand Baori, one of the deepest and largest stepwells in India, renowned for its geometric beauty and historical significance.",
     "After exploring Chand Baori, visit the enigmatic Bhangarh Fort, famously known as one of India’s most haunted places. This abandoned fort town offers an intriguing mix of history, legends, and scenic ruins set against the backdrop of the Aravalli Hills.",
-    "Our well-planned day tour includes comfortable hotel pickup from Jaipur, guided visits to both destinations, and safe, air-conditioned transport, giving you an unforgettable journey into Rajasthan’s heritage and mystery."
+    "Our well-planned day tour includes comfortable hotel pickup from Jaipur, guided visits to both destinations, and safe, air-conditioned transport, giving you an unforgettable journey into Rajasthan’s heritage and mystery.",
   ],
 
   smTitle: "Tour Plan for One Day Trip to Chand Baori & Bhangarh",
@@ -804,45 +813,52 @@ export const oneDayTripToChandBaoriBhangarhContent = {
     "Visit Bhangarh Fort and learn about its fascinating legends",
     "Enjoy a scenic drive through the Aravalli Hills",
     "Professional guide to explain history and folklore",
-    "Convenient hotel pickup and drop in Jaipur"
+    "Convenient hotel pickup and drop in Jaipur",
   ],
 
   itinerary: [
     {
       time: "7:00 AM",
       activity: "Hotel Pickup from Jaipur",
-      description: "Begin your day with a comfortable pickup from your hotel in Jaipur"
+      description:
+        "Begin your day with a comfortable pickup from your hotel in Jaipur",
     },
     {
       time: "9:30 AM",
       activity: "Visit Chand Baori Stepwell",
-      description: "Explore the spectacular stepwell in Abhaneri village, capturing its stunning architecture"
+      description:
+        "Explore the spectacular stepwell in Abhaneri village, capturing its stunning architecture",
     },
     {
       time: "11:30 AM",
       activity: "Drive to Bhangarh Fort",
-      description: "Proceed to Bhangarh, famous for its haunted fort and eerie history"
+      description:
+        "Proceed to Bhangarh, famous for its haunted fort and eerie history",
     },
     {
       time: "12:00 PM",
       activity: "Bhangarh Fort Tour",
-      description: "Discover the ruins of Bhangarh Fort and listen to the local folklore and ghost stories"
+      description:
+        "Discover the ruins of Bhangarh Fort and listen to the local folklore and ghost stories",
     },
     {
       time: "1:30 PM",
       activity: "Lunch Break",
-      description: "Enjoy lunch at a nearby restaurant (not included in the package)"
+      description:
+        "Enjoy lunch at a nearby restaurant (not included in the package)",
     },
     {
       time: "2:30 PM",
       activity: "Return to Jaipur",
-      description: "Start your journey back to Jaipur with scenic stops on the way"
+      description:
+        "Start your journey back to Jaipur with scenic stops on the way",
     },
     {
       time: "5:00 PM",
       activity: "Hotel Drop in Jaipur",
-      description: "Arrive back at your hotel, concluding your adventurous day trip"
-    }
+      description:
+        "Arrive back at your hotel, concluding your adventurous day trip",
+    },
   ],
 
   inclusions: [
@@ -850,7 +866,7 @@ export const oneDayTripToChandBaoriBhangarhContent = {
     "Private air-conditioned vehicle",
     "Experienced local guide",
     "Entry fees to Chand Baori and Bhangarh Fort",
-    "Mineral water bottles"
+    "Mineral water bottles",
   ],
 
   recommendations: [
@@ -858,22 +874,19 @@ export const oneDayTripToChandBaoriBhangarhContent = {
     "Wear comfortable walking shoes and light clothing",
     "Bring sunscreen, sunglasses, and a hat",
     "Avoid visiting Bhangarh Fort after sunset as per local regulations",
-    "Respect the heritage sites and local customs"
-  ]
+    "Respect the heritage sites and local customs",
+  ],
 };
-
 
 ////////////////
 
-
-
 export const oneDayTripToSariskaFromJaipurContent = {
-title: "One Day Trip to Sariska from Jaipur",
+  title: "One Day Trip to Sariska from Jaipur",
 
   onedayContent: [
     "Explore the natural beauty and wildlife of Sariska Tiger Reserve on this exciting one-day trip from Jaipur with Abhimanyu Holidays. Sariska, located in the Aravalli Hills, is a renowned national park and tiger reserve, offering visitors a chance to spot majestic Bengal tigers along with other wildlife such as deer, leopards, and a variety of bird species.",
     "Our guided tour ensures a safe and comfortable experience with expert naturalists who help you spot wildlife while educating you about the park's flora and fauna. Enjoy the serene landscapes, picturesque forests, and scenic views during your safari adventure.",
-    "Perfect for nature lovers and wildlife enthusiasts, this day trip includes hotel pickup and drop, a jeep safari in Sariska National Park, and a memorable journey into Rajasthan’s wild heart."
+    "Perfect for nature lovers and wildlife enthusiasts, this day trip includes hotel pickup and drop, a jeep safari in Sariska National Park, and a memorable journey into Rajasthan’s wild heart.",
   ],
 
   smTitle: "Tour Plan for One Day Trip to Sariska from Jaipur",
@@ -883,45 +896,51 @@ title: "One Day Trip to Sariska from Jaipur",
     "Opportunity to spot Bengal tigers, leopards, and various wildlife",
     "Professional guide and naturalist during the safari",
     "Scenic views of Aravalli Hills and forest landscapes",
-    "Hotel pickup and drop from Jaipur"
+    "Hotel pickup and drop from Jaipur",
   ],
 
   itinerary: [
     {
       time: "6:00 AM",
       activity: "Hotel Pickup from Jaipur",
-      description: "Start your day early with a comfortable pickup from your hotel in Jaipur"
+      description:
+        "Start your day early with a comfortable pickup from your hotel in Jaipur",
     },
     {
       time: "8:00 AM",
       activity: "Arrival at Sariska Tiger Reserve",
-      description: "Begin your thrilling jeep safari inside the park with a trained naturalist"
+      description:
+        "Begin your thrilling jeep safari inside the park with a trained naturalist",
     },
     {
       time: "11:00 AM",
       activity: "Wildlife Safari and Bird Watching",
-      description: "Explore the park, spotting tigers, deer, langurs, and over 200 bird species"
+      description:
+        "Explore the park, spotting tigers, deer, langurs, and over 200 bird species",
     },
     {
       time: "1:00 PM",
       activity: "Lunch Break",
-      description: "Enjoy lunch at a nearby restaurant or packed lunch (not included in the package)"
+      description:
+        "Enjoy lunch at a nearby restaurant or packed lunch (not included in the package)",
     },
     {
       time: "2:00 PM",
       activity: "Visit Sariska Palace and Kankwadi Fort",
-      description: "Optional visit to the historical Sariska Palace and the ancient Kankwadi Fort within the park area"
+      description:
+        "Optional visit to the historical Sariska Palace and the ancient Kankwadi Fort within the park area",
     },
     {
       time: "4:00 PM",
       activity: "Return to Jaipur",
-      description: "Begin your journey back to Jaipur with a comfortable drive"
+      description: "Begin your journey back to Jaipur with a comfortable drive",
     },
     {
       time: "6:00 PM",
       activity: "Hotel Drop in Jaipur",
-      description: "Arrive back at your hotel with wonderful memories of the Sariska safari"
-    }
+      description:
+        "Arrive back at your hotel with wonderful memories of the Sariska safari",
+    },
   ],
 
   inclusions: [
@@ -929,7 +948,7 @@ title: "One Day Trip to Sariska from Jaipur",
     "Jeep safari with trained naturalist guide",
     "Entry fees and permits for Sariska Tiger Reserve",
     "Mineral water bottles during the safari",
-    "All transportation in a private air-conditioned vehicle"
+    "All transportation in a private air-conditioned vehicle",
   ],
 
   recommendations: [
@@ -937,10 +956,9 @@ title: "One Day Trip to Sariska from Jaipur",
     "Carry binoculars and a camera with zoom lens",
     "Bring sunscreen, hat, and sunglasses",
     "Carry valid photo ID for entry into the park",
-    "Avoid loud noises to not disturb wildlife"
-  ]
+    "Avoid loud noises to not disturb wildlife",
+  ],
 };
-
 
 /////////////////////////
 
@@ -950,55 +968,63 @@ export const jaipurKhatuShyamjiSalasarBalajiTourContent = {
   onedayContent: [
     "Experience spiritual serenity and divine blessings with Abhimanyu Holidays on a one-day pilgrimage from Jaipur to the sacred temples of Khatu Shyamji and Salasar Balaji. This day trip is ideal for devotees and travelers looking to explore the holy sites of Rajasthan in a single day with comfort and convenience.",
     "Khatu Shyamji is revered as an incarnation of Lord Krishna and attracts thousands of devotees every day. The temple is known for its vibrant spiritual atmosphere and powerful energy. After seeking blessings here, the journey continues to Salasar Balaji, dedicated to Lord Hanuman and known for fulfilling the wishes of his devotees.",
-    "With Abhimanyu Holidays, enjoy a seamless journey with hotel pickup and drop, a comfortable air-conditioned vehicle, and experienced drivers. Whether you're visiting for devotion or cultural curiosity, this spiritually uplifting tour will leave you with a peaceful mind and enriched soul."
+    "With Abhimanyu Holidays, enjoy a seamless journey with hotel pickup and drop, a comfortable air-conditioned vehicle, and experienced drivers. Whether you're visiting for devotion or cultural curiosity, this spiritually uplifting tour will leave you with a peaceful mind and enriched soul.",
   ],
 
-  smTitle: "Tour Plan for One Day Jaipur to Khatu Shyamji and Salasar Balaji Trip",
+  smTitle:
+    "Tour Plan for One Day Jaipur to Khatu Shyamji and Salasar Balaji Trip",
 
   highlights: [
     "Visit the sacred Khatu Shyamji Temple",
     "Darshan at the famous Salasar Balaji Temple",
     "Air-conditioned private transport from Jaipur",
     "Spiritual and peaceful experience with temple rituals",
-    "Professional driver ensuring a comfortable journey"
+    "Professional driver ensuring a comfortable journey",
   ],
 
   itinerary: [
     {
       time: "6:00 AM",
       activity: "Pickup from Hotel in Jaipur",
-      description: "Begin your spiritual journey early morning with a comfortable pickup from your Jaipur hotel"
+      description:
+        "Begin your spiritual journey early morning with a comfortable pickup from your Jaipur hotel",
     },
     {
       time: "8:00 AM",
       activity: "Arrival at Khatu Shyamji Temple",
-      description: "Reach the divine Khatu Shyamji temple and attend the morning darshan and aarti"
+      description:
+        "Reach the divine Khatu Shyamji temple and attend the morning darshan and aarti",
     },
     {
       time: "10:30 AM",
       activity: "Depart for Salasar Balaji",
-      description: "Drive to Salasar Balaji, enjoying scenic views of the Rajasthani countryside"
+      description:
+        "Drive to Salasar Balaji, enjoying scenic views of the Rajasthani countryside",
     },
     {
       time: "1:00 PM",
       activity: "Darshan at Salasar Balaji Temple",
-      description: "Seek blessings at the powerful Salasar Balaji temple and explore the temple complex"
+      description:
+        "Seek blessings at the powerful Salasar Balaji temple and explore the temple complex",
     },
     {
       time: "2:30 PM",
       activity: "Lunch Break",
-      description: "Enjoy a traditional lunch at a local dhaba or restaurant (lunch cost not included)"
+      description:
+        "Enjoy a traditional lunch at a local dhaba or restaurant (lunch cost not included)",
     },
     {
       time: "3:30 PM",
       activity: "Return Journey to Jaipur",
-      description: "Start your return journey to Jaipur, relaxing in your private vehicle"
+      description:
+        "Start your return journey to Jaipur, relaxing in your private vehicle",
     },
     {
       time: "6:30 PM",
       activity: "Drop at Hotel in Jaipur",
-      description: "Arrive back in Jaipur with spiritual satisfaction and memorable experiences"
-    }
+      description:
+        "Arrive back in Jaipur with spiritual satisfaction and memorable experiences",
+    },
   ],
 
   inclusions: [
@@ -1006,7 +1032,7 @@ export const jaipurKhatuShyamjiSalasarBalajiTourContent = {
     "Private air-conditioned vehicle for entire tour",
     "Experienced driver familiar with temple routes",
     "Mineral water bottles during the journey",
-    "Parking, toll, and interstate taxes"
+    "Parking, toll, and interstate taxes",
   ],
 
   recommendations: [
@@ -1014,12 +1040,11 @@ export const jaipurKhatuShyamjiSalasarBalajiTourContent = {
     "Carry a valid ID for any checks on the road",
     "Bring your own prayer offerings or buy them near the temples",
     "Avoid carrying leather items inside temple premises",
-    "Start early to avoid long queues and enjoy peaceful darshan"
-  ]
+    "Start early to avoid long queues and enjoy peaceful darshan",
+  ],
 };
 
 /////////////////////
-
 
 export const chokhiDhaniJaipurNightTourContent = {
   title: "Chokhi Dhani Jaipur Night Tour",
@@ -1027,7 +1052,7 @@ export const chokhiDhaniJaipurNightTourContent = {
   onedayContent: [
     "Experience the vibrant Rajasthani culture with Abhimanyu Holidays’ Chokhi Dhani Jaipur Night Tour. Chokhi Dhani is a traditional Rajasthani village-themed resort located on the outskirts of Jaipur that offers an immersive experience of the region's rich heritage, folk entertainment, and delicious cuisine.",
     "Our evening tour to Chokhi Dhani includes comfortable hotel pickup and drop, giving you a hassle-free way to enjoy the festive atmosphere. You’ll witness captivating folk dances like Kalbeliya, puppet shows, fire acts, magic shows, and more. Enjoy camel rides, traditional games, and explore beautifully decorated village huts showcasing rural life in Rajasthan.",
-    "The highlight of the tour is the authentic Rajasthani dinner served on traditional leaf plates, offering flavors straight from the heart of Rajasthan. Whether you're a cultural enthusiast or a traveler seeking a unique local experience, this tour promises an unforgettable evening."
+    "The highlight of the tour is the authentic Rajasthani dinner served on traditional leaf plates, offering flavors straight from the heart of Rajasthan. Whether you're a cultural enthusiast or a traveler seeking a unique local experience, this tour promises an unforgettable evening.",
   ],
 
   smTitle: "Tour Plan for Chokhi Dhani Jaipur Night Tour",
@@ -1037,35 +1062,40 @@ export const chokhiDhaniJaipurNightTourContent = {
     "Traditional Rajasthani dinner served in ethnic style",
     "Camel and bullock cart rides inside the village setup",
     "Cultural village setup with decorated huts and artwork",
-    "Hotel pickup and drop for a smooth evening experience"
+    "Hotel pickup and drop for a smooth evening experience",
   ],
 
   itinerary: [
     {
       time: "5:30 PM",
       activity: "Hotel Pickup",
-      description: "Get picked up from your hotel in Jaipur for a comfortable drive to Chokhi Dhani village resort"
+      description:
+        "Get picked up from your hotel in Jaipur for a comfortable drive to Chokhi Dhani village resort",
     },
     {
       time: "6:15 PM",
       activity: "Arrival and Exploration",
-      description: "Arrive at Chokhi Dhani and explore the vibrant village setup, folk shows, and traditional games"
+      description:
+        "Arrive at Chokhi Dhani and explore the vibrant village setup, folk shows, and traditional games",
     },
     {
       time: "8:00 PM",
       activity: "Cultural Activities and Performances",
-      description: "Enjoy a variety of Rajasthani performances including dances, magic shows, puppet shows, and fire acts"
+      description:
+        "Enjoy a variety of Rajasthani performances including dances, magic shows, puppet shows, and fire acts",
     },
     {
       time: "8:45 PM",
       activity: "Traditional Dinner",
-      description: "Relish a grand Rajasthani thali served in a traditional dining area"
+      description:
+        "Relish a grand Rajasthani thali served in a traditional dining area",
     },
     {
       time: "10:00 PM",
       activity: "Hotel Drop",
-      description: "Return to your hotel with colorful memories of Rajasthani culture and hospitality"
-    }
+      description:
+        "Return to your hotel with colorful memories of Rajasthani culture and hospitality",
+    },
   ],
 
   inclusions: [
@@ -1073,7 +1103,7 @@ export const chokhiDhaniJaipurNightTourContent = {
     "Entry tickets to Chokhi Dhani village",
     "Traditional Rajasthani dinner (veg thali)",
     "All cultural activities and performances inside the venue",
-    "Private transportation in air-conditioned vehicle"
+    "Private transportation in air-conditioned vehicle",
   ],
 
   recommendations: [
@@ -1081,10 +1111,9 @@ export const chokhiDhaniJaipurNightTourContent = {
     "Bring your camera to capture folk performances",
     "Avoid carrying too many valuables",
     "Respect performers and avoid flash photography during dances",
-    "Try arriving a bit early to enjoy more of the village activities"
-  ]
+    "Try arriving a bit early to enjoy more of the village activities",
+  ],
 };
-
 
 //////////////////
 
@@ -1094,7 +1123,7 @@ export const jaipurTempleTourContent = {
   onedayContent: [
     "Discover the spiritual and architectural wonders of Jaipur with Abhimanyu Holidays’ Jaipur Temple Tour. This one-day tour is a soul-enriching journey through the city's most sacred and beautifully designed temples that reflect the rich cultural and religious heritage of Rajasthan.",
     "Our guided temple tour covers some of the most prominent temples in Jaipur, including the ancient Govind Dev Ji Temple, the scenic Birla Mandir, the hilltop Galta Ji (Monkey Temple), and the intricately designed Akshardham Temple. Each temple offers unique spiritual energy, historical significance, and stunning architecture.",
-    "Ideal for pilgrims, spiritual seekers, and culture lovers, this tour ensures a peaceful and insightful day exploring the divine side of the Pink City with the comfort of hotel pickup, knowledgeable guides, and air-conditioned transport."
+    "Ideal for pilgrims, spiritual seekers, and culture lovers, this tour ensures a peaceful and insightful day exploring the divine side of the Pink City with the comfort of hotel pickup, knowledgeable guides, and air-conditioned transport.",
   ],
 
   smTitle: "Tour Plan for Jaipur Temple Tour",
@@ -1105,45 +1134,52 @@ export const jaipurTempleTourContent = {
     "Climb to the ancient Galta Ji Temple, also known as Monkey Temple",
     "Admire the modern architecture of Akshardham Temple",
     "Peaceful and spiritually enriching experience",
-    "Hotel pickup and drop included"
+    "Hotel pickup and drop included",
   ],
 
   itinerary: [
     {
       time: "8:00 AM",
       activity: "Hotel Pickup",
-      description: "Start your spiritual journey with a comfortable pickup from your hotel in Jaipur"
+      description:
+        "Start your spiritual journey with a comfortable pickup from your hotel in Jaipur",
     },
     {
       time: "8:30 AM",
       activity: "Govind Dev Ji Temple",
-      description: "Visit the most revered temple in Jaipur located within the City Palace complex"
+      description:
+        "Visit the most revered temple in Jaipur located within the City Palace complex",
     },
     {
       time: "10:00 AM",
       activity: "Birla Mandir",
-      description: "Admire the stunning marble structure dedicated to Lord Vishnu and Goddess Lakshmi"
+      description:
+        "Admire the stunning marble structure dedicated to Lord Vishnu and Goddess Lakshmi",
     },
     {
       time: "11:30 AM",
       activity: "Galta Ji (Monkey Temple)",
-      description: "Explore this ancient temple complex surrounded by hills and home to hundreds of monkeys"
+      description:
+        "Explore this ancient temple complex surrounded by hills and home to hundreds of monkeys",
     },
     {
       time: "1:00 PM",
       activity: "Lunch Break",
-      description: "Enjoy a relaxing lunch at a local restaurant (lunch not included)"
+      description:
+        "Enjoy a relaxing lunch at a local restaurant (lunch not included)",
     },
     {
       time: "2:30 PM",
       activity: "Akshardham Temple",
-      description: "Conclude your tour with a visit to this serene and modern Hindu temple dedicated to Lord Narayan"
+      description:
+        "Conclude your tour with a visit to this serene and modern Hindu temple dedicated to Lord Narayan",
     },
     {
       time: "4:00 PM",
       activity: "Hotel Drop",
-      description: "Return to your hotel with blessings and beautiful memories of Jaipur's temples"
-    }
+      description:
+        "Return to your hotel with blessings and beautiful memories of Jaipur's temples",
+    },
   ],
 
   inclusions: [
@@ -1151,7 +1187,7 @@ export const jaipurTempleTourContent = {
     "Air-conditioned private vehicle",
     "English-speaking guide for the temple visits",
     "Bottled mineral water during the tour",
-    "Parking and toll charges"
+    "Parking and toll charges",
   ],
 
   recommendations: [
@@ -1159,13 +1195,11 @@ export const jaipurTempleTourContent = {
     "Remove shoes before entering temples",
     "Carry a scarf or dupatta for covering head if required",
     "Photography might not be allowed inside some temples—ask your guide",
-    "Stay hydrated and wear sunscreen"
-  ]
+    "Stay hydrated and wear sunscreen",
+  ],
 };
 
-
 ///////////////
-
 
 export const jaipurShoppingTourContent = {
   title: "Jaipur Shopping Tour",
@@ -1173,7 +1207,7 @@ export const jaipurShoppingTourContent = {
   onedayContent: [
     "Immerse yourself in the vibrant shopping culture of the Pink City with Abhimanyu Holidays' exclusive Jaipur Shopping Tour. This curated one-day experience takes you through the bustling bazaars, artisan hubs, and iconic marketplaces that have made Jaipur a shopper’s paradise.",
     "From hand-block printed textiles and colorful bangles to exquisite gemstones, handicrafts, leather products, and Rajasthani juttis – Jaipur offers something for every kind of shopper. Our tour is led by a knowledgeable local guide who ensures you discover the best shops, learn about authentic crafts, and enjoy hassle-free bargaining.",
-    "Perfect for travelers, fashion enthusiasts, and souvenir hunters, the Jaipur Shopping Tour includes convenient hotel pickup and drop, comfortable transport, and personalized assistance throughout your shopping adventure."
+    "Perfect for travelers, fashion enthusiasts, and souvenir hunters, the Jaipur Shopping Tour includes convenient hotel pickup and drop, comfortable transport, and personalized assistance throughout your shopping adventure.",
   ],
 
   smTitle: "Tour Plan for Jaipur Shopping Tour",
@@ -1183,45 +1217,52 @@ export const jaipurShoppingTourContent = {
     "Visit Bapu Bazaar for textiles, handicrafts, and leather mojris",
     "Discover Tripolia Bazaar's bangles, brassware, and utensils",
     "Enjoy local factory outlets for block printing and blue pottery",
-    "Get insider shopping tips and support from a local expert guide"
+    "Get insider shopping tips and support from a local expert guide",
   ],
 
   itinerary: [
     {
       time: "10:00 AM",
       activity: "Hotel Pickup",
-      description: "Start your retail therapy day with a convenient hotel pickup in Jaipur"
+      description:
+        "Start your retail therapy day with a convenient hotel pickup in Jaipur",
     },
     {
       time: "10:30 AM",
       activity: "Johari Bazaar",
-      description: "Begin shopping in the city’s famous jewelry market known for gold, silver, and precious stones"
+      description:
+        "Begin shopping in the city’s famous jewelry market known for gold, silver, and precious stones",
     },
     {
       time: "12:00 PM",
       activity: "Bapu Bazaar & Nehru Bazaar",
-      description: "Shop for textiles, perfumes, bags, and mojris in Jaipur’s most colorful bazaars"
+      description:
+        "Shop for textiles, perfumes, bags, and mojris in Jaipur’s most colorful bazaars",
     },
     {
       time: "1:30 PM",
       activity: "Lunch Break",
-      description: "Take a break and enjoy lunch at a traditional Rajasthani restaurant (lunch not included)"
+      description:
+        "Take a break and enjoy lunch at a traditional Rajasthani restaurant (lunch not included)",
     },
     {
       time: "2:30 PM",
       activity: "Tripolia Bazaar & Chandpole",
-      description: "Discover ethnic wear, wooden souvenirs, and vibrant bangles"
+      description:
+        "Discover ethnic wear, wooden souvenirs, and vibrant bangles",
     },
     {
       time: "4:00 PM",
       activity: "Visit to Artisan Workshops",
-      description: "Visit local artisan outlets for blue pottery, block printing, or lac work"
+      description:
+        "Visit local artisan outlets for blue pottery, block printing, or lac work",
     },
     {
       time: "5:30 PM",
       activity: "Hotel Drop",
-      description: "Return to your hotel with bags full of authentic Rajasthani treasures"
-    }
+      description:
+        "Return to your hotel with bags full of authentic Rajasthani treasures",
+    },
   ],
 
   inclusions: [
@@ -1229,7 +1270,7 @@ export const jaipurShoppingTourContent = {
     "Air-conditioned private car with driver",
     "Local English-speaking shopping guide",
     "Drinking water bottles during the tour",
-    "Assistance in negotiating and finding authentic shops"
+    "Assistance in negotiating and finding authentic shops",
   ],
 
   recommendations: [
@@ -1237,6 +1278,6 @@ export const jaipurShoppingTourContent = {
     "Wear comfortable walking shoes",
     "Avoid flashy jewelry while shopping",
     "Always ask your guide for price comparisons",
-    "Use sunscreen and stay hydrated throughout the tour"
-  ]
+    "Use sunscreen and stay hydrated throughout the tour",
+  ],
 };

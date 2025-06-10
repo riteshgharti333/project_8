@@ -10,22 +10,48 @@ export const navData = [
     link: "/about-us",
   },
   {
-    title: "Our Day Tours",
+    title: "One Day Tours",
     icon: IoMdArrowDropdown,
     specific: "tour",
     design: "oneDay",
 
     dropdown: [
       { name: "One Day Tours", link: "/one-day-tours" },
-      { name: "Jhalana Leopard Safari", link: "/jhalana-leopard-safari" },
-      { name: "Jaipur Evening Tour", link: "/jaipur-evening-tour" },
-      { name: "Jaipur Night Tour", link: "/jaipur-night-tour" },
-      { name: "Jaipur Sunrise Tour", link: "/jaipur-sunrise-tour" },
       { name: "Jaipur Sightseeing Tour", link: "/jaipur-sightseeing-tour" },
+      { name: "Jaipur Night Tour", link: "/jaipur-night-tour" },
+
+      {
+        name: "One Day Trip to Ajmer & Pushkar",
+        link: "/one-day-trip-to-ajmer-pushkar",
+      },
       { name: "One Day Trip to Agra", link: "/one-day-trip-to-agra" },
       {
         name: "Jaipur Ranthambore One Day Trip",
         link: "/jaipur-ranthambore-one-day-trip",
+      },
+      {
+        name: "Khatu Shyam Salasar Tour",
+        link: "/jaipur-khatu-shyamji-salasar-balaji-tour",
+      },
+      {
+        name: "Chokhi Dhani Night Tour ",
+        link: "/chokhi-dhani-jaipur-night-tour",
+      },
+      {
+        name: "One Day Trip to Sariska ",
+        link: "/one-day-trip-to-sariska-from-jaipur",
+      },
+      {
+        name: "Chand Baori & Bhangarh Tour",
+        link: "/one-day-trip-to-chand-baori-bhangarh-fort",
+      },
+      {
+        name: "Jaipur Temple Tour ",
+        link: "/jaipur-temple-tour",
+      },
+      {
+        name: "Jaipur Shopping Tour",
+        link: "/jaipur-shopping-tour",
       },
       {
         name: "More...",
@@ -33,7 +59,7 @@ export const navData = [
       },
     ],
   },
-    {
+  {
     title: "Tour Packages",
     specific: "package",
     icon: IoMdArrowDropdown,
@@ -81,7 +107,6 @@ export const navData = [
     link: "/taxi-service",
   },
 
-
   {
     title: "Hotel Booking",
 
@@ -111,7 +136,7 @@ export const navData = [
     ],
   },
 
-   {
+  {
     title: "Travel Guide",
     link: "/travel-guide",
   },

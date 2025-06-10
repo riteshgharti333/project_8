@@ -1,14 +1,24 @@
+import React from "react";
 import { motion } from "framer-motion";
 import {
   FiCalendar,
   FiClock,
+  FiUser,
+  FiShare2,
+  FiBookmark,
   FiArrowRight,
 } from "react-icons/fi";
-import { oneDayTourData } from "../../assets/blogsData";
+import {
+  blog,
+  oneDayTourData,
+  rajasthanBestHotels,
+  rajasthanTopDestinations,
+  relatedArticles,
+} from "../../assets/blogsData";
 import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
-const Blog1 = () => {
+const Blog3 = () => {
   const {
     blogContent1,
     blogContent2,
@@ -16,7 +26,10 @@ const Blog1 = () => {
     blogContent4,
     blogContent5,
     blogContent6,
-  } = oneDayTourData;
+    blogContent7,
+    blogContent8,
+    blogContent9,
+  } = rajasthanBestHotels;
 
   return (
     <div className="min-h-screen">
@@ -58,7 +71,7 @@ const Blog1 = () => {
         </div>
       </motion.div>
 
-      <div className="flex max-w-[1200px] m-auto mt-10 gap-5 flex-col lg:flex-row ">
+      <div className="flex max-w-[1200px] m-auto mt-10 gap-5 flex-col px-1 lg:flex-row ">
         <div className="flex-7">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -68,7 +81,7 @@ const Blog1 = () => {
           ></motion.div>
 
           <img
-            src={blogContent1.img}
+           src={blogContent1.img}
             alt=""
             className="w-full h-[400px] object-cover "
           />
@@ -150,6 +163,13 @@ const Blog1 = () => {
                 {item}
               </p>
             ))}
+            <ul className="ml-5 flex flex-col gap-3 list-disc marker:text-yellow-500 mt-5">
+              {blogContent5.lists.map((item, index) => (
+                <li key={index} className=" text-gray-600">
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <div className="mt-5">
@@ -157,6 +177,60 @@ const Blog1 = () => {
               {blogContent6.title}
             </h2>
             {blogContent6.desc.map((item, index) => (
+              <p className="mt-5 text-gray-600" key={index}>
+                {item}
+              </p>
+            ))}
+            <ul className="ml-5 flex flex-col gap-3 list-disc marker:text-yellow-500 mt-5">
+              {blogContent6.lists.map((item, index) => (
+                <li key={index} className=" text-gray-600">
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="mt-5">
+            <h2 className="text-2xl font-bold text-brand-brown">
+              {blogContent7.title}
+            </h2>
+            {blogContent7.desc.map((item, index) => (
+              <p className="mt-5 text-gray-600" key={index}>
+                {item}
+              </p>
+            ))}
+            <ul className="ml-5 flex flex-col gap-3 list-disc marker:text-yellow-500 mt-5">
+              {blogContent7.lists.map((item, index) => (
+                <li key={index} className=" text-gray-600">
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="mt-5">
+            <h2 className="text-2xl font-bold text-brand-brown">
+              {blogContent8.title}
+            </h2>
+            {blogContent8.desc.map((item, index) => (
+              <p className="mt-5 text-gray-600" key={index}>
+                {item}
+              </p>
+            ))}
+            <ul className="ml-5 flex flex-col gap-3 list-disc marker:text-yellow-500 mt-5">
+              {blogContent8.lists.map((item, index) => (
+                <li key={index} className=" text-gray-600">
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="mt-5">
+            <h2 className="text-2xl font-bold text-brand-brown">
+              {blogContent9.title}
+            </h2>
+            {blogContent9.desc.map((item, index) => (
               <p className="mt-5 text-gray-600" key={index}>
                 {item}
               </p>
@@ -171,7 +245,7 @@ const Blog1 = () => {
           {/* Related Articles Section (keep your existing code below this) */}
 
           {/* Related Articles */}
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
@@ -223,7 +297,7 @@ const Blog1 = () => {
                 </motion.div>
               ))}
             </div>
-          </motion.div> */}
+          </motion.div>
         </div>
 
         <div className="flex-3">
@@ -234,4 +308,4 @@ const Blog1 = () => {
   );
 };
 
-export default Blog1;
+export default Blog3;

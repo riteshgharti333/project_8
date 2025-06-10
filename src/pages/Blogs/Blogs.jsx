@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Blogs = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [activeCategory, setActiveCategory] = useState("All");
-  const blogsPerPage = 6;
+  const blogsPerPage = 8;
   const blogGridRef = useRef(null);
 
   const scrollTop = () => {
@@ -17,14 +17,7 @@ const Blogs = () => {
   };
 
   // Get unique categories
-  const categories = [
-    "All",
-    "Tour Packages",
-    "Rental Services",
-    "Tempo Services",
-    "Travel Tips",
-    "Tour Services",
-  ];
+  const categories = ["All"];
 
   // Filter blogs by category
   const filteredBlogs =
@@ -133,9 +126,6 @@ const Blogs = () => {
                   alt={blog.title}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
-                <div className="absolute top-4 right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">
-                  {blog.category}
-                </div>
               </div>
 
               {/* Content Section - Flex Grow for consistent button placement */}
@@ -143,24 +133,20 @@ const Blogs = () => {
                 <div className="flex items-center text-gray-500 text-sm mb-3">
                   <FiCalendar className="mr-1" />
                   <span className="mr-4">{blog.date}</span>
-                  <FiClock className="mr-1" />
-                  <span>{blog.readTime}</span>
                 </div>
 
                 {/* Title with line clamp for consistent height */}
                 <h3 className="text-xl font-bold mb-3 text-brand-brown line-clamp-2 transition-all duration-300 ease-in-out hover:text-yellow-500">
-                  <Link to={`/blog/${blog.id}`}>{blog.title}</Link>
+                  <Link to={blog.link}>{blog.title}</Link>
                 </h3>
 
                 {/* Description with line clamp */}
-                <p className="text-gray-600 mb-5 line-clamp-3">
-                  {blog.excerpt}
-                </p>
+                <p className="text-gray-600 mb-5 line-clamp-2">{blog.desc}</p>
 
                 {/* Button container that stays at bottom */}
                 <div className="mt-auto pt-4">
                   <Link
-                    to={`/blog/${blog.id}`}
+                    to={blog.link}
                     className="flex items-center text-blue-600 font-medium group transition-all duration-300 ease-in-out hover:text-yellow-500"
                   >
                     Read More

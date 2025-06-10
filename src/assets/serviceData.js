@@ -203,108 +203,100 @@ export const features = [
 
 export const sidebarData = [
   {
-    title: "All Inclusive Tour Packages",
-
+    title: "One Day Tours",
     lists: [
       {
-        title: "Jaipur Budget Tour",
+        title: "Jaipur Sightseeing Tour",
+        link: "/jaipur-sightseeing-tour",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Jaipur Night Tour",
+        link: "/jaipur-night-tour",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "One Day Trip to Agra",
+        link: "/one-day-trip-to-agra",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Chokhi Dhani Night Tour",
+        link: "/chokhi-dhani-jaipur-night-tour",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Jaipur Temple Tour",
+        link: "/jaipur-temple-tour",
+      },
+      {
+        title: "Jaipur Shopping Tour",
+        link: "/jaipur-shopping-tour",
       },
     ],
   },
   {
-    title: "All Inclusive Tour Packages",
-
+    title: "Tour Packages",
     lists: [
       {
-        title: "Jaipur Budget Tour",
+        title: "Abhimanyu Holidays Special Tours",
+        link: "/tour-package/abhimanyu-holidays-special-tours",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Rajasthan Tour Packages",
+        link: "/tour-package/rajasthan-tour-packages",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Udaipur Tours",
+        link: "/tour-package/udaipur-tours",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Jaisalmer Tours",
+        link: "/tour-package/jaisalmer-tours",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Jaipur Tour Packages",
+        link: "/tour-package/jaipur-tour-packages",
+      },
+      {
+        title: "Golden Triangle Tour Packages",
+        link: "/tour-package/golden-triangle-tour-packages",
+      },
+      {
+        title: "Ayodhya Tour Packages",
+        link: "/tour-package/ayodhya-tour-packages",
+      },
+      {
+        title: "Himachal Tour Packages",
+        link: "/tour-package/himachal-tour-packages",
+      },
+      {
+        title: "Kashmir Tour Packages",
+        link: "/tour-package/kashmir-tour-packages",
       },
     ],
   },
   {
-    title: "All Inclusive Tour Packages",
-
+    title: "Hotel Booking",
     lists: [
       {
-        title: "Jaipur Budget Tour",
+        title: "Hotels in Jaipur",
+        link: "/hotels-in-jaipur",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Hotels in Udaipur",
+        link: "/hotels-in-udaipur",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Hotels in Pushkar",
+        link: "/hotels-in-pushakr",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Hotels in Jaisalmer",
+        link: "/hotels-in-jaisalmer",
       },
       {
-        title: "Jaipur Budget Tour",
+        title: "Hotels in Jodhpur",
+        link: "/hotels-in-jodhpur",
       },
     ],
   },
-  {
-    title: "All Inclusive Tour Packages",
-
-    lists: [
-      {
-        title: "Jaipur Budget Tour",
-      },
-      {
-        title: "Jaipur Budget Tour",
-      },
-      {
-        title: "Jaipur Budget Tour",
-      },
-      {
-        title: "Jaipur Budget Tour",
-      },
-      {
-        title: "Jaipur Budget Tour",
-      },
-    ],
-  },
-  {
-    title: "All Inclusive Tour Packages",
-
-    lists: [
-      {
-        title: "Jaipur Budget Tour",
-      },
-      {
-        title: "Jaipur Budget Tour",
-      },
-      {
-        title: "Jaipur Budget Tour",
-      },
-      {
-        title: "Jaipur Budget Tour",
-      },
-      {
-        title: "Jaipur Budget Tour",
-      },
-    ],
-  },
+  
 ];
+

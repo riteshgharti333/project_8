@@ -210,14 +210,14 @@ const Contact = () => {
                         href="tel:+9771234567"
                         className="hover:text-blue-600 transition-colors"
                       >
-                       +91 9587084879
+                        +91 9587084879
                       </a>
                       <br />
                       <a
                         href="tel:+9779876543210"
                         className="hover:text-blue-600 transition-colors"
                       >
-                       +91 9829301061
+                        +91 9829301061
                       </a>
                     </p>
                   </div>
@@ -243,17 +243,10 @@ const Contact = () => {
                     <h4 className="font-medium text-gray-800">Email Us</h4>
                     <p className="text-gray-600">
                       <a
-                        href="mailto:info@nepaltours.com"
+                        href="mailto:Info@Abhimanyuholiday.com"
                         className="hover:text-blue-600 transition-colors"
                       >
-                        info@tours.com
-                      </a>
-                      <br />
-                      <a
-                        href="mailto:support@nepaltours.com"
-                        className="hover:text-blue-600 transition-colors"
-                      >
-                        support@indiatours.com
+                        Info@Abhimanyuholiday.com
                       </a>
                     </p>
                   </div>
@@ -265,7 +258,7 @@ const Contact = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <iframe
                 title="Our Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448194.82162352453!2d77.09323125!3d28.6440836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1746866604251!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2971.363084737143!2d75.77461247543683!3d26.83762757669203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUwJzE1LjUiTiA3NcKwNDYnMzcuOSJF!5e1!3m2!1sen!2sin!4v1749557384790!5m2!1sen!2sin"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}
