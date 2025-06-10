@@ -8,7 +8,7 @@ const EnquiryForm = () => {
       transition={{ delay: 0.3 }}
       className="mb-16 bg-white rounded-xl shadow-lg overflow-hidden"
     >
-      <div className="max-[460px]:p-3 p-8">
+      <div className="max-[480px]:p-3 p-8">
         <h3 className="text-2xl font-bold text-brand-brown mb-6">
           Have Questions? Send Us a Message
         </h3>

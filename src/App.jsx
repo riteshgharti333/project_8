@@ -46,6 +46,11 @@ import TourPackages10 from "./pages/TourPackages/TourPackages10";
 import TourPackages11 from "./pages/TourPackages/TourPackages11";
 import TourPackages12 from "./pages/TourPackages/TourPackages12";
 import specialRoutes from "./routes/specialRoute";
+import HotelBooking1 from "./pages/HotelBooking/HotelBooking1";
+import HotelBooking2 from "./pages/HotelBooking/HotelBooking2";
+import HotelBooking3 from "./pages/HotelBooking/HotelBooking3";
+import HotelBooking4 from "./pages/HotelBooking/HotelBooking4";
+import HotelBooking5 from "./pages/HotelBooking/HotelBooking5";
 
 function App() {
   const ScrollToTop = () => {
@@ -158,26 +163,22 @@ function App() {
             path="/tour-package/india-tour-packages"
             element={<TourPackages12 />}
           />
-
           {/* Special Tours */}
           {specialRoutes.map(({ path, element }, index) => (
             <Route key={index} path={path} element={element} />
           ))}
+          {/* Hotels */}
+          <Route path="/hotels-in-jaipur" element={<HotelBooking1 />} />
+          <Route path="/hotels-in-udaipur" element={<HotelBooking2 />} />
+          <Route path="/hotels-in-pushakr" element={<HotelBooking3 />} />
+          <Route path="/hotels-in-jaisalmer" element={<HotelBooking4 />} />
+          <Route path="/hotels-in-jodhpur" element={<HotelBooking5 />} />
 
-
-
-
-
-
-
-
-
-
-
+          
 
           {/*  */}
           <Route
-            path="/rental-service/car-rental-service-in-jaipur"
+            path="/taxi-rental"
             element={<RentalService1 />}
           />
           <Route

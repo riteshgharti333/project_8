@@ -75,8 +75,8 @@ const Review = () => {
             }
           }}
         >
-          {reviewsData.map((item) => (
-            <SwiperSlide key={item.id}>
+          {reviewsData.map((item, index) => (
+            <SwiperSlide key={index}>
               <div className="h-full p-1">
                 <div className="h-full bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transition-all duration-500 hover:shadow-lg hover:border-yellow-200 flex flex-col">
                   <div className="max-[480px]:p-2 p-8 h-full flex flex-col">
@@ -114,9 +114,7 @@ const Review = () => {
                             : "Read More"}
                           <FiChevronRight
                             className={`ml-1 transition-transform duration-300 ${
-                              expandedReviewId === item.id
-                                ? "rotate-90"
-                                : ""
+                              expandedReviewId === item.id ? "rotate-90" : ""
                             }`}
                           />
                         </button>

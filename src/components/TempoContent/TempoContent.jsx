@@ -27,7 +27,7 @@ const TempoContent = () => {
     <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
       <div>
         <h2 className="text-2xl font-bold text-brand-brown">
-          Tempo Traveller in Jaipur
+         Book Our Taxi Services For Local Outstation Tour With Best Price
         </h2>
         <p className="mt-5 text-gray-600">
           Tempo Traveller in Jaipur is a popular mode of transportation for

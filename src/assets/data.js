@@ -103,28 +103,38 @@ export const navData = [
       // { name: "Jaipur Shopping Tour", link: "/jaipur-shopping-tour" },
     ],
   },
+
   {
-    title: "Car Rental",
+    title: "Hote Booking",
+
     icon: IoMdArrowDropdown,
-    specific: "rental",
+    specific: "hotel",
     dropdown: [
       {
-        name: "Car Rental Service in Jaipur",
-        link: "car-rental-service-in-jaipur",
+        name: "Hotels in Jaipur",
+        link: "hotels-in-jaipur",
+      },
+      {
+        name: "Hotels in Udaipur",
+        link: "hotels-in-udaipur",
+      },
+      {
+        name: "Hotels in Pushkar",
+        link: "hotels-in-pushakr",
+      },
+      {
+        name: "Hotels in Jaisalmer",
+        link: "hotels-in-jaisalmer",
+      },
+      {
+        name: "Hotels in Jodhpur",
+        link: "hotels-in-jodhpur",
       },
     ],
   },
   {
-    title: "Tempo Traveller",
-
-    icon: IoMdArrowDropdown,
-    specific: "tempo",
-    dropdown: [
-      {
-        name: "Tempo Traveller in Jaipur",
-        link: "tempo-traveller-in-jaipur",
-      },
-    ],
+    title: "Taxi Rental",
+    link: "/taxi-rental",
   },
   {
     title: "Blogs",
@@ -339,7 +349,6 @@ import taxi4 from "../assets/images/taxiimg/taxi4_result.webp";
 import taxi5 from "../assets/images/taxiimg/taxi5_result.webp";
 import taxi6 from "../assets/images/taxiimg/taxi6_result.webp";
 
-
 export const taxies = [
   {
     img: taxi1,
@@ -391,7 +400,7 @@ export const taxies = [
     fuelType: "Diesel",
     ac: false,
   },
-    {
+  {
     img: taxi6,
     vehicle: "Bus Service",
     rate: "25",
