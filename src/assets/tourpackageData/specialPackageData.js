@@ -155,66 +155,11 @@ export const specialPackageCards = [
     duration: "3 Nights / 4 Days",
     destination: "Delhi – Agra – Jaipur – Udaipur",
   },
-  {
-    img: stpCard_img21,
-    title: "Rajasthan Private Tour Package",
-    duration: "6 Nights / 7 Days",
-    destination: "Jaipur - Jodhpur - Udaipur",
-  },
-  {
-    img: stpCard_img27,
-    title: "Jaipur Private Tour Package",
-    duration: "2 Nights / 3 Days",
-    destination: "Jaipur",
-  },
-  {
-    img: stpCard_img23,
-    title: "Udaipur Private Tour Package",
-    duration: "2 Nights / 3 Days",
-    destination: "Udaipur",
-  },
-  {
-    img: stpCard_img24,
-    title: "Jaisalmer Private Tour Package",
-    duration: "2 Nights / 3 Days",
-    destination: "Jaisalmer",
-  },
-  {
-    img: stpCard_img25,
-    title: "Jodhpur Private Tour Package",
-    duration: "1 Nights / 2 Days",
-    destination: "Jodhpur",
-  },
-  {
-    img: stpCard_img28,
-    title: "Ajmer Pushkar Private Tour Package",
-    duration: "Customizable",
-    destination: "Ajmer - Pushkar",
-  },
-  {
-    img: stpCard_img22,
-    title: "Ranthambore Private Tour Package",
-    duration: "1 Nights / 2 Days",
-    destination: "Ranthambore",
-  },
-  {
-    img: stpCard_img29,
-    title: "Mount Abu Private Tour Package",
-    duration: "Customizable",
-    destination: "Mount Abu",
-  },
-  {
-    img: stpCard_img30,
-    title: "Delhi Private Tour Package",
-    duration: "Customizable",
-    destination: "Delhi",
-  },
-  {
-    img: stpCard_img26,
-    title: "Agra Private Tour Package",
-    duration: "Customizable",
-    destination: "Agra",
-  },
+
+ 
+  
+  
+ 
 ];
 
 export const specialPackageContent = {

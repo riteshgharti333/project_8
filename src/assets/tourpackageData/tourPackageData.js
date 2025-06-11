@@ -259,78 +259,9 @@ export const rjTPCards = [
     duration: "6 Nights - 7 Days",
     desc: "Adrenaline-filled activities in the heart of Rajasthan.",
   },
-  {
-    img: rj_img10,
-    title: "Rajasthan Tour Packages From Bangalore",
-    duration: "Customizable",
-    desc: "Seamless Rajasthan getaway from Bangalore city.",
-  },
-  {
-    img: rj_img4,
-    title: "Rajasthan Tour Packages From Chennai",
-    duration: "Customizable",
-    desc: "Fly from Chennai and enjoy royal Rajasthan charm.",
-  },
-  {
-    img: rj_img46,
-    title: "Rajasthan Tour Packages From Delhi",
-    duration: "Customizable",
-    desc: "Start your Rajasthan journey from the capital city.",
-  },
-  {
-    img: rj_img2,
-    title: "Rajasthan Tour Packages From Kerala",
-    duration: "Customizable",
-    desc: "Rajasthan escape designed for Kerala travelers.",
-  },
-  {
-    img: rj_img7,
-    title: "Rajasthan Tour Packages From Mumbai",
-    duration: "Customizable",
-    desc: "Royal Rajasthan adventures starting from Mumbai.",
-  },
-  {
-    img: rj_img17,
-    title: "Rajasthan Tour Packages From Agra",
-    duration: "Customizable",
-    desc: "Combine Agra visit with a Rajasthan exploration.",
-  },
-  {
-    img: rj_img1,
-    title: "Rajasthan Tour Packages From Kolkata",
-    duration: "Customizable",
-    desc: "Fly from Kolkata to discover vibrant Rajasthan.",
-  },
-  {
-    img: rj_img5,
-    title: "Rajasthan Tour Packages From Chandigarh",
-    duration: "Customizable",
-    desc: "Chandigarh to Rajasthan: curated cultural experience.",
-  },
-  {
-    img: rj_img24,
-    title: "Rajasthan Tour Packages From Hyderabad",
-    duration: "Customizable",
-    desc: "Discover royal Rajasthan with Hyderabad departure.",
-  },
-  {
-    img: rj_img22,
-    title: "Rajasthan Tour Packages from Ahmedabad",
-    duration: "Customizable",
-    desc: "Explore vibrant Rajasthan from Gujarat’s heritage city.",
-  },
-  {
-    img: rj_img25,
-    title: "Rajasthan Tour Packages from Tamil Nadu",
-    duration: "Customizable",
-    desc: "From Tamil Nadu to Rajasthan's regal wonders.",
-  },
-  {
-    img: rj_img14,
-    title: "Rajasthan Tour Packages from Gujarat",
-    duration: "Customizable",
-    desc: "Short travel distance, rich Rajasthani culture awaits.",
-  },
+  
+ 
+ 
   {
     img: rj_img3,
     title: "Rajasthan Tour Packages from Jaisalmer",
@@ -347,7 +278,7 @@ export const rjTPCards = [
     img: rj_img15,
     title: "Jodhpur Tour by Car and Driver",
     duration: "Customizable",
-    desc: "Private Jodhpur city tour with professional driver.",
+    desc: "Jodhpur city tour with professional driver.",
   },
   {
     img: rj_img55,
@@ -373,18 +304,7 @@ export const rjTPCards = [
     duration: "Customizable",
     desc: "Visit holy Ajmer & Pushkar temples in comfort.",
   },
-  {
-    img: rj_img56,
-    title: "Delhi Tour by Car and Driver",
-    duration: "Customizable",
-    desc: "Private Delhi sightseeing with expert local driver.",
-  },
-  {
-    img: rj_img18,
-    title: "Agra Tour by Car and Driver",
-    duration: "Customizable",
-    desc: "Explore Taj Mahal and more with private ride.",
-  },
+  
   {
     img: rj_img33,
     title: "Rajasthan Tour Package for 5 Nights 6 Days",
@@ -550,7 +470,7 @@ export const udaipurTPCards = [
     img: u_img3,
     title: "Udaipur Tour by Car and Driver",
     duration: "Customizable",
-    desc: "Private tour by car with experienced local driver",
+    desc: "Tour by car with experienced local driver",
   },
 ];
 
@@ -743,7 +663,7 @@ export const jaisalmerTPCards = [
     img: jai_img11,
     title: "Jaisalmer Tour by Car and Driver",
     duration: "Customizable",
-    desc: "Private Jaisalmer trip with car and driver",
+    desc: "Jaisalmer trip with car and driver",
   },
 ];
 
@@ -1048,7 +968,7 @@ export const jaipurTPCards = [
     img: pur_img29,
     title: "Jaipur Tour by Car and Driver",
     duration: "Customizable",
-    desc: "Private car tours with professional drivers",
+    desc: "Car tours with professional drivers",
   },
   {
     img: pur_img30,
@@ -1060,7 +980,7 @@ export const jaipurTPCards = [
     img: pur_img31,
     title: "Jaipur Sightseeing by Car And Driver",
     duration: "01 Nights 02 Days",
-    desc: "Comfortable private car tours with knowledgeable drivers",
+    desc: "Comfortable car tours with knowledgeable drivers",
   },
   {
     img: pur_img32,
@@ -1503,7 +1423,7 @@ export const ayodhyaTPData = {
       },
       {
         title: "By Road",
-        desc: "Ayodhya is easily accessible by road via National Highways NH 27 and NH 330. It has strong road connectivity with nearby cities and towns. Tourists can use private cabs, buses, or taxi rental services for a seamless road trip to Ayodhya.",
+        desc: "Ayodhya is easily accessible by road via National Highways NH 27 and NH 330. It has strong road connectivity with nearby cities and towns. Tourists can use cabs, buses, or taxi rental services for a seamless road trip to Ayodhya.",
       },
     ],
   },
@@ -1880,7 +1800,7 @@ export const kashmirTPData = {
       },
       {
         title: "By Road",
-        desc: "Kashmir is easily accessible by road from major cities like Delhi, Chandigarh, and Jammu. Travellers can opt for private cabs, self-drive options, or state-run buses. The routes via national highways offer scenic views of the hills, valleys, and rivers, making the road trip to Kashmir a memorable journey.",
+        desc: "Kashmir is easily accessible by road from major cities like Delhi, Chandigarh, and Jammu. Travellers can opt for cabs, self-drive options, or state-run buses. The routes via national highways offer scenic views of the hills, valleys, and rivers, making the road trip to Kashmir a memorable journey.",
       },
     ],
   },
@@ -2015,7 +1935,7 @@ export const kashmirTPCards = [
     img: kash_img12,
     title: "Kashmir Honeymoon Tour 7 Days",
     duration: "6 Nights - 7 Days",
-    desc: "Private and romantic Kashmir trip for newlyweds",
+    desc: "Romantic Kashmir trip for newlyweds",
   },
 ];
 
