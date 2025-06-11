@@ -258,18 +258,18 @@ export const sidebarData = [
         title: "Golden Triangle Tour Packages",
         link: "/tour-package/golden-triangle-tour-packages",
       },
-      {
-        title: "Ayodhya Tour Packages",
-        link: "/tour-package/ayodhya-tour-packages",
-      },
-      {
-        title: "Himachal Tour Packages",
-        link: "/tour-package/himachal-tour-packages",
-      },
-      {
-        title: "Kashmir Tour Packages",
-        link: "/tour-package/kashmir-tour-packages",
-      },
+      // {
+      //   title: "Ayodhya Tour Packages",
+      //   link: "/tour-package/ayodhya-tour-packages",
+      // },
+      // {
+      //   title: "Himachal Tour Packages",
+      //   link: "/tour-package/himachal-tour-packages",
+      // },
+      // {
+      //   title: "Kashmir Tour Packages",
+      //   link: "/tour-package/kashmir-tour-packages",
+      // },
     ],
   },
   {
@@ -297,6 +297,4 @@ export const sidebarData = [
       },
     ],
   },
-  
 ];
-

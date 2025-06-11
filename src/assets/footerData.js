@@ -49,18 +49,18 @@ export const footerTourPackageData = [
     name: "Golden Triangle Tour Packages",
     link: "/tour-package/golden-triangle-tour-packages",
   },
-  {
-    name: "Ayodhya Tour Packages",
-    link: "/tour-package/ayodhya-tour-packages",
-  },
-  {
-    name: "Himachal Tour Packages",
-    link: "/tour-package/himachal-tour-packages",
-  },
-  {
-    name: "Kashmir Tour Packages",
-    link: "/tour-package/kashmir-tour-packages",
-  },
+  // {
+  //   name: "Ayodhya Tour Packages",
+  //   link: "/tour-package/ayodhya-tour-packages",
+  // },
+  // {
+  //   name: "Himachal Tour Packages",
+  //   link: "/tour-package/himachal-tour-packages",
+  // },
+  // {
+  //   name: "Kashmir Tour Packages",
+  //   link: "/tour-package/kashmir-tour-packages",
+  // },
 ];
 
 export const footerHotelData = [
@@ -99,10 +99,10 @@ export const footerOtherLinksData = [
     name: "Blog",
     link: "/blogs",
   },
-  {
-    name: "Travel Guide",
-    link: "/travel-guide",
-  },
+  // {
+  //   name: "Travel Guide",
+  //   link: "/travel-guide",
+  // },
   {
     name: "Taxi Service",
     link: "/taxi-service",

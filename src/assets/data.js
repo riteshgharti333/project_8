@@ -89,6 +89,7 @@ export const navData = [
         link: "/tour-package/golden-triangle-tour-packages",
       },
       // {
+     
       //   name: "Ayodhya Tour Packages",
       //   link: "/tour-package/ayodhya-tour-packages",
       // },
