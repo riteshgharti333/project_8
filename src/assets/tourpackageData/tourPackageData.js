@@ -274,36 +274,11 @@ export const rjTPCards = [
     duration: "Customizable",
     desc: "Comfortable bus tour through Rajasthan’s top cities.",
   },
-  {
-    img: rj_img15,
-    title: "Jodhpur Tour by Car and Driver",
-    duration: "Customizable",
-    desc: "Jodhpur city tour with professional driver.",
-  },
-  {
-    img: rj_img55,
-    title: "Mount Abu Tour by Car and Driver",
-    duration: "Customizable",
-    desc: "Relaxing Mount Abu drive with personal guide-driver.",
-  },
-  {
-    img: rj_img48,
-    title: "Ranthambore Tour by Car and Driver",
-    duration: "Customizable",
-    desc: "Safari and sightseeing in Ranthambore in comfort.",
-  },
-  {
-    img: rj_img50,
-    title: "Bikaner Tour by Car and Driver",
-    duration: "Customizable",
-    desc: "Explore Bikaner’s forts and snacks with ease.",
-  },
-  {
-    img: rj_img51,
-    title: "Ajmer Pushkar Tour by Car And Driver",
-    duration: "Customizable",
-    desc: "Visit holy Ajmer & Pushkar temples in comfort.",
-  },
+ 
+  
+ 
+ 
+
   
   {
     img: rj_img33,
@@ -466,12 +441,7 @@ export const udaipurTPCards = [
     duration: "5 Days - 4 Nights",
     desc: "Five days exploring palaces, lakes, and markets",
   },
-  {
-    img: u_img3,
-    title: "Udaipur Tour by Car and Driver",
-    duration: "Customizable",
-    desc: "Tour by car with experienced local driver",
-  },
+ 
 ];
 
 //////////////////
@@ -653,18 +623,7 @@ export const jaisalmerTPCards = [
     duration: "Customizable",
     desc: "Royal Jaisalmer experience with premium amenities",
   },
-  {
-    img: jai_img7,
-    title: "Jaisalmer Tour Package for Couple",
-    duration: "Customizable",
-    desc: "Romantic desert tour perfect for couples",
-  },
-  {
-    img: jai_img11,
-    title: "Jaisalmer Tour by Car and Driver",
-    duration: "Customizable",
-    desc: "Jaisalmer trip with car and driver",
-  },
+ 
 ];
 
 //////////////////
@@ -1155,78 +1114,14 @@ import gold_img12 from "../images/tpCardImgs/goldeCardImgs/siddhant-singh-NWo6rT
 import gold_img13 from "../images/tpCardImgs/goldeCardImgs/venus-major-IRQDCsSxT20-unsplash.jpg";
 
 export const goldenTriangleTPCards = [
-  {
-    img: gold_img11,
-    title: "Golden Triangle Tour",
-    duration: "3 Nights - 4 Days",
-    desc: "Explore Delhi, Agra, and Jaipur in 4 days",
-  },
+  
   {
     img: gold_img2,
     title: "5 Days Golden Triangle Tour",
     duration: "5 Days",
     desc: "Extended trip covering major Golden Triangle cities",
   },
-  {
-    img: gold_img3,
-    title: "Golden Triangle with Udaipur",
-    duration: "4 Nights - 5 Days",
-    desc: "Includes Udaipur along with classic triangle cities",
-  },
-  {
-    img: gold_img4,
-    title: "Golden Triangle Tour with Jaisalmer",
-    duration: "6 Nights - 7 Days",
-    desc: "Add Jaisalmer's desert charm to your tour",
-  },
-  {
-    img: gold_img5,
-    title: "Golden Triangle Tour With Ranthambore",
-    duration: "7 Nights - 8 Days",
-    desc: "Experience wildlife at Ranthambore with triangle cities",
-  },
-  {
-    img: gold_img6,
-    title: "Golden Triangle Tour with Varanasi",
-    duration: "7 Nights - 8 Days",
-    desc: "Spiritual Varanasi added to classic Golden Triangle",
-  },
-  {
-    img: gold_img7,
-    title: "Golden Triangle With Haridwar & Rishikesh",
-    duration: "7 Nights - 8 Days",
-    desc: "Explore holy cities Haridwar and Rishikesh with triangle",
-  },
-  {
-    img: gold_img10,
-    title: "Golden Triangle with Varanasi & Khajuraho",
-    duration: "10 Nights - 11 Days",
-    desc: "Comprehensive spiritual and heritage tour including Khajuraho",
-  },
-  {
-    img: gold_img9,
-    title: "Golden Triangle Tour with Rajasthan",
-    duration: "7 Nights - 8 Days",
-    desc: "Experience Rajasthan's culture along with triangle cities",
-  },
-  {
-    img: gold_img12,
-    title: "Delhi Jaipur Agra Pushkar Tour",
-    duration: "14 Nights - 15 Days",
-    desc: "Extended royal tour including Pushkar's charm",
-  },
-  {
-    img: gold_img1,
-    title: "Varanasi Tent City Package",
-    duration: "6 Nights - 7 Days",
-    desc: "Stay in tent city while exploring Varanasi",
-  },
-  {
-    img: gold_img8,
-    title: "Mathura Vrindavan Agra Tour",
-    duration: "2 Nights - 3 Days",
-    desc: "Explore spiritual Mathura and Vrindavan with Agra",
-  },
+ 
 ];
 
 ////////////////////////////////
