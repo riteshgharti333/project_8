@@ -384,7 +384,6 @@ export const udaipurTPData = {
 
 import u_img1 from "../images/tpCardImgs/udaiCardImgs/fred-nassar-pnLIgujCigo-unsplash.jpg";
 import u_img2 from "../images/tpCardImgs/udaiCardImgs/ish-consul-i56w4ah3wAY-unsplash.jpg";
-import u_img3 from "../images/tpCardImgs/udaiCardImgs/kashish-lamba-JfowJjlcK8A-unsplash.jpg";
 import u_img4 from "../images/tpCardImgs/udaiCardImgs/vivek-YOAFx_1iznM-unsplash.jpg";
 import u_img5 from "../images/tpCardImgs/udaiCardImgs/pranav-panchal-IEArgDckRuQ-unsplash.jpg";
 import u_img6 from "../images/tpCardImgs/udaiCardImgs/shantanu-goyal-foRaM8hVH28-unsplash.jpg";
@@ -398,50 +397,57 @@ export const udaipurTPCards = [
     title: "Udaipur Luxury Tour",
     duration: "Customizable",
     desc: "Experience royal luxury in the City of Lakes",
+    link: "udaipur-luxury-tour"
   },
   {
     img: u_img9,
     title: "Udaipur Family Tour",
     duration: "Customizable",
     desc: "Perfect Udaipur getaway for the entire family",
+    link: "udaipur-family-tour"
   },
   {
     img: u_img2,
     title: "Udaipur Tour for Couple",
     duration: "Customizable",
     desc: "Romantic escape for couples in Udaipur city",
+    link: "udaipur-tour-for-couple"
   },
   {
     img: u_img4,
     title: "Udaipur Tour for 1 Day",
     duration: "1 Day",
-    desc: "Explore Udaipur’s top attractions in one day",
+    desc: "Explore Udaipur's top attractions in one day",
+    link: "udaipur-tour-for-1-day"
   },
   {
     img: u_img1,
     title: "Udaipur Tour for 2 Days",
     duration: "2 Days - 1 Night",
     desc: "Quick two-day tour covering must-visit spots",
+    link: "udaipur-tour-for-2-days"
   },
   {
     img: u_img6,
     title: "Udaipur Tour for 3 Days",
     duration: "3 Days - 2 Nights",
-    desc: "Discover Udaipur’s beauty in three-day trip",
+    desc: "Discover Udaipur's beauty in three-day trip",
+    link: "udaipur-tour-for-3-days"
   },
   {
     img: u_img7,
     title: "Udaipur Tour for 4 Days",
     duration: "4 Days - 3 Nights",
     desc: "Enjoy a detailed four-day Udaipur experience",
+    link: "udaipur-tour-for-4-days"
   },
   {
     img: u_img8,
     title: "Udaipur Tour for 5 Days",
     duration: "5 Days - 4 Nights",
     desc: "Five days exploring palaces, lakes, and markets",
-  },
- 
+    link: "udaipur-tour-for-5-days"
+  }
 ];
 
 //////////////////
@@ -562,68 +568,74 @@ import jai_img3 from "../images/tpCardImgs/jaiCardImgs/dhruvi-r-N4LvZvzkZkQ-unsp
 import jai_img4 from "../images/tpCardImgs/jaiCardImgs/gurpreet-sidhu-amRTXiNqZqw-unsplash.jpg";
 import jai_img5 from "../images/tpCardImgs/jaiCardImgs/hg-creations-P33fyQy0uuc-unsplash.jpg";
 import jai_img6 from "../images/tpCardImgs/jaiCardImgs/josephine-thomas-G-rqWttPUX0-unsplash.jpg";
-import jai_img7 from "../images/tpCardImgs/jaiCardImgs/oren-yomtov-FAcfTXBw95s-unsplash.jpg";
 import jai_img8 from "../images/tpCardImgs/jaiCardImgs/pawan-parihar-J2ijrGPkQ4k-unsplash.jpg";
 import jai_img9 from "../images/tpCardImgs/jaiCardImgs/pranav-s-WR_ieXW68CM-unsplash.jpg";
 import jai_img10 from "../images/tpCardImgs/jaiCardImgs/rishi-jhajharia-AkxMg8s2_Dg-unsplash.jpg";
-import jai_img11 from "../images/tpCardImgs/jaiCardImgs/sumit-kr-sau-DmK8oBcHLck-unsplash.jpg";
 
 export const jaisalmerTPCards = [
   {
     img: jai_img9,
     title: "Jaisalmer Half-Day Tour",
     duration: "Half Day",
-    desc: "Quick visit to Jaisalmer’s main highlights",
+    desc: "Quick visit to Jaisalmer's main highlights",
+    link: "jaisalmer-half-day-tour"
   },
   {
     img: jai_img2,
     title: "Jaisalmer Full-Day Tour",
     duration: "1 Day",
     desc: "Full-day sightseeing across Jaisalmer's key attractions",
+    link: "jaisalmer-full-day-tour"
   },
   {
     img: jai_img3,
     title: "Jaisalmer Tour Package for One Day",
     duration: "1 Day",
     desc: "Explore golden city charm in one day",
+    link: "jaisalmer-tour-package-for-one-day"
   },
   {
     img: jai_img4,
     title: "Jaisalmer Tour Package for 2 Days",
     duration: "2 Days - 1 Night",
     desc: "Two-day desert tour with forts and dunes",
+    link: "jaisalmer-tour-package-for-2-days"
   },
   {
     img: jai_img5,
     title: "Jaisalmer Tour Package for 3 Days",
     duration: "3 Days - 2 Nights",
     desc: "Three-day cultural and desert safari experience",
+    link: "jaisalmer-tour-package-for-3-days"
   },
   {
     img: jai_img6,
     title: "Jaisalmer Tour Package 4 Days",
     duration: "4 Days - 3 Nights",
     desc: "In-depth tour of Jaisalmer's beauty and history",
+    link: "jaisalmer-tour-package-4-days"
   },
   {
     img: jai_img10,
     title: "Jaisalmer Tour Package for 5 Days",
     duration: "5 Days - 4 Nights",
     desc: "Complete desert adventure with cultural experiences",
+    link: "jaisalmer-tour-package-for-5-days"
   },
   {
     img: jai_img8,
     title: "Jaisalmer Family Tour",
     duration: "Customizable",
     desc: "Family-friendly package with fun and safety",
+    link: "jaisalmer-family-tour"
   },
   {
     img: jai_img1,
     title: "Jaisalmer Luxury Tour",
     duration: "Customizable",
     desc: "Royal Jaisalmer experience with premium amenities",
-  },
- 
+    link: "jaisalmer-luxury-tour"
+  }
 ];
 
 //////////////////
@@ -1099,19 +1111,9 @@ export const goldenTPData = {
   },
 };
 
-import gold_img1 from "../images/tpCardImgs/goldeCardImgs/aditya-prakash-rJcakYQpxkw-unsplash.jpg";
 import gold_img2 from "../images/tpCardImgs/goldeCardImgs/anuj-yadav-1KehhzFg_Q0-unsplash.jpg";
-import gold_img3 from "../images/tpCardImgs/goldeCardImgs/axp-photography-srff-8RzC84-unsplash.jpg";
-import gold_img4 from "../images/tpCardImgs/goldeCardImgs/jan-gemerle-XbRp9KUrI-Q-unsplash.jpg";
-import gold_img5 from "../images/tpCardImgs/goldeCardImgs/jovyn-chamb-iWMfiInivp4-unsplash (1).jpg";
-import gold_img6 from "../images/tpCardImgs/goldeCardImgs/junaid-ahmad-ansari-9WP-NVh2d6U-unsplash.jpg";
-import gold_img7 from "../images/tpCardImgs/goldeCardImgs/jyotirmoy-gupta-Qtk-1cN1EJY-unsplash.jpg";
-import gold_img8 from "../images/tpCardImgs/goldeCardImgs/naveen-kashyap-ZCPFZTBYBIY-unsplash.jpg";
-import gold_img9 from "../images/tpCardImgs/goldeCardImgs/pixels-street-5LUHJuhUy_g-unsplash.jpg";
-import gold_img10 from "../images/tpCardImgs/goldeCardImgs/pratish-srivastava-Iu06T6z2vRE-unsplash.jpg";
-import gold_img11 from "../images/tpCardImgs/goldeCardImgs/preetam-priyabrat-D4e0CTsvEGU-unsplash (1).jpg";
-import gold_img12 from "../images/tpCardImgs/goldeCardImgs/siddhant-singh-NWo6rTtvT40-unsplash.jpg";
-import gold_img13 from "../images/tpCardImgs/goldeCardImgs/venus-major-IRQDCsSxT20-unsplash.jpg";
+
+
 
 export const goldenTriangleTPCards = [
   
@@ -1120,6 +1122,7 @@ export const goldenTriangleTPCards = [
     title: "5 Days Golden Triangle Tour",
     duration: "5 Days",
     desc: "Extended trip covering major Golden Triangle cities",
+    link : "5-days-golden-triangle-tour"
   },
  
 ];

@@ -15,7 +15,7 @@ import Offers from "../Offers/Offers";
 import ServiceForm from "../ServiceForm/ServiceForm";
 import RentalFees from "../RentalFees/RentalFees";
 import { FiClock, FiMapPin } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { Link, Links } from "react-router-dom";
 
 const TourPackageContent = ({ packageData, specialData }) => {
   return (
@@ -114,7 +114,8 @@ const TourPackageContent = ({ packageData, specialData }) => {
                   </motion.div>
 
                   {/* Footer with animated button */}
-                  {/* <div
+                  <Link
+                    to={`/${item.link}`}
                     className="mt-auto cursor-pointer pt-4 border-t border-gray-100"
                   >
                     <motion.button
@@ -142,7 +143,7 @@ const TourPackageContent = ({ packageData, specialData }) => {
                         <FaArrowRight />
                       </motion.div>
                     </motion.button>
-                  </div> */}
+                  </Link>
                 </div>
               </div>
 

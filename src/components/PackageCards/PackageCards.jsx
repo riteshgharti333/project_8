@@ -80,7 +80,10 @@ const PackageCards = ({ packageCards, path }) => {
               )}
 
               {/* Footer with animated button */}
-              {/* <Link className="mt-auto cursor-pointer pt-4 border-t border-gray-100">
+              <Link
+                to={`/${item.link}`}
+                className="mt-auto cursor-pointer pt-4 border-t border-gray-100"
+              >
                 <motion.button
                   className="w-full cursor-pointer flex items-center justify-between px-4 py-2.5 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors group-hover:border-yellow-200 group-hover:bg-yellow-50"
                   whileHover={{
@@ -106,7 +109,7 @@ const PackageCards = ({ packageCards, path }) => {
                     <FaArrowRight />
                   </motion.div>
                 </motion.button>
-              </Link> */}
+              </Link>
             </div>
           </div>
 

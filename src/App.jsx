@@ -59,6 +59,8 @@ import Blog5 from "./pages/Blog/Blog5";
 import Blog6 from "./pages/Blog/Blog6";
 import Blog7 from "./pages/Blog/Blog7";
 import Blog8 from "./pages/Blog/Blog8";
+import udaipurRoutes from "./routes/udaipurRoute";
+import jaisalmerRoutes from "./routes/jaisalmerRoute";
 
 function App() {
   const ScrollToTop = () => {
@@ -161,6 +163,14 @@ function App() {
           />
           {/* Special Tours */}
           {specialRoutes.map(({ path, element }, index) => (
+            <Route key={index} path={path} element={element} />
+          ))}
+          {/* Udaipur Tours */}
+          {udaipurRoutes.map(({ path, element }, index) => (
+            <Route key={index} path={path} element={element} />
+          ))}
+           {/* Jaisalmer Tours */}
+          {jaisalmerRoutes.map(({ path, element }, index) => (
             <Route key={index} path={path} element={element} />
           ))}
           {/* Hotels */}
