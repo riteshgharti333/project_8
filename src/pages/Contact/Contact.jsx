@@ -230,7 +230,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-800">GST No.</h4>
-                    <p className="text-gray-600">08BMNPK1574R1Z6</p>
+                    <p className="text-gray-600">08B74RMNPK151Z6</p>
+                    <p className="text-gray-600">A Unit of Abhimanyu Export</p>
                   </div>
                 </div>
 

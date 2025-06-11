@@ -88,18 +88,18 @@ export const navData = [
         name: "Golden Triangle Tour Packages",
         link: "/tour-package/golden-triangle-tour-packages",
       },
-      {
-        name: "Ayodhya Tour Packages",
-        link: "/tour-package/ayodhya-tour-packages",
-      },
-      {
-        name: "Himachal Tour Packages",
-        link: "/tour-package/himachal-tour-packages",
-      },
-      {
-        name: "Kashmir Tour Packages",
-        link: "/tour-package/kashmir-tour-packages",
-      },
+      // {
+      //   name: "Ayodhya Tour Packages",
+      //   link: "/tour-package/ayodhya-tour-packages",
+      // },
+      // {
+      //   name: "Himachal Tour Packages",
+      //   link: "/tour-package/himachal-tour-packages",
+      // },
+      // {
+      //   name: "Kashmir Tour Packages",
+      //   link: "/tour-package/kashmir-tour-packages",
+      // },
     ],
   },
   {
@@ -136,10 +136,6 @@ export const navData = [
     ],
   },
 
-  {
-    title: "Travel Guide",
-    link: "/travel-guide",
-  },
   {
     title: "Blogs",
     link: "/blogs",

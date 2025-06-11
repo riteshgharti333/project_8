@@ -38,8 +38,6 @@ const Homepage = () => {
 
         <Hotels homeRental="homeRental" />
 
-        <TravelGuides homeRental="homeRental" />
-
         <Offers homeOffer="homeOffer" />
       </div>
 

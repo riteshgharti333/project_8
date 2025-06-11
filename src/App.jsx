@@ -148,17 +148,9 @@ function App() {
             element={<TourPackages6 />}
           />
           <Route
-            path="/tour-package/weekend-tours-from-jaipur"
-            element={<TourPackages7 />}
-          />{" "}
-          <Route
             path="/tour-package/ayodhya-tour-packages"
             element={<TourPackages8 />}
-          />{" "}
-          <Route
-            path="/tour-package/all-inclusive-tour-packages"
-            element={<TourPackages9 />}
-          />{" "}
+          />
           <Route
             path="/tour-package/himachal-tour-packages"
             element={<TourPackages10 />}
@@ -166,10 +158,6 @@ function App() {
           <Route
             path="/tour-package/kashmir-tour-packages"
             element={<TourPackages11 />}
-          />{" "}
-          <Route
-            path="/tour-package/india-tour-packages"
-            element={<TourPackages12 />}
           />
           {/* Special Tours */}
           {specialRoutes.map(({ path, element }, index) => (

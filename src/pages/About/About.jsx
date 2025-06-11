@@ -60,14 +60,15 @@ const About = () => {
       {/* ////////////// */}
       <div className="max-w-[1100px] m-auto mt-20 flex flex-col gap-20 max-[480pc]:px-2 px-5">
         <div>
-          <h1 className=" max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-4xl uppercase">
-            Company{" "}
+          <h1 className=" max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-3xl uppercase">
+            Company Profile -
             <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
-              Profile
+              {" "}
+              Abhimanyu Holidays
             </span>
           </h1>
           {aboutData.map((item, index) => (
-            <p key={index} className="mt-5  max-[480pc]:text-1xl text-gray-600">
+            <p key={index} className="mt-3  max-[480pc]:text-1xl text-gray-600">
               {item}
             </p>
           ))}
@@ -75,11 +76,11 @@ const About = () => {
 
         <div className="flex gap-10 items-center  flex-col lg:flex-row">
           <div className="flex-6">
-            <h1 className=" max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-4xl uppercase">
+            <h1 className=" max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-3xl uppercase">
               <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
                 About Owner
               </span>{" "}
-              – The Pink City Holidays
+              – Mr. Bhom Singh Shekhawat
             </h1>
             {founderData.map((item, index) => (
               <p key={index} className="mt-5 leading-6 text-gray-600">
@@ -87,166 +88,24 @@ const About = () => {
               </p>
             ))}
           </div>
-          <div className="flex-4">
+          {/* <div className="flex-4">
             <img
               src={about_img}
               alt=""
               className="rounded-xl w-full h-150 object-cover"
             />
-          </div>
-        </div>
-
-        <div className="flex gap-10 items-center flex-col lg:flex-row-reverse">
-          <div className="flex-6">
-            <h1 className="max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-4xl uppercase1">
-              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
-                About Manager
-              </span>{" "}
-              – The Pink City Holidays
-            </h1>
-            {founderData.map((item, index) => (
-              <p key={index} className="mt-5 leading-6 text-gray-600">
-                {item}
-              </p>
-            ))}
-          </div>
-          <div className="flex-4">
-            <img
-              src={about_img}
-              alt=""
-              className="rounded-xl w-full h-150 object-cover"
-            />
-          </div>
-        </div>
-
-        <div>
-          <h1 className=" max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-4xl uppercase">
-            Our
-            <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
-              {" "}
-              Certificates
-            </span>
-          </h1>
-          <div
-            className="
-   grid max-[480px]:grid-cols-1 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10"
-          >
-            <div className="relative group overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-              {/* Image container with elegant overlay effect */}
-              <div className="relative overflow-hidden rounded-t-lg">
-                <img
-                  src={about_img}
-                  alt="Quality Research Organization"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-90"></div>
-              </div>
-
-              {/* Decorative accent bar - animated on hover */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-500 via-amber-500 to-red-500 opacity-90 group-hover:from-red-600 group-hover:via-amber-600 group-hover:to-red-600 transition-colors duration-300"></div>
-
-              <div className="bg-white p-5 rounded-b-lg">
-                <p className="text-lg font-semibold text-gray-800 text-center mb-2 transition-colors duration-300 group-hover:text-gray-900">
-                  Quality Research Organization
-                </p>
-              </div>
-
-              {/* Hover state shine effect */}
-              <div className="absolute inset-0 pointer-events-none overflow-hidden">
-                <div className="absolute -inset-full top-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:animate-shine duration-1000"></div>
-              </div>
-            </div>
-            <div className="relative group overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-              {/* Image container with elegant overlay effect */}
-              <div className="relative overflow-hidden rounded-t-lg">
-                <img
-                  src={about_img}
-                  alt="Quality Research Organization"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-90"></div>
-              </div>
-
-              {/* Decorative accent bar - animated on hover */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-500 via-amber-500 to-red-500 opacity-90 group-hover:from-red-600 group-hover:via-amber-600 group-hover:to-red-600 transition-colors duration-300"></div>
-
-              <div className="bg-white p-5 rounded-b-lg">
-                <p className="text-lg font-semibold text-gray-800 text-center mb-2 transition-colors duration-300 group-hover:text-gray-900">
-                  Quality Research Organization
-                </p>
-              </div>
-
-              {/* Hover state shine effect */}
-              <div className="absolute inset-0 pointer-events-none overflow-hidden">
-                <div className="absolute -inset-full top-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:animate-shine duration-1000"></div>
-              </div>
-            </div>{" "}
-            <div className="relative group overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-              {/* Image container with elegant overlay effect */}
-              <div className="relative overflow-hidden rounded-t-lg">
-                <img
-                  src={about_img}
-                  alt="Quality Research Organization"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-90"></div>
-              </div>
-
-              {/* Decorative accent bar - animated on hover */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-500 via-amber-500 to-red-500 opacity-90 group-hover:from-red-600 group-hover:via-amber-600 group-hover:to-red-600 transition-colors duration-300"></div>
-
-              <div className="bg-white p-5 rounded-b-lg">
-                <p className="text-lg font-semibold text-gray-800 text-center mb-2 transition-colors duration-300 group-hover:text-gray-900">
-                  Quality Research Organization
-                </p>
-              </div>
-
-              {/* Hover state shine effect */}
-              <div className="absolute inset-0 pointer-events-none overflow-hidden">
-                <div className="absolute -inset-full top-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:animate-shine duration-1000"></div>
-              </div>
-            </div>{" "}
-            <div className="relative group overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-              {/* Image container with elegant overlay effect */}
-              <div className="relative overflow-hidden rounded-t-lg">
-                <img
-                  src={about_img}
-                  alt="Quality Research Organization"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-90"></div>
-              </div>
-
-              {/* Decorative accent bar - animated on hover */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-500 via-amber-500 to-red-500 opacity-90 group-hover:from-red-600 group-hover:via-amber-600 group-hover:to-red-600 transition-colors duration-300"></div>
-
-              <div className="bg-white p-5 rounded-b-lg">
-                <p className="text-lg font-semibold text-gray-800 text-center mb-2 transition-colors duration-300 group-hover:text-gray-900">
-                  Quality Research Organization
-                </p>
-              </div>
-
-              {/* Hover state shine effect */}
-              <div className="absolute inset-0 pointer-events-none overflow-hidden">
-                <div className="absolute -inset-full top-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 group-hover:animate-shine duration-1000"></div>
-              </div>
-            </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex gap-10 items-center flex-col lg:flex-row">
           <div className="flex-6">
-            <h1 className="  max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-4xl uppercase leading-13">
+            <h1 className="  max-[480pc]:text-2xl text-3xl font-bold text-brand-brown sm:text-3xl uppercase leading-13">
               <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
                 Our
               </span>{" "}
               Services
             </h1>
-            <p className="mt-5 leading-6 text-gray-600">
+            <p className="mt-3 leading-6 text-gray-600">
               With our consistent efforts and value added services, we are able
               to establish ourselves as a leading travel services provider in
               our market within a short span of time. Our range of services
@@ -265,13 +124,208 @@ const About = () => {
               ))}
             </ul>
           </div>
-          <div className="flex-4">
+          {/* <div className="flex-4">
             <img
               src={about_img}
               alt=""
               className="rounded-xl w-full h-150 object-cover"
             />
-          </div>
+          </div> */}
+        </div>
+      </div>
+
+      <div className="max-w-[1100px] mx-auto my-20 px-5 max-[480px]:px-2">
+        <h1 className="text-3xl max-[480px]:text-2xl font-bold text-brand-brown sm:text-3xl uppercase mb-7">
+          <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
+            Our
+          </span>{" "}
+          Specialized Services
+        </h1>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* One Day Tours */}
+          <motion.div
+            className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100"
+            whileHover={{
+              y: -5,
+              boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)",
+            }}
+            transition={{ duration: 0.3 }}
+          >
+            <div className="p-6">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-yellow-100 p-3 rounded-full">
+                  <MdOutlineVerified className="text-yellow-600 text-2xl" />
+                </div>
+                <h2 className="text-xl font-bold text-gray-800">
+                  One Day Tours
+                </h2>
+              </div>
+              <ul className="space-y-2 pl-2">
+                {[
+                  "Jaipur Sightseeing Tour",
+                  "Jaipur Night Tour",
+                  "Day Trip to Ajmer & Pushkar",
+                  "One Day Trip to Agra (Taj Mahal)",
+                  "One Day Trip to Ranthambore",
+                  "Khatu Shyam & Salasar Dham Tour",
+                  "Chokhi Dhani Night Cultural Tour",
+                  "Jaipur Temple Tour",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start">
+                    <span className="text-yellow-500 mr-2">•</span>
+                    <span className="text-gray-600">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
+
+          {/* Tour Packages */}
+          <motion.div
+            className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100"
+            whileHover={{
+              y: -5,
+              boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)",
+            }}
+            transition={{ duration: 0.3 }}
+          >
+            <div className="p-6">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-blue-100 p-3 rounded-full">
+                  <MdOutlineVerified className="text-blue-600 text-2xl" />
+                </div>
+                <h2 className="text-xl font-bold text-gray-800">
+                  Tour Packages
+                </h2>
+              </div>
+              <ul className="space-y-2 pl-2">
+                {[
+                  "Custom Rajasthan Tours",
+                  "Weekend Getaways",
+                  "Family & Group Packages",
+                  "Heritage and Culture Tours",
+                  "Spiritual Journey Packages",
+                  "Luxury Rajasthan Experiences",
+                  "Adventure & Wildlife Tours",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start">
+                    <span className="text-blue-500 mr-2">•</span>
+                    <span className="text-gray-600">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
+
+          {/* Taxi Services */}
+          <motion.div
+            className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100"
+            whileHover={{
+              y: -5,
+              boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)",
+            }}
+            transition={{ duration: 0.3 }}
+          >
+            <div className="p-6">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-green-100 p-3 rounded-full">
+                  <MdOutlineVerified className="text-green-600 text-2xl" />
+                </div>
+                <h2 className="text-xl font-bold text-gray-800">
+                  Taxi Services
+                </h2>
+              </div>
+              <ul className="space-y-2 pl-2">
+                {[
+                  "AC Cabs for Local & Outstation",
+                  "Airport Pick-up & Drop",
+                  "Chauffeur-driven Vehicles",
+                  "24/7 Taxi Availability",
+                  "Multi-city Travel Solutions",
+                  "Luxury Car Rentals",
+                  "Safe & Professional Drivers",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start">
+                    <span className="text-green-500 mr-2">•</span>
+                    <span className="text-gray-600">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
+
+          {/* Hotel Booking */}
+          <motion.div
+            className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100"
+            whileHover={{
+              y: -5,
+              boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)",
+            }}
+            transition={{ duration: 0.3 }}
+          >
+            <div className="p-6">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-purple-100 p-3 rounded-full">
+                  <MdOutlineVerified className="text-purple-600 text-2xl" />
+                </div>
+                <h2 className="text-xl font-bold text-gray-800">
+                  Hotel Booking
+                </h2>
+              </div>
+              <ul className="space-y-2 pl-2">
+                {[
+                  "Budget to 5-Star Properties",
+                  "Heritage & Palace Stays",
+                  "Personalized Recommendations",
+                  "Best Price Guarantee",
+                  "Convenient Locations",
+                  "Group Booking Discounts",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start">
+                    <span className="text-purple-500 mr-2">•</span>
+                    <span className="text-gray-600">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
+
+          {/* Travel Guide */}
+          <motion.div
+            className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100"
+            whileHover={{
+              y: -5,
+              boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)",
+            }}
+            transition={{ duration: 0.3 }}
+          >
+            <div className="p-6">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="bg-red-100 p-3 rounded-full">
+                  <MdOutlineVerified className="text-red-600 text-2xl" />
+                </div>
+                <h2 className="text-xl font-bold text-gray-800">
+                  Travel Guide
+                </h2>
+              </div>
+              <ul className="space-y-2 pl-2">
+                {[
+                  "Knowledgeable Local Guides",
+                  "Multilingual Support",
+                  "History & Culture Walks",
+                  "Temple & Spiritual Tours",
+                  "Customized Itineraries",
+                  "Photography Assistance",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start">
+                    <span className="text-red-500 mr-2">•</span>
+                    <span className="text-gray-600">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
         </div>
       </div>
 
@@ -280,7 +334,7 @@ const About = () => {
           Our
           <span className="text-yellow-500"> Vision</span>
         </h1>
-        <div className="grid max-[480px]:grid-cols-1 max-[480px]:gap-10  grid-cols-2 gap-5 sm:gap-10 max-w-[1000px] m-auto">
+        <div className="grid grid-cols-1 max-[480px]:gap-10  sm:grid-cols-2 gap-5 sm:gap-10 max-w-[1000px] m-auto">
           {visionData.map((item, index) => (
             <div className="flex flex-col items-center text-center" key={index}>
               <item.icon className="text-white text-[70px]" />
