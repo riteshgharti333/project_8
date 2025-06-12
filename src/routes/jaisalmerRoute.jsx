@@ -10,39 +10,39 @@ import JaisalmerSmPackage9 from "../pages/JaisalmerSmPackage/JaisalmerSmPackage9
 
 const jaisalmerRoutes = [
   {
-    path: "/jaisalmer-half-day-tour",
+    path: "/jaisalmer-tour-package/jaisalmer-half-day-tour",
     element: <JaisalmerSmPackage1 />,
   },
   {
-    path: "/jaisalmer-full-day-tour",
+    path: "/jaisalmer-tour-package/jaisalmer-full-day-tour",
     element: <JaisalmerSmPackage2 />,
   },
   {
-    path: "/jaisalmer-tour-package-for-one-day",
+    path: "/jaisalmer-tour-package/jaisalmer-tour-package-for-one-day",
     element: <JaisalmerSmPackage3 />,
   },
   {
-    path: "/jaisalmer-tour-package-for-2-days",
+    path: "/jaisalmer-tour-package/jaisalmer-tour-package-for-2-days",
     element: <JaisalmerSmPackage4 />,
   },
   {
-    path: "/jaisalmer-tour-package-for-3-days",
+    path: "/jaisalmer-tour-package/jaisalmer-tour-package-for-3-days",
     element: <JaisalmerSmPackage5 />,
   },
   {
-    path: "/jaisalmer-tour-package-4-days",
+    path: "/jaisalmer-tour-package/jaisalmer-tour-package-4-days",
     element: <JaisalmerSmPackage6 />,
   },
   {
-    path: "/jaisalmer-tour-package-for-5-days",
+    path: "/jaisalmer-tour-package/jaisalmer-tour-package-for-5-days",
     element: <JaisalmerSmPackage7 />,
   },
   {
-    path: "/jaisalmer-family-tour",
+    path: "/jaisalmer-tour-package/jaisalmer-family-tour",
     element: <JaisalmerSmPackage8 />,
   },
   {
-    path: "/jaisalmer-luxury-tour",
+    path: "/jaisalmer-tour-package/jaisalmer-luxury-tour",
     element: <JaisalmerSmPackage9 />,
   },
 ];

@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 import { motion } from "framer-motion";
 
-const PackageCards = ({ packageCards, path }) => {
+const PackageCards = ({ packageCards, path, linkPath }) => {
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {packageCards.map((item, index) => (
@@ -81,7 +81,7 @@ const PackageCards = ({ packageCards, path }) => {
 
               {/* Footer with animated button */}
               <Link
-                to={`/${item.link}`}
+                to={`/${linkPath}/${item.link}`}
                 className="mt-auto cursor-pointer pt-4 border-t border-gray-100"
               >
                 <motion.button

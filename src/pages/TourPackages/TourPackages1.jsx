@@ -19,6 +19,7 @@ const TourPackages1 = () => {
       <TourPackageContent
         packageData={specialPackageCards}
         specialData={specialPackageContent}
+        linkPath="special-tour-package"
       />
     </div>
   );

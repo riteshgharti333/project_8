@@ -22,87 +22,87 @@ import SpecialTour21 from "../pages/SpecialTour/SpecialTour21";
 
 const specialRoutes = [
   {
-    path: "/jaipur-tour-package-2-nights-3-days",
+    path: "/special-tour-package/jaipur-tour-package-2-nights-3-days",
     element: <SpecialTour1 />,
   },
   {
-    path: "/jaipur-tour-package-3-nights-4-days",
+    path: "/special-tour-package/jaipur-tour-package-3-nights-4-days",
     element: <SpecialTour2 />,
   },
   {
-    path: "/jaipur-3-nights-4-days-tour",
+    path: "/special-tour-package/jaipur-3-nights-4-days-tour",
     element: <SpecialTour3 />,
   },
   {
-    path: "/jaipur-tour-package-for-5-days",
+    path: "/special-tour-package/jaipur-tour-package-for-5-days",
     element: <SpecialTour4 />,
   },
   {
-    path: "/jaipur-4-nights-5-days-tour",
+    path: "/special-tour-package/jaipur-4-nights-5-days-tour",
     element: <SpecialTour5 />,
   },
   {
-    path: "/jaipur-tour-package-4-nights-5-days",
+    path: "/special-tour-package/jaipur-tour-package-4-nights-5-days",
     element: <SpecialTour6 />,
   },
   {
-    path: "/rajasthan-tour-package-for-5-nights-6-days",
+    path: "/special-tour-package/rajasthan-tour-package-for-5-nights-6-days",
     element: <SpecialTour7 />,
   },
   {
-    path: "/rajasthan-tour-package-for-6-days",
+    path: "/special-tour-package/rajasthan-tour-package-for-6-days",
     element: <SpecialTour8 />,
   },
   {
-    path: "/rajasthan-tour-7-days",
+    path: "/special-tour-package/rajasthan-tour-7-days",
     element: <SpecialTour9 />,
   },
   {
-    path: "/rajasthan-8-days-tour-package",
+    path: "/special-tour-package/rajasthan-8-days-tour-package",
     element: <SpecialTour10 />,
   },
   {
-    path: "/jaipur-jodhpur-udaipur-5-days-tour",
+    path: "/special-tour-package/jaipur-jodhpur-udaipur-5-days-tour",
     element: <SpecialTour11 />,
   },
   {
-    path: "/desert-trio-of-rajasthan-5-days-tour",
+    path: "/special-tour-package/desert-trio-of-rajasthan-5-days-tour",
     element: <SpecialTour12 />,
   },
   {
-    path: "/colorful-rajasthan-8-days-tour",
+    path: "/special-tour-package/colorful-rajasthan-8-days-tour",
     element: <SpecialTour13 />,
   },
   {
-    path: "/rajasthans-desert-7-days-tour",
+    path: "/special-tour-package/rajasthans-desert-7-days-tour",
     element: <SpecialTour14 />,
   },
   {
-    path: "/rajasthan-cultural-odyssey-7-days-tour",
+    path: "/special-tour-package/rajasthan-cultural-odyssey-7-days-tour",
     element: <SpecialTour15 />,
   },
   {
-    path: "/rajasthans-wildlife-and-heritage-7-days-tour",
+    path: "/special-tour-package/rajasthans-wildlife-and-heritage-7-days-tour",
     element: <SpecialTour16 />,
   },
   {
-    path: "/jaipur-ranthambore-4-days-tour",
+    path: "/special-tour-package/jaipur-ranthambore-4-days-tour",
     element: <SpecialTour17 />,
   },
   {
-    path: "/golden-triangle-5-days-tour",
+    path: "/special-tour-package/golden-triangle-5-days-tour",
     element: <SpecialTour18 />,
   },
   {
-    path: "/agra-jaipur-4-days-tour-package",
+    path: "/special-tour-package/agra-jaipur-4-days-tour-package",
     element: <SpecialTour19 />,
   },
   {
-    path: "/delhi-agra-jaipur-udaipur-tour-package-6-days",
+    path: "/special-tour-package/delhi-agra-jaipur-udaipur-tour-package-6-days",
     element: <SpecialTour20 />,
   },
   {
-    path: "/5-days-golden-triangle-tour",
+    path: "/special-tour-package/5-days-golden-triangle-tour",
     element: <SpecialTour21 />,
   },
 ];

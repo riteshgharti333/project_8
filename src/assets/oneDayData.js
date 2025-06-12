@@ -533,7 +533,6 @@ export const jaipurSightseeingTourContent = {
     "Air-conditioned private vehicle",
     "Professional driver cum guide",
     "Bottled water for refreshment",
-    "All parking and toll charges",
   ],
 
   recommendations: [

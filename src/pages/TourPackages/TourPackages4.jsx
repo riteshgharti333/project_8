@@ -9,9 +9,6 @@ import RentalFees from "../../components/RentalFees/RentalFees";
 
 import PackageCards from "../../components/PackageCards/PackageCards";
 import {
-  rjTPCards,
-  rjTPData,
-  udaipurTPCards,
   jaisalmerTPData,
   jaisalmerTPCards,
 } from "../../assets/tourpackageData/tourPackageData";
@@ -117,7 +114,7 @@ const TourPackages4 = () => {
           </div>
         </div>
 
-        <PackageCards packageCards={jaisalmerTPCards} />
+        <PackageCards packageCards={jaisalmerTPCards} linkPath="jaisalmer-tour-package" />
 
         <RentalFees />
 

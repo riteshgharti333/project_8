@@ -17,7 +17,7 @@ import RentalFees from "../RentalFees/RentalFees";
 import { FiClock, FiMapPin } from "react-icons/fi";
 import { Link, Links } from "react-router-dom";
 
-const TourPackageContent = ({ packageData, specialData }) => {
+const TourPackageContent = ({ packageData, specialData,linkPath }) => {
   return (
     <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
       <div>
@@ -115,7 +115,7 @@ const TourPackageContent = ({ packageData, specialData }) => {
 
                   {/* Footer with animated button */}
                   <Link
-                    to={`/${item.link}`}
+                    to={`/${linkPath}/${item.link}`}
                     className="mt-auto cursor-pointer pt-4 border-t border-gray-100"
                   >
                     <motion.button
