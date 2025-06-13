@@ -93,7 +93,7 @@ const TourPackages6 = () => {
           </div>
         </div>
 
-        <PackageCards packageCards={goldenTriangleTPCards} />
+        <PackageCards packageCards={goldenTriangleTPCards} linkPath="golden-triangle-tou-package"/>
 
         <RentalFees />
 

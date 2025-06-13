@@ -102,7 +102,7 @@ const specialRoutes = [
     element: <SpecialTour20 />,
   },
   {
-    path: "/special-tour-package/5-days-golden-triangle-tour",
+    path: "/golden-triangle-tou-package/5-days-golden-triangle-tour",
     element: <SpecialTour21 />,
   },
 ];
