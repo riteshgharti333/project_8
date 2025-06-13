@@ -59,6 +59,7 @@ const Tour = () => {
                   className="w-full h-full object-cover"
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.5 }}
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
 

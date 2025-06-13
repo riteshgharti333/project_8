@@ -15,6 +15,7 @@ import {
 
 
 import tp_banner from "../../assets/images/tpBanner/jaipur.jpg";
+import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
 const TourPackages5 = () => {
   const { pathname } = useLocation();
@@ -112,7 +113,7 @@ const TourPackages5 = () => {
 
         <Offers />
 
-        <ServiceForm />
+        <EnquiryForm />
       </div>
     </div>
   );

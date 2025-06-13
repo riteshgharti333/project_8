@@ -17,7 +17,7 @@ import {
 } from "../../assets/tourpackageData/tourPackageData";
 
 import tp_banner from "../../assets/images/tpBanner/golden.jpg";
-
+import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
 const TourPackages6 = () => {
   const { pathname } = useLocation();
@@ -25,7 +25,7 @@ const TourPackages6 = () => {
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title}  bannerImg={tp_banner} />
+      <ServiceBanner bannerTitle={title} bannerImg={tp_banner} />
       <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
         <div className="flex flex-col gap-10">
           <div>
@@ -99,7 +99,7 @@ const TourPackages6 = () => {
 
         <Offers />
 
-        <ServiceForm />
+        <EnquiryForm />
       </div>
     </div>
   );

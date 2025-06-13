@@ -24,6 +24,7 @@ const ServiceBanner = ({ bannerTitle, bannerImg }) => {
           src={bannerImg}
           alt="Jaipur Tourism"
           className="h-full w-full object-cover block brightness-60"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-gray-900/30 to-transparent" />
       </motion.div>

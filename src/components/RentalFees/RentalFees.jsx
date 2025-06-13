@@ -140,6 +140,7 @@ const RentalFees = ({ homeRental }) => {
                 <img
                   src={item.img}
                   alt={item.title}
+                  loading="lazy"
                   className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
                 />
 

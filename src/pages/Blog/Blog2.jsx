@@ -76,6 +76,7 @@ const Blog2 = () => {
           <img
             src={blogContent1.img}
             alt=""
+            loading="lazy"
             className="w-full h-[400px] object-cover "
           />
 

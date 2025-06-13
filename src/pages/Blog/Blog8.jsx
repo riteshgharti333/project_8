@@ -78,6 +78,7 @@ const Blog8 = () => {
             src={blogContent1.img}
             alt=""
             className="w-full h-[400px] object-cover "
+            loading="lazy"
           />
 
           <div className="mt-5">

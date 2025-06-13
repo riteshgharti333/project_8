@@ -9,8 +9,8 @@ import Offers from "../../components/Offers/Offers";
 import ServiceForm from "../../components/ServiceForm/ServiceForm";
 import { onedayCards, onedayData } from "../../assets/oneDayData";
 
-import banner_img from "../../assets/images/onedayImgs/oneday15.jpg"
-
+import banner_img from "../../assets/images/onedayImgs/oneday15.jpg";
+import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
 const OneDayTour = () => {
   const { pathname } = useLocation();
@@ -98,7 +98,7 @@ const OneDayTour = () => {
 
           {/* Packages Grid */}
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {onedayCards.map((item,index) => (
+            {onedayCards.map((item, index) => (
               <motion.div
                 key={index}
                 initial="offscreen"
@@ -116,6 +116,7 @@ const OneDayTour = () => {
                       className="w-full h-full object-cover"
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.5 }}
+                      loading="lazy"
                     />
                   </div>
 
@@ -127,7 +128,10 @@ const OneDayTour = () => {
                       </h3>
                     </div>
 
-                    <Link to={`/${item.link}`} className="w-full bg-amber-500 flex items-center justify-center   cursor-pointer  text-white font-medium py-3 px-4 mt-5 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg hover:bg-white border border-yellow-500 hover:text-yellow-500">
+                    <Link
+                      to={`/${item.link}`}
+                      className="w-full bg-amber-500 flex items-center justify-center   cursor-pointer  text-white font-medium py-3 px-4 mt-5 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg hover:bg-white border border-yellow-500 hover:text-yellow-500"
+                    >
                       Explore More
                       <FaArrowRight className="ml-2 transition-transform duration-300 transform group-hover:translate-x-2" />
                     </Link>
@@ -141,7 +145,7 @@ const OneDayTour = () => {
 
         <Offers />
 
-        <ServiceForm />
+        <EnquiryForm />
       </div>
     </div>
   );

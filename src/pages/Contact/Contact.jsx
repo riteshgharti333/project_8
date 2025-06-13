@@ -1,8 +1,72 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 import { FaRegStickyNote } from "react-icons/fa";
+import { useState } from "react";
+import { toast } from "react-toastify";
+
 const Contact = () => {
+  // Inside your Contact component...
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const payload = {
+      "Full Name": formData.name,
+      "Email Address": formData.email,
+      "Phone Number": formData.phone,
+      Subject: formData.subject,
+      Message: formData.message,
+      _template: "table",
+    };
+
+    try {
+      const res = await fetch(
+        "https://formsubmit.co/ajax/abhimanyuholidays7@gmail.com",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      const data = await res.json();
+
+      if (data.success === "true") {
+        toast.success("Message sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        toast.error("Failed to send. Please try again.");
+      }
+    } catch (err) {
+      toast.error("Something went wrong. Try later.");
+    }
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Banner */}
@@ -68,8 +132,7 @@ const Contact = () => {
                 Fill out the form below and we'll get back to you soon.
               </p>
             </div>
-
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Name Field */}
                 <div>
@@ -81,7 +144,9 @@ const Contact = () => {
                   </label>
                   <input
                     type="text"
-                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                     placeholder="Your name"
                     required
@@ -98,7 +163,9 @@ const Contact = () => {
                   </label>
                   <input
                     type="email"
-                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                     placeholder="your@email.com"
                     required
@@ -106,7 +173,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Phone Number */}
+              {/* Phone */}
               <div>
                 <label
                   htmlFor="phone"
@@ -116,9 +183,12 @@ const Contact = () => {
                 </label>
                 <input
                   type="tel"
-                  id="phone"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                   placeholder="+91 98XXXXXXX"
+                  required
                 />
               </div>
 
@@ -132,7 +202,9 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
-                  id="subject"
+                  name="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                   placeholder="What's this about?"
                   required
@@ -148,7 +220,9 @@ const Contact = () => {
                   Your Message <span className="text-red-600">*</span>
                 </label>
                 <textarea
-                  id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                   rows="8"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all outline-none"
                   placeholder="How can we help you?"
@@ -159,7 +233,7 @@ const Contact = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
+                className="w-full bg-gradient-to-r cursor-pointer from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
               >
                 <FiSend className="mr-2" />
                 Send Message

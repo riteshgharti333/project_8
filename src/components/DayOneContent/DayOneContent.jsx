@@ -3,6 +3,7 @@ import { serviceData } from "../../assets/serviceData";
 
 import ServiceForm from "../ServiceForm/ServiceForm";
 import Offers from "../Offers/Offers";
+import EnquiryForm from "../EnquiryForm/EnquiryForm";
 
 const DayOneContent = ({ oneDayData }) => {
   return (
@@ -142,7 +143,7 @@ const DayOneContent = ({ oneDayData }) => {
 
       <Offers />
 
-      <ServiceForm />
+     <EnquiryForm />
     </div>
   );
 };

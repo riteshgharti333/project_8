@@ -129,7 +129,7 @@ const Footer = () => {
               </ul>
             </div>
 
-               {/* Other Links */}
+            {/* Other Links */}
             <div>
               <h3 className="text-xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-yellow-300 to-yellow-400 bg-clip-text text-transparent">
@@ -156,12 +156,18 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <p className="text-white text-center sm:text-left">
-                Copyright © 2025 Abhimanyu Holidays. Designed and Developed by <a className="transition-all duration-300 ease-in-out  border-b-1 hover:text-yellow-500" href="https://wingstarnarketing.com/" target="__blank" >Star
-                Marketing</a>
+                Copyright © 2025 Abhimanyu Holidays. Designed and Developed by{" "}
+                <a
+                  className="transition-all duration-300 ease-in-out  border-b-1 hover:text-yellow-500"
+                  href="https://wingstarnarketing.com/"
+                  target="__blank"
+                >
+                  Star Marketing
+                </a>
               </p>
             </div>
 
-            <div className="flex space-x-6">
+            {/* <div className="flex space-x-6">
               <a
                 href="#"
                 className="text-white hover:text-yellow-500 transition-colors duration-300"
@@ -180,7 +186,7 @@ const Footer = () => {
               >
                 <FaTwitter className="h-6 w-6" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

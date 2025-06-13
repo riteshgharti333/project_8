@@ -7,6 +7,7 @@ import Offers from "../Offers/Offers";
 import ServiceForm from "../ServiceForm/ServiceForm";
 import { taxies } from "../../assets/data";
 import RentalFees from "../RentalFees/RentalFees";
+import EnquiryForm from "../EnquiryForm/EnquiryForm";
 
 const RentalContent = () => {
   const cardVariants = {
@@ -55,7 +56,7 @@ const RentalContent = () => {
 
       <Offers />
 
-      <ServiceForm />
+      <EnquiryForm />
     </div>
   );
 };

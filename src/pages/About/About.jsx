@@ -5,19 +5,12 @@ import {
   visionData,
 } from "../../assets/aboutData";
 import { MdOutlineVerified } from "react-icons/md";
-import useFullUrl from "../../utils/useFullUrl";
 import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
 
-const banner_img =
-  "https://images.unsplash.com/photo-1518614768202-663a3a0ecf59?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-
-const about_img =
-  "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?ixlib=rb-4.1.0&auto=format&fit=crop&w=1374&q=80";
+import rentalBanner from "../../assets/images/about.jpg";
 
 const About = () => {
-  const fullUrl = useFullUrl();
-
   return (
     <div>
       <div className="relative overflow-hidden">
@@ -28,9 +21,10 @@ const About = () => {
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
           <img
-            src={banner_img}
+            src={rentalBanner}
             alt="Jaipur Tourism"
             className="h-full w-full object-cover block brightness-60"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-gray-900/30 to-transparent" />
         </motion.div>
@@ -88,13 +82,6 @@ const About = () => {
               </p>
             ))}
           </div>
-          {/* <div className="flex-4">
-            <img
-              src={about_img}
-              alt=""
-              className="rounded-xl w-full h-150 object-cover"
-            />
-          </div> */}
         </div>
 
         <div className="flex gap-10 items-center flex-col lg:flex-row">
@@ -124,13 +111,6 @@ const About = () => {
               ))}
             </ul>
           </div>
-          {/* <div className="flex-4">
-            <img
-              src={about_img}
-              alt=""
-              className="rounded-xl w-full h-150 object-cover"
-            />
-          </div> */}
         </div>
       </div>
 

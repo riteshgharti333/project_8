@@ -2,8 +2,6 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { homeData } from "../../assets/data";
 import { Link } from "react-router-dom";
 
-const img =
-  "https://images.pexels.com/photos/1011093/pexels-photo-1011093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
 const HomeDetail = () => {
   return (

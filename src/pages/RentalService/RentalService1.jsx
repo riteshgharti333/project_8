@@ -4,7 +4,7 @@ import { formatPathTitle } from "../../assets/someFunction";
 import ServiceBanner from "../../components/ServiceBanner/ServiceBanner";
 import RentalContent from "../../components/RentalContent/RentalContent";
 
-import rentalBanner from "../../assets/images/banner.jpg";
+import rentalBanner from "../../assets/images/about.jpg";
 
 const RentalService1 = () => {
   const { pathname } = useLocation();

@@ -13,6 +13,7 @@ import {
 } from "../../assets/tourpackageData/tourPackageData";
 
 import tp_banner from "../../assets/images/tpBanner/udaiput.jpg";
+import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
 
 const TourPackages3 = () => {
@@ -94,7 +95,7 @@ const TourPackages3 = () => {
 
         <Offers />
 
-        <ServiceForm />
+       <EnquiryForm />
       </div>
     </div>
   );

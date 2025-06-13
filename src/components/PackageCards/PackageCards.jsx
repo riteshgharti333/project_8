@@ -43,6 +43,7 @@ const PackageCards = ({ packageCards, path, linkPath }) => {
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.5 }}
+                loading="lazy"
               />
               {/* Shine effect on hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-white/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />

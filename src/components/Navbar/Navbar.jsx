@@ -64,7 +64,7 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <div className="hidden lg:block relative">
-        <ul className="flex gap-1 font-medium">
+        <ul className="flex   font-medium">
           {navData.map((item, index) => (
             <li className="relative group" key={index}>
               {item.dropdown ? (

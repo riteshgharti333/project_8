@@ -1,6 +1,67 @@
 import { motion } from "framer-motion";
+import { useRef, useState } from "react";
+import { toast } from "react-toastify";
 
 const EnquiryForm = () => {
+  const formRef = useRef(null);
+
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const payload = {
+      "Full Name": formData.fullName,
+      "Email Address": formData.email,
+      "Contact Number": formData.phone,
+      "Subject": formData.subject,
+      "Message": formData.message,
+      _template: "table",
+    };
+
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/abhimanyuholidays7@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const result = await response.json();
+
+      if (result.success === "true") {
+        toast.success("Thank you! Your message has been sent.");
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        toast.error("Failed to send message. Try again.");
+      }
+    } catch (err) {
+      toast.error("Network error. Please try again.");
+    }
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -13,97 +74,101 @@ const EnquiryForm = () => {
           Have Questions? Send Us a Message
         </h3>
 
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Name Field */}
+        <form
+          ref={formRef}
+          onSubmit={handleSubmit}
+          className="grid grid-cols-1 md:grid-cols-2 gap-6"
+        >
+          {/* Full Name */}
           <div>
-            <label
-              htmlFor="name"
-              className="block text-sm font-medium text-gray-700 mb-1 not-first:"
-            >
-              Full Name *
+            <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-1">
+              Full Name <span className="text-red-600">*</span>
             </label>
             <input
               type="text"
-              id="name"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-0 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
-              placeholder="John Doe"
+              id="fullName"
+              name="fullName"
+              value={formData.fullName}
+              onChange={handleChange}
               required
+              className="w-full px-4 py-3 rounded-lg border border-gray-300"
+              placeholder="Your name..."
             />
           </div>
 
-          {/* Email Field */}
+          {/* Email */}
           <div>
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium text-gray-700 mb-1"
-            >
-              Email Address *
+            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+              Email Address <span className="text-red-600">*</span>
             </label>
             <input
               type="email"
               id="email"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-0 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
-              placeholder="your@email.com"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
               required
+              className="w-full px-4 py-3 rounded-lg border border-gray-300"
+              placeholder="your@email.com"
             />
           </div>
 
-          {/* Contact Number */}
+          {/* Phone */}
           <div>
-            <label
-              htmlFor="phone"
-              className="block text-sm font-medium text-gray-700 mb-1"
-            >
-              Contact Number *
+            <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+              Contact Number <span className="text-red-600">*</span>
             </label>
             <input
               type="tel"
               id="phone"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-0 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
-              placeholder="+977 98XXXXXXX"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
               required
+              className="w-full px-4 py-3 rounded-lg border border-gray-300"
+              placeholder="+91 98XXXXXXX"
             />
           </div>
 
-          {/* City */}
+          {/* Subject */}
           <div>
-            <label
-              htmlFor="city"
-              className="block text-sm font-medium text-gray-700 mb-1"
-            >
-              City *
+            <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
+              Subject <span className="text-red-600">*</span>
             </label>
             <input
               type="text"
-              id="city"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-0 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
-              placeholder="Delhi"
+              id="subject"
+              name="subject"
+              value={formData.subject}
+              onChange={handleChange}
               required
+              className="w-full px-4 py-3 rounded-lg border border-gray-300"
+              placeholder="Write subject..."
             />
           </div>
 
-          {/* Message (Full width) */}
+          {/* Message */}
           <div className="md:col-span-2">
-            <label
-              htmlFor="message"
-              className="block text-sm font-medium text-gray-700 mb-1"
-            >
-              Your Message *
+            <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+              Your Message <span className="text-red-600">*</span>
             </label>
             <textarea
               id="message"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
               rows="4"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-0 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none"
-              placeholder="I'm interested in learning more about..."
               required
+              className="w-full px-4 py-3 rounded-lg border border-gray-300"
+              placeholder="Write your message..."
             ></textarea>
           </div>
 
-          {/* Submit Button */}
-          <div className="md:col-span-2 flex justify-center cursor-pointer">
+          {/* Submit */}
+          <div className="md:col-span-2 flex justify-center">
             <button
               type="submit"
-              className=" bg-blue-600 hover:bg-blue-700 cursor-pointer text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+              className="bg-blue-600 hover:bg-blue-700 cursor-pointer text-white font-medium py-3 px-6 rounded-lg transition duration-300 disabled:opacity-60"
             >
               Send Inquiry
             </button>

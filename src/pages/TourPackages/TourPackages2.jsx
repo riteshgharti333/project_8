@@ -13,6 +13,7 @@ import {
 } from "../../assets/tourpackageData/tourPackageData";
 
 import tp_banner from "../../assets/images/tpBanner/rj.jpg";
+import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
 const TourPackages2 = () => {
   const { pathname } = useLocation();
@@ -70,7 +71,7 @@ const TourPackages2 = () => {
 
         <Offers />
 
-        <ServiceForm />
+        <EnquiryForm />
       </div>
     </div>
   );
