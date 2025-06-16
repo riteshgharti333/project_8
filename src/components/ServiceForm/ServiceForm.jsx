@@ -70,7 +70,6 @@ const fields = [
     type: "time",
     required: true,
   },
-  
 
   {
     name: "hotelPreference",
@@ -83,9 +82,9 @@ const fields = [
 
 const ServiceForm = () => {
   const formRef = useRef();
-    const handleSubmit = () => {
-      toast.success("Thank you! Your message has been sent.");
-    };
+  const handleSubmit = () => {
+    toast.success("Thank you! Your message has been sent.");
+  };
 
   return (
     <div>

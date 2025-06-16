@@ -1,30 +1,30 @@
 import stpCard_img1 from "../images/tpCardImgs/speCardImgs/arshla-jindal-aCl0TLg1DQg-unsplash.jpg";
-import stpCard_img2 from "../images/tpCardImgs/speCardImgs/barun-ghosh-e_bXQldK-4E-unsplash.jpg"
-import stpCard_img3 from "../images/tpCardImgs/speCardImgs/barun-ghosh-lZ4jn_xuCZk-unsplash.jpg"
-import stpCard_img4 from "../images/tpCardImgs/speCardImgs/damini-4FQcYTt9GlM-unsplash.jpg"
-import stpCard_img5 from "../images/tpCardImgs/speCardImgs/kartik-iyer-VzErgGzTkPU-unsplash (1).jpg"
-import stpCard_img6 from "../images/tpCardImgs/speCardImgs/martijn-vonk-8oCgUgo_hBU-unsplash.jpg"
-import stpCard_img7 from "../images/tpCardImgs/speCardImgs/meric-dagli-uADXI1v10us-unsplash.jpg"
-import stpCard_img8 from "../images/tpCardImgs/speCardImgs/naman-pandey-Iya5bn212xA-unsplash (2).jpg"
-import stpCard_img9 from "../images/tpCardImgs/speCardImgs/ravi-khandelwal-DrJtwNe6AcQ-unsplash.jpg"
-import stpCard_img10 from "../images/tpCardImgs/speCardImgs/rj1 (2).jpg"
-import stpCard_img11 from "../images/tpCardImgs/speCardImgs/roberto-reposo-LgQoL6eOdHs-unsplash (1).jpg"
-import stpCard_img12 from "../images/tpCardImgs/speCardImgs/sohan-rayguru-cDmZEQct7qc-unsplash.jpg"
-import stpCard_img13 from "../images/tpCardImgs/speCardImgs/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg"
-import stpCard_img14 from "../images/tpCardImgs/speCardImgs/ved-SRAUI9X4Ep8-unsplash.jpg"
-import stpCard_img15 from "../images/tpCardImgs/speCardImgs/vg-bingi-Z9s5Tt0MHKg-unsplash.jpg"
-import stpCard_img16 from "../images/tpCardImgs/speCardImgs/vivek-1pNm4DFts4U-unsplash.jpg"
-import stpCard_img17 from "../images/tpCardImgs/speCardImgs/wuz-rs5tqPD3YpM-unsplash.jpg"
-import stpCard_img18 from "../images/tpCardImgs/speCardImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg"
+import stpCard_img2 from "../images/tpCardImgs/speCardImgs/barun-ghosh-e_bXQldK-4E-unsplash.jpg";
+import stpCard_img3 from "../images/tpCardImgs/speCardImgs/barun-ghosh-lZ4jn_xuCZk-unsplash.jpg";
+import stpCard_img4 from "../images/tpCardImgs/speCardImgs/damini-4FQcYTt9GlM-unsplash.jpg";
+import stpCard_img5 from "../images/tpCardImgs/speCardImgs/kartik-iyer-VzErgGzTkPU-unsplash (1).jpg";
+import stpCard_img6 from "../images/tpCardImgs/speCardImgs/martijn-vonk-8oCgUgo_hBU-unsplash.jpg";
+import stpCard_img7 from "../images/tpCardImgs/speCardImgs/meric-dagli-uADXI1v10us-unsplash.jpg";
+import stpCard_img8 from "../images/tpCardImgs/speCardImgs/naman-pandey-Iya5bn212xA-unsplash (2).jpg";
+import stpCard_img9 from "../images/tpCardImgs/speCardImgs/ravi-khandelwal-DrJtwNe6AcQ-unsplash.jpg";
+import stpCard_img10 from "../images/tpCardImgs/speCardImgs/rj1 (2).jpg";
+import stpCard_img11 from "../images/tpCardImgs/speCardImgs/roberto-reposo-LgQoL6eOdHs-unsplash (1).jpg";
+import stpCard_img12 from "../images/tpCardImgs/speCardImgs/sohan-rayguru-cDmZEQct7qc-unsplash.jpg";
+import stpCard_img13 from "../images/tpCardImgs/speCardImgs/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg";
+import stpCard_img14 from "../images/tpCardImgs/speCardImgs/ved-SRAUI9X4Ep8-unsplash.jpg";
+import stpCard_img15 from "../images/tpCardImgs/speCardImgs/vg-bingi-Z9s5Tt0MHKg-unsplash.jpg";
+import stpCard_img16 from "../images/tpCardImgs/speCardImgs/vivek-1pNm4DFts4U-unsplash.jpg";
+import stpCard_img17 from "../images/tpCardImgs/speCardImgs/wuz-rs5tqPD3YpM-unsplash.jpg";
+import stpCard_img18 from "../images/tpCardImgs/speCardImgs/jyotirmoy-gupta-zPycyJsW7e8-unsplash.jpg";
 
-import stpCard_img19 from "../images/tpCardImgs/speCardImgs/otherSpImgs/arun-geetha-viswanathan-8goGYCLzrLs-unsplash.jpg"
-import stpCard_img20 from "../images/tpCardImgs/speCardImgs/otherSpImgs/axp-photography--hwq4OHDJWI-unsplash.jpg"
+import stpCard_img19 from "../images/tpCardImgs/speCardImgs/otherSpImgs/arun-geetha-viswanathan-8goGYCLzrLs-unsplash.jpg";
+import stpCard_img20 from "../images/tpCardImgs/speCardImgs/otherSpImgs/axp-photography--hwq4OHDJWI-unsplash.jpg";
 
 import gold_img2 from "../images/tpCardImgs/goldeCardImgs/anuj-yadav-1KehhzFg_Q0-unsplash.jpg";
 
 export const JaipurTourPackage2Nights3Days = {
   stContent1: {
-    img:stpCard_img12,
+    img: stpCard_img12,
     title: "Jaipur Tour Package 2 Nights 3 Days",
     duration: "2 Nights - 3 Days",
     destination: "Jaipur",
@@ -79,7 +79,7 @@ export const JaipurTourPackage2Nights3Days = {
 
 export const JaipurTourPackage3Nights4Days = {
   stContent1: {
-    img:stpCard_img2,
+    img: stpCard_img2,
     title: "Jaipur Tour Package 3 Nights 4 Days",
     duration: "3 Nights - 4 Days",
     destination: "Jaipur - Ajmer - Pushkar",
@@ -145,7 +145,7 @@ export const JaipurTourPackage3Nights4Days = {
 
 export const JaipurRanthamboreTour3Nights4Days = {
   stContent1: {
-    img:stpCard_img3,
+    img: stpCard_img3,
     title: "Jaipur 3 Nights 4 Days Tour",
     duration: "3 Nights - 4 Days",
     destination: "Jaipur - Ranthambore",
@@ -211,7 +211,7 @@ export const JaipurRanthamboreTour3Nights4Days = {
 
 export const JaipurTourPackage5Days = {
   stContent1: {
-    img:stpCard_img4,
+    img: stpCard_img4,
     title: "Jaipur Tour Package For 5 Days",
     duration: "5 Days",
     destination: "Jaipur - Ajmer - Pushkar - Khatu Shyamji - Salasar Balaji",
@@ -286,13 +286,11 @@ export const JaipurTourPackage5Days = {
   },
 };
 
-
 //////////////
-
 
 export const Jaipur4Nights5DaysTour = {
   stContent1: {
-    img:stpCard_img16,
+    img: stpCard_img16,
     title: "Jaipur 4 Nights 5 Days Tour",
     duration: "4 Nights - 5 Days",
     destination: "Jaipur - Ranthambore - Agra - Delhi",
@@ -366,13 +364,11 @@ export const Jaipur4Nights5DaysTour = {
   },
 };
 
-
 ////////////////
-
 
 export const JaipurAjmerPushkarKhatuSalasarTour = {
   stContent1: {
-    img:stpCard_img6,
+    img: stpCard_img6,
     title: "Jaipur Tour Package 4 Nights 5 Days",
     duration: "4 Nights - 5 Days",
     destination: "Jaipur - Ajmer - Pushkar - Khatu Shyamji - Salasar Balaji",
@@ -443,13 +439,11 @@ export const JaipurAjmerPushkarKhatuSalasarTour = {
   },
 };
 
-
 /////////////////
-
 
 export const Rajasthan5Nights6DaysTour = {
   stContent1: {
-    img:stpCard_img7,
+    img: stpCard_img7,
     title: "Rajasthan Tour Package For 5 Nights 6 Days",
     duration: "5 Nights - 6 Days",
     destination: "Jaipur - Ajmer - Pushkar - Bikaner - Jaisalmer",
@@ -531,12 +525,11 @@ export const Rajasthan5Nights6DaysTour = {
   },
 };
 
-
 ////////////////
 
 export const RajasthanTourPackage6Days = {
   stContent1: {
-    img:stpCard_img8,
+    img: stpCard_img8,
     title: "Rajasthan Tour Package For 6 Days",
     duration: "6 Days",
     destination: "Jaipur - Ajmer - Pushkar - Bikaner - Jaisalmer",
@@ -619,10 +612,9 @@ export const RajasthanTourPackage6Days = {
 
 /////////////////////
 
-
 export const RajasthanTour7Days = {
   stContent1: {
-    img:stpCard_img9,
+    img: stpCard_img9,
     title: "Rajasthan Tour 7 Days",
     duration: "7 Days",
     destination: "Jaipur - Ajmer - Pushkar - Bikaner - Jaisalmer - Jodhpur",
@@ -716,10 +708,11 @@ export const RajasthanTour7Days = {
 
 export const RajasthanTourPackage8Days = {
   stContent1: {
-    img:stpCard_img10,
+    img: stpCard_img10,
     title: "Rajasthan 8 Days Tour Package",
-   duration: "7 Nights - 8 Days",
-    destination: "Jaipur - Ajmer - Pushkar - Bikaner - Jaisalmer - Jodhpur - Udaipur",
+    duration: "7 Nights - 8 Days",
+    destination:
+      "Jaipur - Ajmer - Pushkar - Bikaner - Jaisalmer - Jodhpur - Udaipur",
     desc: "Experience the vibrant colors, royal forts, spiritual sites, and desert beauty of Rajasthan with our 8 Days Tour Package. This all-in-one journey takes you across Jaipur, Ajmer, Pushkar, Bikaner, Jaisalmer, Jodhpur, and Udaipur. Dive into the grandeur of Rajputana heritage and discover the cultural heart of India through palaces, temples, lakes, and golden sands. Ideal for explorers seeking a complete Rajasthan circuit in one elegant trip.",
   },
 
@@ -818,13 +811,11 @@ export const RajasthanTourPackage8Days = {
   },
 };
 
-
 ////////////////
-
 
 export const JaipurJodhpurUdaipur5DaysTour = {
   stContent1: {
-    img:stpCard_img11,
+    img: stpCard_img11,
     title: "Jaipur Jodhpur Udaipur 5 Days Tour",
     duration: "4 Nights - 5 Days",
     destination: "Jaipur - Jodhpur - Udaipur",
@@ -897,10 +888,9 @@ export const JaipurJodhpurUdaipur5DaysTour = {
 
 /////////////
 
-
 export const DesertTrioRajasthan5DaysTour = {
   stContent1: {
-    img:stpCard_img1,
+    img: stpCard_img1,
     title: "Desert Trio of Rajasthan 5 Days Tour",
     duration: "4 Nights - 5 Days",
     destination: "Jaipur - Bikaner - Jaisalmer",
@@ -973,7 +963,7 @@ export const DesertTrioRajasthan5DaysTour = {
 
 export const ColorfulRajasthan8DaysTour = {
   stContent1: {
-    img:stpCard_img15,
+    img: stpCard_img15,
     title: "Colorful Rajasthan 8 Days Tour",
     duration: "7 Nights - 8 Days",
     destination: "Jaipur – Bikaner – Jaisalmer – Jodhpur – Udaipur",
@@ -1063,16 +1053,15 @@ export const ColorfulRajasthan8DaysTour = {
   },
 };
 
-
 //////////////////
-
 
 export const RajasthanDesert7DaysTour = {
   stContent1: {
-img:stpCard_img14,
+    img: stpCard_img14,
     title: "Rajasthan’s Desert 7 Days Tour",
     duration: "6 Nights - 7 Days",
-    destination: "Jaipur – Ajmer - Pushkar – Jodhpur – Jaisalmer Sam – Jaisalmer",
+    destination:
+      "Jaipur – Ajmer - Pushkar – Jodhpur – Jaisalmer Sam – Jaisalmer",
     desc: "Embark on the iconic Rajasthan’s Desert 7 Days Tour and dive into the rich heritage, religious charm, and golden deserts of the royal state. Starting from the vibrant city of Jaipur to the sacred lands of Ajmer and Pushkar, followed by the regal Jodhpur and enchanting sand dunes of Jaisalmer — this tour blends history, culture, and desert magic in one unforgettable journey.",
   },
 
@@ -1153,14 +1142,11 @@ img:stpCard_img14,
   },
 };
 
-
-
-
 /////////////
 
 export const RajasthanCulturalOdyssey7DaysTour = {
   stContent1: {
-    img:stpCard_img18,
+    img: stpCard_img18,
     title: "Rajasthan Cultural Odyssey 7 Days Tour",
     duration: "6 Nights - 7 Days",
     destination: "Jaipur – Ajmer - Pushkar – Jodhpur – Udaipur",
@@ -1243,13 +1229,11 @@ export const RajasthanCulturalOdyssey7DaysTour = {
   },
 };
 
-
 //////////////////
-
 
 export const RajasthanWildlifeHeritage7DaysTour = {
   stContent1: {
-    img:stpCard_img17,
+    img: stpCard_img17,
     title: "Rajasthan’s Wildlife & Heritage 7 Days Tour",
     duration: "6 Nights - 7 Days",
     destination: "Jaipur – Jodhpur – Jawai – Udaipur",
@@ -1339,7 +1323,7 @@ export const RajasthanWildlifeHeritage7DaysTour = {
 
 export const JaipurRanthambore4DaysTour = {
   stContent1: {
-    img:stpCard_img5,
+    img: stpCard_img5,
     title: "Jaipur Ranthambore 4 Days Tour",
     duration: "3 Nights - 4 Days",
     destination: "Jaipur – Ranthambore",
@@ -1400,13 +1384,11 @@ export const JaipurRanthambore4DaysTour = {
   },
 };
 
-
-
 ////////////////
 
 export const GoldenTriangle5DaysTour = {
   stContent1: {
-    img:stpCard_img13,
+    img: stpCard_img13,
     title: "Golden Triangle 5 Days Tour",
     duration: "4 Nights - 5 Days",
     destination: "Delhi – Agra – Jaipur",
@@ -1476,13 +1458,11 @@ export const GoldenTriangle5DaysTour = {
   },
 };
 
-
 //////////////////
-
 
 export const AgraJaipur4DaysTour = {
   stContent1: {
-    img:stpCard_img19,
+    img: stpCard_img19,
     title: "Agra Jaipur 4 Days Tour Package",
     duration: "3 Nights - 4 Days",
     destination: "Agra – Jaipur",
@@ -1544,12 +1524,11 @@ export const AgraJaipur4DaysTour = {
   },
 };
 
-
 ///////////////
 
 export const DelhiAgraJaipurUdaipur6DaysTour = {
   stContent1: {
-    img:stpCard_img20,
+    img: stpCard_img20,
     title: "Delhi Agra Jaipur Udaipur Tour Package 6 Days",
     duration: "5 Nights - 6 Days",
     destination: "Delhi – Agra – Jaipur – Udaipur",
@@ -1633,7 +1612,7 @@ export const DelhiAgraJaipurUdaipur6DaysTour = {
 
 export const GoldenTriangle5DaysTours = {
   stContent1: {
-    img : gold_img2,
+    img: gold_img2,
     title: "5 Days Golden Triangle Tour",
     duration: "4 Nights - 5 Days",
     destination: "Delhi – Agra – Jaipur",

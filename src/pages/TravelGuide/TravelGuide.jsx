@@ -39,7 +39,7 @@ const TravelGuide = () => {
                   <li key={index} className=" text-gray-600">
                     <span>{item}</span>
                   </li>
-                )
+                ),
               )}
             </ul>
           </div>
@@ -58,7 +58,7 @@ const TravelGuide = () => {
                   <li key={index} className=" text-gray-600">
                     <span>{item}</span>
                   </li>
-                )
+                ),
               )}
             </ul>
           </div>

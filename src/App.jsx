@@ -64,8 +64,8 @@ import jaisalmerRoutes from "./routes/jaisalmerRoute";
 import jaipurRoutes from "./routes/jaipurRoute";
 import rjRoutes from "./routes/rjRoute";
 
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const ScrollToTop = () => {
@@ -85,7 +85,6 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-
         <SmoothScroll />
         <ScrollToTop />
         <ScrollTop />
@@ -229,7 +228,7 @@ function App() {
           {/*  */}
         </Routes>
         <Footer />
-              <ToastContainer position="top-center" autoClose={3000} />
+        <ToastContainer position="top-center" autoClose={3000} />
       </BrowserRouter>
     </div>
   );

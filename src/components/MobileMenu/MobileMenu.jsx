@@ -19,7 +19,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
   };
 
   const handleLinkClick = () => {
-    onClose(); 
+    onClose();
   };
 
   return (
@@ -64,7 +64,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
                               subItem.link
                             }`}
                             className="block py-2 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
-                            onClick={handleLinkClick} 
+                            onClick={handleLinkClick}
                           >
                             {subItem.name}
                           </Link>
@@ -77,7 +77,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
                 <Link
                   to={item.link}
                   className="block py-3 text-xl font-medium text-white hover:text-yellow-500 transition-colors duration-300"
-                  onClick={handleLinkClick} 
+                  onClick={handleLinkClick}
                 >
                   {item.title}
                 </Link>

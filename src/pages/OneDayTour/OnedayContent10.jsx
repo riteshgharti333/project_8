@@ -6,7 +6,6 @@ import DayOneContent from "../../components/DayOneContent/DayOneContent";
 import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import { oneDayTripToSariskaFromJaipurContent } from "../../assets/oneDayData";
 
-
 import banner_img from "../../assets/images/onedayImgs/oneday1.jpg";
 
 const OnedayContent10 = () => {

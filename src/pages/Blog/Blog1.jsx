@@ -1,9 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  FiCalendar,
-  FiClock,
-  FiArrowRight,
-} from "react-icons/fi";
+import { FiCalendar, FiClock, FiArrowRight } from "react-icons/fi";
 import { oneDayTourData } from "../../assets/blogsData";
 import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";

@@ -8,7 +8,6 @@ import { jaipurTempleTourContent } from "../../assets/oneDayData";
 
 import banner_img from "../../assets/images/onedayImgs/oneday10.jpg";
 
-
 const OnedayContent13 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);

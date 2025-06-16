@@ -39,8 +39,13 @@ const ServiceSidebar = () => {
       {/* Additional CTA Card */}
       <div className="p-6 bg-gradient-to-r from-amber-50 to-amber-100 rounded-lg m-4 mt-6 text-center">
         <h4 className="font-medium text-gray-800 mb-2">Need Help?</h4>
-        <p className="text-sm text-gray-600 mb-4">Our travel experts are here to assist you</p>
-        <Link to={"/contact-us"} className="w-full block px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-md text-sm font-medium transition-colors duration-300">
+        <p className="text-sm text-gray-600 mb-4">
+          Our travel experts are here to assist you
+        </p>
+        <Link
+          to={"/contact-us"}
+          className="w-full block px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-md text-sm font-medium transition-colors duration-300"
+        >
           Contact Us
         </Link>
       </div>

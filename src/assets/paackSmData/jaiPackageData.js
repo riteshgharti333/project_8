@@ -8,7 +8,6 @@ import jai_img8 from "../images/tpCardImgs/jaiCardImgs/pawan-parihar-J2ijrGPkQ4k
 import jai_img9 from "../images/tpCardImgs/jaiCardImgs/pranav-s-WR_ieXW68CM-unsplash.jpg";
 import jai_img10 from "../images/tpCardImgs/jaiCardImgs/rishi-jhajharia-AkxMg8s2_Dg-unsplash.jpg";
 
-
 export const JaisalmerHalfDayTour = {
   stContent1: {
     img: jai_img9,
@@ -90,7 +89,6 @@ export const JaisalmerFullDayTour = {
 
 ///////////
 
-
 export const JaisalmerOneDayTour = {
   stContent1: {
     img: jai_img3,
@@ -131,8 +129,6 @@ export const JaisalmerOneDayTour = {
     ],
   },
 };
-
-
 
 /////////
 export const JaisalmerTwoDaysTour = {
@@ -241,9 +237,7 @@ export const JaisalmerThreeDaysTour = {
   },
 };
 
-
 /////////
-
 
 export const JaisalmerFourDaysTour = {
   stContent1: {
@@ -310,9 +304,7 @@ export const JaisalmerFourDaysTour = {
   },
 };
 
-
 //////////////
-
 
 export const JaisalmerFiveDaysTour = {
   stContent1: {
@@ -383,7 +375,6 @@ export const JaisalmerFiveDaysTour = {
 };
 /////////
 
-
 export const JaisalmerFamilyTour = {
   stContent1: {
     img: jai_img8,
@@ -445,7 +436,6 @@ export const JaisalmerFamilyTour = {
     ],
   },
 };
-
 
 ///////////////
 
@@ -511,4 +501,3 @@ export const JaisalmerLuxuryTour = {
     ],
   },
 };
-

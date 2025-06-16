@@ -24,7 +24,7 @@ const TourPackages8 = () => {
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title}  bannerImg={tp_banner} />
+      <ServiceBanner bannerTitle={title} bannerImg={tp_banner} />
       <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
         <div className="flex flex-col gap-10">
           <div>
@@ -37,8 +37,6 @@ const TourPackages8 = () => {
               </p>
             ))}
           </div>
-
-          
 
           <div>
             <h2 className="text-2xl font-bold text-brand-brown">
@@ -66,7 +64,7 @@ const TourPackages8 = () => {
             </p>
           </div>
 
-            <div>
+          <div>
             <h2 className="text-2xl font-bold text-brand-brown">
               {ayodhyaTPData.packageContent4.title}
             </h2>
@@ -83,7 +81,7 @@ const TourPackages8 = () => {
             </ul>
           </div>
 
-           <div>
+          <div>
             <h2 className="text-2xl font-bold text-brand-brown">
               {ayodhyaTPData.packageContent5.title}
             </h2>

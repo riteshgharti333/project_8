@@ -11,8 +11,8 @@ const HotelBooking2 = () => {
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} bannerImg={udaipurHotels.img}/>
-      <BookingContent  hotelData={udaipurHotels}  />
+      <ServiceBanner bannerTitle={title} bannerImg={udaipurHotels.img} />
+      <BookingContent hotelData={udaipurHotels} />
     </div>
   );
 };

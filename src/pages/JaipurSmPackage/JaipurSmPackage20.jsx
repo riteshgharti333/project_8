@@ -4,7 +4,10 @@ import { formatPathTitle } from "../../assets/someFunction";
 import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 import SmTourPackageComp from "../../components/SmTourPackageComp/SmTourPackageComp";
 import { UdaipurFiveDaysTour } from "../../assets/paackSmData/udaiPackafeData";
-import { ExcitingRajasthanTour, RajasthanHeritageTour } from "../../assets/paackSmData/rajasthanSmPackageData";
+import {
+  ExcitingRajasthanTour,
+  RajasthanHeritageTour,
+} from "../../assets/paackSmData/rajasthanSmPackageData";
 
 const JaipurSmPackage20 = () => {
   const { pathname } = useLocation();

@@ -28,20 +28,23 @@ const EnquiryForm = () => {
       "Full Name": formData.fullName,
       "Email Address": formData.email,
       "Contact Number": formData.phone,
-      "Subject": formData.subject,
-      "Message": formData.message,
+      Subject: formData.subject,
+      Message: formData.message,
       _template: "table",
     };
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/abhimanyuholidays7@gmail.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
+      const response = await fetch(
+        "https://formsubmit.co/ajax/abhimanyuholidays7@gmail.com",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(payload),
         },
-        body: JSON.stringify(payload),
-      });
+      );
 
       const result = await response.json();
 
@@ -81,7 +84,10 @@ const EnquiryForm = () => {
         >
           {/* Full Name */}
           <div>
-            <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-1">
+            <label
+              htmlFor="fullName"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
               Full Name <span className="text-red-600">*</span>
             </label>
             <input
@@ -98,7 +104,10 @@ const EnquiryForm = () => {
 
           {/* Email */}
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
               Email Address <span className="text-red-600">*</span>
             </label>
             <input
@@ -115,7 +124,10 @@ const EnquiryForm = () => {
 
           {/* Phone */}
           <div>
-            <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+            <label
+              htmlFor="phone"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
               Contact Number <span className="text-red-600">*</span>
             </label>
             <input
@@ -132,7 +144,10 @@ const EnquiryForm = () => {
 
           {/* Subject */}
           <div>
-            <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
+            <label
+              htmlFor="subject"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
               Subject <span className="text-red-600">*</span>
             </label>
             <input
@@ -149,7 +164,10 @@ const EnquiryForm = () => {
 
           {/* Message */}
           <div className="md:col-span-2">
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+            <label
+              htmlFor="message"
+              className="block text-sm font-medium text-gray-700 mb-1"
+            >
               Your Message <span className="text-red-600">*</span>
             </label>
             <textarea

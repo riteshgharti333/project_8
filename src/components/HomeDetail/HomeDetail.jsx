@@ -2,7 +2,6 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { homeData } from "../../assets/data";
 import { Link } from "react-router-dom";
 
-
 const HomeDetail = () => {
   return (
     <div className="px-1 sm:px-6 lg:px-8  max-w-[1400px] mx-auto">

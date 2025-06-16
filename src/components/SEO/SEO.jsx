@@ -8,7 +8,7 @@ const SEO = ({
   url = "https://www.wingstarnarketing.com",
   image = logo,
   author = "Star Marketing",
-  type = "website", 
+  type = "website",
 }) => {
   const fullImageUrl = image?.startsWith("https")
     ? image

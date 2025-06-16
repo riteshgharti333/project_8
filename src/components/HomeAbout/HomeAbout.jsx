@@ -2,16 +2,17 @@ import React from "react";
 import { FaWhatsapp, FaPhone, FaEnvelope, FaBuilding } from "react-icons/fa";
 
 const HomeAbout = () => {
-  const about_img = "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?ixlib=rb-4.1.0&auto=format&fit=crop&w=1374&q=80";
+  const about_img =
+    "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?ixlib=rb-4.1.0&auto=format&fit=crop&w=1374&q=80";
 
   return (
     <div className="px-4 sm:px-6 lg:px-8 max-w-[1400px] mx-auto">
       <div className="flex flex-col lg:flex-row gap-12 items-center">
         {/* Image Section */}
         <div className="lg:w-1/2 rounded-xl overflow-hidden shadow-xl transform transition-all duration-500 hover:shadow-2xl">
-          <img 
-            src={about_img} 
-            alt="Rajputana Cabs" 
+          <img
+            src={about_img}
+            alt="Rajputana Cabs"
             className="w-full h-150 object-cover transition-transform duration-700 hover:scale-105"
           />
         </div>
@@ -25,7 +26,8 @@ const HomeAbout = () => {
             <h2 className="mt-2 text-3xl font-bold text-brand-brown sm:text-4xl">
               <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
                 Contact
-              </span> Our Team
+              </span>{" "}
+              Our Team
             </h2>
             <p className="mt-4 text-lg text-gray-600">
               We're available 24/7 to assist with your travel needs
@@ -59,8 +61,12 @@ const HomeAbout = () => {
               </div>
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                <p className="mt-1 text-gray-600">rajputanacabsindia@gmail.com</p>
-                <p className="mt-1 text-gray-600">rajputanacabs@gmail.com (Corporate)</p>
+                <p className="mt-1 text-gray-600">
+                  rajputanacabsindia@gmail.com
+                </p>
+                <p className="mt-1 text-gray-600">
+                  rajputanacabs@gmail.com (Corporate)
+                </p>
               </div>
             </div>
 
@@ -69,7 +75,9 @@ const HomeAbout = () => {
                 <FaBuilding className="h-6 w-6" />
               </div>
               <div className="ml-4">
-                <h3 className="text-lg font-medium text-gray-900">Jaipur Office</h3>
+                <h3 className="text-lg font-medium text-gray-900">
+                  Jaipur Office
+                </h3>
                 <p className="mt-1 text-gray-600">
                   24, Gopi Nagar, Jaisinghpura Khor, Jaipur, Rajasthan 302027
                 </p>

@@ -47,7 +47,7 @@ const Package = () => {
               <p className="text-gray-600 mb-6 text-sm">{item.desc}</p>
 
               <div className="flex justify-between items-center">
-                 <button className="px-5 py-2.5 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                <button className="px-5 py-2.5 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                   Book Now
                 </button>
               </div>

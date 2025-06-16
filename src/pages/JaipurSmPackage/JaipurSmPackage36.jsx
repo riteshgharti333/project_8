@@ -6,7 +6,6 @@ import SmTourPackageComp from "../../components/SmTourPackageComp/SmTourPackageC
 
 import { RajasthanTourPackage5N6D } from "../../assets/paackSmData/rajasthanSmPackageData";
 
-
 const JaipurSmPackage36 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);

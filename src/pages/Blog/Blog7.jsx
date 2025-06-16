@@ -31,7 +31,6 @@ const Blog7 = () => {
     blogContent6,
     blogContent7,
     blogContent8,
-
   } = rajasthanGoldenTriangleTours;
 
   return (
@@ -211,7 +210,6 @@ const Blog7 = () => {
               ))}
             </ul>
           </div>
-
 
           <div className="mt-5">
             <h2 className="text-2xl font-bold text-brand-brown">

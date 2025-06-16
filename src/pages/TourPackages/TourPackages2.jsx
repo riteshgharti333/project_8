@@ -65,7 +65,10 @@ const TourPackages2 = () => {
           </div>
         </div>
 
-        <PackageCards packageCards={rjTPCards} linkPath="rajasthan-tour-package" />
+        <PackageCards
+          packageCards={rjTPCards}
+          linkPath="rajasthan-tour-package"
+        />
 
         <RentalFees />
 

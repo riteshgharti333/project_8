@@ -27,7 +27,7 @@ const TempoContent = () => {
     <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
       <div>
         <h2 className="text-2xl font-bold text-brand-brown">
-         Book Our Taxi Services For Local Outstation Tour With Best Price
+          Book Our Taxi Services For Local Outstation Tour With Best Price
         </h2>
         <p className="mt-5 text-gray-600">
           Tempo Traveller in Jaipur is a popular mode of transportation for
@@ -64,7 +64,9 @@ const TempoContent = () => {
         <div className="text-center mb-12">
           <h2 className="text-2xl font-extrabold text-brand-brown sm:text-4xl">
             <span className="block">Tempo</span>
-            <span className="block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">Rental Service</span>
+            <span className="block bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent mt-2">
+              Rental Service
+            </span>
           </h2>
           <p className="mt-4 max-w-2xl text-sm lg:text-xl text-gray-600 mx-auto">
             Choose from our fleet of well-maintained vehicles for your Jaipur

@@ -45,7 +45,7 @@ const Contact = () => {
             Accept: "application/json",
           },
           body: JSON.stringify(payload),
-        }
+        },
       );
 
       const data = await res.json();

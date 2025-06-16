@@ -8,7 +8,6 @@ import { chokhiDhaniJaipurNightTourContent } from "../../assets/oneDayData";
 
 import banner_img from "../../assets/images/onedayImgs/oneday8.jpg";
 
-
 const OnedayContent12 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);

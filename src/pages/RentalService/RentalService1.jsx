@@ -11,7 +11,7 @@ const RentalService1 = () => {
   const title = formatPathTitle(pathname);
   return (
     <div>
-      <ServiceBanner bannerTitle={title} bannerImg={rentalBanner}/>
+      <ServiceBanner bannerTitle={title} bannerImg={rentalBanner} />
       <RentalContent />
     </div>
   );

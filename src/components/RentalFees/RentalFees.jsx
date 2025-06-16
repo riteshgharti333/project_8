@@ -79,7 +79,6 @@ const AirConditionerIcon = ({ className }) => (
   </svg>
 );
 
-
 const RentalFees = ({ homeRental }) => {
   return (
     <div className="">
@@ -191,7 +190,10 @@ const RentalFees = ({ homeRental }) => {
                 </div>
 
                 {/* CTA Button - enhanced design */}
-                <Link to={"/contact-us"} className="w-full cursor-pointer bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:from-amber-600 hover:to-amber-700 group-hover:scale-[1.02] mt-auto">
+                <Link
+                  to={"/contact-us"}
+                  className="w-full cursor-pointer bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:from-amber-600 hover:to-amber-700 group-hover:scale-[1.02] mt-auto"
+                >
                   <span className="flex items-center justify-center">
                     Book Now
                     <FiArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />

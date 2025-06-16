@@ -72,8 +72,8 @@ const Selling = () => {
                   tour.highlight === "Bestseller"
                     ? "bg-blue-500 text-white"
                     : tour.highlight === "Luxury"
-                    ? "bg-amber-600 text-white"
-                    : "bg-purple-500 text-white"
+                      ? "bg-amber-600 text-white"
+                      : "bg-purple-500 text-white"
                 }`}
               >
                 {tour.highlight}
@@ -94,7 +94,6 @@ const Selling = () => {
               <div className="flex justify-between items-center mt-4">
                 <div className="flex items-center space-x-4">
                   <span className="text-blue-600 font-bold">{tour.price}</span>
-                  
                 </div>
                 <button className="px-5 py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex items-center">
                   Book Now

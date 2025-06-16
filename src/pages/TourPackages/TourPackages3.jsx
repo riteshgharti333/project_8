@@ -15,14 +15,13 @@ import {
 import tp_banner from "../../assets/images/tpBanner/udaiput.jpg";
 import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
-
 const TourPackages3 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} bannerImg={tp_banner}/>
+      <ServiceBanner bannerTitle={title} bannerImg={tp_banner} />
       <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
         <div className="flex flex-col gap-10">
           <div>
@@ -89,13 +88,16 @@ const TourPackages3 = () => {
           </div>
         </div>
 
-        <PackageCards packageCards={udaipurTPCards} linkPath="udaipur-tour-package" />
+        <PackageCards
+          packageCards={udaipurTPCards}
+          linkPath="udaipur-tour-package"
+        />
 
         <RentalFees />
 
         <Offers />
 
-       <EnquiryForm />
+        <EnquiryForm />
       </div>
     </div>
   );

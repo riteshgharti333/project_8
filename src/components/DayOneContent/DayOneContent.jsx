@@ -143,7 +143,7 @@ const DayOneContent = ({ oneDayData }) => {
 
       <Offers />
 
-     <EnquiryForm />
+      <EnquiryForm />
     </div>
   );
 };

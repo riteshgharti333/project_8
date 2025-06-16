@@ -6,7 +6,7 @@ export const aboutData = [
 
 export const founderData = [
   "As someone born and brought up in Jaipur, I’ve always had a deep admiration for the history, spirituality, and beauty of Rajasthan. I founded Abhimanyu Holidays with the dream of giving travelers easy access to explore these treasures in a short time—with comfort and honesty.",
-  "We welcome you to experience the best of Rajasthan, one day at a time."
+  "We welcome you to experience the best of Rajasthan, one day at a time.",
 ];
 
 export const aboutServices = [
@@ -20,8 +20,12 @@ export const aboutServices = [
 
 ///////////////////////////
 
-
-import { AiOutlineAim, AiOutlineGlobal, AiOutlineCompass, AiOutlineHeart } from "react-icons/ai";
+import {
+  AiOutlineAim,
+  AiOutlineGlobal,
+  AiOutlineCompass,
+  AiOutlineHeart,
+} from "react-icons/ai";
 
 export const visionData = [
   {

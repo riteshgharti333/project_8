@@ -13,7 +13,6 @@ import {
   jaipurTPCards,
 } from "../../assets/tourpackageData/tourPackageData";
 
-
 import tp_banner from "../../assets/images/tpBanner/jaipur.jpg";
 import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
@@ -107,7 +106,10 @@ const TourPackages5 = () => {
           </div>
         </div>
 
-        <PackageCards packageCards={jaipurTPCards} linkPath="jaipur-tour-package" />
+        <PackageCards
+          packageCards={jaipurTPCards}
+          linkPath="jaipur-tour-package"
+        />
 
         <RentalFees />
 

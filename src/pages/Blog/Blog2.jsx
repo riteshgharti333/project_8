@@ -1,13 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  FiCalendar,
-  FiClock,
-  FiArrowRight,
-} from "react-icons/fi";
-import {
-  rajasthanTopDestinations,
-} from "../../assets/blogsData";
+import { FiCalendar, FiClock, FiArrowRight } from "react-icons/fi";
+import { rajasthanTopDestinations } from "../../assets/blogsData";
 import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
@@ -235,7 +229,6 @@ const Blog2 = () => {
           <div className="mt-16">
             <EnquiryForm />
           </div>
-
         </div>
 
         <div className="flex-3">

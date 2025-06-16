@@ -24,7 +24,7 @@ const TourPackages9 = () => {
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} bannerImg={tp_banner}  />
+      <ServiceBanner bannerTitle={title} bannerImg={tp_banner} />
       <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
         <div className="flex flex-col gap-10">
           <div>
@@ -51,7 +51,7 @@ const TourPackages9 = () => {
             </ul>
           </div>
 
-             <div>
+          <div>
             <h2 className="text-2xl font-bold text-brand-brown">
               {inclusiveTPData.packageContent3.title}
             </h2>
@@ -64,7 +64,7 @@ const TourPackages9 = () => {
             </ul>
           </div>
 
-            <div>
+          <div>
             <h2 className="text-2xl font-bold text-brand-brown">
               {inclusiveTPData.packageContent4.title}
             </h2>
@@ -74,8 +74,6 @@ const TourPackages9 = () => {
               </p>
             ))}
           </div>
-
-          
         </div>
 
         <PackageCards packageCards={inclusiveTPCards} />

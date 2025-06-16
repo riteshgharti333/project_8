@@ -5,7 +5,6 @@ import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 import SmTourPackageComp from "../../components/SmTourPackageComp/SmTourPackageComp";
 import { JaipurTourPackage2Days } from "../../assets/paackSmData/jaipurSmData";
 
-
 const RjSmPackageData15 = () => {
   const { pathname } = useLocation();
   const title = formatPathTitle(pathname);

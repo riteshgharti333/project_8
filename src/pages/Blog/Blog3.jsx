@@ -81,7 +81,7 @@ const Blog3 = () => {
           ></motion.div>
 
           <img
-           src={blogContent1.img}
+            src={blogContent1.img}
             alt=""
             className="w-full h-[400px] object-cover "
             loading="lazy"

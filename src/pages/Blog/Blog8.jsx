@@ -1,14 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  FiCalendar,
-  FiClock,
-  FiArrowRight,
-} from "react-icons/fi";
-import {
-  rajasthanWildlife,
-  relatedArticles,
-} from "../../assets/blogsData";
+import { FiCalendar, FiClock, FiArrowRight } from "react-icons/fi";
+import { rajasthanWildlife, relatedArticles } from "../../assets/blogsData";
 import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import EnquiryForm from "../../components/EnquiryForm/EnquiryForm";
 
@@ -22,7 +15,6 @@ const Blog8 = () => {
     blogContent6,
     blogContent7,
     blogContent8,
-
   } = rajasthanWildlife;
 
   return (
@@ -202,7 +194,6 @@ const Blog8 = () => {
               ))}
             </ul>
           </div>
-
 
           <div className="mt-5">
             <h2 className="text-2xl font-bold text-brand-brown">

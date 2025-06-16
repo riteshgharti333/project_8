@@ -31,14 +31,17 @@ const HomeContact = () => {
     };
 
     try {
-      const res = await fetch("https://formsubmit.co/ajax/abhimanyuholidays7@gmail.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
+      const res = await fetch(
+        "https://formsubmit.co/ajax/abhimanyuholidays7@gmail.com",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(payload),
         },
-        body: JSON.stringify(payload),
-      });
+      );
 
       const data = await res.json();
 
@@ -67,15 +70,14 @@ const HomeContact = () => {
         </h1>
 
         <div className="bg-white rounded-xl shadow-2xl p-3 sm:p-8">
-          <form
-            ref={formRef}
-            onSubmit={handleSubmit}
-            className="space-y-6"
-          >
+          <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Name */}
               <div>
-                <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-1">
+                <label
+                  htmlFor="fullName"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
                   Full Name <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -92,7 +94,10 @@ const HomeContact = () => {
 
               {/* Email */}
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
                   Email Address <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -110,7 +115,10 @@ const HomeContact = () => {
 
             {/* Phone */}
             <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+              <label
+                htmlFor="phone"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
                 Phone Number <span className="text-red-500">*</span>
               </label>
               <input
@@ -127,7 +135,10 @@ const HomeContact = () => {
 
             {/* Message */}
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
                 Your Message <span className="text-red-500">*</span>
               </label>
               <textarea

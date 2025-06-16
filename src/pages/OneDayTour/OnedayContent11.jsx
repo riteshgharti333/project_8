@@ -6,7 +6,6 @@ import DayOneContent from "../../components/DayOneContent/DayOneContent";
 import ServiceSidebar from "../../components/ServiceSidebar/ServiceSidebar";
 import { jaipurKhatuShyamjiSalasarBalajiTourContent } from "../../assets/oneDayData";
 
-
 import banner_img from "../../assets/images/onedayImgs/oneday9.jpg";
 
 const OnedayContent11 = () => {
@@ -15,12 +14,14 @@ const OnedayContent11 = () => {
 
   return (
     <div>
-      <ServiceBanner bannerTitle={title} bannerImg={banner_img}/>
+      <ServiceBanner bannerTitle={title} bannerImg={banner_img} />
 
       <div className="lg:max-w-[1300px] sm:max-w-[750px]  m-auto mt-10 px-2 ">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-4">
           <div className="flex-7">
-            <DayOneContent oneDayData={jaipurKhatuShyamjiSalasarBalajiTourContent} />
+            <DayOneContent
+              oneDayData={jaipurKhatuShyamjiSalasarBalajiTourContent}
+            />
           </div>
           <div className="flex-3">
             <ServiceSidebar />

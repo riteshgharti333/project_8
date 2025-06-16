@@ -29,7 +29,6 @@ const Blog4 = () => {
     blogContent6,
     blogContent7,
     blogContent8,
-
   } = rajasthanBestRoadTrips;
 
   return (
@@ -82,7 +81,7 @@ const Blog4 = () => {
           ></motion.div>
 
           <img
-           src={blogContent1.img}
+            src={blogContent1.img}
             alt=""
             className="w-full h-[400px] object-cover "
             loading="lazy"
@@ -209,7 +208,6 @@ const Blog4 = () => {
               ))}
             </ul>
           </div>
-
 
           <div className="mt-5">
             <h2 className="text-2xl font-bold text-brand-brown">

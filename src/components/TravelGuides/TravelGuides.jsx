@@ -1,8 +1,14 @@
-import { FaCompass, FaBookOpen, FaUserTie, FaLanguage, FaRegCalendarAlt } from "react-icons/fa";
+import {
+  FaCompass,
+  FaBookOpen,
+  FaUserTie,
+  FaLanguage,
+  FaRegCalendarAlt,
+} from "react-icons/fa";
 import { motion } from "framer-motion";
 // import { guideCards } from "../../assets/guideData"; // You'll need to create this data file
 
- const guideCards = [
+const guideCards = [
   {
     id: 1,
     name: "Rajesh Sharma",
@@ -14,7 +20,8 @@ import { motion } from "framer-motion";
     areas: ["Jaipur", "Jodhpur", "Udaipur"],
     languages: ["English", "Hindi", "Rajasthani"],
     experience: 8,
-    about: "A passionate historian with deep knowledge of Rajasthan's royal heritage and hidden gems. Specializes in customized cultural experiences."
+    about:
+      "A passionate historian with deep knowledge of Rajasthan's royal heritage and hidden gems. Specializes in customized cultural experiences.",
   },
   {
     id: 2,
@@ -27,7 +34,8 @@ import { motion } from "framer-motion";
     areas: ["Ranthambore", "Sariska", "Bharatpur"],
     languages: ["English", "Hindi"],
     experience: 6,
-    about: "Expert in wildlife spotting and forest trails with a strong background in ecological conservation and nature-based storytelling."
+    about:
+      "Expert in wildlife spotting and forest trails with a strong background in ecological conservation and nature-based storytelling.",
   },
   {
     id: 3,
@@ -40,7 +48,8 @@ import { motion } from "framer-motion";
     areas: ["Delhi", "Agra", "Lucknow"],
     languages: ["Hindi", "Urdu", "English"],
     experience: 4,
-    about: "Energetic and friendly guide known for immersive local market experiences and food trails. Great for short, authentic city tours."
+    about:
+      "Energetic and friendly guide known for immersive local market experiences and food trails. Great for short, authentic city tours.",
   },
   {
     id: 4,
@@ -49,11 +58,16 @@ import { motion } from "framer-motion";
     rate: "3,500",
     isCertified: true,
     isAvailable: true,
-    specializations: ["Luxury Tours", "Historical Tours", "Shopping Assistance"],
+    specializations: [
+      "Luxury Tours",
+      "Historical Tours",
+      "Shopping Assistance",
+    ],
     areas: ["Mumbai", "Pune", "Nashik"],
     languages: ["English", "Hindi", "Marathi"],
     experience: 10,
-    about: "Premium guide for luxury travelers looking for personalized service, shopping help, and deep insights into local history and culture."
+    about:
+      "Premium guide for luxury travelers looking for personalized service, shopping help, and deep insights into local history and culture.",
   },
   {
     id: 5,
@@ -66,7 +80,8 @@ import { motion } from "framer-motion";
     areas: ["Manali", "Leh", "Spiti Valley"],
     languages: ["Hindi", "English"],
     experience: 7,
-    about: "Adventure enthusiast with mountaineering experience. Best for nature lovers and trekkers looking for challenging yet rewarding journeys."
+    about:
+      "Adventure enthusiast with mountaineering experience. Best for nature lovers and trekkers looking for challenging yet rewarding journeys.",
   },
   {
     id: 6,
@@ -79,10 +94,10 @@ import { motion } from "framer-motion";
     areas: ["Varanasi", "Haridwar", "Rishikesh"],
     languages: ["Hindi", "Sanskrit", "English"],
     experience: 5,
-    about: "Spiritual guide offering peaceful, knowledge-rich journeys into the heart of India’s ancient temples and rituals."
-  }
+    about:
+      "Spiritual guide offering peaceful, knowledge-rich journeys into the heart of India’s ancient temples and rituals.",
+  },
 ];
-
 
 const TravelGuides = () => {
   const cardVariants = {
@@ -116,7 +131,8 @@ const TravelGuides = () => {
           </span>
         </h1>
         <p className="mt-4 text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto">
-          Professional guides to enhance your Rajasthan experience with local insights and cultural knowledge
+          Professional guides to enhance your Rajasthan experience with local
+          insights and cultural knowledge
         </p>
       </div>
 
@@ -162,10 +178,15 @@ const TravelGuides = () => {
               <div className="p-3 sm:p-6 flex-grow flex flex-col">
                 <div className="flex-grow">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold text-brand-brown">{guide.name}</h3>
+                    <h3 className="text-xl font-bold text-brand-brown">
+                      {guide.name}
+                    </h3>
                     <p className="text-lg font-bold text-green-600">
                       ₹{guide.rate}
-                      <span className="text-sm font-normal text-gray-500"> /day</span>
+                      <span className="text-sm font-normal text-gray-500">
+                        {" "}
+                        /day
+                      </span>
                     </p>
                   </div>
 
@@ -176,7 +197,10 @@ const TravelGuides = () => {
                     </h4>
                     <div className="flex flex-wrap gap-1">
                       {guide.specializations.map((spec, i) => (
-                        <span key={i} className="text-xs bg-green-100 text-green-800 rounded-full px-2 py-1">
+                        <span
+                          key={i}
+                          className="text-xs bg-green-100 text-green-800 rounded-full px-2 py-1"
+                        >
                           {spec}
                         </span>
                       ))}
@@ -187,11 +211,11 @@ const TravelGuides = () => {
                   <div className="space-y-2 mb-4">
                     <div className="flex items-center text-sm text-gray-600">
                       <FaCompass className="mr-2 text-green-500" />
-                      <span>Areas: {guide.areas.join(', ')}</span>
+                      <span>Areas: {guide.areas.join(", ")}</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600">
                       <FaLanguage className="mr-2 text-green-500" />
-                      <span>Languages: {guide.languages.join(', ')}</span>
+                      <span>Languages: {guide.languages.join(", ")}</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600">
                       <FaRegCalendarAlt className="mr-2 text-green-500" />
@@ -200,7 +224,9 @@ const TravelGuides = () => {
                   </div>
 
                   {/* About */}
-                  <p className="text-gray-600 text-sm mb-4 line-clamp-3">{guide.about}</p>
+                  <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                    {guide.about}
+                  </p>
                 </div>
 
                 <div className="flex space-x-3">

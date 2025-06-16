@@ -33,7 +33,7 @@ const Safari = () => {
       {/* Premium Header with Desert Theme */}
       <div className="text-center mb-16">
         <span className="text-sm font-semibold tracking-widest text-amber-600 uppercase">
-        Abhimanyu Holidays Exclusive
+          Abhimanyu Holidays Exclusive
         </span>
         <h1 className="mt-2 text-3xl font-bold text-brand-brown sm:text-5xl">
           <span className="bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-transparent">

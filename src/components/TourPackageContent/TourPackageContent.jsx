@@ -18,7 +18,7 @@ import { FiClock, FiMapPin } from "react-icons/fi";
 import { Link, Links } from "react-router-dom";
 import EnquiryForm from "../EnquiryForm/EnquiryForm";
 
-const TourPackageContent = ({ packageData, specialData,linkPath }) => {
+const TourPackageContent = ({ packageData, specialData, linkPath }) => {
   return (
     <div className="sm:max-w-[750px] lg:max-w-[1100px] m-auto flex flex-col gap-20 mt-10 px-2">
       <div>
